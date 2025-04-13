@@ -1,4 +1,4 @@
-#Clash(Mate内核)分流规则
+# Clash(Mate内核)分流规则
 
 常见域名和ip的OpenClash分流规则，包括金融机构，科技平台，虚拟货币平台等
 
