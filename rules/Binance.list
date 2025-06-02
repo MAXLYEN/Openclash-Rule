@@ -4,6 +4,8 @@
 # UPDATED: 2024-07-03 16:17:44
 # DOMAIN-SUFFIX: 12
 # TOTAL: 12
+DOMAIN-KEYWORD,binance
+DOMAIN-KEYWORD,saasexch
 DOMAIN-SUFFIX,appsflayer.com
 DOMAIN-SUFFIX,binance.cloud
 DOMAIN-SUFFIX,binance.com
@@ -18,4 +20,7 @@ DOMAIN-SUFFIX,saasexch.cc
 DOMAIN-SUFFIX,saasexch.com
 DOMAIN-SUFFIX,ovscdns.com
 DOMAIN-SUFFIX,bnappweb.biz
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,intlscdn.com
+
 
