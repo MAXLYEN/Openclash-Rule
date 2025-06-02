@@ -21,5 +21,7 @@ DOMAIN-SUFFIX,ovscdns.com
 DOMAIN-SUFFIX,bnappweb.biz
 DOMAIN-SUFFIX,binance.info
 DOMAIN-SUFFIX,intlscdn.com
+DOMAIN-SUFFIX,elb.amazonaws.com
+DOMAIN-SUFFIX,forter.com
 DOMAIN-KEYWORD,binance
 DOMAIN-KEYWORD,saasexch
