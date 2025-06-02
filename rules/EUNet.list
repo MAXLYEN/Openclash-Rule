@@ -81,11 +81,10 @@ DOMAIN-KEYWORD,lymryy
 DOMAIN-KEYWORD,coinmarketcap
 DOMAIN-KEYWORD,greentreeone
 DOMAIN-KEYWORD,flytogarden
-DOMAIN-KEYWORD,mexcsensors
 DOMAIN-KEYWORD,mexc
 DOMAIN-KEYWORD,365huo
 DOMAIN-KEYWORD,mocortexh
-DOMAIN-SUFFIX,log.aliyuncs.com
+DOMAIN-SUFFIX,ap-southeast-1.log.aliyuncs.com
 DOMAIN-KEYWORD,pushsdk
 DOMAIN-KEYWORD,88maru
 DOMAIN-KEYWORD,cloudfront
