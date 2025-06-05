@@ -38,10 +38,13 @@ DOMAIN-KEYWORD,crowdin
 DOMAIN-KEYWORD,lemonade
 DOMAIN-KEYWORD,newrelic
 DOMAIN-KEYWORD,hyperjar
-DOMAIN-KEYWORD,neverless,
+DOMAIN-KEYWORD,neverless
 DOMAIN-KEYWORD,paysend
 DOMAIN-KEYWORD,tevau
 DOMAIN-KEYWORD,ninerealms
+DOMAIN-KEYWORD,walletconnect
+DOMAIN-KEYWORD,posthog
+DOMAIN-KEYWORD,coinmarketcap
 
 #运营商
 DOMAIN-KEYWORD,giffgaff
