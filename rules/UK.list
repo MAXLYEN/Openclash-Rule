@@ -62,7 +62,7 @@ DOMAIN-SUFFIX, branch.io
 DOMAIN-SUFFIX, emb-api.com
 DOMAIN-SUFFIX, imaginecurve.com
 # stripe
-DOMAIN-SUFFIX, stripe.com
+# DOMAIN-SUFFIX, stripe.com
 DOMAIN-SUFFIX, sprig.com
 DOMAIN-SUFFIX, stripe.uk
 # monzo
