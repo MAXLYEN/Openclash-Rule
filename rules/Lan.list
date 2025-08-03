@@ -148,3 +148,11 @@ IP-CIDR6,::/127,no-resolve
 IP-CIDR6,fc00::/7,no-resolve
 IP-CIDR6,fe80::/10,no-resolve
 IP-CIDR6,ff00::/8,no-resolve
+
+# 私有云服务
+IP-CIDR,142.171.193.56/24,no-resolve
+IP-CIDR,5.231.70.68/24,no-resolve
+IP-CIDR,31.25.235.38/24,no-resolve
+IP-CIDR,45.38.42.190/24,no-resolve
+IP-CIDR,45.116.14.242/24,no-resolve
+IP-CIDR,47.79.238.73/24,no-resolve
