@@ -33,7 +33,6 @@ DOMAIN-SUFFIX,wombat.systems
 DOMAIN-KEYWORD,moonpay
 DOMAIN-KEYWORD,onesignal
 DOMAIN-KEYWORD,eascdn
-DOMAIN-KEYWORD,segment
 DOMAIN-KEYWORD,my-imcloud
 DOMAIN-KEYWORD,pinoe
 DOMAIN-KEYWORD,baanxapi
@@ -62,10 +61,8 @@ DOMAIN-KEYWORD,spline
 DOMAIN-KEYWORD,framer
 DOMAIN-KEYWORD,gnosispay
 DOMAIN-KEYWORD,cypherhq
-DOMAIN-KEYWORD,intercom
 DOMAIN-KEYWORD,trusteeglobal
 DOMAIN-KEYWORD,qdcard
-DOMAIN-KEYWORD,sentry
 DOMAIN-KEYWORD,xportal
 DOMAIN-KEYWORD,mixpanel
 DOMAIN-KEYWORD,multiversx
@@ -87,4 +84,3 @@ DOMAIN-KEYWORD,clevertap-prod
 DOMAIN-KEYWORD,statsigapi
 DOMAIN-KEYWORD,godaddy
 DOMAIN-KEYWORD,getmeru
-
