@@ -60,6 +60,10 @@ DOMAIN-KEYWORD,microlink
 DOMAIN-KEYWORD,pndsn
 DOMAIN-KEYWORD,kustomerapp
 DOMAIN-KEYWORD,instarem
+DOMAIN-KEYWORD,osl
+DOMAIN-KEYWORD,fpconfig
+DOMAIN-KEYWORD,pusher
+DOMAIN-SUFFIX,ada.support
 
 #运营商
 DOMAIN-KEYWORD,giffgaff
