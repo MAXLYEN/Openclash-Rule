@@ -1,8 +1,5 @@
 #英国分流
 DOMAIN-SUFFIX,co.uk
-#转运
-DOMAIN-KEYWORD,ipostalmail
-DOMAIN-KEYWORD,tiptrans
 #虚拟金融
 DOMAIN-SUFFIX,cex.io
 DOMAIN-SUFFIX,checkout.com
@@ -69,4 +66,5 @@ DOMAIN-KEYWORD,freetrade
 #运营商
 DOMAIN-KEYWORD,giffgaff
 DOMAIN-KEYWORD,firsty
+
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
