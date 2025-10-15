@@ -1,4 +1,7 @@
 # 欧洲分流续表
+# 欧盟转运（含UK）
+DOMAIN-KEYWORD,ipostalmail
+DOMAIN-KEYWORD,tiptrans
 # DOMAIN-KEYWORD,coinmarketcap
 DOMAIN-KEYWORD,greentreeone
 DOMAIN-KEYWORD,flytogarden
