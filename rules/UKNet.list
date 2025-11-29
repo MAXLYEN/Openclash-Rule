@@ -62,6 +62,9 @@ DOMAIN-KEYWORD,fpconfig
 DOMAIN-KEYWORD,pusher
 DOMAIN-SUFFIX,ada.support
 DOMAIN-KEYWORD,freetrade
+DOMAIN-KEYWORD,kulipa
+DOMAIN-KEYWORD,argent
+DOMAIN-KEYWORD,argent-api
 
 #运营商
 DOMAIN-KEYWORD,giffgaff
