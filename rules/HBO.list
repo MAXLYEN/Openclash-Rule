@@ -53,3 +53,10 @@ DOMAIN-SUFFIX,players.brightcove.net
 DOMAIN-SUFFIX,warnermediacdn.com
 DOMAIN-SUFFIX,youboranqs01.com
 PROCESS-NAME,com.hbo.hbonow
+DOMAIN-KEYWORD,discomax
+DOMAIN-KEYWORD,braze
+DOMAIN-KEYWORD,branch
+DOMAIN-SUFFIX,media.max.com
+DOMAIN-KEYWORD,h264
+DOMAIN-KEYWORD,apptentive
+DOMAIN-KEYWORD,brightline
