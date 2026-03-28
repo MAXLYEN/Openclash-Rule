@@ -264,3 +264,12 @@ PROCESS-NAME,trojan-go
 PROCESS-NAME,uTorrent
 PROCESS-NAME,v2ray
 PROCESS-NAME,xray
+
+# Talkatone
+# 分析/崩溃报告/部分非核心 → DIRECT（不走代理，减少延迟）
+DOMAIN-SUFFIX,agkn.com
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,kochava.com
+# DOMAIN-SUFFIX,ip-api.com  # 如需定位，可保留；否则可 REJECT
+
