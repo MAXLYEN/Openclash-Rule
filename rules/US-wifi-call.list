@@ -6,3 +6,19 @@ DOMAIN, epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
 DOMAIN, epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN, ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN, ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
+
+# Talkatone
+# 核心 IP 段（通话/短信服务器）
+IP-CIDR,50.117.27.0/24,no-resolve
+IP-CIDR,63.251.124.0/24,no-resolve
+IP-CIDR,69.46.75.0/24,no-resolve
+IP-CIDR,104.244.53.0/24,no-resolve
+IP-CIDR,131.153.7.0/24,no-resolve
+IP-CIDR,198.24.161.0/24,no-resolve
+IP-CIDR,205.164.56.0/24,no-resolve
+IP-CIDR,216.172.154.0/24,no-resolve
+# 短信专用 IP
+IP-CIDR,131.153.5.0/24,no-resolve
+IP-CIDR,198.24.160.0/24,no-resolve
+IP-CIDR,198.24.163.0/24,no-resolve
+IP-CIDR,198.24.183.0/24,no-resolve
