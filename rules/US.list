@@ -41,3 +41,12 @@ DOMAIN-KEYWORD,onetrust
 #Talkatone美区代理
 DOMAIN-KEYWORD,tktn
 DOMAIN-SUFFIX,talkatone.com
+# 核心功能走美国节点（Talkatone 策略组）
+DOMAIN-SUFFIX,talkamobile.com
+DOMAIN-SUFFIX,tktn.at
+DOMAIN-SUFFIX,tktn.be
+DOMAIN-SUFFIX,inmobi.com          # 部分广告但也用于功能
+DOMAIN-SUFFIX,inner-active.mobi
+DOMAIN-SUFFIX,mobilefuse.com
+DOMAIN-SUFFIX,spadsync.com
+DOMAIN-SUFFIX,media.tenor.com     # 表情包
