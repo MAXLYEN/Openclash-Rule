@@ -50,3 +50,7 @@ DOMAIN-SUFFIX,inner-active.mobi
 DOMAIN-SUFFIX,mobilefuse.com
 DOMAIN-SUFFIX,spadsync.com
 DOMAIN-SUFFIX,media.tenor.com     # 表情包
+
+#Peacock美区代理
+DOMAIN-KEYWORD,peacocktv
+DOMAIN-KEYWORD,newrelic
