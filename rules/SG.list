@@ -8,8 +8,3 @@ DOMAIN-KEYWORD,trae
 DOMAIN-KEYWORD,cloudauth-device
 DOMAIN-KEYWORD,edgeone
 DOMAIN-KEYWORD,harvestsharp
-
-
-
-# Bitget wallet
-IP-CIDR,189.1.0.0/16
