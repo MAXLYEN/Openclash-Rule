@@ -54,3 +54,8 @@ DOMAIN-SUFFIX,media.tenor.com     # 表情包
 #Peacock美区代理
 DOMAIN-KEYWORD,peacocktv
 DOMAIN-KEYWORD,newrelic
+
+
+#Paramountplus
+DOMAIN-KEYWORD,paramountplus
+
