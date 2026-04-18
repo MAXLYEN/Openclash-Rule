@@ -14,7 +14,7 @@ DOMAIN-KEYWORD,schwab
 DOMAIN-KEYWORD,citibank
 DOMAIN-KEYWORD,glassboxdigital
 DOMAIN-KEYWORD,hangseng
-DOMAIN-KEYWORD,ocbc
+#DOMAIN-KEYWORD,ocbc
 DOMAIN-KEYWORD,icbcasia
 DOMAIN-KEYWORD,bochk
 DOMAIN-KEYWORD,cncbinternational
