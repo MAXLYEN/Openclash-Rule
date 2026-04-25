@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,csn.edu
 DOMAIN-KEYWORD,chatrandom
 DOMAIN-KEYWORD,tiktok
 DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,gemini.gstatic.com
 DOMAIN-KEYWORD,copilot
 DOMAIN-KEYWORD,grok
 DOMAIN-KEYWORD,claude
