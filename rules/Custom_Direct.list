@@ -116,3 +116,7 @@ DOMAIN-SUFFIX,gztowngas.com
 DOMAIN-SUFFIX,115vod.com
 # wegame
 DOMAIN-KEYWORD,wegame
+# Epic Game
+DOMAIN-SUFFIX,fastly-edge.com
+DOMAIN-KEYWORD,egdownload
+
