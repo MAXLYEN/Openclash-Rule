@@ -16,6 +16,9 @@ DOMAIN-KEYWORD,nextbank
 DOMAIN-KEYWORD,tpwallet
 DOMAIN-KEYWORD,tokenpocket
 DOMAIN-KEYWORD,jp-tencentclb
+DOMAIN-SUFFIX,pst.net
+
+
 #菲律宾运营商
 DOMAIN-KEYWORD,globe
 DOMAIN-SUFFIX,csftr.com
