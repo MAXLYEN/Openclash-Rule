@@ -5,8 +5,8 @@
 # DOMAIN: 2
 # DOMAIN-SUFFIX: 163
 # TOTAL: 165
-DOMAIN,eaasserts-a.akamaihd.net
-DOMAIN,originasserts.akamaized.net
+DOMAIN-KEYWORD,akamaihd
+DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,anthemgame.com
 DOMAIN-SUFFIX,anthemthegame.com
 DOMAIN-SUFFIX,apexlegends.com
