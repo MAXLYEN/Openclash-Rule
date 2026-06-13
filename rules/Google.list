@@ -721,7 +721,7 @@ DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-KEYWORD,appspot
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,gmail
-#DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,recaptcha
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
