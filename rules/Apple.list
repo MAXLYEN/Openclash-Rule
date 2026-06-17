@@ -8,6 +8,14 @@
 # IP-CIDR: 10
 # PROCESS-NAME: 13
 # TOTAL: 1589
+DOMAIN, init.push.apple.com
+DOMAIN, push.apple.com
+DOMAIN, courier.push.apple.com
+DOMAIN, push-apple.com.akadns.net
+DOMAIN-SUFFIX,init.push.apple.com
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN-SUFFIX,courier.push.apple.com
+DOMAIN-SUFFIX,push-apple.com.akadns.net
 DOMAIN,appldnld.apple.com.edgesuite.net
 DOMAIN,apple-events.akamaized.net
 DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
