@@ -1,27 +1,32 @@
 # NAME: Binance
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:17:44
-# DOMAIN-SUFFIX: 12
-# TOTAL: 12
+# UPDATED: 2025-01-27
+# DOMAIN-KEYWORD: 17
+# IP: 7
+# TOTAL: 24
 
-DOMAIN-SUFFIX,appsflayer.com
-DOMAIN-SUFFIX,binance.cloud
-DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,binance.me
-DOMAIN-SUFFIX,binancecnt.com
-DOMAIN-SUFFIX,binancefuture.com
-DOMAIN-SUFFIX,bnappzh.co
-DOMAIN-SUFFIX,bnbstatic.com
-DOMAIN-SUFFIX,bnbzh.ac
-DOMAIN-SUFFIX,bntrace.com
-DOMAIN-SUFFIX,saasexch.cc
-DOMAIN-SUFFIX,saasexch.com
-DOMAIN-SUFFIX,ovscdns.com
-DOMAIN-SUFFIX,bnappweb.biz
-DOMAIN-SUFFIX,binance.info
-DOMAIN-SUFFIX,intlscdn.com
-DOMAIN-SUFFIX,elb.amazonaws.com
-DOMAIN-SUFFIX,forter.com
 DOMAIN-KEYWORD,binance
+DOMAIN-KEYWORD,binancezh
+DOMAIN-KEYWORD,binancecnt
+DOMAIN-KEYWORD,binanceapi
 DOMAIN-KEYWORD,saasexch
+DOMAIN-KEYWORD,yingwangtech
+DOMAIN-KEYWORD,bnbstatic
+DOMAIN-KEYWORD,bnappzh
+DOMAIN-KEYWORD,bnbzh
+DOMAIN-KEYWORD,bntrace
+DOMAIN-KEYWORD,nftstatic
+DOMAIN-KEYWORD,appsflayer
+DOMAIN-KEYWORD,forter
+DOMAIN-KEYWORD,amazontrust
+DOMAIN-KEYWORD,cloudfront
+DOMAIN-KEYWORD,myqcloud
+DOMAIN-KEYWORD,amazonaws
+
+IP-CIDR,47.107.98.0/24
+IP-CIDR,47.107.127.0/24
+IP-CIDR,52.68.117.0/24
+IP-CIDR,35.77.148.0/24
+IP-CIDR,54.150.106.0/24
+IP-CIDR,13.248.135.0/24
+IP-CIDR,47.107.32.0/24
+
