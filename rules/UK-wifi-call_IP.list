@@ -1,0 +1,9 @@
+# NAME: UK-wifi-call_IP
+# UPDATED: 2026-08-04
+# IP-CIDR: 3
+# TOTAL: 3
+IP-CIDR,88.82.0.0/19,no-resolve
+# CMLinkUK EE
+IP-CIDR,46.68.0.0/17,no-resolve
+# Giffgaff
+IP-CIDR,87.194.0.0/16,no-resolve

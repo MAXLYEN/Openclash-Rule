@@ -1,0 +1,6 @@
+# NAME: Reject_Domain
+# UPDATED: 2026-08-04
+# DOMAIN-SUFFIX: 1
+# TOTAL: 1
+#Reject
+DOMAIN-SUFFIX,release.gitkraken.com
