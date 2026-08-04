@@ -42,6 +42,14 @@ DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
 DOMAIN-SUFFIX,onetrust.com
 DOMAIN-SUFFIX,us-west-2.amazonaws.com
+DOMAIN-KEYWORD,nflxext
+DOMAIN-KEYWORD,nflximg
+DOMAIN-KEYWORD,nflxsearch
+DOMAIN-KEYWORD,nflxso
+DOMAIN-KEYWORD,onetrust
+DOMAIN-KEYWORD,amazonaws
+DOMAIN-KEYWORD,netflix
+DOMAIN-KEYWORD,nflxvideo
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,dualstack.apiproxy-
 DOMAIN-KEYWORD,dualstack.ichnaea-web-
