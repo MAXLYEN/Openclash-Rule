@@ -1,0 +1,17 @@
+# NAME: Binance_IP
+# UPDATED: 2026-08-04
+# IP-CIDR: 7
+# TOTAL: 7
+# [已停用] DOMAIN-KEYWORD,appsflayer  ← 拼写有误（正确为 appsflyer），且它是通用移动归因平台
+# [已停用] DOMAIN-KEYWORD,forter  ← 通用风控服务商，非币安专有
+# [已停用] DOMAIN-KEYWORD,amazontrust  ← 亚马逊证书服务，全网通用
+# [已停用] DOMAIN-KEYWORD,cloudfront  ← AWS CloudFront 是通用 CDN，会把海量无关站点拖进本分组
+# [已停用] DOMAIN-KEYWORD,myqcloud  ← 腾讯云 COS，国内通用 CDN，会导致国内站点走代理
+# [已停用] DOMAIN-KEYWORD,amazonaws  ← 整个 AWS 域名，范围过大
+IP-CIDR,47.107.98.0/24,no-resolve
+IP-CIDR,47.107.127.0/24,no-resolve
+IP-CIDR,52.68.117.0/24,no-resolve
+IP-CIDR,35.77.148.0/24,no-resolve
+IP-CIDR,54.150.106.0/24,no-resolve
+IP-CIDR,13.248.135.0/24,no-resolve
+IP-CIDR,47.107.32.0/24,no-resolve

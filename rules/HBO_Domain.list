@@ -1,0 +1,64 @@
+# NAME: HBO_Domain
+# UPDATED: 2026-08-04
+# DOMAIN-SUFFIX: 47
+# DOMAIN-KEYWORD: 6
+# TOTAL: 53
+# === 以下合并自 HBO.list ===
+DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
+DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
+DOMAIN-SUFFIX,cinemax.com
+DOMAIN-SUFFIX,dai3fd1oh325y.cloudfront.net
+# [已停用] DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com  ← 同上
+# [已停用] DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com  ← AWS API Gateway 区域公共端点，非 HBO 专有
+DOMAIN-SUFFIX,forthethrone.com
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbo.com.c.footprint.net
+DOMAIN-SUFFIX,hbo.com.edgesuite.net
+DOMAIN-SUFFIX,hbo.map.fastly.net
+DOMAIN-SUFFIX,hboasia.com
+DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
+DOMAIN-SUFFIX,hboasia2-i.akamaihd.net
+DOMAIN-SUFFIX,hboasia3-i.akamaihd.net
+DOMAIN-SUFFIX,hboasia4-i.akamaihd.net
+DOMAIN-SUFFIX,hboasia5-i.akamaihd.net
+DOMAIN-SUFFIX,hboasialive.akamaized.net
+DOMAIN-SUFFIX,hbogeo.cust.footprint.net
+DOMAIN-SUFFIX,hbogo.co.th
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbogo.eu
+DOMAIN-SUFFIX,hbogoasia.com
+DOMAIN-SUFFIX,hbogoasia.hk
+DOMAIN-SUFFIX,hbogoasia.id
+DOMAIN-SUFFIX,hbogoasia.ph
+DOMAIN-SUFFIX,hbogoasia.sg
+DOMAIN-SUFFIX,hbogoasia.tw
+DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net
+DOMAIN-SUFFIX,hbolb.onwardsmg.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,hbomaxcdn.com
+DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
+DOMAIN-SUFFIX,hbonow.com
+DOMAIN-SUFFIX,hbounify-prod.evergent.com
+DOMAIN-SUFFIX,manifest.prod.boltdns.net
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,maxgo.com
+DOMAIN-SUFFIX,now-ashare.com
+DOMAIN-SUFFIX,now-tv.com
+DOMAIN-SUFFIX,now.com
+DOMAIN-SUFFIX,now.com.hk
+DOMAIN-SUFFIX,nowe.com
+DOMAIN-SUFFIX,nowe.hk
+DOMAIN-SUFFIX,players.brightcove.net
+DOMAIN-SUFFIX,warnermediacdn.com
+DOMAIN-SUFFIX,youboranqs01.com
+# [已停用] PROCESS-NAME,com.hbo.hbonow  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+DOMAIN-KEYWORD,discomax
+DOMAIN-KEYWORD,braze
+DOMAIN-KEYWORD,branch
+DOMAIN-SUFFIX,media.max.com
+DOMAIN-KEYWORD,h264
+DOMAIN-KEYWORD,apptentive
+DOMAIN-KEYWORD,brightline
+# === 以下合并自 HBO_fix.list ===
+# 对 blackmatrix7 的 HBO 规则进行补充
+DOMAIN-SUFFIX,prd.api.discomax.com
