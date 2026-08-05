@@ -12,7 +12,7 @@ DOMAIN-SUFFIX,vaxee.co
 DOMAIN-SUFFIX,csn.edu
 DOMAIN-KEYWORD,chatrandom
 DOMAIN-KEYWORD,tiktok
-DOMAIN-SUFFIX,gemini.google.com
+#DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-KEYWORD,copilot
 DOMAIN-KEYWORD,grok
