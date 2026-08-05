@@ -1,8 +1,8 @@
 # NAME: UKNet_Domain
 # UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 13
+# DOMAIN-SUFFIX: 18
 # DOMAIN-KEYWORD: 59
-# TOTAL: 72
+# TOTAL: 77
 # === 以下合并自 UKNet.list ===
 #英国分流
 #虚拟金融
@@ -69,6 +69,11 @@ payload:
   - DOMAIN-KEYWORD,fpconfig
   - DOMAIN-KEYWORD,pusher
   - DOMAIN-SUFFIX,ada.support
+  - DOMAIN-SUFFIX,braze.com
+  - DOMAIN-SUFFIX,nsureapi.com
+  - DOMAIN-SUFFIX,launchdarly.com
+  - DOMAIN-SUFFIX,bitdrift.io
+  - DOMAIN-SUFFIX,expo.dev
   - DOMAIN-KEYWORD,freetrade
   - DOMAIN-KEYWORD,kulipa
   - DOMAIN-KEYWORD,argent
