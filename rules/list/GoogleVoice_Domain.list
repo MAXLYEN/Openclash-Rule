@@ -1,0 +1,11 @@
+# NAME: GoogleVoice_Domain
+# UPDATED: 2026-08-04
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 4
+# TOTAL: 5
+# [已停用] DOMAIN,lens.l.google.com  ← 这是 Google Lens（图像识别）的域名，与 Google Voice 无关，原文件内容与文件名不符
+DOMAIN,voice.telephony.goog
+DOMAIN-SUFFIX,voice.google.com
+DOMAIN-SUFFIX,googlevoice.com
+DOMAIN-SUFFIX,grandcentral.com
+DOMAIN-SUFFIX,telephony.goog

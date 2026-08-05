@@ -1,0 +1,10 @@
+# NAME: Custom_Direct_IP
+# UPDATED: 2026-08-04
+# IP-CIDR: 3
+# TOTAL: 3
+# FinalShell
+IP-CIDR,5.5.5.5/32,no-resolve
+# Emby 直连
+# MeFun
+IP-CIDR,218.78.7.16/32,no-resolve
+IP-CIDR,98.126.27.164/32,no-resolve

@@ -1,0 +1,8 @@
+# NAME: HK_IP
+# UPDATED: 2026-08-04
+# IP-CIDR: 1
+# TOTAL: 1
+# === 以下合并自 HKIP.list ===
+#香港IP分流
+#实体金融
+IP-CIDR,170.33.0.0/16,no-resolve

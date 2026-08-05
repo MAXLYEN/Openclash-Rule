@@ -1,0 +1,33 @@
+# NAME: Game_Domain
+# UPDATED: 2026-08-04
+# DOMAIN-KEYWORD: 24
+# TOTAL: 24
+#游戏
+DOMAIN-KEYWORD,unity3d
+DOMAIN-KEYWORD,supercell
+DOMAIN-KEYWORD,clashroyale
+DOMAIN-KEYWORD,clashofclans
+DOMAIN-KEYWORD,brawlstars
+DOMAIN-KEYWORD,squadbusers
+DOMAIN-KEYWORD,boombeach
+# [已停用] DOMAIN-KEYWORD,moco  ← 仅 4 字符且是常见词根，会误匹配大量无关域名
+# [已停用] DOMAIN-KEYWORD,app-analyics-services  ← 拼写有误（analyics → analytics），此条恒不生效
+# [已停用] DOMAIN-KEYWORD,app-measurement  ← Firebase Analytics，全网 App 通用；与 GoogleCN.list 重复
+DOMAIN-KEYWORD,roblox
+DOMAIN-KEYWORD,rbxcdn
+#PUBG
+DOMAIN-KEYWORD,pubg
+DOMAIN-KEYWORD,igamecj
+DOMAIN-KEYWORD,proximabeta
+DOMAIN-KEYWORD,onezapp
+DOMAIN-KEYWORD,listdl
+DOMAIN-KEYWORD,gjacky
+DOMAIN-KEYWORD,anticheatexpert
+DOMAIN-KEYWORD,adjust
+DOMAIN-KEYWORD,wetest
+DOMAIN-KEYWORD,tdatamaster
+DOMAIN-KEYWORD,amsoveasea
+DOMAIN-KEYWORD,vasdgame
+DOMAIN-KEYWORD,gcloudcs
+DOMAIN-KEYWORD,telephony
+DOMAIN-KEYWORD,fbsbx
