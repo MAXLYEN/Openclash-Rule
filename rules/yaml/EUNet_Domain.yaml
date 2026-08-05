@@ -1,8 +1,8 @@
 # NAME: EUNet_Domain
 # UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 19
+# DOMAIN-SUFFIX: 25
 # DOMAIN-KEYWORD: 163
-# TOTAL: 182
+# TOTAL: 188
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
 # 沃达丰
@@ -76,6 +76,12 @@ payload:
   - DOMAIN-SUFFIX,vrenthaliox.site
   - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,brindovaxel.online
+  - DOMAIN-SUFFIX,fluvenkarthon.info
+  - DOMAIN-SUFFIX,zaltrimondex.xyz
+  - DOMAIN-SUFFIX,klorvenathix.pro
+  - DOMAIN-SUFFIX,drexaphongil.io
+  - DOMAIN-SUFFIX,quorbentaxil.cc
+  - DOMAIN-SUFFIX,noxiaohao.com
   - DOMAIN-KEYWORD,gurenla
   - DOMAIN-KEYWORD,minigitlab
   - DOMAIN-KEYWORD,beeeye
