@@ -1,10 +1,11 @@
 # NAME: US_Domain
 # UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 21
+# DOMAIN-SUFFIX: 20
 # DOMAIN-KEYWORD: 29
-# TOTAL: 50
+# TOTAL: 49
 #美洲分流
 #娱乐生活
+#DOMAIN-SUFFIX,gemini.google.com
 #实体金融
 #虚拟金融
 #游戏
@@ -22,7 +23,6 @@ payload:
   - DOMAIN-SUFFIX,csn.edu
   - DOMAIN-KEYWORD,chatrandom
   - DOMAIN-KEYWORD,tiktok
-  - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-KEYWORD,copilot
   - DOMAIN-KEYWORD,grok
