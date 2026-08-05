@@ -1,0 +1,53 @@
+name: Build rulesets
+
+# 仅在手动维护的 rules/list/ 变化时触发。
+# 产物提交到 rules/yaml/，该路径不在触发范围内，不会循环触发。
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'rules/list/**'
+      - 'scripts/**'
+      - '.github/workflows/build.yml'
+  workflow_dispatch:        # 支持手动运行，用于首次生成或强制重建
+
+permissions:
+  contents: write
+
+concurrency:                # 连续推送时只保留最后一次构建
+  group: build-rulesets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: pip install --quiet pyyaml
+
+      - name: 规范化 list 并生成 yaml
+        run: python3 scripts/build.py
+
+      - name: 校验产物
+        run: python3 scripts/validate.py
+
+      - name: 提交产物
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rules/list rules/yaml
+          if git diff --cached --quiet; then
+            echo "无变化，跳过提交"
+            exit 0
+          fi
+          COUNT=$(git diff --cached --name-only | wc -l)
+          git commit -m "chore: 重新生成规则产物（${COUNT} 个文件）" -m "来源提交 ${GITHUB_SHA::7}"
+          git push
