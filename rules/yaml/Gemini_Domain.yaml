@@ -1,9 +1,9 @@
 # NAME: Gemini_Domain
 # UPDATED: 2026-08-04
 # DOMAIN: 2
-# DOMAIN-SUFFIX: 13
+# DOMAIN-SUFFIX: 14
 # DOMAIN-KEYWORD: 1
-# TOTAL: 16
+# TOTAL: 17
 payload:
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
   - DOMAIN,proactivebackend-pa.googleapis.com
@@ -11,6 +11,7 @@ payload:
   - DOMAIN-SUFFIX,aistudio.google.com
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
