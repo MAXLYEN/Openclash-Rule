@@ -1,0 +1,22 @@
+# NAME: US-wifi-call_IP
+# UPDATED: 2026-08-04
+# IP-CIDR: 15
+# TOTAL: 15
+IP-CIDR,208.54.0.0/16,no-resolve
+IP-CIDR,66.94.0.0/19,no-resolve
+IP-CIDR,206.29.177.36/32,no-resolve
+# Talkatone
+# 核心 IP 段（通话/短信服务器）
+IP-CIDR,50.117.27.0/24,no-resolve
+IP-CIDR,63.251.124.0/24,no-resolve
+IP-CIDR,69.46.75.0/24,no-resolve
+IP-CIDR,104.244.53.0/24,no-resolve
+IP-CIDR,131.153.7.0/24,no-resolve
+IP-CIDR,198.24.161.0/24,no-resolve
+IP-CIDR,205.164.56.0/24,no-resolve
+IP-CIDR,216.172.154.0/24,no-resolve
+# 短信专用 IP
+IP-CIDR,131.153.5.0/24,no-resolve
+IP-CIDR,198.24.160.0/24,no-resolve
+IP-CIDR,198.24.163.0/24,no-resolve
+IP-CIDR,198.24.183.0/24,no-resolve
