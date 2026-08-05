@@ -1,9 +1,0 @@
-# NAME: XiaoMi_IP
-# UPDATED: 2026-08-04
-# IP-CIDR: 5
-# TOTAL: 5
-IP-CIDR,110.43.63.242/32,no-resolve
-IP-CIDR,120.133.33.222/32,no-resolve
-IP-CIDR,47.241.176.221/32,no-resolve
-IP-CIDR,58.220.58.152/31,no-resolve
-IP-CIDR,58.220.59.2/32,no-resolve
