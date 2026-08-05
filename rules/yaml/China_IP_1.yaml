@@ -1,10 +1,11 @@
 # NAME: China_IP_1
 # UPDATED: 2026-08-04
-# IP-CIDR: 2496
+# IP-CIDR: 2495
 # IP-CIDR6: 4
-# TOTAL: 2500
+# TOTAL: 2499
 # === 以下合并自 ChinaIp.list ===
 # 内容：中国IP地址段ipv4
+#IP-CIDR,43.174.0.0/16,no-resolve
 payload:
   - IP-CIDR,139.220.243.27/32,no-resolve
   - IP-CIDR,172.16.102.56/32,no-resolve
@@ -440,7 +441,6 @@ payload:
   - IP-CIDR,43.172.64.0/18,no-resolve
   - IP-CIDR,43.172.128.0/17,no-resolve
   - IP-CIDR,43.173.0.0/16,no-resolve
-  - IP-CIDR,43.174.0.0/16,no-resolve
   - IP-CIDR,43.175.0.0/21,no-resolve
   - IP-CIDR,43.175.9.0/24,no-resolve
   - IP-CIDR,43.175.10.0/23,no-resolve
