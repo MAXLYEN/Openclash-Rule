@@ -5,9 +5,10 @@
 # TOTAL: 6
 # [已停用] DOMAIN,cdn.usefathom.com  ← Fathom Analytics 是通用统计服务，非 Claude 专有
 # [已停用] DOMAIN-KEYWORD,claude  ← claude 是常见法语人名，会误匹配大量无关域名；已由下方 SUFFIX 精确覆盖
-DOMAIN-KEYWORD,anthropic
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claudeusercontent.com
-DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,anthropic.tools
+payload:
+  - DOMAIN-KEYWORD,anthropic
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,anthropic.tools
