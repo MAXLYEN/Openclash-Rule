@@ -67,6 +67,11 @@ DOMAIN-KEYWORD,osl
 DOMAIN-KEYWORD,fpconfig
 DOMAIN-KEYWORD,pusher
 DOMAIN-SUFFIX,ada.support
+DOMAIN-SUFFIX,braze.com
+DOMAIN-SUFFIX,nsureapi.com
+DOMAIN-SUFFIX,launchdarly.com
+DOMAIN-SUFFIX,bitdrift.io
+DOMAIN-SUFFIX,expo.dev
 DOMAIN-KEYWORD,freetrade
 DOMAIN-KEYWORD,kulipa
 DOMAIN-KEYWORD,argent
