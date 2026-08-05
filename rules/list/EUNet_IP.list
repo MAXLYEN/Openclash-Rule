@@ -1,7 +1,7 @@
 # NAME: EUNet_IP
 # UPDATED: 2026-08-04
-# IP-CIDR: 21
-# TOTAL: 21
+# IP-CIDR: 22
+# TOTAL: 22
 # === 以下合并自 EUNetIP.list ===
 #欧洲IP分流
 IP-CIDR,43.157.0.0/16,no-resolve
