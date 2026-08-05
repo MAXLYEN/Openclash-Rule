@@ -1,0 +1,7 @@
+# NAME: Supercell_Domain
+# UPDATED: 2026-08-04
+# DOMAIN-SUFFIX: 2
+# TOTAL: 2
+payload:
+  - DOMAIN-SUFFIX,brawlstars.com
+  - DOMAIN-SUFFIX,brawlstarsgame.com

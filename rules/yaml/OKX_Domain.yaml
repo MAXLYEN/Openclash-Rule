@@ -1,0 +1,16 @@
+# NAME: OKX_Domain
+# UPDATED: 2026-08-04
+# DOMAIN-SUFFIX: 3
+# DOMAIN-KEYWORD: 6
+# TOTAL: 9
+# [已停用] DOMAIN-SUFFIX,www.okx.com  ← 已被 DOMAIN-SUFFIX,okx.com 完全覆盖，冗余
+payload:
+  - DOMAIN-SUFFIX,okex.com
+  - DOMAIN-SUFFIX,oklink.com
+  - DOMAIN-SUFFIX,okx.com
+  - DOMAIN-KEYWORD,macvendorlookup
+  - DOMAIN-KEYWORD,amplitudeexperiment
+  - DOMAIN-KEYWORD,maclookup
+  - DOMAIN-KEYWORD,cloudflare-dns
+  - DOMAIN-KEYWORD,guardsquare
+  - DOMAIN-KEYWORD,okx

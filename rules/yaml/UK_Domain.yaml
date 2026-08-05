@@ -1,0 +1,110 @@
+# NAME: UK_Domain
+# UPDATED: 2026-08-04
+# DOMAIN: 3
+# DOMAIN-SUFFIX: 66
+# DOMAIN-KEYWORD: 8
+# TOTAL: 77
+# 英国银行
+#wise
+# skrill
+# Chase
+# 信用查询
+# barclays
+# myguava
+# 小马系列
+# ifast
+# wuzo
+# zilch
+# curve
+# stripe
+# monzo
+# lemfi
+# freetrade
+# 212
+# aqua
+# moneybox
+# paysend
+# hsbc uk
+# topcashback
+# kroo
+# uphold
+# yonder
+# 兜底
+payload:
+  - DOMAIN-SUFFIX,online-metrix.net
+  - DOMAIN-SUFFIX,yapily.com
+  - DOMAIN-SUFFIX,wise.com
+  - DOMAIN,tw-avatar.s3.eu-central-1.amazonaws.com
+  - DOMAIN-SUFFIX,skrill.com
+  - DOMAIN-SUFFIX,skrill.uk
+  - DOMAIN-SUFFIX,chase.com
+  - DOMAIN-SUFFIX,chase.uk
+  - DOMAIN-SUFFIX,chase.co.uk
+  - DOMAIN-SUFFIX,creditkarma.co.uk
+  - DOMAIN-SUFFIX,totallymoney.uk
+  - DOMAIN-SUFFIX,totallymoney.com
+  - DOMAIN-SUFFIX,clearscore.com
+  - DOMAIN-SUFFIX,checkmyfile.com
+  - DOMAIN-SUFFIX,hellopillar.com
+  - DOMAIN-SUFFIX,pillar.money
+  - DOMAIN-SUFFIX,experian.co.uk
+  - DOMAIN-SUFFIX,experianidentityservice.co.uk
+  - DOMAIN-SUFFIX,barclays.co.uk
+  - DOMAIN-SUFFIX,barclays.com
+  - DOMAIN-SUFFIX,barclays.mobi
+  - DOMAIN,barclaysuk.sc.omtrdc.net
+  - DOMAIN,bclays-ads.aimatch.com
+  - DOMAIN-KEYWORD,barclays
+  - DOMAIN-SUFFIX,guavapay.com
+  - DOMAIN-KEYWORD,myguava
+  - DOMAIN-KEYWORD,guavapay
+  - DOMAIN-SUFFIX,lloydsbank.co.uk
+  - DOMAIN-SUFFIX,amazontrust.com
+  - DOMAIN-SUFFIX,dynatrace.com
+  - DOMAIN-KEYWORD,lloydsbank
+  - DOMAIN-KEYWORD,halifax
+  - DOMAIN-SUFFIX,bankofscotland.co.uk
+  - DOMAIN-SUFFIX,tsb.co.uk
+  - DOMAIN-SUFFIX,demdex.net
+  - DOMAIN-SUFFIX,cm.everesttech.net
+  - DOMAIN-SUFFIX,omtrdc.net
+  - DOMAIN-SUFFIX,ifastgb.com
+  - DOMAIN-SUFFIX,wuzo.co.uk
+  - DOMAIN-SUFFIX,wuzo.com
+  - DOMAIN-SUFFIX,api.ipify.org
+  - DOMAIN-SUFFIX,payzilch.com
+  - DOMAIN-SUFFIX,eu.intercom.io
+  - DOMAIN-SUFFIX,verygoodvault.com
+  - DOMAIN-SUFFIX,verygood.systems
+  - DOMAIN-SUFFIX,appsflyer.com
+  - DOMAIN-SUFFIX,curve.app
+  - DOMAIN-SUFFIX,branch.io
+  - DOMAIN-SUFFIX,emb-api.com
+  - DOMAIN-SUFFIX,imaginecurve.com
+  - DOMAIN-SUFFIX,sprig.com
+  - DOMAIN-SUFFIX,stripe.uk
+  - DOMAIN-SUFFIX,monzo-alt.net
+  - DOMAIN-SUFFIX,monzo.com
+  - DOMAIN-SUFFIX,monzo.statuspage.io
+  - DOMAIN-SUFFIX,monzo.me
+  - DOMAIN-SUFFIX,nonprod-ffs.io
+  - DOMAIN-KEYWORD,monzo
+  - DOMAIN-SUFFIX,lemfi.com
+  - DOMAIN-SUFFIX,customer.io
+  - DOMAIN-SUFFIX,freetrade.io
+  - DOMAIN-SUFFIX,algolia.net
+  - DOMAIN-SUFFIX,asnapieu.com
+  - DOMAIN-SUFFIX,trading212.com
+  - DOMAIN-SUFFIX,appsflyersdk.com
+  - DOMAIN-KEYWORD,trading212
+  - DOMAIN-SUFFIX,newdaycards.com
+  - DOMAIN-KEYWORD,newdaycards
+  - DOMAIN-SUFFIX,moneyboxapp.com
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.eu
+  - DOMAIN-SUFFIX,paysend.io
+  - DOMAIN-SUFFIX,hsbc.co.uk
+  - DOMAIN-SUFFIX,topcashback.com
+  - DOMAIN-SUFFIX,kroo.com
+  - DOMAIN-SUFFIX,uphold.com
+  - DOMAIN-SUFFIX,yondercard.com
+  - DOMAIN-SUFFIX,co.uk

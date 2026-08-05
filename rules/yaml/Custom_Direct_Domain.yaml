@@ -1,0 +1,112 @@
+# NAME: Custom_Direct_Domain
+# UPDATED: 2026-08-04
+# DOMAIN-SUFFIX: 60
+# DOMAIN-KEYWORD: 4
+# TOTAL: 64
+# 强制直连域名列表，来自个人收集
+# 部分域名可能和中国大陆域名列表存在重叠
+# 规则内容较少，不会影响性能，请放心使用
+# ImmortalWrt 在线更新服务
+# ImmortalWrt 软件仓库
+# GitHub 反代 CDN
+# 猫眼浏览器
+# DDNS
+# Windows 网络连接探测
+# 松下智能家居
+# Akamai CDN
+# 国内 CDN
+# UniGetUI
+# NTP Pool Project
+# Dell
+# Cloudflare
+# Cursor
+# FLiNG Trainer
+# 媒体类规则
+# Emby 小雅 相关
+# MeFun VIP Porn 资源
+# MeFun VIP General 资源
+# MeFun VIP Music 资源
+# IPTV 相关
+# 冷门国内域名
+# 以下是准备向 GeoSite 提交的国内冷门域名，收录后会删除对应内容
+# 青萍科技
+# 蓝熊 OZON 插件官网
+# OZON大卖（OZONBIGSELL）官网
+# 跨境巴士
+# 无忧易售
+# Ru-seer 俄罗斯卖家助手 粤ICP备2023020424号
+# 布丁猫  黑ICP备2024018807号-1
+# 宁停车
+# GUOO 物流
+# GoLink 加速器
+# 智慧笑联
+# 其他
+# 南方电网
+# 115
+# wegame
+# Epic Game
+payload:
+  - DOMAIN-SUFFIX,immortalwrt.org
+  - DOMAIN-SUFFIX,vsean.net
+  - DOMAIN-SUFFIX,jsdelivr.net
+  - DOMAIN-SUFFIX,github.boki.moe
+  - DOMAIN-SUFFIX,gh-proxy.com
+  - DOMAIN-SUFFIX,catsxp.com
+  - DOMAIN-KEYWORD,synology
+  - DOMAIN-KEYWORD,quickconnect
+  - DOMAIN-SUFFIX,checkip.dyndns.org
+  - DOMAIN-SUFFIX,checkipv6.dyndns.org
+  - DOMAIN-SUFFIX,ifconfig.co
+  - DOMAIN-SUFFIX,api.myip.com
+  - DOMAIN-SUFFIX,ipapi.co
+  - DOMAIN-SUFFIX,ip6.seeip.org
+  - DOMAIN-SUFFIX,members.3322.org
+  - DOMAIN-SUFFIX,kit327.com
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,msftncsi.com
+  - DOMAIN-SUFFIX,psmartcloud.com
+  - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,cjjd19.com
+  - DOMAIN-SUFFIX,powershellgallery.com
+  - DOMAIN-SUFFIX,pool.ntp.org
+  - DOMAIN-SUFFIX,dell.com
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflarestorage.com
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,flingtrainer.com
+  - DOMAIN-SUFFIX,ddsrem.com
+  - DOMAIN-SUFFIX,ipinfo.io
+  - DOMAIN-SUFFIX,ggbond.org
+  - DOMAIN-SUFFIX,nn.ci
+  - DOMAIN-SUFFIX,xhofe.top
+  - DOMAIN-SUFFIX,wwwh.eu.org
+  - DOMAIN-SUFFIX,1996999.xyz
+  - DOMAIN-SUFFIX,sptv.ii00.cc
+  - DOMAIN-SUFFIX,sgtv.ii00.cc
+  - DOMAIN-SUFFIX,cn-music.mefun.vip
+  - DOMAIN-SUFFIX,cmdns.xyz
+  - DOMAIN-SUFFIX,112114.xyz
+  - DOMAIN-SUFFIX,epg.v1.mk
+  - DOMAIN-SUFFIX,epg.aptv.app
+  - DOMAIN-SUFFIX,gdcucc.v1.mk
+  - DOMAIN-SUFFIX,cleargrass.com
+  - DOMAIN-SUFFIX,ozonabc.com
+  - DOMAIN-SUFFIX,ozonbigsell.com
+  - DOMAIN-SUFFIX,kuajing84.com
+  - DOMAIN-SUFFIX,51selling.com
+  - DOMAIN-SUFFIX,ruseer.com
+  - DOMAIN-SUFFIX,bdmozon.com
+  - DOMAIN-SUFFIX,bdcat.top
+  - DOMAIN-SUFFIX,ningtingche.com
+  - DOMAIN-SUFFIX,guoocang.com
+  - DOMAIN-SUFFIX,golinkapi.com
+  - DOMAIN-SUFFIX,xiaolianhb.com
+  - DOMAIN-SUFFIX,xzsmartmetro.com
+  - DOMAIN-SUFFIX,xzscjk.com
+  - DOMAIN-SUFFIX,towngasvcc.com
+  - DOMAIN-SUFFIX,gztowngas.com
+  - DOMAIN-SUFFIX,115vod.com
+  - DOMAIN-KEYWORD,wegame
+  - DOMAIN-SUFFIX,fastly-edge.com
+  - DOMAIN-KEYWORD,egdownload

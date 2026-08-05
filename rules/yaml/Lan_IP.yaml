@@ -1,0 +1,31 @@
+# NAME: Lan_IP
+# UPDATED: 2026-08-04
+# IP-CIDR: 20
+# IP-CIDR6: 4
+# TOTAL: 24
+# 私有云服务
+payload:
+  - IP-CIDR,0.0.0.0/8,no-resolve
+  - IP-CIDR,10.0.0.0/8,no-resolve
+  - IP-CIDR,100.64.0.0/10,no-resolve
+  - IP-CIDR,127.0.0.0/8,no-resolve
+  - IP-CIDR,169.254.0.0/16,no-resolve
+  - IP-CIDR,172.16.0.0/12,no-resolve
+  - IP-CIDR,192.0.0.0/24,no-resolve
+  - IP-CIDR,192.0.2.0/24,no-resolve
+  - IP-CIDR,192.168.0.0/16,no-resolve
+  - IP-CIDR,192.88.99.0/24,no-resolve
+  - IP-CIDR,198.18.0.0/15,no-resolve
+  - IP-CIDR,198.51.100.0/24,no-resolve
+  - IP-CIDR,203.0.113.0/24,no-resolve
+  - IP-CIDR,224.0.0.0/3,no-resolve
+  - IP-CIDR6,::/127,no-resolve
+  - IP-CIDR6,fc00::/7,no-resolve
+  - IP-CIDR6,fe80::/10,no-resolve
+  - IP-CIDR6,ff00::/8,no-resolve
+  - IP-CIDR,142.171.193.56/32,no-resolve
+  - IP-CIDR,5.231.70.52/32,no-resolve
+  - IP-CIDR,31.25.235.38/32,no-resolve
+  - IP-CIDR,45.38.42.249/32,no-resolve
+  - IP-CIDR,45.116.14.51/32,no-resolve
+  - IP-CIDR,38.147.191.126/32,no-resolve

@@ -1,0 +1,7 @@
+# NAME: SG_IP
+# UPDATED: 2026-08-04
+# IP-CIDR: 2
+# TOTAL: 2
+payload:
+  - IP-CIDR,43.128.0.0/16,no-resolve
+  - IP-CIDR,149.154.167.0/24,no-resolve
