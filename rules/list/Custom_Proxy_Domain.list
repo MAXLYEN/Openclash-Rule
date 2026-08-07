@@ -1,7 +1,7 @@
 # NAME: Custom_Proxy_Domain
 # UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 10
-# TOTAL: 10
+# DOMAIN-SUFFIX: 11
+# TOTAL: 11
 # 强制代理列表，来自个人收集
 # GooglePlay 相关
 DOMAIN-SUFFIX,services.googleapis.cn
