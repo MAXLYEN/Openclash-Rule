@@ -1,7 +1,7 @@
 # NAME: Custom_Proxy_Domain
 # UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 11
-# TOTAL: 11
+# DOMAIN-SUFFIX: 12
+# TOTAL: 12
 # 强制代理列表，来自个人收集
 # GooglePlay 相关
 # PS5 STUN
@@ -10,6 +10,7 @@
 # Google 相关
 # EA Desktop 云同步
 # 云平台
+# 苹果通知
 payload:
   - DOMAIN-SUFFIX,services.googleapis.cn
   - DOMAIN-SUFFIX,clientservices.googleapis.com
@@ -22,3 +23,4 @@ payload:
   - DOMAIN-SUFFIX,mtalk.google.com
   - DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,nosla.cloud
+  - DOMAIN-SUFFIX,push.apple.com
