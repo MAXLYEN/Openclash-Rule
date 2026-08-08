@@ -144,13 +144,13 @@ def main():
 
     # ---------- 规范化并生成 yaml ----------
     names, fixed_n, yaml_n, total = [], 0, 0, 0
+    rule_changed = []
     for f in files:
         name = f[:-5]
         names.append(name)
         path = os.path.join(LIST, f)
 
         origin = open(path, encoding='utf-8', errors='replace').read()
-        old_rules = [l.strip() for l in origin.split('\n') if RULE_RE.match(l.strip())]
         seq = parse(path, name)
         rule_types = [it[1] for it in seq if it[0] == 'r']
         total += len(rule_types)
@@ -163,10 +163,22 @@ def main():
             if kind == 'IP' and any(t in DOMAIN_T for t in rule_types):
                 warn(name, '_IP 文件中混入了域名规则')
 
-        # 规则内容有变动才刷新 UPDATED，避免每次构建都产生 diff
+        # 规则内容有变动才刷新 UPDATED。
+        # 基准取上一次的构建产物 yaml/，而非 list 规范化前的状态 —— 后者是本次提交
+        # 后的内容，你新增一条格式正确的规则时前后一致，日期就永远不会更新。
         new_rules = ['%s,%s' % (it[1], it[2]) for it in seq if it[0] == 'r']
+        prev_yaml = os.path.join(YAML, name + '.yaml')
+        last_rules = []
+        if os.path.exists(prev_yaml):
+            for pl in open(prev_yaml, encoding='utf-8'):
+                pm = re.match(r'^\s{2}-\s+(.+?)\s*$', pl)
+                if pm:
+                    last_rules.append(pm.group(1))
         prev = re.search(r'^#\s*UPDATED:\s*(\S+)', origin, re.M)
-        updated = TODAY if new_rules != old_rules or not prev else prev.group(1)
+        changed = new_rules != last_rules
+        updated = TODAY if changed or not prev else prev.group(1)
+        if changed:
+            rule_changed.append(name)
 
         head = build_head(name, seq, updated)
         # 保序输出：注释与规则维持原有相邻关系
@@ -190,6 +202,7 @@ def main():
 
     print('规则集      : %d 个' % len(names))
     print('规则总数    : %d 条' % total)
+    print('规则有变动  : %d 个' % len(rule_changed))
     print('list 修正   : %d 个' % fixed_n)
     print('yaml 更新   : %d 个' % yaml_n)
     print('新建占位    : %d 个' % len(created))
@@ -209,6 +222,9 @@ def main():
             fh.write('| 规则集 | %d |\n| 规则总数 | %d |\n' % (len(names), total))
             fh.write('| list 修正 | %d |\n| yaml 更新 | %d |\n' % (fixed_n, yaml_n))
             fh.write('| 新建占位 | %d |\n| 清理产物 | %d |\n' % (len(created), removed))
+            if rule_changed:
+                fh.write('\n**规则有变动（已刷新 UPDATED）**：%s\n'
+                         % '、'.join('`%s`' % c for c in rule_changed))
             if created:
                 fh.write('\n**新建占位文件**：%s\n' % '、'.join('`%s`' % c for c in created))
             if warnings:
