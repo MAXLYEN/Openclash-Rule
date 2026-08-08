@@ -21,3 +21,5 @@ DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
 # 云平台
 DOMAIN-SUFFIX,nosla.cloud
+# 苹果通知
+DOMAIN-SUFFIX,push.apple.com
