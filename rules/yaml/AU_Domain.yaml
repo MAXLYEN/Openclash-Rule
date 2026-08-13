@@ -1,9 +1,11 @@
 # NAME: AU_Domain
-# UPDATED: 2026-08-08
-# DOMAIN-SUFFIX: 4
-# TOTAL: 4
+# UPDATED: 2026-08-13
+# DOMAIN-SUFFIX: 6
+# TOTAL: 6
 payload:
   - DOMAIN-SUFFIX,com.au
   - DOMAIN-SUFFIX,gov.au
   - DOMAIN-SUFFIX,org.au
   - DOMAIN-SUFFIX,uhdnow.com
+  - DOMAIN-SUFFIX,jable.tv
+  - DOMAIN-SUFFIX,hanime1.me
