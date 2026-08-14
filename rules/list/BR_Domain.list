@@ -6,3 +6,9 @@ DOMAIN-SUFFIX,com.br
 DOMAIN-SUFFIX,gov.br
 DOMAIN-SUFFIX,org.br
 DOMAIN-SUFFIX,ng.cash
+DOMAIN-SUFFIX,external-ng.cash
+DOMAIN-SUFFIX,posthog.com
+DOMAIN-SUFFIX,pool.ntp.org
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,sardine.ai
+DOMAIN-SUFFIX,moengage.com
