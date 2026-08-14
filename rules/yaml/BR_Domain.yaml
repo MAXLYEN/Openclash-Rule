@@ -1,9 +1,15 @@
 # NAME: BR_Domain
 # UPDATED: 2026-08-14
-# DOMAIN-SUFFIX: 4
-# TOTAL: 4
+# DOMAIN-SUFFIX: 10
+# TOTAL: 10
 payload:
   - DOMAIN-SUFFIX,com.br
   - DOMAIN-SUFFIX,gov.br
   - DOMAIN-SUFFIX,org.br
   - DOMAIN-SUFFIX,ng.cash
+  - DOMAIN-SUFFIX,external-ng.cash
+  - DOMAIN-SUFFIX,posthog.com
+  - DOMAIN-SUFFIX,pool.ntp.org
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,sardine.ai
+  - DOMAIN-SUFFIX,moengage.com
