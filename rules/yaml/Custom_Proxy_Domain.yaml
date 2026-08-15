@@ -1,7 +1,7 @@
 # NAME: Custom_Proxy_Domain
 # UPDATED: 2026-08-15
-# DOMAIN-SUFFIX: 13
-# TOTAL: 13
+# DOMAIN-SUFFIX: 14
+# TOTAL: 14
 # 强制代理列表，来自个人收集
 # GooglePlay 相关
 # PS5 STUN
@@ -26,3 +26,4 @@ payload:
   - DOMAIN-SUFFIX,nosla.cloud
   - DOMAIN-SUFFIX,push.apple.com
   - DOMAIN-SUFFIX,recaptcha.net
+  - DOMAIN-SUFFIX,jishubai.com
