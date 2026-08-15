@@ -25,3 +25,5 @@ DOMAIN-SUFFIX,nosla.cloud
 DOMAIN-SUFFIX,push.apple.com
 # 验证器
 DOMAIN-SUFFIX,recaptcha.net
+
+DOMAIN-SUFFIX,jishubai.com
