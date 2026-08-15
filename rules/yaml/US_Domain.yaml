@@ -1,8 +1,8 @@
 # NAME: US_Domain
-# UPDATED: 2026-08-04
+# UPDATED: 2026-08-15
 # DOMAIN-SUFFIX: 19
-# DOMAIN-KEYWORD: 29
-# TOTAL: 48
+# DOMAIN-KEYWORD: 30
+# TOTAL: 49
 #美洲分流
 #娱乐生活
 #DOMAIN-SUFFIX,gemini.google.com
@@ -16,6 +16,7 @@
 # 核心功能走美国节点（Talkatone 策略组）
 #Peacock美区代理
 #Paramountplus
+#brazaon
 payload:
   - DOMAIN-KEYWORD,tubi
   - DOMAIN-SUFFIX,x.ai
@@ -65,3 +66,4 @@ payload:
   - DOMAIN-KEYWORD,peacocktv
   - DOMAIN-KEYWORD,newrelic
   - DOMAIN-KEYWORD,paramountplus
+  - DOMAIN-KEYWORD,brazaon
