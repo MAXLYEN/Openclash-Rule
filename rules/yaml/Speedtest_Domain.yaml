@@ -1,8 +1,8 @@
 # NAME: Speedtest_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 5
+# UPDATED: 2026-08-20
+# DOMAIN-SUFFIX: 8
 # DOMAIN-KEYWORD: 1
-# TOTAL: 6
+# TOTAL: 9
 payload:
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,ooklaserver.net
@@ -10,3 +10,6 @@ payload:
   - DOMAIN-SUFFIX,speed.dler.io
   - DOMAIN-SUFFIX,stvidtest.net
   - DOMAIN-KEYWORD,speedtest
+  - DOMAIN-SUFFIX,mobicom.mn
+  - DOMAIN-SUFFIX,sparcs.net
+  - DOMAIN-SUFFIX,quad9.net
