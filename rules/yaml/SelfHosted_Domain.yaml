@@ -1,9 +1,4 @@
 # NAME: SelfHosted_Domain
 # UPDATED: 2026-08-20
-# DOMAIN-SUFFIX: 4
-# TOTAL: 4
-payload:
-  - DOMAIN-SUFFIX,001727.xyz
-  - DOMAIN-SUFFIX,29s.org
-  - DOMAIN-SUFFIX,210723.xyz
-  - DOMAIN-SUFFIX,techx.blog
+# TOTAL: 0
+payload: []
