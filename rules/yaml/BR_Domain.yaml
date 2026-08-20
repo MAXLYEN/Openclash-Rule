@@ -1,7 +1,8 @@
 # NAME: BR_Domain
-# UPDATED: 2026-08-16
-# DOMAIN-SUFFIX: 9
-# TOTAL: 9
+# UPDATED: 2026-08-20
+# DOMAIN-SUFFIX: 10
+# DOMAIN-KEYWORD: 7
+# TOTAL: 17
 payload:
   - DOMAIN-SUFFIX,com.br
   - DOMAIN-SUFFIX,gov.br
@@ -12,3 +13,11 @@ payload:
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,sardine.ai
   - DOMAIN-SUFFIX,moengage.com
+  - DOMAIN-SUFFIX,recarga.com
+  - DOMAIN-KEYWORD,ngcash
+  - DOMAIN-KEYWORD,recarga
+  - DOMAIN-KEYWORD,neon
+  - DOMAIN-KEYWORD,picpay
+  - DOMAIN-KEYWORD,c6bank
+  - DOMAIN-KEYWORD,infinitepay
+  - DOMAIN-KEYWORD,btgpactual
