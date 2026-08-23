@@ -18,6 +18,12 @@ DOMAIN-KEYWORD,plasma
 DOMAIN-KEYWORD,bigpay
 DOMAIN-KEYWORD,redotpay
 DOMAIN-KEYWORD,applanga
+DOMAIN-SUFFIX,com.my
+DOMAIN-SUFFIX,starryblu.com
+DOMAIN-KEYWORD,tngdigital
+DOMAIN-KEYWORD,alipayplus
+DOMAIN-SUFFIX,iclientgw-sea.alipay.com
+DOMAIN-SUFFIX,imdap-sea.alipay.com
 #证劵
 DOMAIN-KEYWORD,webull
 DOMAIN-KEYWORD,wbsgsecurities
