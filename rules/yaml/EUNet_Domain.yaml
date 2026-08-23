@@ -1,8 +1,8 @@
 # NAME: EUNet_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 31
+# UPDATED: 2026-08-23
+# DOMAIN-SUFFIX: 33
 # DOMAIN-KEYWORD: 163
-# TOTAL: 194
+# TOTAL: 196
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
 # 沃达丰
@@ -21,6 +21,8 @@ payload:
   - DOMAIN-KEYWORD,kraken
   - DOMAIN-KEYWORD,n26
   - DOMAIN-KEYWORD,number26
+  - DOMAIN-SUFFIX,tech26.de
+  - DOMAIN-SUFFIX,26.de
   - DOMAIN-KEYWORD,bugsnag
   - DOMAIN-KEYWORD,featureassets
   - DOMAIN-KEYWORD,marketingcloudapis
