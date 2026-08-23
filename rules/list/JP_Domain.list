@@ -5,6 +5,7 @@
 # TOTAL: 19
 #亚洲-日本分流
 DOMAIN-SUFFIX,co.jp
+DOMAIN-SUFFIX,com.jp
 #虚拟金融
 # coins.ph（菲律宾加密钱包）；如需收窄可改为 DOMAIN-SUFFIX,coins.ph
 DOMAIN-KEYWORD,coins
@@ -15,10 +16,7 @@ DOMAIN-KEYWORD,csftr
 DOMAIN-KEYWORD,split
 DOMAIN-KEYWORD,ownbank
 DOMAIN-KEYWORD,gcash
-DOMAIN-KEYWORD,alipayplus
 DOMAIN-KEYWORD,mynt
-DOMAIN-SUFFIX,iclientgw-sea.alipay.com
-DOMAIN-SUFFIX,imdap-sea.alipay.com
 DOMAIN-KEYWORD,vbank
 DOMAIN-KEYWORD,nextbank
 DOMAIN-KEYWORD,tpwallet
