@@ -1,8 +1,8 @@
 # NAME: JP_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 5
-# DOMAIN-KEYWORD: 14
-# TOTAL: 19
+# UPDATED: 2026-08-23
+# DOMAIN-SUFFIX: 4
+# DOMAIN-KEYWORD: 13
+# TOTAL: 17
 #亚洲-日本分流
 #虚拟金融
 # coins.ph（菲律宾加密钱包）；如需收窄可改为 DOMAIN-SUFFIX,coins.ph
@@ -11,16 +11,14 @@
 #菲律宾运营商
 payload:
   - DOMAIN-SUFFIX,co.jp
+  - DOMAIN-SUFFIX,com.jp
   - DOMAIN-KEYWORD,coins
   - DOMAIN-KEYWORD,maya
   - DOMAIN-KEYWORD,csftr
   - DOMAIN-KEYWORD,split
   - DOMAIN-KEYWORD,ownbank
   - DOMAIN-KEYWORD,gcash
-  - DOMAIN-KEYWORD,alipayplus
   - DOMAIN-KEYWORD,mynt
-  - DOMAIN-SUFFIX,iclientgw-sea.alipay.com
-  - DOMAIN-SUFFIX,imdap-sea.alipay.com
   - DOMAIN-KEYWORD,vbank
   - DOMAIN-KEYWORD,nextbank
   - DOMAIN-KEYWORD,tpwallet
