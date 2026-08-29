@@ -1,8 +1,8 @@
 # NAME: UKNet_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 18
-# DOMAIN-KEYWORD: 59
-# TOTAL: 77
+# UPDATED: 2026-08-29
+# DOMAIN-SUFFIX: 19
+# DOMAIN-KEYWORD: 60
+# TOTAL: 79
 # === 以下合并自 UKNet.list ===
 #英国分流
 #虚拟金融
@@ -82,6 +82,8 @@ payload:
   - DOMAIN-KEYWORD,iterable
   - DOMAIN-KEYWORD,jibecloud
   - DOMAIN-KEYWORD,mixpanel
+  - DOMAIN-SUFFIX,privy.io
+  - DOMAIN-KEYWORD,kraken
   - DOMAIN-KEYWORD,giffgaff
   - DOMAIN-KEYWORD,firsty
   - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
