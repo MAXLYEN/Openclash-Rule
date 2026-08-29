@@ -6,6 +6,7 @@
 #亚洲-日本分流
 DOMAIN-SUFFIX,co.jp
 DOMAIN-SUFFIX,com.jp
+DOMAIN-SUFFIX,cuniq.jp
 #虚拟金融
 # coins.ph（菲律宾加密钱包）；如需收窄可改为 DOMAIN-SUFFIX,coins.ph
 DOMAIN-KEYWORD,coins
