@@ -80,6 +80,8 @@ DOMAIN-KEYWORD,appsflyersdk
 DOMAIN-KEYWORD,iterable
 DOMAIN-KEYWORD,jibecloud
 DOMAIN-KEYWORD,mixpanel
+DOMAIN-SUFFIX,privy.io
+DOMAIN-KEYWORD,kraken
 #运营商
 DOMAIN-KEYWORD,giffgaff
 DOMAIN-KEYWORD,firsty
