@@ -1,8 +1,8 @@
 # NAME: JP_Domain
-# UPDATED: 2026-08-23
-# DOMAIN-SUFFIX: 4
+# UPDATED: 2026-08-29
+# DOMAIN-SUFFIX: 5
 # DOMAIN-KEYWORD: 13
-# TOTAL: 17
+# TOTAL: 18
 #亚洲-日本分流
 #虚拟金融
 # coins.ph（菲律宾加密钱包）；如需收窄可改为 DOMAIN-SUFFIX,coins.ph
@@ -12,6 +12,7 @@
 payload:
   - DOMAIN-SUFFIX,co.jp
   - DOMAIN-SUFFIX,com.jp
+  - DOMAIN-SUFFIX,cuniq.jp
   - DOMAIN-KEYWORD,coins
   - DOMAIN-KEYWORD,maya
   - DOMAIN-KEYWORD,csftr
