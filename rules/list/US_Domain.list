@@ -66,3 +66,7 @@ DOMAIN-KEYWORD,newrelic
 DOMAIN-KEYWORD,paramountplus
 #brazaon
 DOMAIN-KEYWORD,brazaon
+# Backpack（钱包站 + 交易所站）
+DOMAIN-SUFFIX,backpack.app
+DOMAIN-SUFFIX,backpack.exchange
+DOMAIN-KEYWORD,backpack
