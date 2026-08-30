@@ -64,6 +64,7 @@ DOMAIN-SUFFIX,niconico.jp
 DOMAIN-SUFFIX,dwango.jp
 DOMAIN-SUFFIX,nicovideo.cdn.nimg.jp
 DOMAIN-SUFFIX,fivecdm.com
+DOMAIN-KEYWORD,nicovideo
 # ===== TVer =====
 DOMAIN-SUFFIX,tver.jp
 # ===== ABEMA =====
@@ -207,3 +208,8 @@ DOMAIN-SUFFIX,clubdam.com
 DOMAIN-SUFFIX,eplus.jp
 DOMAIN-SUFFIX,t.pia.jp
 DOMAIN-SUFFIX,l-tike.com
+# ===== Radiko =====
+DOMAIN-SUFFIX,radiko.jp
+DOMAIN-SUFFIX,treasuredata.com
+DOMAIN-SUFFIX,karte.io
+
