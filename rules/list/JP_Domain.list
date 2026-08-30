@@ -1,8 +1,8 @@
 # NAME: JP_Domain
 # UPDATED: 2026-08-30
-# DOMAIN-SUFFIX: 137
+# DOMAIN-SUFFIX: 141
 # DOMAIN-KEYWORD: 13
-# TOTAL: 150
+# TOTAL: 154
 #亚洲-日本分流
 DOMAIN-SUFFIX,co.jp
 DOMAIN-SUFFIX,com.jp
@@ -119,8 +119,6 @@ DOMAIN-SUFFIX,mixi.com
 DOMAIN-SUFFIX,mixi.social
 # ===== Ameba =====
 DOMAIN-SUFFIX,ameblo.jp
-DOMAIN-SUFFIX,ameba.jp
-DOMAIN-SUFFIX,abema-tv.com
 # ===== note =====
 DOMAIN-SUFFIX,note.com
 # ===== Japanese Digital Manga =====

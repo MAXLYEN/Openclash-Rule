@@ -1,8 +1,8 @@
 # NAME: JP_Domain
 # UPDATED: 2026-08-30
-# DOMAIN-SUFFIX: 137
+# DOMAIN-SUFFIX: 141
 # DOMAIN-KEYWORD: 13
-# TOTAL: 150
+# TOTAL: 154
 #亚洲-日本分流
 #虚拟金融
 # coins.ph（菲律宾加密钱包）；如需收窄可改为 DOMAIN-SUFFIX,coins.ph
@@ -104,6 +104,12 @@ payload:
   - DOMAIN-SUFFIX,tver.jp
   - DOMAIN-SUFFIX,abema.tv
   - DOMAIN-SUFFIX,abema.io
+  - DOMAIN-SUFFIX,app-analytics-services.com
+  - DOMAIN-SUFFIX,bucketeer.jp
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,newrelic.com
+  - DOMAIN-SUFFIX,ameba.jp
+  - DOMAIN-SUFFIX,abema-tv.com
   - DOMAIN-SUFFIX,unext.jp
   - DOMAIN-SUFFIX,hnext.jp
   - DOMAIN-SUFFIX,nxtv.jp
@@ -134,8 +140,6 @@ payload:
   - DOMAIN-SUFFIX,mixi.com
   - DOMAIN-SUFFIX,mixi.social
   - DOMAIN-SUFFIX,ameblo.jp
-  - DOMAIN-SUFFIX,ameba.jp
-  - DOMAIN-SUFFIX,abema-tv.com
   - DOMAIN-SUFFIX,note.com
   - DOMAIN-SUFFIX,shonenjumpplus.com
   - DOMAIN-SUFFIX,shonenjump.com
