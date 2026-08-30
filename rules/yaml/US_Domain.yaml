@@ -1,8 +1,8 @@
 # NAME: US_Domain
-# UPDATED: 2026-08-15
-# DOMAIN-SUFFIX: 19
-# DOMAIN-KEYWORD: 30
-# TOTAL: 49
+# UPDATED: 2026-08-30
+# DOMAIN-SUFFIX: 21
+# DOMAIN-KEYWORD: 31
+# TOTAL: 52
 #美洲分流
 #娱乐生活
 #DOMAIN-SUFFIX,gemini.google.com
@@ -17,6 +17,7 @@
 #Peacock美区代理
 #Paramountplus
 #brazaon
+# Backpack（钱包站 + 交易所站）
 payload:
   - DOMAIN-KEYWORD,tubi
   - DOMAIN-SUFFIX,x.ai
@@ -67,3 +68,6 @@ payload:
   - DOMAIN-KEYWORD,newrelic
   - DOMAIN-KEYWORD,paramountplus
   - DOMAIN-KEYWORD,brazaon
+  - DOMAIN-SUFFIX,backpack.app
+  - DOMAIN-SUFFIX,backpack.exchange
+  - DOMAIN-KEYWORD,backpack
