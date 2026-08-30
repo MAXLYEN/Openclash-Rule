@@ -33,6 +33,8 @@ DOMAIN-SUFFIX,yahoo.co.jp
 DOMAIN-SUFFIX,yimg.jp
 DOMAIN-SUFFIX,yahooapis.com
 DOMAIN-SUFFIX,yahoo-net.jp
+DOMAIN-SUFFIX,slim01.jp
+DOMAIN-SUFFIX,yahooapis.jp
 # Yahoo! JAPAN Shopping / Auction / Flea Market
 DOMAIN-SUFFIX,shopping.yahoo.co.jp
 DOMAIN-SUFFIX,auctions.yahoo.co.jp
@@ -46,6 +48,9 @@ DOMAIN-SUFFIX,hatena.ne.jp
 DOMAIN-SUFFIX,hatena.com
 DOMAIN-SUFFIX,hatena.blog
 DOMAIN-SUFFIX,hatenablog.com
+DOMAIN-SUFFIX,st-hatena.com
+DOMAIN-SUFFIX,impress.co.jp
+DOMAIN-SUFFIX,ad-hatena.com
 # ===== LINE =====
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,line-scdn.net
@@ -58,6 +63,7 @@ DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,niconico.jp
 DOMAIN-SUFFIX,dwango.jp
 DOMAIN-SUFFIX,nicovideo.cdn.nimg.jp
+DOMAIN-SUFFIX,fivecdm.com
 # ===== TVer =====
 DOMAIN-SUFFIX,tver.jp
 # ===== ABEMA =====
@@ -66,6 +72,7 @@ DOMAIN-SUFFIX,abema.io
 # ===== U-NEXT =====
 DOMAIN-SUFFIX,unext.jp
 DOMAIN-SUFFIX,hnext.jp
+DOMAIN-SUFFIX,nxtv.jp
 # ===== DMM / DMM TV =====
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dmm.co.jp
@@ -81,6 +88,7 @@ DOMAIN-SUFFIX,lemino.com
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.org
 DOMAIN-SUFFIX,pixiv.help
+DOMAIN-SUFFIX,pximg.net
 # ===== GameWith =====
 DOMAIN-SUFFIX,gamewith.jp
 # ===== 5ch / Japanese Forums =====
@@ -90,8 +98,11 @@ DOMAIN-SUFFIX,bbspink.com
 DOMAIN-SUFFIX,threadpd.com
 # ===== SHOWROOM =====
 DOMAIN-SUFFIX,showroom-live.com
+DOMAIN-SUFFIX,vod-control.com
+DOMAIN-SUFFIX,sdk-license.com
 # ===== IRIAM =====
 DOMAIN-SUFFIX,iriam.com
+DOMAIN-SUFFIX,iriam.app
 # ===== Mirrativ =====
 DOMAIN-SUFFIX,mirrativ.com
 # ===== REALITY =====
@@ -103,6 +114,7 @@ DOMAIN-SUFFIX,mixi.social
 # ===== Ameba =====
 DOMAIN-SUFFIX,ameblo.jp
 DOMAIN-SUFFIX,ameba.jp
+DOMAIN-SUFFIX,abema-tv.com
 # ===== note =====
 DOMAIN-SUFFIX,note.com
 # ===== Japanese Digital Manga =====
