@@ -1,8 +1,8 @@
 # NAME: JP_Domain
 # UPDATED: 2026-08-30
-# DOMAIN-SUFFIX: 125
+# DOMAIN-SUFFIX: 137
 # DOMAIN-KEYWORD: 13
-# TOTAL: 138
+# TOTAL: 150
 #亚洲-日本分流
 #虚拟金融
 # coins.ph（菲律宾加密钱包）；如需收窄可改为 DOMAIN-SUFFIX,coins.ph
@@ -76,6 +76,8 @@ payload:
   - DOMAIN-SUFFIX,yimg.jp
   - DOMAIN-SUFFIX,yahooapis.com
   - DOMAIN-SUFFIX,yahoo-net.jp
+  - DOMAIN-SUFFIX,slim01.jp
+  - DOMAIN-SUFFIX,yahooapis.jp
   - DOMAIN-SUFFIX,shopping.yahoo.co.jp
   - DOMAIN-SUFFIX,auctions.yahoo.co.jp
   - DOMAIN-SUFFIX,paypayfleamarket.yahoo.co.jp
@@ -86,6 +88,9 @@ payload:
   - DOMAIN-SUFFIX,hatena.com
   - DOMAIN-SUFFIX,hatena.blog
   - DOMAIN-SUFFIX,hatenablog.com
+  - DOMAIN-SUFFIX,st-hatena.com
+  - DOMAIN-SUFFIX,impress.co.jp
+  - DOMAIN-SUFFIX,ad-hatena.com
   - DOMAIN-SUFFIX,line.me
   - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,line-apps.com
@@ -95,11 +100,13 @@ payload:
   - DOMAIN-SUFFIX,niconico.jp
   - DOMAIN-SUFFIX,dwango.jp
   - DOMAIN-SUFFIX,nicovideo.cdn.nimg.jp
+  - DOMAIN-SUFFIX,fivecdm.com
   - DOMAIN-SUFFIX,tver.jp
   - DOMAIN-SUFFIX,abema.tv
   - DOMAIN-SUFFIX,abema.io
   - DOMAIN-SUFFIX,unext.jp
   - DOMAIN-SUFFIX,hnext.jp
+  - DOMAIN-SUFFIX,nxtv.jp
   - DOMAIN-SUFFIX,dmm.com
   - DOMAIN-SUFFIX,dmm.co.jp
   - DOMAIN-SUFFIX,fod.fujitv.co.jp
@@ -110,13 +117,17 @@ payload:
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pixiv.org
   - DOMAIN-SUFFIX,pixiv.help
+  - DOMAIN-SUFFIX,pximg.net
   - DOMAIN-SUFFIX,gamewith.jp
   - DOMAIN-SUFFIX,5ch.net
   - DOMAIN-SUFFIX,2ch.sc
   - DOMAIN-SUFFIX,bbspink.com
   - DOMAIN-SUFFIX,threadpd.com
   - DOMAIN-SUFFIX,showroom-live.com
+  - DOMAIN-SUFFIX,vod-control.com
+  - DOMAIN-SUFFIX,sdk-license.com
   - DOMAIN-SUFFIX,iriam.com
+  - DOMAIN-SUFFIX,iriam.app
   - DOMAIN-SUFFIX,mirrativ.com
   - DOMAIN-SUFFIX,reality.app
   - DOMAIN-SUFFIX,reality-platform.com
@@ -124,6 +135,7 @@ payload:
   - DOMAIN-SUFFIX,mixi.social
   - DOMAIN-SUFFIX,ameblo.jp
   - DOMAIN-SUFFIX,ameba.jp
+  - DOMAIN-SUFFIX,abema-tv.com
   - DOMAIN-SUFFIX,note.com
   - DOMAIN-SUFFIX,shonenjumpplus.com
   - DOMAIN-SUFFIX,shonenjump.com
