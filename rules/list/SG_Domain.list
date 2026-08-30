@@ -58,34 +58,27 @@ DOMAIN-SUFFIX,ledger.fr
 DOMAIN-KEYWORD,ledger
 # ELLIPAL
 DOMAIN-SUFFIX,ellipal.com
+DOMAIN-KEYWORD,ellipal
 # Tangem
 DOMAIN-SUFFIX,tangem.com
+DOMAIN-KEYWORD,tangem
 ################ 热钱包 ################
-# OKX Wallet（官网 web3.okx.com，属于 okx.com）
-DOMAIN-SUFFIX,okx.com
 # Rabby（DeBank 出品，支持渠道挂在 DeBank）
 DOMAIN-SUFFIX,rabby.io
 DOMAIN-SUFFIX,debank.com
 # Bitget Wallet（官网 web3.bitget.com；bitkeep 为改名前的旧标识）
 DOMAIN-SUFFIX,bitget.com
 DOMAIN-SUFFIX,bitkeep.com
+DOMAIN-KEYWORD,bitget
 # Phantom（官方条款写明主域为 phantom.com；phantom.app 为旧域，App 包名仍是 app.phantom）
 DOMAIN-SUFFIX,phantom.com
 DOMAIN-SUFFIX,phantom.app
-# Kraken Wallet（kraken.com/wallet，无独立域）
-DOMAIN-SUFFIX,kraken.com
-# Backpack（钱包站 + 交易所站）
-DOMAIN-SUFFIX,backpack.app
-DOMAIN-SUFFIX,backpack.exchange
-# MetaMask（infura 是其默认 RPC 提供方，不加会导致余额/交易加载失败）
-DOMAIN-SUFFIX,metamask.io
-DOMAIN-SUFFIX,infura.io
+DOMAIN-KEYWORD,phantom
 ################ 通用依赖 ################
 # 上面几乎所有钱包连 dApp 都走 WalletConnect，建议一起分流
-DOMAIN-SUFFIX,walletconnect.com
-DOMAIN-SUFFIX,walletconnect.org
+DOMAIN-KEYWORD,walletconnect
 ################ 可选：Ledger 测试/预发布环境 ################
 # 日常使用用不到，做开发或抓包排查时再放开
-DOMAIN-SUFFIX,ledger-test.com
-DOMAIN-SUFFIX,ledger-stg.com
-DOMAIN-SUFFIX,ldg-tech.com
+#DOMAIN-SUFFIX,ledger-test.com
+#DOMAIN-SUFFIX,ledger-stg.com
+#DOMAIN-SUFFIX,ldg-tech.com
