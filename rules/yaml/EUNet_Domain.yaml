@@ -1,8 +1,8 @@
 # NAME: EUNet_Domain
-# UPDATED: 2026-08-29
+# UPDATED: 2026-08-30
 # DOMAIN-SUFFIX: 33
-# DOMAIN-KEYWORD: 162
-# TOTAL: 195
+# DOMAIN-KEYWORD: 157
+# TOTAL: 190
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
 #DOMAIN-KEYWORD,kraken
@@ -197,11 +197,6 @@ payload:
   - DOMAIN-KEYWORD,godaddy
   - DOMAIN-KEYWORD,getmeru
   - DOMAIN-SUFFIX,bwb.global
-  - DOMAIN-KEYWORD,onelink
-  - DOMAIN-KEYWORD,onekey
-  - DOMAIN-KEYWORD,ledger
-  - DOMAIN-KEYWORD,keystone
-  - DOMAIN-KEYWORD,keyst
   - DOMAIN-KEYWORD,bitmex
   - DOMAIN-KEYWORD,jjdsn
   - DOMAIN-KEYWORD,bwb
