@@ -27,3 +27,220 @@ DOMAIN-SUFFIX,pst.net
 #菲律宾运营商
 DOMAIN-KEYWORD,globe
 DOMAIN-SUFFIX,csftr.com
+
+# ===== Japan Online Services =====
+# Yahoo! JAPAN
+DOMAIN-SUFFIX,yahoo.co.jp
+DOMAIN-SUFFIX,yimg.jp
+DOMAIN-SUFFIX,yahooapis.com
+DOMAIN-SUFFIX,yahoo-net.jp
+
+# Yahoo! JAPAN Shopping / Auction / Flea Market
+DOMAIN-SUFFIX,shopping.yahoo.co.jp
+DOMAIN-SUFFIX,auctions.yahoo.co.jp
+DOMAIN-SUFFIX,paypayfleamarket.yahoo.co.jp
+
+# Yahoo! JAPAN related
+DOMAIN-SUFFIX,news.yahoo.co.jp
+DOMAIN-SUFFIX,search.yahoo.co.jp
+DOMAIN-SUFFIX,chiebukuro.yahoo.co.jp
+
+# ===== Hatena =====
+DOMAIN-SUFFIX,hatena.ne.jp
+DOMAIN-SUFFIX,hatena.com
+DOMAIN-SUFFIX,hatena.blog
+DOMAIN-SUFFIX,hatenablog.com
+
+# ===== LINE =====
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,lin.ee
+
+# ===== LINE Manga =====
+DOMAIN-SUFFIX,linemanga.jp
+
+# ===== Niconico / Dwango =====
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,niconico.jp
+DOMAIN-SUFFIX,dwango.jp
+DOMAIN-SUFFIX,nicovideo.cdn.nimg.jp
+
+# ===== TVer =====
+DOMAIN-SUFFIX,tver.jp
+
+# ===== ABEMA =====
+DOMAIN-SUFFIX,abema.tv
+DOMAIN-SUFFIX,abema.io
+
+# ===== U-NEXT =====
+DOMAIN-SUFFIX,unext.jp
+DOMAIN-SUFFIX,hnext.jp
+
+# ===== DMM / DMM TV =====
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,dmm.co.jp
+
+# ===== FOD =====
+DOMAIN-SUFFIX,fod.fujitv.co.jp
+DOMAIN-SUFFIX,fujitv.co.jp
+
+# ===== TELASA =====
+DOMAIN-SUFFIX,telasa.jp
+
+# ===== Lemino =====
+DOMAIN-SUFFIX,lemino.docomo.ne.jp
+DOMAIN-SUFFIX,lemino.com
+
+# ===== Pixiv =====
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pixiv.org
+DOMAIN-SUFFIX,pixiv.help
+
+# ===== GameWith =====
+DOMAIN-SUFFIX,gamewith.jp
+
+# ===== 5ch / Japanese Forums =====
+DOMAIN-SUFFIX,5ch.net
+DOMAIN-SUFFIX,2ch.sc
+DOMAIN-SUFFIX,bbspink.com
+DOMAIN-SUFFIX,threadpd.com
+
+# ===== SHOWROOM =====
+DOMAIN-SUFFIX,showroom-live.com
+
+# ===== IRIAM =====
+DOMAIN-SUFFIX,iriam.com
+
+# ===== Mirrativ =====
+DOMAIN-SUFFIX,mirrativ.com
+
+# ===== REALITY =====
+DOMAIN-SUFFIX,reality.app
+DOMAIN-SUFFIX,reality-platform.com
+
+# ===== mixi / mixi2 =====
+DOMAIN-SUFFIX,mixi.com
+DOMAIN-SUFFIX,mixi.social
+
+# ===== Ameba =====
+DOMAIN-SUFFIX,ameblo.jp
+DOMAIN-SUFFIX,ameba.jp
+
+# ===== note =====
+DOMAIN-SUFFIX,note.com
+
+# ===== Japanese Digital Manga =====
+DOMAIN-SUFFIX,shonenjumpplus.com
+DOMAIN-SUFFIX,shonenjump.com
+DOMAIN-SUFFIX,magapoke.com
+DOMAIN-SUFFIX,comic-days.com
+DOMAIN-SUFFIX,manga-one.com
+DOMAIN-SUFFIX,manga-up.com
+DOMAIN-SUFFIX,piccoma.com
+DOMAIN-SUFFIX,mechacomic.jp
+DOMAIN-SUFFIX,cmoa.jp
+
+# ===== Japanese Publishing / Digital Books =====
+DOMAIN-SUFFIX,bookwalker.jp
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,ebookjapan.yahoo.co.jp
+
+# ===== Japanese Game / Game Community =====
+DOMAIN-SUFFIX,gamewith.jp
+DOMAIN-SUFFIX,game8.jp
+DOMAIN-SUFFIX,appmedia.jp
+DOMAIN-SUFFIX,gamepedia.jp
+
+# ===== Japanese Game / Entertainment =====
+DOMAIN-SUFFIX,cygames.jp
+DOMAIN-SUFFIX,aniplex.co.jp
+DOMAIN-SUFFIX,bandainamcoent.co.jp
+DOMAIN-SUFFIX,sega.jp
+DOMAIN-SUFFIX,konami.com
+DOMAIN-SUFFIX,square-enix.com
+DOMAIN-SUFFIX,level5.co.jp
+
+# ===== Japanese Anime / Entertainment =====
+DOMAIN-SUFFIX,animate-onlineshop.jp
+DOMAIN-SUFFIX,animate.tv
+DOMAIN-SUFFIX,animestore.docomo.ne.jp
+DOMAIN-SUFFIX,d-anime.jp
+
+# ===== Japanese News / Information =====
+DOMAIN-SUFFIX,nhk.or.jp
+DOMAIN-SUFFIX,nhk.jp
+DOMAIN-SUFFIX,asahi.com
+DOMAIN-SUFFIX,yomiuri.co.jp
+DOMAIN-SUFFIX,mainichi.jp
+DOMAIN-SUFFIX,nikkei.com
+DOMAIN-SUFFIX,sankei.com
+
+# ===== Japanese Weather =====
+DOMAIN-SUFFIX,weathernews.jp
+DOMAIN-SUFFIX,tenki.jp
+
+# ===== Japanese Shopping =====
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,rakuten.co.jp
+DOMAIN-SUFFIX,shopping.yahoo.co.jp
+DOMAIN-SUFFIX,yodobashi.com
+DOMAIN-SUFFIX,biccamera.com
+DOMAIN-SUFFIX,joshinweb.jp
+DOMAIN-SUFFIX,edion.com
+DOMAIN-SUFFIX,nojima.co.jp
+
+# ===== Japanese Fashion / Lifestyle Shopping =====
+DOMAIN-SUFFIX,zozo.jp
+DOMAIN-SUFFIX,uniqlo.com
+DOMAIN-SUFFIX,muji.com
+DOMAIN-SUFFIX,nitori-net.jp
+
+# ===== Japanese Second-hand / Marketplace =====
+DOMAIN-SUFFIX,mercari.jp
+DOMAIN-SUFFIX,fril.jp
+DOMAIN-SUFFIX,rakuma.rakuten.co.jp
+
+# ===== Rakuten Online Services =====
+DOMAIN-SUFFIX,rakuten.co.jp
+DOMAIN-SUFFIX,rakuten.ne.jp
+
+# ===== Japanese Digital Music / Audio =====
+DOMAIN-SUFFIX,awa.fm
+DOMAIN-SUFFIX,linemusic.jp
+DOMAIN-SUFFIX,ototoy.jp
+
+# ===== Japanese Podcast / Radio =====
+DOMAIN-SUFFIX,radiko.jp
+DOMAIN-SUFFIX,listen.style
+
+# ===== Japanese Creator / Content =====
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,fanbox.cc
+DOMAIN-SUFFIX,booth.pm
+DOMAIN-SUFFIX,skeb.jp
+
+# ===== Japanese Creator / Fan Community =====
+DOMAIN-SUFFIX,fanbox.cc
+DOMAIN-SUFFIX,fantia.jp
+DOMAIN-SUFFIX,ci-en.net
+
+# ===== Japanese SNS / Community =====
+DOMAIN-SUFFIX,mixi.com
+DOMAIN-SUFFIX,mixi.social
+DOMAIN-SUFFIX,ameblo.jp
+DOMAIN-SUFFIX,ameba.jp
+
+# ===== Japanese Travel / Online Services =====
+DOMAIN-SUFFIX,jalan.net
+DOMAIN-SUFFIX,ikyu.com
+DOMAIN-SUFFIX,rakutentravel.com
+
+# ===== Japanese Online Karaoke =====
+DOMAIN-SUFFIX,joysound.com
+DOMAIN-SUFFIX,clubdam.com
+
+# ===== Japanese Digital Tickets / Entertainment =====
+DOMAIN-SUFFIX,eplus.jp
+DOMAIN-SUFFIX,t.pia.jp
+DOMAIN-SUFFIX,l-tike.com
