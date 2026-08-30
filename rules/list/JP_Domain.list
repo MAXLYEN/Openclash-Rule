@@ -69,6 +69,12 @@ DOMAIN-SUFFIX,tver.jp
 # ===== ABEMA =====
 DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,abema.io
+DOMAIN-SUFFIX,app-analytics-services.com
+DOMAIN-SUFFIX,bucketeer.jp
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,newrelic.com
+DOMAIN-SUFFIX,ameba.jp
+DOMAIN-SUFFIX,abema-tv.com
 # ===== U-NEXT =====
 DOMAIN-SUFFIX,unext.jp
 DOMAIN-SUFFIX,hnext.jp
