@@ -1,8 +1,8 @@
 # NAME: UKNet_Domain
-# UPDATED: 2026-08-29
+# UPDATED: 2026-08-30
 # DOMAIN-SUFFIX: 19
-# DOMAIN-KEYWORD: 60
-# TOTAL: 79
+# DOMAIN-KEYWORD: 59
+# TOTAL: 78
 # === 以下合并自 UKNet.list ===
 #英国分流
 #虚拟金融
@@ -47,7 +47,6 @@ payload:
   - DOMAIN-KEYWORD,paysend
   - DOMAIN-KEYWORD,tevau
   - DOMAIN-KEYWORD,ninerealms
-  - DOMAIN-KEYWORD,walletconnect
   - DOMAIN-KEYWORD,posthog
   - DOMAIN-KEYWORD,coinmarketcap
   - DOMAIN-KEYWORD,zopa
