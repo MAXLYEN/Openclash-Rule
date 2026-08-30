@@ -1,11 +1,12 @@
 # NAME: UKNet_Domain
 # UPDATED: 2026-08-30
-# DOMAIN-SUFFIX: 19
+# DOMAIN-SUFFIX: 21
 # DOMAIN-KEYWORD: 59
-# TOTAL: 78
+# TOTAL: 80
 # === 以下合并自 UKNet.list ===
 #英国分流
 #虚拟金融
+# MetaMask（infura 是其默认 RPC 提供方，不加会导致余额/交易加载失败）
 #运营商
 payload:
   - DOMAIN-SUFFIX,co.uk
@@ -83,6 +84,8 @@ payload:
   - DOMAIN-KEYWORD,mixpanel
   - DOMAIN-SUFFIX,privy.io
   - DOMAIN-KEYWORD,kraken
+  - DOMAIN-SUFFIX,metamask.io
+  - DOMAIN-SUFFIX,infura.io
   - DOMAIN-KEYWORD,giffgaff
   - DOMAIN-KEYWORD,firsty
   - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
