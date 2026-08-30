@@ -1,8 +1,8 @@
 # NAME: JP_Domain
 # UPDATED: 2026-08-30
-# DOMAIN-SUFFIX: 141
-# DOMAIN-KEYWORD: 13
-# TOTAL: 154
+# DOMAIN-SUFFIX: 143
+# DOMAIN-KEYWORD: 14
+# TOTAL: 157
 #亚洲-日本分流
 #虚拟金融
 # coins.ph（菲律宾加密钱包）；如需收窄可改为 DOMAIN-SUFFIX,coins.ph
@@ -53,6 +53,7 @@
 # ===== Japanese Travel / Online Services =====
 # ===== Japanese Online Karaoke =====
 # ===== Japanese Digital Tickets / Entertainment =====
+# ===== Radiko =====
 payload:
   - DOMAIN-SUFFIX,co.jp
   - DOMAIN-SUFFIX,com.jp
@@ -101,6 +102,7 @@ payload:
   - DOMAIN-SUFFIX,dwango.jp
   - DOMAIN-SUFFIX,nicovideo.cdn.nimg.jp
   - DOMAIN-SUFFIX,fivecdm.com
+  - DOMAIN-KEYWORD,nicovideo
   - DOMAIN-SUFFIX,tver.jp
   - DOMAIN-SUFFIX,abema.tv
   - DOMAIN-SUFFIX,abema.io
@@ -208,3 +210,5 @@ payload:
   - DOMAIN-SUFFIX,eplus.jp
   - DOMAIN-SUFFIX,t.pia.jp
   - DOMAIN-SUFFIX,l-tike.com
+  - DOMAIN-SUFFIX,treasuredata.com
+  - DOMAIN-SUFFIX,karte.io
