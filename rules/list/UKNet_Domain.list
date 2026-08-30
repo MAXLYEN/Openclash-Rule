@@ -81,6 +81,12 @@ DOMAIN-KEYWORD,jibecloud
 DOMAIN-KEYWORD,mixpanel
 DOMAIN-SUFFIX,privy.io
 DOMAIN-KEYWORD,kraken
+
+# MetaMask（infura 是其默认 RPC 提供方，不加会导致余额/交易加载失败）
+DOMAIN-SUFFIX,metamask.io
+DOMAIN-SUFFIX,infura.io
+DOMAIN-KEYWORD,metamask
+
 #运营商
 DOMAIN-KEYWORD,giffgaff
 DOMAIN-KEYWORD,firsty
