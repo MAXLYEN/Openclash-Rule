@@ -1,18 +1,18 @@
 # NAME: Apple_Domain
-# UPDATED: 2026-08-04
+# UPDATED: 2026-09-05
 # DOMAIN: 14
-# DOMAIN-SUFFIX: 1553
+# DOMAIN-SUFFIX: 1549
 # DOMAIN-KEYWORD: 7
-# TOTAL: 1574
+# TOTAL: 1570
 payload:
   - DOMAIN,init.push.apple.com
   - DOMAIN,push.apple.com
   - DOMAIN,courier.push.apple.com
   - DOMAIN,push-apple.com.akadns.net
-  - DOMAIN-SUFFIX,init.push.apple.com
-  - DOMAIN-SUFFIX,push.apple.com
-  - DOMAIN-SUFFIX,courier.push.apple.com
-  - DOMAIN-SUFFIX,push-apple.com.akadns.net
+# [已停用-冗余] DOMAIN-SUFFIX,init.push.apple.com  ← 文件内被 Apple_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,push.apple.com  ← 文件内被 Apple_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,courier.push.apple.com  ← 文件内被 Apple_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,push-apple.com.akadns.net  ← 文件内被 Apple_Domain 包含
   - DOMAIN,appldnld.apple.com.edgesuite.net
   - DOMAIN,apple-events.akamaized.net
   - DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net

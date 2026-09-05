@@ -1,11 +1,4 @@
 # NAME: Steam_CDN_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 2
-# TOTAL: 2
-payload:
-# Steam 下载 CDN 地址
-# 更新日期 2024/8/9
-# 解决 Steam 下载 CDN 走代理的问题
-# Steam 下载节点 CDN 地址
-  - DOMAIN-SUFFIX,cm.steampowered.com
-  - DOMAIN-SUFFIX,steamserver.net
+# UPDATED: 2026-09-05
+# TOTAL: 0
+payload: []

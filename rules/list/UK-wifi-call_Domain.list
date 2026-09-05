@@ -1,12 +1,12 @@
 # NAME: UK-wifi-call_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 6
-# TOTAL: 6
+# UPDATED: 2026-09-05
+# DOMAIN-SUFFIX: 5
+# TOTAL: 5
 # 地区检测
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 # 沃达丰
 DOMAIN-SUFFIX,epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
-DOMAIN-SUFFIX,ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+# [已停用-冗余] DOMAIN-SUFFIX,ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org  ← 文件内被 UK-wifi-call_Domain 包含
 DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org
 DOMAIN-SUFFIX,entsrv-uk.vodafone.com
 DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com

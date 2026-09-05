@@ -1,8 +1,8 @@
 # NAME: HBO_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 47
+# UPDATED: 2026-09-05
+# DOMAIN-SUFFIX: 45
 # DOMAIN-KEYWORD: 6
-# TOTAL: 53
+# TOTAL: 51
 payload:
 # === 以下合并自 HBO.list ===
   - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
@@ -56,10 +56,10 @@ payload:
   - DOMAIN-KEYWORD,discomax
   - DOMAIN-KEYWORD,braze
   - DOMAIN-KEYWORD,branch
-  - DOMAIN-SUFFIX,media.max.com
+# [已停用-冗余] DOMAIN-SUFFIX,media.max.com  ← 文件内被 HBO_Domain 包含
   - DOMAIN-KEYWORD,h264
   - DOMAIN-KEYWORD,apptentive
   - DOMAIN-KEYWORD,brightline
 # === 以下合并自 HBO_fix.list ===
 # 对 blackmatrix7 的 HBO 规则进行补充
-  - DOMAIN-SUFFIX,prd.api.discomax.com
+# [已停用-冗余] DOMAIN-SUFFIX,prd.api.discomax.com  ← 文件内被 HBO_Domain 包含

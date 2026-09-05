@@ -1,8 +1,8 @@
 # NAME: ProxyGFWlist_Domain_1
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 2480
+# UPDATED: 2026-09-05
+# DOMAIN-SUFFIX: 2250
 # DOMAIN-KEYWORD: 20
-# TOTAL: 2500
+# TOTAL: 2270
 payload:
 # 代理列表
 # MyList && Other
@@ -65,8 +65,8 @@ payload:
   - DOMAIN-SUFFIX,gfwlist.start
   - DOMAIN-SUFFIX,000webhost.com
   - DOMAIN-SUFFIX,030buy.com
-  - DOMAIN-SUFFIX,0rz.tw
-  - DOMAIN-SUFFIX,1-apple.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,0rz.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,1-apple.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,10.tt
   - DOMAIN-SUFFIX,1000giri.net
   - DOMAIN-SUFFIX,100ke.org
@@ -79,7 +79,7 @@ payload:
   - DOMAIN-SUFFIX,12vpn.net
   - DOMAIN-SUFFIX,1337x.to
   - DOMAIN-SUFFIX,138.com
-  - DOMAIN-SUFFIX,141hongkong.com
+# [已停用-冗余] DOMAIN-SUFFIX,141hongkong.com  ← 已被 HK_Domain 以同一分组命中
   - DOMAIN-SUFFIX,141jj.com
   - DOMAIN-SUFFIX,141tube.com
   - DOMAIN-SUFFIX,1688.com.au
@@ -102,21 +102,21 @@ payload:
   - DOMAIN-SUFFIX,1e100.net
   - DOMAIN-SUFFIX,1eew.com
   - DOMAIN-SUFFIX,1mobile.com
-  - DOMAIN-SUFFIX,1mobile.tw
+# [已停用-冗余] DOMAIN-SUFFIX,1mobile.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,1pondo.tv
   - DOMAIN-SUFFIX,2-hand.info
   - DOMAIN-SUFFIX,2000fun.com
   - DOMAIN-SUFFIX,2008xianzhang.info
-  - DOMAIN-SUFFIX,2017.hk
+# [已停用-冗余] DOMAIN-SUFFIX,2017.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,2021hkcharter.com
   - DOMAIN-SUFFIX,2047.name
   - DOMAIN-SUFFIX,21andy.com
   - DOMAIN-SUFFIX,21join.com
   - DOMAIN-SUFFIX,21pron.com
   - DOMAIN-SUFFIX,21sextury.com
-  - DOMAIN-SUFFIX,228.net.tw
+# [已停用-冗余] DOMAIN-SUFFIX,228.net.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,233abc.com
-  - DOMAIN-SUFFIX,24hrs.ca
+# [已停用-冗余] DOMAIN-SUFFIX,24hrs.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,24smile.org
   - DOMAIN-SUFFIX,25u.com
   - DOMAIN-SUFFIX,2lipstube.com
@@ -132,7 +132,7 @@ payload:
   - DOMAIN-SUFFIX,3boys2girls.com
   - DOMAIN-SUFFIX,3d-game.com
   - DOMAIN-SUFFIX,3proxy.ru
-  - DOMAIN-SUFFIX,3ren.ca
+# [已停用-冗余] DOMAIN-SUFFIX,3ren.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,3tui.net
   - DOMAIN-SUFFIX,404museum.com
   - DOMAIN-SUFFIX,43110.cf
@@ -148,7 +148,7 @@ payload:
   - DOMAIN-SUFFIX,4shared.com
   - DOMAIN-SUFFIX,4sqi.net
   - DOMAIN-SUFFIX,50webs.com
-  - DOMAIN-SUFFIX,51.ca
+# [已停用-冗余] DOMAIN-SUFFIX,51.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,51jav.org
   - DOMAIN-SUFFIX,51luoben.com
   - DOMAIN-SUFFIX,5278.cc
@@ -161,7 +161,7 @@ payload:
   - DOMAIN-SUFFIX,64museum.org
   - DOMAIN-SUFFIX,64tianwang.com
   - DOMAIN-SUFFIX,64wiki.com
-  - DOMAIN-SUFFIX,66.ca
+# [已停用-冗余] DOMAIN-SUFFIX,66.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,666kb.com
   - DOMAIN-SUFFIX,6do.news
   - DOMAIN-SUFFIX,6park.com
@@ -172,18 +172,18 @@ payload:
   - DOMAIN-SUFFIX,7cow.com
   - DOMAIN-SUFFIX,8-d.com
   - DOMAIN-SUFFIX,85cc.net
-  - DOMAIN-SUFFIX,85cc.us
+# [已停用-冗余] DOMAIN-SUFFIX,85cc.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,85st.com
   - DOMAIN-SUFFIX,881903.com
   - DOMAIN-SUFFIX,888.com
   - DOMAIN-SUFFIX,888poker.com
   - DOMAIN-SUFFIX,89-64.org
   - DOMAIN-SUFFIX,8964museum.com
-  - DOMAIN-SUFFIX,8news.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,8news.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,8z1.net
   - DOMAIN-SUFFIX,9001700.com
   - DOMAIN-SUFFIX,908taiwan.org
-  - DOMAIN-SUFFIX,91porn.com
+# [已停用-冗余] DOMAIN-SUFFIX,91porn.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,91vps.club
   - DOMAIN-SUFFIX,92ccav.com
   - DOMAIN-SUFFIX,991.com
@@ -224,13 +224,13 @@ payload:
   - DOMAIN-SUFFIX,actfortibet.org
   - DOMAIN-SUFFIX,actimes.com.au
   - DOMAIN-SUFFIX,activpn.com
-  - DOMAIN-SUFFIX,aculo.us
+# [已停用-冗余] DOMAIN-SUFFIX,aculo.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,adcex.com
   - DOMAIN-SUFFIX,addictedtocoffee.de
   - DOMAIN-SUFFIX,addyoutube.com
   - DOMAIN-SUFFIX,adelaidebbs.com
   - DOMAIN-SUFFIX,admob.com
-  - DOMAIN-SUFFIX,adpl.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,adpl.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,ads-twitter.com
   - DOMAIN-SUFFIX,adsense.com
   - DOMAIN-SUFFIX,adult-sex-games.com
@@ -249,7 +249,7 @@ payload:
   - DOMAIN-SUFFIX,afreecatv.com
   - DOMAIN-SUFFIX,agnesb.fr
   - DOMAIN-SUFFIX,agoogleaday.com
-  - DOMAIN-SUFFIX,agro.hk
+# [已停用-冗余] DOMAIN-SUFFIX,agro.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,ai-kan.net
   - DOMAIN-SUFFIX,ai-wen.net
   - DOMAIN-SUFFIX,ai.google
@@ -259,7 +259,7 @@ payload:
   - DOMAIN-SUFFIX,aircrack-ng.org
   - DOMAIN-SUFFIX,airvpn.org
   - DOMAIN-SUFFIX,aisex.com
-  - DOMAIN-SUFFIX,ait.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,ait.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,aiweiwei.com
   - DOMAIN-SUFFIX,aiweiweiblog.com
   - DOMAIN-SUFFIX,ajsands.com
@@ -293,14 +293,14 @@ payload:
   - DOMAIN-SUFFIX,allgirlmassage.com
   - DOMAIN-SUFFIX,allgirlsallowed.org
   - DOMAIN-SUFFIX,allgravure.com
-  - DOMAIN-SUFFIX,alliance.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,alliance.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,allinfa.com
   - DOMAIN-SUFFIX,alljackpotscasino.com
   - DOMAIN-SUFFIX,allmovie.com
   - DOMAIN-SUFFIX,allowed.org
   - DOMAIN-SUFFIX,almasdarnews.com
   - DOMAIN-SUFFIX,almostmy.com
-  - DOMAIN-SUFFIX,alphaporno.com
+# [已停用-冗余] DOMAIN-SUFFIX,alphaporno.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,alternate-tools.com
   - DOMAIN-SUFFIX,alternativeto.net
   - DOMAIN-SUFFIX,altrec.com
@@ -308,7 +308,7 @@ payload:
   - DOMAIN-SUFFIX,alwaysdata.com
   - DOMAIN-SUFFIX,alwaysdata.net
   - DOMAIN-SUFFIX,alwaysvpn.com
-  - DOMAIN-SUFFIX,am730.com.hk
+# [已停用-冗余] DOMAIN-SUFFIX,am730.com.hk  ← 已被 HK_Domain 以同一分组命中
   - DOMAIN-SUFFIX,amazon.co.jp
   - DOMAIN-SUFFIX,amazon.com
   - DOMAIN-SUFFIX,ameblo.jp
@@ -319,10 +319,10 @@ payload:
   - DOMAIN-SUFFIX,americorps.gov
   - DOMAIN-SUFFIX,amiblockedornot.com
   - DOMAIN-SUFFIX,amigobbs.net
-  - DOMAIN-SUFFIX,amitabhafoundation.us
+# [已停用-冗余] DOMAIN-SUFFIX,amitabhafoundation.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,amnesty.org
-  - DOMAIN-SUFFIX,amnesty.org.hk
-  - DOMAIN-SUFFIX,amnesty.tw
+# [已停用-冗余] DOMAIN-SUFFIX,amnesty.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,amnesty.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,amnestyusa.org
   - DOMAIN-SUFFIX,amnyemachen.org
   - DOMAIN-SUFFIX,amoiist.com
@@ -359,15 +359,15 @@ payload:
   - DOMAIN-SUFFIX,anti1984.com
   - DOMAIN-SUFFIX,antichristendom.com
   - DOMAIN-SUFFIX,antiwave.net
-  - DOMAIN-SUFFIX,anws.gov.tw
-  - DOMAIN-SUFFIX,anyporn.com
+# [已停用-冗余] DOMAIN-SUFFIX,anws.gov.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,anyporn.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,anysex.com
   - DOMAIN-SUFFIX,ao3.org
   - DOMAIN-SUFFIX,aobo.com.au
   - DOMAIN-SUFFIX,aofriend.com
   - DOMAIN-SUFFIX,aofriend.com.au
   - DOMAIN-SUFFIX,aojiao.org
-  - DOMAIN-SUFFIX,aol.ca
+# [已停用-冗余] DOMAIN-SUFFIX,aol.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,aol.co.uk
   - DOMAIN-SUFFIX,aol.com
   - DOMAIN-SUFFIX,aolnews.com
@@ -391,9 +391,9 @@ payload:
   - DOMAIN-SUFFIX,aplusvpn.com
   - DOMAIN-SUFFIX,appbrain.com
   - DOMAIN-SUFFIX,appdownloader.net
-  - DOMAIN-SUFFIX,appledaily.com
-  - DOMAIN-SUFFIX,appledaily.com.hk
-  - DOMAIN-SUFFIX,appledaily.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,appledaily.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,appledaily.com.hk  ← 已被 HK_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,appledaily.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,appshopper.com
   - DOMAIN-SUFFIX,appsocks.net
   - DOMAIN-SUFFIX,appspot.com
@@ -409,7 +409,7 @@ payload:
   - DOMAIN-SUFFIX,archiveofourown.com
   - DOMAIN-SUFFIX,archiveofourown.org
   - DOMAIN-SUFFIX,archives.gov
-  - DOMAIN-SUFFIX,archives.gov.tw
+# [已停用-冗余] DOMAIN-SUFFIX,archives.gov.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,arctosia.com
   - DOMAIN-SUFFIX,areca-backup.org
   - DOMAIN-SUFFIX,arena.taipei
@@ -422,7 +422,7 @@ payload:
   - DOMAIN-SUFFIX,artstation.com
   - DOMAIN-SUFFIX,artsy.net
   - DOMAIN-SUFFIX,asacp.org
-  - DOMAIN-SUFFIX,asdfg.jp
+# [已停用-冗余] DOMAIN-SUFFIX,asdfg.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,asg.to
   - DOMAIN-SUFFIX,asia-gaming.com
   - DOMAIN-SUFFIX,asiaharvest.org
@@ -434,7 +434,7 @@ payload:
   - DOMAIN-SUFFIX,asianwomensfilm.de
   - DOMAIN-SUFFIX,asiaone.com
   - DOMAIN-SUFFIX,asiatgp.com
-  - DOMAIN-SUFFIX,asiatoday.us
+# [已停用-冗余] DOMAIN-SUFFIX,asiatoday.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,askstudent.com
   - DOMAIN-SUFFIX,askynz.net
   - DOMAIN-SUFFIX,aspi.org.au
@@ -453,7 +453,7 @@ payload:
   - DOMAIN-SUFFIX,audionow.com
   - DOMAIN-SUFFIX,authorizeddns.net
   - DOMAIN-SUFFIX,authorizeddns.org
-  - DOMAIN-SUFFIX,authorizeddns.us
+# [已停用-冗余] DOMAIN-SUFFIX,authorizeddns.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,autodraw.com
   - DOMAIN-SUFFIX,av-e-body.com
   - DOMAIN-SUFFIX,av.com
@@ -485,23 +485,23 @@ payload:
   - DOMAIN-SUFFIX,b0ne.com
   - DOMAIN-SUFFIX,baby-kingdom.com
   - DOMAIN-SUFFIX,babylonbee.com
-  - DOMAIN-SUFFIX,babynet.com.hk
+# [已停用-冗余] DOMAIN-SUFFIX,babynet.com.hk  ← 已被 HK_Domain 以同一分组命中
   - DOMAIN-SUFFIX,backchina.com
-  - DOMAIN-SUFFIX,backpackers.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,backpackers.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,backtotiananmen.com
   - DOMAIN-SUFFIX,bad.news
   - DOMAIN-SUFFIX,badiucao.com
   - DOMAIN-SUFFIX,badjojo.com
   - DOMAIN-SUFFIX,badoo.com
   - DOMAIN-SUFFIX,bahamut.com.tw
-  - DOMAIN-SUFFIX,baidu.jp
+# [已停用-冗余] DOMAIN-SUFFIX,baidu.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,baijie.org
   - DOMAIN-SUFFIX,bailandaily.com
   - DOMAIN-SUFFIX,baixing.me
   - DOMAIN-SUFFIX,baizhi.org
   - DOMAIN-SUFFIX,bakgeekhome.tk
   - DOMAIN-SUFFIX,banana-vpn.com
-  - DOMAIN-SUFFIX,band.us
+# [已停用-冗余] DOMAIN-SUFFIX,band.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,bandcamp.com
   - DOMAIN-SUFFIX,bandwagonhost.com
   - DOMAIN-SUFFIX,bangbrosnetwork.com
@@ -538,9 +538,9 @@ payload:
   - DOMAIN-SUFFIX,bbsone.com
   - DOMAIN-SUFFIX,bbtoystore.com
   - DOMAIN-SUFFIX,bcast.co.nz
-  - DOMAIN-SUFFIX,bcc.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,bcc.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,bcchinese.net
-  - DOMAIN-SUFFIX,bcex.ca
+# [已停用-冗余] DOMAIN-SUFFIX,bcex.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,bcmorning.com
   - DOMAIN-SUFFIX,bdsmvideos.net
   - DOMAIN-SUFFIX,beaconevents.com
@@ -562,7 +562,7 @@ payload:
   - DOMAIN-SUFFIX,berm.co.nz
   - DOMAIN-SUFFIX,bestforchina.org
   - DOMAIN-SUFFIX,bestgore.com
-  - DOMAIN-SUFFIX,bestpornstardb.com
+# [已停用-冗余] DOMAIN-SUFFIX,bestpornstardb.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,bestvpn.com
   - DOMAIN-SUFFIX,bestvpnanalysis.com
   - DOMAIN-SUFFIX,bestvpnserver.com
@@ -577,7 +577,7 @@ payload:
   - DOMAIN-SUFFIX,bewww.net
   - DOMAIN-SUFFIX,beyondfirewall.com
   - DOMAIN-SUFFIX,bfnn.org
-  - DOMAIN-SUFFIX,bfsh.hk
+# [已停用-冗余] DOMAIN-SUFFIX,bfsh.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,bgvpn.com
   - DOMAIN-SUFFIX,bianlei.com
   - DOMAIN-SUFFIX,biantailajiao.com
@@ -635,13 +635,13 @@ payload:
   - DOMAIN-SUFFIX,blockless.com
   - DOMAIN-SUFFIX,blog.de
   - DOMAIN-SUFFIX,blog.google
-  - DOMAIN-SUFFIX,blog.jp
+# [已停用-冗余] DOMAIN-SUFFIX,blog.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,blogblog.com
   - DOMAIN-SUFFIX,blogcatalog.com
   - DOMAIN-SUFFIX,blogcity.me
   - DOMAIN-SUFFIX,blogdns.org
   - DOMAIN-SUFFIX,blogger.com
-  - DOMAIN-SUFFIX,blogimg.jp
+# [已停用-冗余] DOMAIN-SUFFIX,blogimg.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,bloglines.com
   - DOMAIN-SUFFIX,bloglovin.com
   - DOMAIN-SUFFIX,blogs.com
@@ -662,7 +662,7 @@ payload:
   - DOMAIN-SUFFIX,bmfinn.com
   - DOMAIN-SUFFIX,bnbstatic.com
   - DOMAIN-SUFFIX,bnews.co
-  - DOMAIN-SUFFIX,bnext.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,bnext.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,bnn.co
   - DOMAIN-SUFFIX,bnrmetal.com
   - DOMAIN-SUFFIX,boardreader.com
@@ -674,10 +674,10 @@ payload:
   - DOMAIN-SUFFIX,bonfoundation.org
   - DOMAIN-SUFFIX,bongacams.com
   - DOMAIN-SUFFIX,boobstagram.com
-  - DOMAIN-SUFFIX,book.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,book.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,bookdepository.com
   - DOMAIN-SUFFIX,bookepub.com
-  - DOMAIN-SUFFIX,books.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,books.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,booktopia.com.au
   - DOMAIN-SUFFIX,boomssr.com
   - DOMAIN-SUFFIX,borgenmagazine.com
@@ -733,7 +733,7 @@ payload:
   - DOMAIN-SUFFIX,btspread.com
   - DOMAIN-SUFFIX,btsynckeys.com
   - DOMAIN-SUFFIX,budaedu.org
-  - DOMAIN-SUFFIX,buddhanet.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,buddhanet.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,buffered.com
   - DOMAIN-SUFFIX,bullguard.com
   - DOMAIN-SUFFIX,bullog.org
@@ -745,7 +745,7 @@ payload:
   - DOMAIN-SUFFIX,business.page
   - DOMAIN-SUFFIX,businessinsider.com
   - DOMAIN-SUFFIX,businessinsider.com.au
-  - DOMAIN-SUFFIX,businesstoday.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,businesstoday.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,businessweek.com
   - DOMAIN-SUFFIX,busu.org
   - DOMAIN-SUFFIX,busytrade.com
@@ -757,7 +757,7 @@ payload:
   - DOMAIN-SUFFIX,bwbx.io
   - DOMAIN-SUFFIX,bwgyhw.com
   - DOMAIN-SUFFIX,bwh1.net
-  - DOMAIN-SUFFIX,bwsj.hk
+# [已停用-冗余] DOMAIN-SUFFIX,bwsj.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,bx.in.th
   - DOMAIN-SUFFIX,bx.tl
   - DOMAIN-SUFFIX,bybit.com
@@ -775,34 +775,34 @@ payload:
   - DOMAIN-SUFFIX,cacnw.com
   - DOMAIN-SUFFIX,cactusvpn.com
   - DOMAIN-SUFFIX,cafepress.com
-  - DOMAIN-SUFFIX,cahr.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,cahr.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,caijinglengyan.com
   - DOMAIN-SUFFIX,calameo.com
   - DOMAIN-SUFFIX,calebelston.com
   - DOMAIN-SUFFIX,calendarz.com
-  - DOMAIN-SUFFIX,calgarychinese.ca
+# [已停用-冗余] DOMAIN-SUFFIX,calgarychinese.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,calgarychinese.com
   - DOMAIN-SUFFIX,calgarychinese.net
   - DOMAIN-SUFFIX,calibre-ebook.com
   - DOMAIN-SUFFIX,caltech.edu
   - DOMAIN-SUFFIX,cam4.com
-  - DOMAIN-SUFFIX,cam4.jp
-  - DOMAIN-SUFFIX,cam4.sg
+# [已停用-冗余] DOMAIN-SUFFIX,cam4.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,cam4.sg  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,camfrog.com
   - DOMAIN-SUFFIX,campaignforuyghurs.org
   - DOMAIN-SUFFIX,cams.com
-  - DOMAIN-SUFFIX,cams.org.sg
+# [已停用-冗余] DOMAIN-SUFFIX,cams.org.sg  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,canadameet.com
-  - DOMAIN-SUFFIX,canalporno.com
+# [已停用-冗余] DOMAIN-SUFFIX,canalporno.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cantonese.asia
   - DOMAIN-SUFFIX,canyu.org
   - DOMAIN-SUFFIX,cao.im
   - DOMAIN-SUFFIX,caobian.info
   - DOMAIN-SUFFIX,caochangqing.com
-  - DOMAIN-SUFFIX,cap.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,cap.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,carabinasypistolas.com
   - DOMAIN-SUFFIX,cardinalkungfoundation.org
-  - DOMAIN-SUFFIX,careerengine.us
+# [已停用-冗余] DOMAIN-SUFFIX,careerengine.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,carfax.com
   - DOMAIN-SUFFIX,cari.com.my
   - DOMAIN-SUFFIX,caribbeancom.com
@@ -819,43 +819,43 @@ payload:
   - DOMAIN-SUFFIX,catch22.net
   - DOMAIN-SUFFIX,catchgod.com
   - DOMAIN-SUFFIX,catfightpayperview.xxx
-  - DOMAIN-SUFFIX,catholic.org.hk
-  - DOMAIN-SUFFIX,catholic.org.tw
-  - DOMAIN-SUFFIX,cathvoice.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,catholic.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,catholic.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,cathvoice.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cato.org
   - DOMAIN-SUFFIX,cattt.com
-  - DOMAIN-SUFFIX,cbc.ca
+# [已停用-冗余] DOMAIN-SUFFIX,cbc.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cbsnews.com
-  - DOMAIN-SUFFIX,cbtc.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,cbtc.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cc.com
   - DOMAIN-SUFFIX,cccat.cc
   - DOMAIN-SUFFIX,cccat.co
   - DOMAIN-SUFFIX,ccdtr.org
   - DOMAIN-SUFFIX,cchere.com
   - DOMAIN-SUFFIX,ccim.org
-  - DOMAIN-SUFFIX,cclife.ca
+# [已停用-冗余] DOMAIN-SUFFIX,cclife.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cclife.org
   - DOMAIN-SUFFIX,cclifefl.org
   - DOMAIN-SUFFIX,ccthere.com
   - DOMAIN-SUFFIX,ccthere.net
   - DOMAIN-SUFFIX,cctmweb.net
   - DOMAIN-SUFFIX,cctongbao.com
-  - DOMAIN-SUFFIX,ccue.ca
+# [已停用-冗余] DOMAIN-SUFFIX,ccue.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,ccue.com
-  - DOMAIN-SUFFIX,ccvoice.ca
-  - DOMAIN-SUFFIX,ccw.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,ccvoice.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,ccw.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cdbook.org
   - DOMAIN-SUFFIX,cdcparty.com
   - DOMAIN-SUFFIX,cdef.org
   - DOMAIN-SUFFIX,cdig.info
   - DOMAIN-SUFFIX,cdjp.org
   - DOMAIN-SUFFIX,cdn-telegram.org
-  - DOMAIN-SUFFIX,cdnews.com.tw
-  - DOMAIN-SUFFIX,cdninstagram.com
+# [已停用-冗余] DOMAIN-SUFFIX,cdnews.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,cdninstagram.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cdp1989.org
   - DOMAIN-SUFFIX,cdp1998.org
   - DOMAIN-SUFFIX,cdp2006.org
-  - DOMAIN-SUFFIX,cdpa.url.tw
+# [已停用-冗余] DOMAIN-SUFFIX,cdpa.url.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cdpeu.org
   - DOMAIN-SUFFIX,cdpusa.org
   - DOMAIN-SUFFIX,cdpweb.org
@@ -863,13 +863,13 @@ payload:
   - DOMAIN-SUFFIX,cdw.com
   - DOMAIN-SUFFIX,cecc.gov
   - DOMAIN-SUFFIX,cellulo.info
-  - DOMAIN-SUFFIX,cenews.eu
+# [已停用-冗余] DOMAIN-SUFFIX,cenews.eu  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,centauro.com.br
   - DOMAIN-SUFFIX,centerforhumanreprod.com
   - DOMAIN-SUFFIX,centralnation.com
   - DOMAIN-SUFFIX,centurys.net
   - DOMAIN-SUFFIX,certificate-transparency.org
-  - DOMAIN-SUFFIX,cfhks.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,cfhks.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cfos.de
   - DOMAIN-SUFFIX,cfr.org
   - DOMAIN-SUFFIX,cftfc.com
@@ -905,14 +905,14 @@ payload:
   - DOMAIN-SUFFIX,china18.org
   - DOMAIN-SUFFIX,china21.com
   - DOMAIN-SUFFIX,china21.org
-  - DOMAIN-SUFFIX,china5000.us
+# [已停用-冗余] DOMAIN-SUFFIX,china5000.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,chinaaffairs.org
   - DOMAIN-SUFFIX,chinaaid.me
   - DOMAIN-SUFFIX,chinaaid.net
   - DOMAIN-SUFFIX,chinaaid.org
-  - DOMAIN-SUFFIX,chinaaid.us
+# [已停用-冗余] DOMAIN-SUFFIX,chinaaid.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,chinachange.org
-  - DOMAIN-SUFFIX,chinachannel.hk
+# [已停用-冗余] DOMAIN-SUFFIX,chinachannel.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,chinacitynews.be
   - DOMAIN-SUFFIX,chinacomments.org
   - DOMAIN-SUFFIX,chinadialogue.net
@@ -936,7 +936,7 @@ payload:
   - DOMAIN-SUFFIX,chinamule.com
   - DOMAIN-SUFFIX,chinamz.org
   - DOMAIN-SUFFIX,chinanewscenter.com
-  - DOMAIN-SUFFIX,chinapost.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,chinapost.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,chinapress.com.my
   - DOMAIN-SUFFIX,chinarightsia.org
   - DOMAIN-SUFFIX,chinasmile.net
@@ -950,7 +950,7 @@ payload:
   - DOMAIN-SUFFIX,chinaway.org
   - DOMAIN-SUFFIX,chinaworker.info
   - DOMAIN-SUFFIX,chinaxchina.com
-  - DOMAIN-SUFFIX,chinayouth.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,chinayouth.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,chinayuanmin.org
   - DOMAIN-SUFFIX,chinese-hermit.net
   - DOMAIN-SUFFIX,chinese-leaders.org
@@ -973,9 +973,9 @@ payload:
   - DOMAIN-SUFFIX,chrdnet.com
   - DOMAIN-SUFFIX,christianfreedom.org
   - DOMAIN-SUFFIX,christianstudy.com
-  - DOMAIN-SUFFIX,christiantimes.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,christiantimes.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,christusrex.org
-  - DOMAIN-SUFFIX,chrlawyers.hk
+# [已停用-冗余] DOMAIN-SUFFIX,chrlawyers.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,chrome.com
   - DOMAIN-SUFFIX,chromecast.com
   - DOMAIN-SUFFIX,chromeenterprise.google
@@ -986,7 +986,7 @@ payload:
   - DOMAIN-SUFFIX,chuang-yen.org
   - DOMAIN-SUFFIX,chubold.com
   - DOMAIN-SUFFIX,chubun.com
-  - DOMAIN-SUFFIX,churchinhongkong.org
+# [已停用-冗余] DOMAIN-SUFFIX,churchinhongkong.org  ← 已被 HK_Domain 以同一分组命中
   - DOMAIN-SUFFIX,chushigangdrug.ch
   - DOMAIN-SUFFIX,ciciai.com
   - DOMAIN-SUFFIX,cienen.com
@@ -995,29 +995,29 @@ payload:
   - DOMAIN-SUFFIX,circlethebayfortibet.org
   - DOMAIN-SUFFIX,cirosantilli.com
   - DOMAIN-SUFFIX,citizencn.com
-  - DOMAIN-SUFFIX,citizenlab.ca
+# [已停用-冗余] DOMAIN-SUFFIX,citizenlab.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,citizenlab.org
-  - DOMAIN-SUFFIX,citizenscommission.hk
+# [已停用-冗余] DOMAIN-SUFFIX,citizenscommission.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,citizensradio.org
-  - DOMAIN-SUFFIX,city365.ca
+# [已停用-冗余] DOMAIN-SUFFIX,city365.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,city9x.com
   - DOMAIN-SUFFIX,citypopulation.de
-  - DOMAIN-SUFFIX,citytalk.tw
-  - DOMAIN-SUFFIX,civicparty.hk
+# [已停用-冗余] DOMAIN-SUFFIX,citytalk.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,civicparty.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,civildisobediencemovement.org
   - DOMAIN-SUFFIX,civilhrfront.org
   - DOMAIN-SUFFIX,civiliangunner.com
-  - DOMAIN-SUFFIX,civilmedia.tw
+# [已停用-冗余] DOMAIN-SUFFIX,civilmedia.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,civisec.org
   - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,ck101.com
   - DOMAIN-SUFFIX,clarionproject.org
   - DOMAIN-SUFFIX,classicalguitarblog.net
   - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,clb.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,clb.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cleansite.biz
   - DOMAIN-SUFFIX,cleansite.info
-  - DOMAIN-SUFFIX,cleansite.us
+# [已停用-冗余] DOMAIN-SUFFIX,cleansite.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,clearharmony.net
   - DOMAIN-SUFFIX,clearsurance.com
   - DOMAIN-SUFFIX,clearwisdom.net
@@ -1032,7 +1032,7 @@ payload:
   - DOMAIN-SUFFIX,clyp.it
   - DOMAIN-SUFFIX,cmcn.org
   - DOMAIN-SUFFIX,cmegroup.com
-  - DOMAIN-SUFFIX,cmi.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,cmi.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cmoinc.org
   - DOMAIN-SUFFIX,cms.gov
   - DOMAIN-SUFFIX,cmu.edu
@@ -1040,8 +1040,8 @@ payload:
   - DOMAIN-SUFFIX,cmule.org
   - DOMAIN-SUFFIX,cmx.im
   - DOMAIN-SUFFIX,cn-proxy.com
-  - DOMAIN-SUFFIX,cn6.eu
-  - DOMAIN-SUFFIX,cna.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,cn6.eu  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,cna.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cnabc.com
   - DOMAIN-SUFFIX,cnd.org
   - DOMAIN-SUFFIX,cnet.com
@@ -1068,18 +1068,18 @@ payload:
   - DOMAIN-SUFFIX,coingecko.com
   - DOMAIN-SUFFIX,coingi.com
   - DOMAIN-SUFFIX,coinmarketcap.com
-  - DOMAIN-SUFFIX,coinrail.co.kr
+# [已停用-冗余] DOMAIN-SUFFIX,coinrail.co.kr  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cointiger.com
   - DOMAIN-SUFFIX,cointobe.com
   - DOMAIN-SUFFIX,coinut.com
   - DOMAIN-SUFFIX,collateralmurder.com
   - DOMAIN-SUFFIX,collateralmurder.org
   - DOMAIN-SUFFIX,com.google
-  - DOMAIN-SUFFIX,com.uk
+# [已停用-冗余] DOMAIN-SUFFIX,com.uk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,comedycentral.com
   - DOMAIN-SUFFIX,comefromchina.com
   - DOMAIN-SUFFIX,comic-mega.me
-  - DOMAIN-SUFFIX,comico.tw
+# [已停用-冗余] DOMAIN-SUFFIX,comico.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,commandarms.com
   - DOMAIN-SUFFIX,comments.app
   - DOMAIN-SUFFIX,commentshk.com
@@ -1089,7 +1089,7 @@ payload:
   - DOMAIN-SUFFIX,compileheart.com
   - DOMAIN-SUFFIX,compress.to
   - DOMAIN-SUFFIX,compython.net
-  - DOMAIN-SUFFIX,conoha.jp
+# [已停用-冗余] DOMAIN-SUFFIX,conoha.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,constitutionalism.solutions
   - DOMAIN-SUFFIX,contactmagazine.net
   - DOMAIN-SUFFIX,convio.net
@@ -1097,7 +1097,7 @@ payload:
   - DOMAIN-SUFFIX,cool18.com
   - DOMAIN-SUFFIX,coolaler.com
   - DOMAIN-SUFFIX,coolder.com
-  - DOMAIN-SUFFIX,coolloud.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,coolloud.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,coolncute.com
   - DOMAIN-SUFFIX,coolstuffinc.com
   - DOMAIN-SUFFIX,corumcollege.com
@@ -1109,7 +1109,7 @@ payload:
   - DOMAIN-SUFFIX,coursehero.com
   - DOMAIN-SUFFIX,coze.com
   - DOMAIN-SUFFIX,cpj.org
-  - DOMAIN-SUFFIX,cq99.us
+# [已停用-冗余] DOMAIN-SUFFIX,cq99.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,crackle.com
   - DOMAIN-SUFFIX,crazys.cc
   - DOMAIN-SUFFIX,crazyshit.com
@@ -1122,7 +1122,7 @@ payload:
   - DOMAIN-SUFFIX,crisisresponse.google
   - DOMAIN-SUFFIX,cristyli.com
   - DOMAIN-SUFFIX,crocotube.com
-  - DOMAIN-SUFFIX,crossfire.co.kr
+# [已停用-冗余] DOMAIN-SUFFIX,crossfire.co.kr  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,crossthewall.net
   - DOMAIN-SUFFIX,crossvpn.net
   - DOMAIN-SUFFIX,croxyproxy.com
@@ -1134,30 +1134,30 @@ payload:
   - DOMAIN-SUFFIX,csis.org
   - DOMAIN-SUFFIX,csmonitor.com
   - DOMAIN-SUFFIX,csuchen.de
-  - DOMAIN-SUFFIX,csw.org.uk
-  - DOMAIN-SUFFIX,ct.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,csw.org.uk  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,ct.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,ctao.org
   - DOMAIN-SUFFIX,ctfriend.net
-  - DOMAIN-SUFFIX,ctitv.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,ctitv.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,ctowc.org
-  - DOMAIN-SUFFIX,cts.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,cts.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,ctwant.com
-  - DOMAIN-SUFFIX,cuhk.edu.hk
+# [已停用-冗余] DOMAIN-SUFFIX,cuhk.edu.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cuhkacs.org
   - DOMAIN-SUFFIX,cuihua.org
   - DOMAIN-SUFFIX,cuiweiping.net
-  - DOMAIN-SUFFIX,culture.tw
+# [已停用-冗余] DOMAIN-SUFFIX,culture.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cumlouder.com
   - DOMAIN-SUFFIX,curvefish.com
-  - DOMAIN-SUFFIX,cusp.hk
-  - DOMAIN-SUFFIX,cusu.hk
+# [已停用-冗余] DOMAIN-SUFFIX,cusp.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,cusu.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cutscenes.net
-  - DOMAIN-SUFFIX,cw.com.tw
-  - DOMAIN-SUFFIX,cwb.gov.tw
+# [已停用-冗余] DOMAIN-SUFFIX,cw.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,cwb.gov.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cyberctm.com
   - DOMAIN-SUFFIX,cyberghostvpn.com
   - DOMAIN-SUFFIX,cynscribe.com
-  - DOMAIN-SUFFIX,cytode.us
+# [已停用-冗余] DOMAIN-SUFFIX,cytode.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,cz.cc
   - DOMAIN-SUFFIX,d-fukyu.com
   - DOMAIN-SUFFIX,d0z.net
@@ -1169,7 +1169,7 @@ payload:
   - DOMAIN-SUFFIX,d3c33hcgiwev3.cloudfront.net
   - DOMAIN-SUFFIX,d3rhr7kgmtrq1v.cloudfront.net
   - DOMAIN-SUFFIX,dabr.co.uk
-  - DOMAIN-SUFFIX,dabr.eu
+# [已停用-冗余] DOMAIN-SUFFIX,dabr.eu  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,dabr.me
   - DOMAIN-SUFFIX,dabr.mobi
   - DOMAIN-SUFFIX,dadazim.com
@@ -1178,18 +1178,18 @@ payload:
   - DOMAIN-SUFFIX,dafagood.com
   - DOMAIN-SUFFIX,dafahao.com
   - DOMAIN-SUFFIX,dafoh.org
-  - DOMAIN-SUFFIX,daftporn.com
+# [已停用-冗余] DOMAIN-SUFFIX,daftporn.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,dagelijksestandaard.nl
   - DOMAIN-SUFFIX,daidostup.ru
   - DOMAIN-SUFFIX,dailidaili.com
   - DOMAIN-SUFFIX,dailymail.co.uk
   - DOMAIN-SUFFIX,dailymotion.com
   - DOMAIN-SUFFIX,dailysabah.com
-  - DOMAIN-SUFFIX,dailyview.tw
+# [已停用-冗余] DOMAIN-SUFFIX,dailyview.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,daiphapinfo.net
   - DOMAIN-SUFFIX,dajiyuan.com
   - DOMAIN-SUFFIX,dajiyuan.de
-  - DOMAIN-SUFFIX,dajiyuan.eu
+# [已停用-冗余] DOMAIN-SUFFIX,dajiyuan.eu  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,dalailama-archives.org
   - DOMAIN-SUFFIX,dalailama.com
   - DOMAIN-SUFFIX,dalailama.mn
@@ -1217,7 +1217,7 @@ payload:
   - DOMAIN-SUFFIX,darrenliuwei.com
   - DOMAIN-SUFFIX,dastrassi.org
   - DOMAIN-SUFFIX,data-vocabulary.org
-  - DOMAIN-SUFFIX,data.gov.tw
+# [已停用-冗余] DOMAIN-SUFFIX,data.gov.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,daum.net
   - DOMAIN-SUFFIX,david-kilgour.com
   - DOMAIN-SUFFIX,dawangidc.com
@@ -1225,19 +1225,19 @@ payload:
   - DOMAIN-SUFFIX,dayabook.com
   - DOMAIN-SUFFIX,daylife.com
   - DOMAIN-SUFFIX,db.tt
-  - DOMAIN-SUFFIX,dbc.hk
+# [已停用-冗余] DOMAIN-SUFFIX,dbc.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,dbgjd.com
-  - DOMAIN-SUFFIX,dcard.tw
+# [已停用-冗余] DOMAIN-SUFFIX,dcard.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,dcmilitary.com
-  - DOMAIN-SUFFIX,ddc.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,ddc.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,ddhw.info
   - DOMAIN-SUFFIX,ddns.info
-  - DOMAIN-SUFFIX,ddns.me.uk
+# [已停用-冗余] DOMAIN-SUFFIX,ddns.me.uk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,ddns.mobi
   - DOMAIN-SUFFIX,ddns.ms
   - DOMAIN-SUFFIX,ddns.name
   - DOMAIN-SUFFIX,ddns.net
-  - DOMAIN-SUFFIX,ddns.us
+# [已停用-冗余] DOMAIN-SUFFIX,ddns.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,de-sci.org
   - DOMAIN-SUFFIX,deadline.com
   - DOMAIN-SUFFIX,deaftone.com
@@ -1251,18 +1251,18 @@ payload:
   - DOMAIN-SUFFIX,delcamp.net
   - DOMAIN-SUFFIX,delicious.com
   - DOMAIN-SUFFIX,democrats.org
-  - DOMAIN-SUFFIX,demosisto.hk
+# [已停用-冗余] DOMAIN-SUFFIX,demosisto.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,depositphotos.com
   - DOMAIN-SUFFIX,derekhsu.homeip.net
   - DOMAIN-SUFFIX,desc.se
   - DOMAIN-SUFFIX,design.google
   - DOMAIN-SUFFIX,desipro.de
   - DOMAIN-SUFFIX,dessci.com
-  - DOMAIN-SUFFIX,destroy-china.jp
+# [已停用-冗余] DOMAIN-SUFFIX,destroy-china.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,deutsche-welle.de
   - DOMAIN-SUFFIX,deviantart.com
   - DOMAIN-SUFFIX,deviantart.net
-  - DOMAIN-SUFFIX,devio.us
+# [已停用-冗余] DOMAIN-SUFFIX,devio.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,devpn.com
   - DOMAIN-SUFFIX,devv.ai
   - DOMAIN-SUFFIX,dfas.mil
@@ -1272,12 +1272,12 @@ payload:
   - DOMAIN-SUFFIX,dhcp.biz
   - DOMAIN-SUFFIX,diaoyuislands.org
   - DOMAIN-SUFFIX,difangwenge.org
-  - DOMAIN-SUFFIX,digiland.tw
+# [已停用-冗余] DOMAIN-SUFFIX,digiland.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,digisfera.com
   - DOMAIN-SUFFIX,digitalnomadsproject.org
   - DOMAIN-SUFFIX,diigo.com
   - DOMAIN-SUFFIX,dilber.se
-  - DOMAIN-SUFFIX,dingchin.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,dingchin.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,dipity.com
   - DOMAIN-SUFFIX,directcreative.com
   - DOMAIN-SUFFIX,discoins.com
@@ -1286,25 +1286,25 @@ payload:
   - DOMAIN-SUFFIX,discord.gg
   - DOMAIN-SUFFIX,discordapp.com
   - DOMAIN-SUFFIX,discordapp.net
-  - DOMAIN-SUFFIX,discuss.com.hk
+# [已停用-冗余] DOMAIN-SUFFIX,discuss.com.hk  ← 已被 HK_Domain 以同一分组命中
   - DOMAIN-SUFFIX,discuss4u.com
   - DOMAIN-SUFFIX,dish.com
   - DOMAIN-SUFFIX,disp.cc
   - DOMAIN-SUFFIX,disqus.com
-  - DOMAIN-SUFFIX,dit-inc.us
+# [已停用-冗余] DOMAIN-SUFFIX,dit-inc.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,dizhidizhi.com
   - DOMAIN-SUFFIX,dizhuzhishang.com
   - DOMAIN-SUFFIX,djangosnippets.org
   - DOMAIN-SUFFIX,djorz.com
-  - DOMAIN-SUFFIX,dl-laby.jp
+# [已停用-冗余] DOMAIN-SUFFIX,dl-laby.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,dlive.tv
   - DOMAIN-SUFFIX,dlsite.com
-  - DOMAIN-SUFFIX,dlsite.jp
+# [已停用-冗余] DOMAIN-SUFFIX,dlsite.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,dlyoutube.com
   - DOMAIN-SUFFIX,dm530.net
   - DOMAIN-SUFFIX,dmc.nico
   - DOMAIN-SUFFIX,dmcdn.net
-  - DOMAIN-SUFFIX,dmhy.org
+# [已停用-冗余] DOMAIN-SUFFIX,dmhy.org  ← 已被 Custom_Proxy_Domain 以同一分组命中
   - DOMAIN-SUFFIX,dmm.co.jp
   - DOMAIN-SUFFIX,dmm.com
   - DOMAIN-SUFFIX,dns-dns.com
@@ -1312,32 +1312,32 @@ payload:
   - DOMAIN-SUFFIX,dns.google
   - DOMAIN-SUFFIX,dns04.com
   - DOMAIN-SUFFIX,dns05.com
-  - DOMAIN-SUFFIX,dns1.us
-  - DOMAIN-SUFFIX,dns2.us
+# [已停用-冗余] DOMAIN-SUFFIX,dns1.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,dns2.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,dns2go.com
   - DOMAIN-SUFFIX,dnscrypt.org
   - DOMAIN-SUFFIX,dnset.com
   - DOMAIN-SUFFIX,dnsrd.com
   - DOMAIN-SUFFIX,dnssec.net
   - DOMAIN-SUFFIX,dnvod.tv
-  - DOMAIN-SUFFIX,docker.com
+# [已停用-冗余] DOMAIN-SUFFIX,docker.com  ← 已被 User_Domain 以同一分组命中
   - DOMAIN-SUFFIX,doctorvoice.org
   - DOMAIN-SUFFIX,documentingreality.com
   - DOMAIN-SUFFIX,dogfartnetwork.com
   - DOMAIN-SUFFIX,dojin.com
   - DOMAIN-SUFFIX,dok-forum.net
   - DOMAIN-SUFFIX,dolc.de
-  - DOMAIN-SUFFIX,dolf.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,dolf.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,dollf.com
-  - DOMAIN-SUFFIX,domain.club.tw
+# [已停用-冗余] DOMAIN-SUFFIX,domain.club.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,domains.google
   - DOMAIN-SUFFIX,domaintoday.com.au
   - DOMAIN-SUFFIX,donga.com
   - DOMAIN-SUFFIX,dongtaiwang.com
   - DOMAIN-SUFFIX,dongtaiwang.net
   - DOMAIN-SUFFIX,dongyangjing.com
-  - DOMAIN-SUFFIX,donmai.us
-  - DOMAIN-SUFFIX,dontfilter.us
+# [已停用-冗余] DOMAIN-SUFFIX,donmai.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,dontfilter.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,dontmovetochina.com
   - DOMAIN-SUFFIX,dorjeshugden.com
   - DOMAIN-SUFFIX,dotplane.com
@@ -1353,7 +1353,7 @@ payload:
   - DOMAIN-SUFFIX,dowei.org
   - DOMAIN-SUFFIX,dowjones.com
   - DOMAIN-SUFFIX,dphk.org
-  - DOMAIN-SUFFIX,dpp.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,dpp.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,dpr.info
   - DOMAIN-SUFFIX,dragonex.io
   - DOMAIN-SUFFIX,dragonsprings.org
@@ -1362,9 +1362,9 @@ payload:
   - DOMAIN-SUFFIX,drgan.net
   - DOMAIN-SUFFIX,drmingxia.org
   - DOMAIN-SUFFIX,dropbooks.tv
-  - DOMAIN-SUFFIX,dropbox.com
-  - DOMAIN-SUFFIX,dropboxapi.com
-  - DOMAIN-SUFFIX,dropboxusercontent.com
+# [已停用-冗余] DOMAIN-SUFFIX,dropbox.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,dropboxapi.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,dropboxusercontent.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,drsunacademy.com
   - DOMAIN-SUFFIX,drtuber.com
   - DOMAIN-SUFFIX,dscn.info
@@ -1380,7 +1380,7 @@ payload:
   - DOMAIN-SUFFIX,duckduckgo.com
   - DOMAIN-SUFFIX,duckload.com
   - DOMAIN-SUFFIX,duckmylife.com
-  - DOMAIN-SUFFIX,duga.jp
+# [已停用-冗余] DOMAIN-SUFFIX,duga.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,duihua.org
   - DOMAIN-SUFFIX,duihuahrjournal.org
   - DOMAIN-SUFFIX,dumb1.com
@@ -1390,7 +1390,7 @@ payload:
   - DOMAIN-SUFFIX,duplicati.com
   - DOMAIN-SUFFIX,dupola.com
   - DOMAIN-SUFFIX,dupola.net
-  - DOMAIN-SUFFIX,dushi.ca
+# [已停用-冗余] DOMAIN-SUFFIX,dushi.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,duyaoss.com
   - DOMAIN-SUFFIX,dvdpac.com
   - DOMAIN-SUFFIX,dvorak.org
@@ -1405,8 +1405,8 @@ payload:
   - DOMAIN-SUFFIX,dynamic-dns.net
   - DOMAIN-SUFFIX,dynamicdns.biz
   - DOMAIN-SUFFIX,dynamicdns.co.uk
-  - DOMAIN-SUFFIX,dynamicdns.me.uk
-  - DOMAIN-SUFFIX,dynamicdns.org.uk
+# [已停用-冗余] DOMAIN-SUFFIX,dynamicdns.me.uk  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,dynamicdns.org.uk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,dynawebinc.com
   - DOMAIN-SUFFIX,dyndns-ip.com
   - DOMAIN-SUFFIX,dyndns-pics.com
@@ -1417,14 +1417,14 @@ payload:
   - DOMAIN-SUFFIX,dynu.net
   - DOMAIN-SUFFIX,dysfz.cc
   - DOMAIN-SUFFIX,dzze.com
-  - DOMAIN-SUFFIX,e-classical.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,e-classical.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,e-gold.com
   - DOMAIN-SUFFIX,e-hentai.org
   - DOMAIN-SUFFIX,e-hentaidb.com
-  - DOMAIN-SUFFIX,e-info.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,e-info.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,e-traderland.net
-  - DOMAIN-SUFFIX,e-zone.com.hk
-  - DOMAIN-SUFFIX,e123.hk
+# [已停用-冗余] DOMAIN-SUFFIX,e-zone.com.hk  ← 已被 HK_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,e123.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,earlytibet.com
   - DOMAIN-SUFFIX,earthcam.com
   - DOMAIN-SUFFIX,earthvpn.com
@@ -1434,18 +1434,18 @@ payload:
   - DOMAIN-SUFFIX,eastturkistan-gov.org
   - DOMAIN-SUFFIX,eastturkistan.net
   - DOMAIN-SUFFIX,eastturkistancc.org
-  - DOMAIN-SUFFIX,eastturkistangovernmentinexile.us
-  - DOMAIN-SUFFIX,easyca.ca
+# [已停用-冗余] DOMAIN-SUFFIX,eastturkistangovernmentinexile.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,easyca.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,easypic.com
-  - DOMAIN-SUFFIX,ebc.net.tw
+# [已停用-冗余] DOMAIN-SUFFIX,ebc.net.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,ebony-beauty.com
   - DOMAIN-SUFFIX,ebookbrowse.com
   - DOMAIN-SUFFIX,ebookee.com
   - DOMAIN-SUFFIX,ebtcbank.com
-  - DOMAIN-SUFFIX,ecfa.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,ecfa.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,echainhost.com
   - DOMAIN-SUFFIX,echofon.com
-  - DOMAIN-SUFFIX,ecimg.tw
+# [已停用-冗余] DOMAIN-SUFFIX,ecimg.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,ecministry.net
   - DOMAIN-SUFFIX,economist.com
   - DOMAIN-SUFFIX,ecstart.com
@@ -1460,7 +1460,7 @@ payload:
   - DOMAIN-SUFFIX,edupro.org
   - DOMAIN-SUFFIX,eesti.ee
   - DOMAIN-SUFFIX,eevpn.com
-  - DOMAIN-SUFFIX,efcc.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,efcc.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,effers.com
   - DOMAIN-SUFFIX,efksoft.com
   - DOMAIN-SUFFIX,efukt.com
@@ -1475,7 +1475,7 @@ payload:
   - DOMAIN-SUFFIX,eltondisney.com
   - DOMAIN-SUFFIX,emaga.com
   - DOMAIN-SUFFIX,emanna.com
-  - DOMAIN-SUFFIX,emilylau.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,emilylau.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,emory.edu
   - DOMAIN-SUFFIX,empfil.com
   - DOMAIN-SUFFIX,emule-ed2k.com
@@ -1491,33 +1491,33 @@ payload:
   - DOMAIN-SUFFIX,englishforeveryone.org
   - DOMAIN-SUFFIX,englishfromengland.co.uk
   - DOMAIN-SUFFIX,englishpen.org
-  - DOMAIN-SUFFIX,enlighten.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,enlighten.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,entermap.com
   - DOMAIN-SUFFIX,environment.google
-  - DOMAIN-SUFFIX,epa.gov.tw
+# [已停用-冗余] DOMAIN-SUFFIX,epa.gov.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,epac.to
   - DOMAIN-SUFFIX,episcopalchurch.org
   - DOMAIN-SUFFIX,epochhk.com
   - DOMAIN-SUFFIX,epochtimes-bg.com
   - DOMAIN-SUFFIX,epochtimes-romania.com
   - DOMAIN-SUFFIX,epochtimes.co.il
-  - DOMAIN-SUFFIX,epochtimes.co.kr
+# [已停用-冗余] DOMAIN-SUFFIX,epochtimes.co.kr  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,epochtimes.com
   - DOMAIN-SUFFIX,epochtimes.cz
   - DOMAIN-SUFFIX,epochtimes.de
   - DOMAIN-SUFFIX,epochtimes.fr
   - DOMAIN-SUFFIX,epochtimes.ie
   - DOMAIN-SUFFIX,epochtimes.it
-  - DOMAIN-SUFFIX,epochtimes.jp
+# [已停用-冗余] DOMAIN-SUFFIX,epochtimes.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,epochtimes.ru
   - DOMAIN-SUFFIX,epochtimes.se
   - DOMAIN-SUFFIX,epochtimestr.com
   - DOMAIN-SUFFIX,epochweek.com
   - DOMAIN-SUFFIX,epochweekly.com
-  - DOMAIN-SUFFIX,eporner.com
+# [已停用-冗余] DOMAIN-SUFFIX,eporner.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,equinenow.com
   - DOMAIN-SUFFIX,erabaru.net
-  - DOMAIN-SUFFIX,eracom.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,eracom.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,eraysoft.com.tr
   - DOMAIN-SUFFIX,erepublik.com
   - DOMAIN-SUFFIX,erights.net
@@ -1549,18 +1549,18 @@ payload:
   - DOMAIN-SUFFIX,etowns.org
   - DOMAIN-SUFFIX,etsy.com
   - DOMAIN-SUFFIX,ettoday.net
-  - DOMAIN-SUFFIX,etvonline.hk
+# [已停用-冗余] DOMAIN-SUFFIX,etvonline.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,eu.org
   - DOMAIN-SUFFIX,eucasino.com
   - DOMAIN-SUFFIX,eulam.com
   - DOMAIN-SUFFIX,eurekavpt.com
   - DOMAIN-SUFFIX,euronews.com
-  - DOMAIN-SUFFIX,europa.eu
+# [已停用-冗余] DOMAIN-SUFFIX,europa.eu  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,evozi.com
   - DOMAIN-SUFFIX,evschool.net
   - DOMAIN-SUFFIX,exblog.co.jp
-  - DOMAIN-SUFFIX,exblog.jp
-  - DOMAIN-SUFFIX,exchristian.hk
+# [已停用-冗余] DOMAIN-SUFFIX,exblog.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,exchristian.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,excite.co.jp
   - DOMAIN-SUFFIX,exhentai.org
   - DOMAIN-SUFFIX,exmo.com
@@ -1576,30 +1576,30 @@ payload:
   - DOMAIN-SUFFIX,extmatrix.com
   - DOMAIN-SUFFIX,extremetube.com
   - DOMAIN-SUFFIX,exx.com
-  - DOMAIN-SUFFIX,eyevio.jp
+# [已停用-冗余] DOMAIN-SUFFIX,eyevio.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,eyny.com
   - DOMAIN-SUFFIX,ezpc.tk
   - DOMAIN-SUFFIX,ezpeer.com
   - DOMAIN-SUFFIX,ezua.com
   - DOMAIN-SUFFIX,f2pool.com
   - DOMAIN-SUFFIX,f8.com
-  - DOMAIN-SUFFIX,fa.gov.tw
-  - DOMAIN-SUFFIX,facebook.br
-  - DOMAIN-SUFFIX,facebook.com
-  - DOMAIN-SUFFIX,facebook.de
-  - DOMAIN-SUFFIX,facebook.design
-  - DOMAIN-SUFFIX,facebook.hu
-  - DOMAIN-SUFFIX,facebook.in
-  - DOMAIN-SUFFIX,facebook.net
-  - DOMAIN-SUFFIX,facebook.nl
-  - DOMAIN-SUFFIX,facebook.se
-  - DOMAIN-SUFFIX,facebookmail.com
-  - DOMAIN-SUFFIX,facebookquotes4u.com
+# [已停用-冗余] DOMAIN-SUFFIX,fa.gov.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,facebook.br  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,facebook.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,facebook.de  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,facebook.design  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,facebook.hu  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,facebook.in  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,facebook.net  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,facebook.nl  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,facebook.se  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,facebookmail.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,facebookquotes4u.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,faceless.me
   - DOMAIN-SUFFIX,facesofnyfw.com
   - DOMAIN-SUFFIX,facesoftibetanselfimmolators.info
   - DOMAIN-SUFFIX,factpedia.org
-  - DOMAIN-SUFFIX,fail.hk
+# [已停用-冗余] DOMAIN-SUFFIX,fail.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,faith100.org
   - DOMAIN-SUFFIX,faithfuleye.com
   - DOMAIN-SUFFIX,faiththedog.info
@@ -1622,7 +1622,7 @@ payload:
   - DOMAIN-SUFFIX,falundafamuseum.org
   - DOMAIN-SUFFIX,falungong.club
   - DOMAIN-SUFFIX,falungong.de
-  - DOMAIN-SUFFIX,falungong.org.uk
+# [已停用-冗余] DOMAIN-SUFFIX,falungong.org.uk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,falunhr.org
   - DOMAIN-SUFFIX,faluninfo.de
   - DOMAIN-SUFFIX,faluninfo.net
@@ -1648,7 +1648,7 @@ payload:
   - DOMAIN-SUFFIX,fanqiangyakexi.net
   - DOMAIN-SUFFIX,fanqiangzhe.com
   - DOMAIN-SUFFIX,fanswong.com
-  - DOMAIN-SUFFIX,fantv.hk
+# [已停用-冗余] DOMAIN-SUFFIX,fantv.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,fanyue.info
   - DOMAIN-SUFFIX,fapdu.com
   - DOMAIN-SUFFIX,faproxy.com
@@ -1669,7 +1669,7 @@ payload:
   - DOMAIN-SUFFIX,fb.me
   - DOMAIN-SUFFIX,fb.watch
   - DOMAIN-SUFFIX,fbaddins.com
-  - DOMAIN-SUFFIX,fbcdn.net
+# [已停用-冗余] DOMAIN-SUFFIX,fbcdn.net  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,fbsbx.com
   - DOMAIN-SUFFIX,fbworkmail.com
   - DOMAIN-SUFFIX,fc2.com
@@ -1677,11 +1677,11 @@ payload:
   - DOMAIN-SUFFIX,fc2china.com
   - DOMAIN-SUFFIX,fc2cn.com
   - DOMAIN-SUFFIX,fc2web.com
-  - DOMAIN-SUFFIX,fda.gov.tw
+# [已停用-冗余] DOMAIN-SUFFIX,fda.gov.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,fdbox.com
   - DOMAIN-SUFFIX,fdc64.de
   - DOMAIN-SUFFIX,fdc64.org
-  - DOMAIN-SUFFIX,fdc89.jp
+# [已停用-冗余] DOMAIN-SUFFIX,fdc89.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,feedburner.com
   - DOMAIN-SUFFIX,feeder.co
   - DOMAIN-SUFFIX,feedly.com
@@ -1732,7 +1732,7 @@ payload:
   - DOMAIN-SUFFIX,flecheinthepeche.fr
   - DOMAIN-SUFFIX,fleshbot.com
   - DOMAIN-SUFFIX,fleursdeslettres.com
-  - DOMAIN-SUFFIX,flgg.us
+# [已停用-冗余] DOMAIN-SUFFIX,flgg.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,flgjustice.org
   - DOMAIN-SUFFIX,flickr.com
   - DOMAIN-SUFFIX,flickrhivemind.net
@@ -1742,7 +1742,7 @@ payload:
   - DOMAIN-SUFFIX,flipkart.com
   - DOMAIN-SUFFIX,flitto.com
   - DOMAIN-SUFFIX,flnet.org
-  - DOMAIN-SUFFIX,flog.tw
+# [已停用-冗余] DOMAIN-SUFFIX,flog.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,flurry.com
   - DOMAIN-SUFFIX,flyvpn.com
   - DOMAIN-SUFFIX,flyzy2005.com
@@ -1750,7 +1750,7 @@ payload:
   - DOMAIN-SUFFIX,fnac.be
   - DOMAIN-SUFFIX,fnac.com
   - DOMAIN-SUFFIX,fochk.org
-  - DOMAIN-SUFFIX,focustaiwan.tw
+# [已停用-冗余] DOMAIN-SUFFIX,focustaiwan.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,focusvpn.com
   - DOMAIN-SUFFIX,fofg-europe.net
   - DOMAIN-SUFFIX,fofg.org
@@ -1764,13 +1764,13 @@ payload:
   - DOMAIN-SUFFIX,fotile.me
   - DOMAIN-SUFFIX,fourthinternational.org
   - DOMAIN-SUFFIX,foxbusiness.com
-  - DOMAIN-SUFFIX,foxdie.us
+# [已停用-冗余] DOMAIN-SUFFIX,foxdie.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,foxgay.com
   - DOMAIN-SUFFIX,foxsub.com
   - DOMAIN-SUFFIX,foxtang.com
   - DOMAIN-SUFFIX,fpmt-osel.org
   - DOMAIN-SUFFIX,fpmt.org
-  - DOMAIN-SUFFIX,fpmt.tw
+# [已停用-冗余] DOMAIN-SUFFIX,fpmt.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,fpmtmexico.org
   - DOMAIN-SUFFIX,fqok.org
   - DOMAIN-SUFFIX,fqrouter.com
@@ -1802,7 +1802,7 @@ payload:
   - DOMAIN-SUFFIX,freefq.com
   - DOMAIN-SUFFIX,freefuckvids.com
   - DOMAIN-SUFFIX,freegao.com
-  - DOMAIN-SUFFIX,freehongkong.org
+# [已停用-冗余] DOMAIN-SUFFIX,freehongkong.org  ← 已被 HK_Domain 以同一分组命中
   - DOMAIN-SUFFIX,freeilhamtohti.org
   - DOMAIN-SUFFIX,freekazakhs.org
   - DOMAIN-SUFFIX,freekwonpyong.org
@@ -1818,7 +1818,7 @@ payload:
   - DOMAIN-SUFFIX,freeopenvpn.com
   - DOMAIN-SUFFIX,freeoz.org
   - DOMAIN-SUFFIX,freerk.com
-  - DOMAIN-SUFFIX,freessh.us
+# [已停用-冗余] DOMAIN-SUFFIX,freessh.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,freetcp.com
   - DOMAIN-SUFFIX,freetibet.net
   - DOMAIN-SUFFIX,freetibet.org
@@ -1829,7 +1829,7 @@ payload:
   - DOMAIN-SUFFIX,freevpn.nl
   - DOMAIN-SUFFIX,freewallpaper4.me
   - DOMAIN-SUFFIX,freewebs.com
-  - DOMAIN-SUFFIX,freewechat.com
+# [已停用-冗余] DOMAIN-SUFFIX,freewechat.com  ← 已被 HK_Domain 以同一分组命中
   - DOMAIN-SUFFIX,freeweibo.com
   - DOMAIN-SUFFIX,freewww.biz
   - DOMAIN-SUFFIX,freewww.info
@@ -1855,8 +1855,8 @@ payload:
   - DOMAIN-SUFFIX,ftchinese.com
   - DOMAIN-SUFFIX,ftp1.biz
   - DOMAIN-SUFFIX,ftpserver.biz
-  - DOMAIN-SUFFIX,ftv.com.tw
-  - DOMAIN-SUFFIX,ftvnews.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,ftv.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,ftvnews.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,ftx.com
   - DOMAIN-SUFFIX,fucd.com
   - DOMAIN-SUFFIX,fuckcnnic.net
@@ -1865,7 +1865,7 @@ payload:
   - DOMAIN-SUFFIX,fulione.com
   - DOMAIN-SUFFIX,fullerconsideration.com
   - DOMAIN-SUFFIX,fulue.com
-  - DOMAIN-SUFFIX,funf.tw
+# [已停用-冗余] DOMAIN-SUFFIX,funf.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,funkyimg.com
   - DOMAIN-SUFFIX,funp.com
   - DOMAIN-SUFFIX,fuq.com
@@ -1878,7 +1878,7 @@ payload:
   - DOMAIN-SUFFIX,fux.com
   - DOMAIN-SUFFIX,fuyin.net
   - DOMAIN-SUFFIX,fuyindiantai.org
-  - DOMAIN-SUFFIX,fuyu.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,fuyu.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,fw.cm
   - DOMAIN-SUFFIX,fxcm-chinese.com
   - DOMAIN-SUFFIX,fxnetworks.com
@@ -1899,11 +1899,11 @@ payload:
   - DOMAIN-SUFFIX,galenwu.com
   - DOMAIN-SUFFIX,galstars.net
   - DOMAIN-SUFFIX,game735.com
-  - DOMAIN-SUFFIX,gamebase.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,gamebase.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,gamejolt.com
   - DOMAIN-SUFFIX,gamer.com.tw
-  - DOMAIN-SUFFIX,gamerp.jp
-  - DOMAIN-SUFFIX,gamez.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,gamerp.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,gamez.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,gamousa.com
   - DOMAIN-SUFFIX,ganges.com
   - DOMAIN-SUFFIX,ganjing.com
@@ -1920,7 +1920,7 @@ payload:
   - DOMAIN-SUFFIX,gatecoin.com
   - DOMAIN-SUFFIX,gather.com
   - DOMAIN-SUFFIX,gatherproxy.com
-  - DOMAIN-SUFFIX,gati.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,gati.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,gaybubble.com
   - DOMAIN-SUFFIX,gaycn.net
   - DOMAIN-SUFFIX,gayhub.com
@@ -1929,7 +1929,7 @@ payload:
   - DOMAIN-SUFFIX,gaytube.com
   - DOMAIN-SUFFIX,gaywatch.com
   - DOMAIN-SUFFIX,gazotube.com
-  - DOMAIN-SUFFIX,gcc.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,gcc.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,gclooney.com
   - DOMAIN-SUFFIX,gclubs.com
   - DOMAIN-SUFFIX,gcmasia.com
@@ -1946,7 +1946,7 @@ payload:
   - DOMAIN-SUFFIX,genius.com
   - DOMAIN-SUFFIX,geocities.co.jp
   - DOMAIN-SUFFIX,geocities.com
-  - DOMAIN-SUFFIX,geocities.jp
+# [已停用-冗余] DOMAIN-SUFFIX,geocities.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,geph.io
   - DOMAIN-SUFFIX,gerefoundation.org
   - DOMAIN-SUFFIX,get.app
@@ -1973,7 +1973,7 @@ payload:
   - DOMAIN-SUFFIX,gettyimages.com
   - DOMAIN-SUFFIX,getuploader.com
   - DOMAIN-SUFFIX,gfbv.de
-  - DOMAIN-SUFFIX,gfgold.com.hk
+# [已停用-冗余] DOMAIN-SUFFIX,gfgold.com.hk  ← 已被 HK_Domain 以同一分组命中
   - DOMAIN-SUFFIX,gfsale.com
   - DOMAIN-SUFFIX,gfw.org.ua
   - DOMAIN-SUFFIX,gfw.press
@@ -1985,10 +1985,10 @@ payload:
   - DOMAIN-SUFFIX,ghut.org
   - DOMAIN-SUFFIX,giantessnight.com
   - DOMAIN-SUFFIX,gifree.com
-  - DOMAIN-SUFFIX,giga-web.jp
+# [已停用-冗余] DOMAIN-SUFFIX,giga-web.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,gigacircle.com
   - DOMAIN-SUFFIX,giganews.com
-  - DOMAIN-SUFFIX,gigporno.ru
+# [已停用-冗余] DOMAIN-SUFFIX,gigporno.ru  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,girlbanker.com
   - DOMAIN-SUFFIX,git.io
   - DOMAIN-SUFFIX,gitbooks.io
@@ -2000,7 +2000,7 @@ payload:
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,gizlen.net
   - DOMAIN-SUFFIX,gjczz.com
-  - DOMAIN-SUFFIX,glass8.eu
+# [已停用-冗余] DOMAIN-SUFFIX,glass8.eu  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,globaljihad.net
   - DOMAIN-SUFFIX,globalmediaoutreach.com
   - DOMAIN-SUFFIX,globalmuseumoncommunism.org
@@ -2022,7 +2022,7 @@ payload:
   - DOMAIN-SUFFIX,gmll.org
   - DOMAIN-SUFFIX,gmodules.com
   - DOMAIN-SUFFIX,gmx.net
-  - DOMAIN-SUFFIX,gnci.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,gnci.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,gnews.org
   - DOMAIN-SUFFIX,go-pki.com
   - DOMAIN-SUFFIX,go141.com
@@ -2035,11 +2035,11 @@ payload:
   - DOMAIN-SUFFIX,godoc.org
   - DOMAIN-SUFFIX,godsdirectcontact.co.uk
   - DOMAIN-SUFFIX,godsdirectcontact.org
-  - DOMAIN-SUFFIX,godsdirectcontact.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,godsdirectcontact.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,godsimmediatecontact.com
   - DOMAIN-SUFFIX,gofundme.com
   - DOMAIN-SUFFIX,gogotunnel.com
-  - DOMAIN-SUFFIX,gohappy.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,gohappy.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,gokbayrak.com
   - DOMAIN-SUFFIX,golang.org
   - DOMAIN-SUFFIX,goldbet.com
@@ -2056,13 +2056,13 @@ payload:
   - DOMAIN-SUFFIX,gongwt.com
   - DOMAIN-SUFFIX,goo.gl
   - DOMAIN-SUFFIX,goo.gle
-  - DOMAIN-SUFFIX,goo.ne.jp
+# [已停用-冗余] DOMAIN-SUFFIX,goo.ne.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,gooday.xyz
   - DOMAIN-SUFFIX,gooddns.info
   - DOMAIN-SUFFIX,goodhope.school
   - DOMAIN-SUFFIX,goodreaders.com
   - DOMAIN-SUFFIX,goodreads.com
-  - DOMAIN-SUFFIX,goodtv.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,goodtv.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,goodtv.tv
   - DOMAIN-SUFFIX,goofind.com
   - DOMAIN-SUFFIX,google.ac
@@ -2187,7 +2187,7 @@ payload:
   - DOMAIN-SUFFIX,google.dz
   - DOMAIN-SUFFIX,google.ee
   - DOMAIN-SUFFIX,google.es
-  - DOMAIN-SUFFIX,google.eu
+# [已停用-冗余] DOMAIN-SUFFIX,google.eu  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,google.fi
   - DOMAIN-SUFFIX,google.fm
   - DOMAIN-SUFFIX,google.fr
@@ -2199,7 +2199,7 @@ payload:
   - DOMAIN-SUFFIX,google.gp
   - DOMAIN-SUFFIX,google.gr
   - DOMAIN-SUFFIX,google.gy
-  - DOMAIN-SUFFIX,google.hk
+# [已停用-冗余] DOMAIN-SUFFIX,google.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,google.hn
   - DOMAIN-SUFFIX,google.hr
   - DOMAIN-SUFFIX,google.ht
@@ -2264,12 +2264,12 @@ payload:
   - DOMAIN-SUFFIX,google.tn
   - DOMAIN-SUFFIX,google.to
   - DOMAIN-SUFFIX,google.tt
-  - DOMAIN-SUFFIX,google.us
+# [已停用-冗余] DOMAIN-SUFFIX,google.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,google.vg
   - DOMAIN-SUFFIX,google.vn
   - DOMAIN-SUFFIX,google.vu
   - DOMAIN-SUFFIX,google.ws
-  - DOMAIN-SUFFIX,googleapis.cn
+# [已停用-冗余] DOMAIN-SUFFIX,googleapis.cn  ← 已被 Custom_Proxy_Domain 以同一分组命中
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,googleapps.com
   - DOMAIN-SUFFIX,googlearth.com
@@ -2308,9 +2308,9 @@ payload:
   - DOMAIN-SUFFIX,gotdns.ch
   - DOMAIN-SUFFIX,gotgeeks.com
   - DOMAIN-SUFFIX,gotrusted.com
-  - DOMAIN-SUFFIX,gotw.ca
+# [已停用-冗余] DOMAIN-SUFFIX,gotw.ca  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,gov.taipei
-  - DOMAIN-SUFFIX,gov.tw
+# [已停用-冗余] DOMAIN-SUFFIX,gov.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,gr8domain.biz
   - DOMAIN-SUFFIX,gr8name.biz
   - DOMAIN-SUFFIX,gradconnection.com
@@ -2318,7 +2318,7 @@ payload:
   - DOMAIN-SUFFIX,grandtrial.org
   - DOMAIN-SUFFIX,grangorz.org
   - DOMAIN-SUFFIX,graph.org
-  - DOMAIN-SUFFIX,graphis.ne.jp
+# [已停用-冗余] DOMAIN-SUFFIX,graphis.ne.jp  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,graphql.org
   - DOMAIN-SUFFIX,gravatar.com
   - DOMAIN-SUFFIX,great-firewall.com
@@ -2328,11 +2328,11 @@ payload:
   - DOMAIN-SUFFIX,greatfirewallofchina.net
   - DOMAIN-SUFFIX,greatfirewallofchina.org
   - DOMAIN-SUFFIX,greatroc.org
-  - DOMAIN-SUFFIX,greatroc.tw
+# [已停用-冗余] DOMAIN-SUFFIX,greatroc.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,greatzhonghua.org
-  - DOMAIN-SUFFIX,greenfieldbookstore.com.hk
-  - DOMAIN-SUFFIX,greenparty.org.tw
-  - DOMAIN-SUFFIX,greenpeace.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,greenfieldbookstore.com.hk  ← 已被 HK_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,greenparty.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,greenpeace.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,greenpeace.org
   - DOMAIN-SUFFIX,greenreadings.com
   - DOMAIN-SUFFIX,greenvpn.net
@@ -2361,10 +2361,10 @@ payload:
   - DOMAIN-SUFFIX,gunsamerica.com
   - DOMAIN-SUFFIX,gunsandammo.com
   - DOMAIN-SUFFIX,guo.media
-  - DOMAIN-SUFFIX,guruonline.hk
+# [已停用-冗余] DOMAIN-SUFFIX,guruonline.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,gutteruncensored.com
   - DOMAIN-SUFFIX,gvlib.com
-  - DOMAIN-SUFFIX,gvm.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,gvm.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,gvt0.com
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt3.com
@@ -2390,7 +2390,7 @@ payload:
   - DOMAIN-SUFFIX,hackmd.io
   - DOMAIN-SUFFIX,hackthatphone.net
   - DOMAIN-SUFFIX,hahlo.com
-  - DOMAIN-SUFFIX,hakkatv.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,hakkatv.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,handcraftedsoftware.org
   - DOMAIN-SUFFIX,hanime.tv
   - DOMAIN-SUFFIX,hanminzu.org
@@ -2416,7 +2416,7 @@ payload:
   - DOMAIN-SUFFIX,hec.su
   - DOMAIN-SUFFIX,hecaitou.net
   - DOMAIN-SUFFIX,hechaji.com
-  - DOMAIN-SUFFIX,heeact.edu.tw
+# [已停用-冗余] DOMAIN-SUFFIX,heeact.edu.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,hegre-art.com
   - DOMAIN-SUFFIX,helixstudios.net
   - DOMAIN-SUFFIX,helloandroid.com
@@ -2446,7 +2446,7 @@ payload:
   - DOMAIN-SUFFIX,hgseav.com
   - DOMAIN-SUFFIX,hhdcb3office.org
   - DOMAIN-SUFFIX,hhthesakyatrizin.org
-  - DOMAIN-SUFFIX,hi-on.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,hi-on.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,hiccears.com
   - DOMAIN-SUFFIX,hidden-advent.org
   - DOMAIN-SUFFIX,hide.me
@@ -2490,14 +2490,14 @@ payload:
   - DOMAIN-SUFFIX,hkbookcity.com
   - DOMAIN-SUFFIX,hkchronicles.com
   - DOMAIN-SUFFIX,hkchurch.org
-  - DOMAIN-SUFFIX,hkci.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,hkci.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,hkcmi.edu
   - DOMAIN-SUFFIX,hkcnews.com
   - DOMAIN-SUFFIX,hkcoc.com
-  - DOMAIN-SUFFIX,hkctu.org.hk
-  - DOMAIN-SUFFIX,hkdailynews.com.hk
+# [已停用-冗余] DOMAIN-SUFFIX,hkctu.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-冗余] DOMAIN-SUFFIX,hkdailynews.com.hk  ← 已被 HK_Domain 以同一分组命中
   - DOMAIN-SUFFIX,hkday.net
-  - DOMAIN-SUFFIX,hkdc.us
+# [已停用-冗余] DOMAIN-SUFFIX,hkdc.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
   - DOMAIN-SUFFIX,hkdf.org
   - DOMAIN-SUFFIX,hkej.com
   - DOMAIN-SUFFIX,hkepc.com

@@ -1,9 +1,9 @@
 # NAME: Emby_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 58
+# UPDATED: 2026-09-05
+# DOMAIN: 17
 # DOMAIN-SUFFIX: 63
-# DOMAIN-KEYWORD: 3
-# TOTAL: 124
+# DOMAIN-KEYWORD: 2
+# TOTAL: 82
 # === 以下合并自 Emby.list ===
 DOMAIN,emby.enjoyit.eu.org
 DOMAIN,emby.lcloud.wiki
@@ -53,7 +53,7 @@ DOMAIN-SUFFIX,poloemby.xyz
 DOMAIN-SUFFIX,pornemby.club
 DOMAIN-SUFFIX,servers.xeton.dev
 DOMAIN-SUFFIX,xmsl.org
-DOMAIN-KEYWORD,emby.wtf
+# [已停用-冗余] DOMAIN-KEYWORD,emby.wtf  ← 文件内被 Emby_Domain 包含
 DOMAIN-KEYWORD,jmsooo
 DOMAIN-KEYWORD,odysseyplus
 # [已停用] PROCESS-NAME,com.mb.android  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
@@ -92,70 +92,70 @@ DOMAIN-SUFFIX,ju.dog
 # > EMBY 餐厅
 DOMAIN-SUFFIX,mius.uk
 # > emby-nexitally
-DOMAIN,emby.nexitally.com
+# [已停用-冗余] DOMAIN,emby.nexitally.com  ← 文件内被 Emby_Domain 包含
 # > emby-paoche
-DOMAIN,emby.cjpc.cc
+# [已停用-冗余] DOMAIN,emby.cjpc.cc  ← 文件内被 Emby_Domain 包含
 # > emby-flowercloud
-DOMAIN,emby.flowercloud.yt
+# [已停用-冗余] DOMAIN,emby.flowercloud.yt  ← 文件内被 Emby_Domain 包含
 # > emby-maying
-DOMAIN,emby.maying.club
+# [已停用-冗余] DOMAIN,emby.maying.club  ← 文件内被 Emby_Domain 包含
 # > emby-mdss
-DOMAIN,emby.mdss.cloud
+# [已停用-冗余] DOMAIN,emby.mdss.cloud  ← 文件内被 Emby_Domain 包含
 # > emby-ytoo
-DOMAIN,emby.ytoo.li
+# [已停用-冗余] DOMAIN,emby.ytoo.li  ← 文件内被 Emby_Domain 包含
 # > emby-w8ves
-DOMAIN,embyserver.ga
+# [已停用-冗余] DOMAIN,embyserver.ga  ← 文件内被 Emby_Domain 包含
 # > emby-prpr
-DOMAIN,emby.prprcloud.com
+# [已停用-冗余] DOMAIN,emby.prprcloud.com  ← 文件内被 Emby_Domain 包含
 # > emby-nyancat
-DOMAIN,emby.nyancat.net
+# [已停用-冗余] DOMAIN,emby.nyancat.net  ← 文件内被 Emby_Domain 包含
 # > emby-Plus
-DOMAIN,emby.plusmedia.site
-DOMAIN,emby-cf.plusmedia.site
-DOMAIN,emby.xeton.dev
-DOMAIN,jellyfin.xeton.dev
-DOMAIN,movie.xeton.dev
-DOMAIN,servers.xeton.dev
+# [已停用-冗余] DOMAIN,emby.plusmedia.site  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,emby-cf.plusmedia.site  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,emby.xeton.dev  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,jellyfin.xeton.dev  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,movie.xeton.dev  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,servers.xeton.dev  ← 文件内被 Emby_Domain 包含
 # > emby-Otaku
 DOMAIN,emby.otakudrive.life
 DOMAIN,emby2.otakudrive.life
 # > emby-jmsooo
-DOMAIN,agahk1.jmsooo.com
-DOMAIN,agasg1.jmsooo.com
-DOMAIN,agajp1.jmsooo.com
-DOMAIN,aws.jmsooo.com
-DOMAIN,ntt1.jmsooo.com
-DOMAIN,hinet.jmsooo.com
-DOMAIN,cf1.jmsooo.com
+# [已停用-冗余] DOMAIN,agahk1.jmsooo.com  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,agasg1.jmsooo.com  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,agajp1.jmsooo.com  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,aws.jmsooo.com  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,ntt1.jmsooo.com  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,hinet.jmsooo.com  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,cf1.jmsooo.com  ← 文件内被 Emby_Domain 包含
 # > pornemby
-DOMAIN,pornemby.club
+# [已停用-冗余] DOMAIN,pornemby.club  ← 文件内被 Emby_Domain 包含
 # > IMM
-DOMAIN,emby.immtel.com
+# [已停用-冗余] DOMAIN,emby.immtel.com  ← 文件内被 Emby_Domain 包含
 # > Odyssey
-DOMAIN,cf.odysseyplus.site
-DOMAIN,agahk.odysseyplus.site
-DOMAIN,agasg.odysseyplus.site
-DOMAIN,ru.odysseyplus.site
+# [已停用-冗余] DOMAIN,cf.odysseyplus.site  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,agahk.odysseyplus.site  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,agasg.odysseyplus.site  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,ru.odysseyplus.site  ← 文件内被 Emby_Domain 包含
 # > Exflux
-DOMAIN,line.emby.men
+# [已停用-冗余] DOMAIN,line.emby.men  ← 文件内被 Emby_Domain 包含
 # > SoCloud
 DOMAIN,emby.run
 # > 普拉斯影业
-DOMAIN,emby-sg.plusmedia.site
+# [已停用-冗余] DOMAIN,emby-sg.plusmedia.site  ← 文件内被 Emby_Domain 包含
 # > WaveCloud
 # > 卷毛鼠
-DOMAIN,jmsooo.com
-DOMAIN,cf.jmsooo.com
-DOMAIN,hk.jmsooo.com
-DOMAIN,sg.jmsooo.com
+# [已停用-冗余] DOMAIN,jmsooo.com  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,cf.jmsooo.com  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,hk.jmsooo.com  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,sg.jmsooo.com  ← 文件内被 Emby_Domain 包含
 # > 终点站
-DOMAIN,emby.wtf
-DOMAIN,pub1back.emby.wtf
-DOMAIN,pub2back.emby.wtf
-DOMAIN,pub3back.emby.wtf
-DOMAIN,pub1.emby.wtf
-DOMAIN,pub2.emby.wtf
-DOMAIN,pub3.emby.wtf
+# [已停用-冗余] DOMAIN,emby.wtf  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,pub1back.emby.wtf  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,pub2back.emby.wtf  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,pub3back.emby.wtf  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,pub1.emby.wtf  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,pub2.emby.wtf  ← 文件内被 Emby_Domain 包含
+# [已停用-冗余] DOMAIN,pub3.emby.wtf  ← 文件内被 Emby_Domain 包含
 # > 熊猫
 DOMAIN,embyclub.com
 DOMAIN,az-hk.embyclub.com

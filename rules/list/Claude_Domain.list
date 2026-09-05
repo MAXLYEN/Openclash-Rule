@@ -1,13 +1,13 @@
 # NAME: Claude_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 5
+# UPDATED: 2026-09-05
+# DOMAIN-SUFFIX: 3
 # DOMAIN-KEYWORD: 1
-# TOTAL: 6
+# TOTAL: 4
 # [已停用] DOMAIN,cdn.usefathom.com  ← Fathom Analytics 是通用统计服务，非 Claude 专有
 # [已停用] DOMAIN-KEYWORD,claude  ← claude 是常见法语人名，会误匹配大量无关域名；已由下方 SUFFIX 精确覆盖
 DOMAIN-KEYWORD,anthropic
-DOMAIN-SUFFIX,anthropic.com
+# [已停用-冗余] DOMAIN-SUFFIX,anthropic.com  ← 文件内被 Claude_Domain 包含
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,anthropic.tools
+# [已停用-冗余] DOMAIN-SUFFIX,anthropic.tools  ← 文件内被 Claude_Domain 包含

@@ -1,14 +1,14 @@
 # NAME: TalkatoneAds_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 44
-# TOTAL: 44
+# UPDATED: 2026-09-05
+# DOMAIN-SUFFIX: 38
+# TOTAL: 38
 payload:
 # 广告/追踪/已知无效 → REJECT
   - DOMAIN-SUFFIX,a1.tktn.be
   - DOMAIN-SUFFIX,d.tktn.be
-  - DOMAIN-SUFFIX,adclick.g.doubleclick.net
-  - DOMAIN-SUFFIX,googleads.g.doubleclick.net
-  - DOMAIN-SUFFIX,googleads4.g.doubleclick.net
+# [已停用-冗余] DOMAIN-SUFFIX,adclick.g.doubleclick.net  ← 已被 HDOBOXAds_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,googleads.g.doubleclick.net  ← 已被 HDOBOXAds_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,googleads4.g.doubleclick.net  ← 已被 HDOBOXAds_Domain 以同一分组命中
   - DOMAIN-SUFFIX,tpc.googlesyndication.com
   - DOMAIN-SUFFIX,ads.inmobi.com
   - DOMAIN-SUFFIX,exchange-b-events.inner-active.mobi
@@ -43,8 +43,8 @@ payload:
   - DOMAIN-SUFFIX,inhousedsp.com
   - DOMAIN-SUFFIX,i.sng.link
   - DOMAIN-SUFFIX,richmob.cn
-  - DOMAIN-SUFFIX,ads.pubmatic.com
-  - DOMAIN-SUFFIX,bidder.criteo.com
-  - DOMAIN-SUFFIX,gum.criteo.com
+# [已停用-冗余] DOMAIN-SUFFIX,ads.pubmatic.com  ← 文件内被 TalkatoneAds_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,bidder.criteo.com  ← 文件内被 TalkatoneAds_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,gum.criteo.com  ← 文件内被 TalkatoneAds_Domain 包含
   - DOMAIN-SUFFIX,akamaized.net          # 如影响功能可移到 Talkatone
   - DOMAIN-SUFFIX,4dvertible.com

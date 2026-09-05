@@ -1,9 +1,9 @@
 # NAME: PT_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 19
-# DOMAIN-SUFFIX: 264
+# UPDATED: 2026-09-05
+# DOMAIN: 10
+# DOMAIN-SUFFIX: 263
 # DOMAIN-KEYWORD: 1
-# TOTAL: 284
+# TOTAL: 274
 # [已停用] DOMAIN-KEYWORD,tracker  ← tracker 过于宽泛，会误匹配大量含该词的普通域名
 # [已停用] DOMAIN-KEYWORD,announce.php?passkey=  ← DOMAIN-KEYWORD 只匹配域名，含 ? = / 的 URL 片段永远不会命中
 # [已停用] DOMAIN-KEYWORD,peer_id=  ← DOMAIN-KEYWORD 只匹配域名，含 ? = / 的 URL 片段永远不会命中
@@ -229,16 +229,16 @@ DOMAIN-SUFFIX,pornbits.net
 DOMAIN-SUFFIX,pretome.info
 DOMAIN-SUFFIX,privatehd.to
 DOMAIN-SUFFIX,psytorrents.info
-DOMAIN,pt.btschool.club
-DOMAIN,pt.eastgame.org
-DOMAIN,pt.hd4fans.org
-DOMAIN,pt.hdbd.us
-DOMAIN,pt.hdupt.com
-DOMAIN,pt.j99.info
-DOMAIN,pt.keepfrds.com
+# [已停用-冗余] DOMAIN,pt.btschool.club  ← 文件内被 PT_Domain 包含
+# [已停用-冗余] DOMAIN,pt.eastgame.org  ← 文件内被 PT_Domain 包含
+# [已停用-冗余] DOMAIN,pt.hd4fans.org  ← 文件内被 PT_Domain 包含
+# [已停用-冗余] DOMAIN,pt.hdbd.us  ← 文件内被 PT_Domain 包含
+# [已停用-冗余] DOMAIN,pt.hdupt.com  ← 文件内被 PT_Domain 包含
+# [已停用-冗余] DOMAIN,pt.j99.info  ← 文件内被 PT_Domain 包含
+# [已停用-冗余] DOMAIN,pt.keepfrds.com  ← 文件内被 PT_Domain 包含
 DOMAIN,pt.msg.vg
-DOMAIN,pt.m-team.cc
-DOMAIN,pt.nwsuaf6.edu.cn
+# [已停用-冗余] DOMAIN,pt.m-team.cc  ← 文件内被 PT_Domain 包含
+# [已停用-冗余] DOMAIN,pt.nwsuaf6.edu.cn  ← 文件内被 PT_Domain 包含
 DOMAIN,pt.sjtu.edu.cn
 DOMAIN,pt.soulvoice.club
 DOMAIN,pt.xauat6.edu.cn
@@ -275,7 +275,7 @@ DOMAIN-SUFFIX,theshinning.me
 DOMAIN-SUFFIX,theshow.click
 DOMAIN-SUFFIX,thevault.click
 DOMAIN-SUFFIX,theaudioscene.net
-DOMAIN-SUFFIX,tjupt.org
+# [已停用-冗余] DOMAIN-SUFFIX,tjupt.org  ← 文件内被 PT_Domain 包含
 DOMAIN-SUFFIX,tongyifan.me
 DOMAIN-SUFFIX,torrentday.com
 DOMAIN-SUFFIX,torrentleech.com

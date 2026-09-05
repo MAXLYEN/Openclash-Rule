@@ -1,9 +1,9 @@
 # NAME: Microsoft_Domain
-# UPDATED: 2026-08-04
+# UPDATED: 2026-09-05
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 662
-# DOMAIN-KEYWORD: 4
-# TOTAL: 667
+# DOMAIN-KEYWORD: 3
+# TOTAL: 666
 DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN-SUFFIX,1drv.ms
 DOMAIN-SUFFIX,21vbc.com
@@ -667,7 +667,7 @@ DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,sharepointonline.com
 DOMAIN-SUFFIX,spoprod-a.akamaihd.net
-DOMAIN-KEYWORD,microsoft
+# [已停用-冗余] DOMAIN-KEYWORD,microsoft  ← 文件内被 Microsoft_Domain 包含
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,skydrive

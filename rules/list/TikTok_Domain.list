@@ -1,9 +1,9 @@
 # NAME: TikTok_Domain
-# UPDATED: 2026-08-04
+# UPDATED: 2026-09-05
 # DOMAIN: 3
 # DOMAIN-SUFFIX: 22
-# DOMAIN-KEYWORD: 2
-# TOTAL: 27
+# DOMAIN-KEYWORD: 1
+# TOTAL: 26
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,p16-tiktokcdn-com.akamaized.net
@@ -29,5 +29,5 @@ DOMAIN-SUFFIX,tiktokmusic.app
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
 DOMAIN-SUFFIX,ttwebview.com
-DOMAIN-KEYWORD,musical.ly
+# [已停用-冗余] DOMAIN-KEYWORD,musical.ly  ← 文件内被 TikTok_Domain 包含
 DOMAIN-KEYWORD,tiktok

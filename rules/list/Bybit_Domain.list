@@ -1,9 +1,9 @@
 # NAME: Bybit_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 9
+# UPDATED: 2026-09-05
+# DOMAIN: 3
 # DOMAIN-SUFFIX: 13
 # DOMAIN-KEYWORD: 2
-# TOTAL: 24
+# TOTAL: 18
 DOMAIN,bybit.ada.support
 DOMAIN,bybit-exchange.github.io
 DOMAIN-SUFFIX,bybit.com
@@ -19,12 +19,12 @@ DOMAIN-SUFFIX,bybit.biz
 DOMAIN-SUFFIX,bybdc6.com
 DOMAIN-SUFFIX,bybit-global.com
 DOMAIN-SUFFIX,bybit.cloud
-DOMAIN,static.bymj.io
+# [已停用-冗余] DOMAIN,static.bymj.io  ← 文件内被 Bybit_Domain 包含
 DOMAIN,content.byabcd.com
-DOMAIN,ws2.byapps.net
-DOMAIN,api3.bybdc6.com
-DOMAIN,api3.byapps.net
-DOMAIN,api3.byabcde.com
-DOMAIN,api3.byd3c3.com
+# [已停用-冗余] DOMAIN,ws2.byapps.net  ← 文件内被 Bybit_Domain 包含
+# [已停用-冗余] DOMAIN,api3.bybdc6.com  ← 文件内被 Bybit_Domain 包含
+# [已停用-冗余] DOMAIN,api3.byapps.net  ← 文件内被 Bybit_Domain 包含
+# [已停用-冗余] DOMAIN,api3.byabcde.com  ← 文件内被 Bybit_Domain 包含
+# [已停用-冗余] DOMAIN,api3.byd3c3.com  ← 文件内被 Bybit_Domain 包含
 DOMAIN-KEYWORD,bycsi
 DOMAIN-KEYWORD,bybit

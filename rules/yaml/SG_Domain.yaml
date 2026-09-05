@@ -1,8 +1,8 @@
 # NAME: SG_Domain
 # UPDATED: 2026-09-05
 # DOMAIN-SUFFIX: 25
-# DOMAIN-KEYWORD: 39
-# TOTAL: 64
+# DOMAIN-KEYWORD: 37
+# TOTAL: 62
 payload:
 #亚洲-新加坡分流
 #实体金融
@@ -29,8 +29,8 @@ payload:
 #证劵
   - DOMAIN-KEYWORD,webull
   - DOMAIN-KEYWORD,wbsgsecurities
-  - DOMAIN-KEYWORD,webullfintech
-  - DOMAIN-KEYWORD,webullfinance
+# [已停用-冗余] DOMAIN-KEYWORD,webullfintech  ← 文件内被 SG_Domain 包含
+# [已停用-冗余] DOMAIN-KEYWORD,webullfinance  ← 文件内被 SG_Domain 包含
   - DOMAIN-KEYWORD,moomoo
   - DOMAIN-KEYWORD,longbridge
   - DOMAIN-KEYWORD,itiger

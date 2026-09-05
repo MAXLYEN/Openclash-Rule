@@ -1,13 +1,11 @@
 # NAME: BritboxUK_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 2
-# DOMAIN-SUFFIX: 6
-# TOTAL: 8
-DOMAIN,itvpnp.live.ott.irdeto.com
-DOMAIN,itvpnp.stage.ott.irdeto.com
-DOMAIN-SUFFIX,bb-static.com
-DOMAIN-SUFFIX,bbc.co.uk
-DOMAIN-SUFFIX,britbox.co.uk
-DOMAIN-SUFFIX,britbox.com
-DOMAIN-SUFFIX,itv.com
-DOMAIN-SUFFIX,massive-itv.com
+# UPDATED: 2026-09-05
+# TOTAL: 0
+# [已停用-冗余] DOMAIN,itvpnp.live.ott.irdeto.com  ← 已被 UKMedia_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN,itvpnp.stage.ott.irdeto.com  ← 已被 UKMedia_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,bb-static.com  ← 已被 UKMedia_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,bbc.co.uk  ← 已被 UKMedia_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,britbox.co.uk  ← 已被 UKMedia_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,britbox.com  ← 已被 UKMedia_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,itv.com  ← 已被 UKMedia_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,massive-itv.com  ← 已被 UKMedia_Domain 以同一分组命中

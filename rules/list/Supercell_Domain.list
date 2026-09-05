@@ -1,6 +1,5 @@
 # NAME: Supercell_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 2
-# TOTAL: 2
-DOMAIN-SUFFIX,brawlstars.com
-DOMAIN-SUFFIX,brawlstarsgame.com
+# UPDATED: 2026-09-05
+# TOTAL: 0
+# [已停用-冗余] DOMAIN-SUFFIX,brawlstars.com  ← 已被 Game_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,brawlstarsgame.com  ← 已被 Game_Domain 以同一分组命中

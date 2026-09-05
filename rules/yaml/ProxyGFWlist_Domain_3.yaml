@@ -1,9 +1,9 @@
 # NAME: ProxyGFWlist_Domain_3
-# UPDATED: 2026-08-04
+# UPDATED: 2026-09-05
 # DOMAIN: 7
-# DOMAIN-SUFFIX: 1119
+# DOMAIN-SUFFIX: 1037
 # DOMAIN-KEYWORD: 5
-# TOTAL: 1131
+# TOTAL: 1049
 payload:
   - DOMAIN-SUFFIX,tibetancommunityuk.net
   - DOMAIN-SUFFIX,tibetanculture.org
@@ -34,9 +34,9 @@ payload:
   - DOMAIN-SUFFIX,tibetgermany.de
   - DOMAIN-SUFFIX,tibethaus.com
   - DOMAIN-SUFFIX,tibetheritagefund.org
-  - DOMAIN-SUFFIX,tibethouse.jp
+# [已停用-冗余] DOMAIN-SUFFIX,tibethouse.jp  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tibethouse.org
-  - DOMAIN-SUFFIX,tibethouse.us
+# [已停用-冗余] DOMAIN-SUFFIX,tibethouse.us  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tibetinfonet.net
   - DOMAIN-SUFFIX,tibetjustice.org
   - DOMAIN-SUFFIX,tibetkomite.dk
@@ -44,12 +44,12 @@ payload:
   - DOMAIN-SUFFIX,tibetnetwork.org
   - DOMAIN-SUFFIX,tibetoffice.ch
   - DOMAIN-SUFFIX,tibetoffice.com.au
-  - DOMAIN-SUFFIX,tibetoffice.eu
+# [已停用-冗余] DOMAIN-SUFFIX,tibetoffice.eu  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tibetoffice.org
   - DOMAIN-SUFFIX,tibetonline.com
   - DOMAIN-SUFFIX,tibetonline.tv
   - DOMAIN-SUFFIX,tibetoralhistory.org
-  - DOMAIN-SUFFIX,tibetpolicy.eu
+# [已停用-冗余] DOMAIN-SUFFIX,tibetpolicy.eu  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tibetrelieffund.co.uk
   - DOMAIN-SUFFIX,tibetsites.com
   - DOMAIN-SUFFIX,tibetsociety.com
@@ -60,7 +60,7 @@ payload:
   - DOMAIN-SUFFIX,tibettimes.net
   - DOMAIN-SUFFIX,tibettruth.com
   - DOMAIN-SUFFIX,tibetwrites.org
-  - DOMAIN-SUFFIX,ticket.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,ticket.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tigervpn.com
   - DOMAIN-SUFFIX,tiktok.com
   - DOMAIN-SUFFIX,tiktokv.com
@@ -78,7 +78,7 @@ payload:
   - DOMAIN-SUFFIX,tinychat.com
   - DOMAIN-SUFFIX,tinypaste.com
   - DOMAIN-SUFFIX,tipas.net
-  - DOMAIN-SUFFIX,tipo.gov.tw
+# [已停用-冗余] DOMAIN-SUFFIX,tipo.gov.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tistory.com
   - DOMAIN-SUFFIX,tkcs-collins.com
   - DOMAIN-SUFFIX,tl.gd
@@ -91,16 +91,16 @@ payload:
   - DOMAIN-SUFFIX,tngrnow.com
   - DOMAIN-SUFFIX,tngrnow.net
   - DOMAIN-SUFFIX,tnp.org
-  - DOMAIN-SUFFIX,to-porno.com
+# [已停用-冗余] DOMAIN-SUFFIX,to-porno.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,togetter.com
   - DOMAIN-SUFFIX,toh.info
   - DOMAIN-SUFFIX,tokyo-247.com
   - DOMAIN-SUFFIX,tokyo-hot.com
-  - DOMAIN-SUFFIX,tokyo-porn-tube.com
+# [已停用-冗余] DOMAIN-SUFFIX,tokyo-porn-tube.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tokyocn.com
   - DOMAIN-SUFFIX,tomonews.net
-  - DOMAIN-SUFFIX,tongil.or.kr
-  - DOMAIN-SUFFIX,tono-oka.jp
+# [已停用-冗余] DOMAIN-SUFFIX,tongil.or.kr  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,tono-oka.jp  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tonyyan.net
   - DOMAIN-SUFFIX,toodoc.com
   - DOMAIN-SUFFIX,toonel.net
@@ -109,10 +109,10 @@ payload:
   - DOMAIN-SUFFIX,top81.ws
   - DOMAIN-SUFFIX,topbtc.com
   - DOMAIN-SUFFIX,topnews.in
-  - DOMAIN-SUFFIX,toppornsites.com
+# [已停用-冗余] DOMAIN-SUFFIX,toppornsites.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,topshareware.com
   - DOMAIN-SUFFIX,topsy.com
-  - DOMAIN-SUFFIX,toptip.ca
+# [已停用-冗余] DOMAIN-SUFFIX,toptip.ca  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tora.to
   - DOMAIN-SUFFIX,torcn.com
   - DOMAIN-SUFFIX,torguard.net
@@ -122,7 +122,7 @@ payload:
   - DOMAIN-SUFFIX,torrentprivacy.com
   - DOMAIN-SUFFIX,torrentproject.se
   - DOMAIN-SUFFIX,torrenty.org
-  - DOMAIN-SUFFIX,torrentz.eu
+# [已停用-冗余] DOMAIN-SUFFIX,torrentz.eu  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tortoisesvn.net
   - DOMAIN-SUFFIX,torvpn.com
   - DOMAIN-SUFFIX,totalvpn.com
@@ -132,12 +132,12 @@ payload:
   - DOMAIN-SUFFIX,toythieves.com
   - DOMAIN-SUFFIX,toytractorshow.com
   - DOMAIN-SUFFIX,tparents.org
-  - DOMAIN-SUFFIX,tpi.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,tpi.org.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tracfone.com
   - DOMAIN-SUFFIX,tradingview.com
   - DOMAIN-SUFFIX,translate.goog
   - DOMAIN-SUFFIX,transparency.org
-  - DOMAIN-SUFFIX,treemall.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,treemall.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,trendsmap.com
   - DOMAIN-SUFFIX,trialofccp.org
   - DOMAIN-SUFFIX,trickip.net
@@ -146,21 +146,21 @@ payload:
   - DOMAIN-SUFFIX,tronscan.org
   - DOMAIN-SUFFIX,trouw.nl
   - DOMAIN-SUFFIX,trt.net.tr
-  - DOMAIN-SUFFIX,trtc.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,trtc.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,truebuddha-md.org
   - DOMAIN-SUFFIX,trulyergonomic.com
   - DOMAIN-SUFFIX,truthontour.org
   - DOMAIN-SUFFIX,truthsocial.com
   - DOMAIN-SUFFIX,truveo.com
-  - DOMAIN-SUFFIX,tryheart.jp
+# [已停用-冗余] DOMAIN-SUFFIX,tryheart.jp  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tsctv.net
   - DOMAIN-SUFFIX,tsemtulku.com
   - DOMAIN-SUFFIX,tsquare.tv
-  - DOMAIN-SUFFIX,tsu.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,tsu.org.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tsunagarumon.com
   - DOMAIN-SUFFIX,tt1069.com
   - DOMAIN-SUFFIX,tttan.com
-  - DOMAIN-SUFFIX,ttv.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,ttv.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,ttvnw.net
   - DOMAIN-SUFFIX,tu8964.com
   - DOMAIN-SUFFIX,tubaholic.com
@@ -170,7 +170,7 @@ payload:
   - DOMAIN-SUFFIX,tubecup.com
   - DOMAIN-SUFFIX,tubegals.com
   - DOMAIN-SUFFIX,tubeislam.com
-  - DOMAIN-SUFFIX,tubepornclassic.com
+# [已停用-冗余] DOMAIN-SUFFIX,tubepornclassic.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tubestack.com
   - DOMAIN-SUFFIX,tubewolf.com
   - DOMAIN-SUFFIX,tuibeitu.net
@@ -202,9 +202,9 @@ payload:
   - DOMAIN-SUFFIX,tvants.com
   - DOMAIN-SUFFIX,tvb.com
   - DOMAIN-SUFFIX,tvboxnow.com
-  - DOMAIN-SUFFIX,tvbs.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,tvbs.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,tvider.com
-  - DOMAIN-SUFFIX,tvmost.com.hk
+# [已停用-冗余] DOMAIN-SUFFIX,tvmost.com.hk  ← 已被 HK_Domain 以同一分组命中
   - DOMAIN-SUFFIX,tvplayvideos.com
   - DOMAIN-SUFFIX,tvunetworks.com
   - DOMAIN-SUFFIX,tw-blog.com
@@ -214,9 +214,9 @@ payload:
   - DOMAIN-SUFFIX,twapperkeeper.com
   - DOMAIN-SUFFIX,twaud.io
   - DOMAIN-SUFFIX,twavi.com
-  - DOMAIN-SUFFIX,twbbs.net.tw
+# [已停用-冗余] DOMAIN-SUFFIX,twbbs.net.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,twbbs.org
-  - DOMAIN-SUFFIX,twbbs.tw
+# [已停用-冗余] DOMAIN-SUFFIX,twbbs.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,twblogger.com
   - DOMAIN-SUFFIX,tweepguide.com
   - DOMAIN-SUFFIX,tweeplike.me
@@ -257,7 +257,7 @@ payload:
   - DOMAIN-SUFFIX,twimg.com
   - DOMAIN-SUFFIX,twindexx.com
   - DOMAIN-SUFFIX,twip.me
-  - DOMAIN-SUFFIX,twipple.jp
+# [已停用-冗余] DOMAIN-SUFFIX,twipple.jp  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,twishort.com
   - DOMAIN-SUFFIX,twistar.cc
   - DOMAIN-SUFFIX,twister.net.co
@@ -295,7 +295,7 @@ payload:
   - DOMAIN-SUFFIX,twitvid.com
   - DOMAIN-SUFFIX,twitzap.com
   - DOMAIN-SUFFIX,twiyia.com
-  - DOMAIN-SUFFIX,twnorth.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,twnorth.org.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,twreporter.org
   - DOMAIN-SUFFIX,twskype.com
   - DOMAIN-SUFFIX,twstar.net
@@ -321,9 +321,9 @@ payload:
   - DOMAIN-SUFFIX,uchicago.edu
   - DOMAIN-SUFFIX,uderzo.it
   - DOMAIN-SUFFIX,udn.com
-  - DOMAIN-SUFFIX,udn.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,udn.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,udnbkk.com
-  - DOMAIN-SUFFIX,uforadio.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,uforadio.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,ufreevpn.com
   - DOMAIN-SUFFIX,ugo.com
   - DOMAIN-SUFFIX,uhdwallpapers.org
@@ -345,14 +345,14 @@ payload:
   - DOMAIN-SUFFIX,unblocker.yt
   - DOMAIN-SUFFIX,unblocksit.es
   - DOMAIN-SUFFIX,uncyclomedia.org
-  - DOMAIN-SUFFIX,uncyclopedia.hk
-  - DOMAIN-SUFFIX,uncyclopedia.tw
+# [已停用-冗余] DOMAIN-SUFFIX,uncyclopedia.hk  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,uncyclopedia.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,underwoodammo.com
   - DOMAIN-SUFFIX,unholyknight.com
   - DOMAIN-SUFFIX,uni.cc
   - DOMAIN-SUFFIX,unicode.org
   - DOMAIN-SUFFIX,unification.net
-  - DOMAIN-SUFFIX,unification.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,unification.org.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,unirule.cloud
   - DOMAIN-SUFFIX,unitedsocialpress.com
   - DOMAIN-SUFFIX,unix100.com
@@ -361,7 +361,7 @@ payload:
   - DOMAIN-SUFFIX,unpo.org
   - DOMAIN-SUFFIX,unseen.is
   - DOMAIN-SUFFIX,unstable.icu
-  - DOMAIN-SUFFIX,untraceable.us
+# [已停用-冗余] DOMAIN-SUFFIX,untraceable.us  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,uocn.org
   - DOMAIN-SUFFIX,updatestar.com
   - DOMAIN-SUFFIX,upghsbc.com
@@ -371,7 +371,7 @@ payload:
   - DOMAIN-SUFFIX,uploaded.to
   - DOMAIN-SUFFIX,uploadstation.com
   - DOMAIN-SUFFIX,upmedia.mg
-  - DOMAIN-SUFFIX,upornia.com
+# [已停用-冗余] DOMAIN-SUFFIX,upornia.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,uproxy.org
   - DOMAIN-SUFFIX,uptodown.com
   - DOMAIN-SUFFIX,upwill.org
@@ -380,12 +380,12 @@ payload:
   - DOMAIN-SUFFIX,urbandictionary.com
   - DOMAIN-SUFFIX,urbansurvival.com
   - DOMAIN-SUFFIX,urchin.com
-  - DOMAIN-SUFFIX,url.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,url.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,urlborg.com
   - DOMAIN-SUFFIX,urlparser.com
   - DOMAIN-SUFFIX,us.to
   - DOMAIN-SUFFIX,usacn.com
-  - DOMAIN-SUFFIX,usaip.eu
+# [已停用-冗余] DOMAIN-SUFFIX,usaip.eu  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,uscardforum.com
   - DOMAIN-SUFFIX,uscnpm.org
   - DOMAIN-SUFFIX,usembassy.gov
@@ -408,7 +408,7 @@ payload:
   - DOMAIN-SUFFIX,uyghuraa.org
   - DOMAIN-SUFFIX,uyghuramerican.org
   - DOMAIN-SUFFIX,uyghurbiz.org
-  - DOMAIN-SUFFIX,uyghurcanadian.ca
+# [已停用-冗余] DOMAIN-SUFFIX,uyghurcanadian.ca  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,uyghurcongress.org
   - DOMAIN-SUFFIX,uyghurpen.org
   - DOMAIN-SUFFIX,uyghurpress.com
@@ -445,7 +445,7 @@ payload:
   - DOMAIN-SUFFIX,versavpn.com
   - DOMAIN-SUFFIX,verybs.com
   - DOMAIN-SUFFIX,vevo.com
-  - DOMAIN-SUFFIX,vft.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,vft.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,viber.com
   - DOMAIN-SUFFIX,vica.info
   - DOMAIN-SUFFIX,victimsofcommunism.org
@@ -468,7 +468,7 @@ payload:
   - DOMAIN-SUFFIX,vinniev.com
   - DOMAIN-SUFFIX,vip-enterprise.com
   - DOMAIN-SUFFIX,virginia.edu
-  - DOMAIN-SUFFIX,virtualrealporn.com
+# [已停用-冗余] DOMAIN-SUFFIX,virtualrealporn.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,visibletweets.com
   - DOMAIN-SUFFIX,visiontimes.com
   - DOMAIN-SUFFIX,vital247.org
@@ -480,7 +480,7 @@ payload:
   - DOMAIN-SUFFIX,vivthomas.com
   - DOMAIN-SUFFIX,vizvaz.com
   - DOMAIN-SUFFIX,vjav.com
-  - DOMAIN-SUFFIX,vjmedia.com.hk
+# [已停用-冗余] DOMAIN-SUFFIX,vjmedia.com.hk  ← 已被 HK_Domain 以同一分组命中
   - DOMAIN-SUFFIX,vllcs.org
   - DOMAIN-SUFFIX,vmixcore.com
   - DOMAIN-SUFFIX,vmpsoft.com
@@ -516,7 +516,7 @@ payload:
   - DOMAIN-SUFFIX,vpnfire.com
   - DOMAIN-SUFFIX,vpnfires.biz
   - DOMAIN-SUFFIX,vpnforgame.net
-  - DOMAIN-SUFFIX,vpngate.jp
+# [已停用-冗余] DOMAIN-SUFFIX,vpngate.jp  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,vpngate.net
   - DOMAIN-SUFFIX,vpngratis.net
   - DOMAIN-SUFFIX,vpnhq.com
@@ -542,7 +542,7 @@ payload:
   - DOMAIN-SUFFIX,vpnunlimitedapp.com
   - DOMAIN-SUFFIX,vpnvip.com
   - DOMAIN-SUFFIX,vpnworldwide.com
-  - DOMAIN-SUFFIX,vporn.com
+# [已停用-冗余] DOMAIN-SUFFIX,vporn.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,vpser.net
   - DOMAIN-SUFFIX,vraiesagesse.net
   - DOMAIN-SUFFIX,vrmtr.com
@@ -587,18 +587,18 @@ payload:
   - DOMAIN-SUFFIX,watch8x.com
   - DOMAIN-SUFFIX,watchinese.com
   - DOMAIN-SUFFIX,watchmygf.net
-  - DOMAIN-SUFFIX,watchout.tw
+# [已停用-冗余] DOMAIN-SUFFIX,watchout.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,wattpad.com
   - DOMAIN-SUFFIX,wav.tv
   - DOMAIN-SUFFIX,waveprotocol.org
   - DOMAIN-SUFFIX,waymo.com
   - DOMAIN-SUFFIX,wd.bible
-  - DOMAIN-SUFFIX,wda.gov.tw
+# [已停用-冗余] DOMAIN-SUFFIX,wda.gov.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,wdf5.com
-  - DOMAIN-SUFFIX,wealth.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,wealth.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,wearehairy.com
   - DOMAIN-SUFFIX,wearn.com
-  - DOMAIN-SUFFIX,weather.com.hk
+# [已停用-冗余] DOMAIN-SUFFIX,weather.com.hk  ← 已被 HK_Domain 以同一分组命中
   - DOMAIN-SUFFIX,web.dev
   - DOMAIN-SUFFIX,web2project.net
   - DOMAIN-SUFFIX,webbang.net
@@ -616,7 +616,7 @@ payload:
   - DOMAIN-SUFFIX,websnapr.com
   - DOMAIN-SUFFIX,webwarper.net
   - DOMAIN-SUFFIX,webworkerdaily.com
-  - DOMAIN-SUFFIX,wechatlawsuit.com
+# [已停用-冗余] DOMAIN-SUFFIX,wechatlawsuit.com  ← 已被 HK_Domain 以同一分组命中
   - DOMAIN-SUFFIX,weekmag.info
   - DOMAIN-SUFFIX,wefightcensorship.org
   - DOMAIN-SUFFIX,wefong.com
@@ -635,7 +635,7 @@ payload:
   - DOMAIN-SUFFIX,wenweipo.com
   - DOMAIN-SUFFIX,wenxuecity.com
   - DOMAIN-SUFFIX,wenyunchao.com
-  - DOMAIN-SUFFIX,wenzhao.ca
+# [已停用-冗余] DOMAIN-SUFFIX,wenzhao.ca  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,westca.com
   - DOMAIN-SUFFIX,westernshugdensociety.org
   - DOMAIN-SUFFIX,westernwolves.com
@@ -650,8 +650,8 @@ payload:
   - DOMAIN-SUFFIX,wha.la
   - DOMAIN-SUFFIX,whatblocked.com
   - DOMAIN-SUFFIX,whatbrowser.org
-  - DOMAIN-SUFFIX,whatsapp.com
-  - DOMAIN-SUFFIX,whatsapp.net
+# [已停用-冗余] DOMAIN-SUFFIX,whatsapp.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,whatsapp.net  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,whatsonweibo.com
   - DOMAIN-SUFFIX,wheatseeds.org
   - DOMAIN-SUFFIX,wheelockslatin.com
@@ -671,7 +671,7 @@ payload:
   - DOMAIN-SUFFIX,wikileaks.ch
   - DOMAIN-SUFFIX,wikileaks.com
   - DOMAIN-SUFFIX,wikileaks.de
-  - DOMAIN-SUFFIX,wikileaks.eu
+# [已停用-冗余] DOMAIN-SUFFIX,wikileaks.eu  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,wikileaks.lu
   - DOMAIN-SUFFIX,wikileaks.org
   - DOMAIN-SUFFIX,wikileaks.pl
@@ -683,7 +683,7 @@ payload:
   - DOMAIN-SUFFIX,wikiquote.org
   - DOMAIN-SUFFIX,wikisource.org
   - DOMAIN-SUFFIX,wikiwand.com
-  - DOMAIN-SUFFIX,wikiwiki.jp
+# [已停用-冗余] DOMAIN-SUFFIX,wikiwiki.jp  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,wildammo.com
   - DOMAIN-SUFFIX,williamhill.com
   - DOMAIN-SUFFIX,willw.net
@@ -718,11 +718,11 @@ payload:
   - DOMAIN-SUFFIX,wolfax.com
   - DOMAIN-SUFFIX,wombo.ai
   - DOMAIN-SUFFIX,woolyss.com
-  - DOMAIN-SUFFIX,woopie.jp
+# [已停用-冗余] DOMAIN-SUFFIX,woopie.jp  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,woopie.tv
   - DOMAIN-SUFFIX,wordpress.com
   - DOMAIN-SUFFIX,workatruna.com
-  - DOMAIN-SUFFIX,workerdemo.org.hk
+# [已停用-冗余] DOMAIN-SUFFIX,workerdemo.org.hk  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,workerempowerment.org
   - DOMAIN-SUFFIX,workers.dev
   - DOMAIN-SUFFIX,workersthebig.net
@@ -735,7 +735,7 @@ payload:
   - DOMAIN-SUFFIX,wowgirls.com
   - DOMAIN-SUFFIX,wowhead.com
   - DOMAIN-SUFFIX,wowlegacy.ml
-  - DOMAIN-SUFFIX,wowporn.com
+# [已停用-冗余] DOMAIN-SUFFIX,wowporn.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,wowrk.com
   - DOMAIN-SUFFIX,woxinghuiguo.com
   - DOMAIN-SUFFIX,woyaolian.org
@@ -753,7 +753,7 @@ payload:
   - DOMAIN-SUFFIX,wtfpeople.com
   - DOMAIN-SUFFIX,wuerkaixi.com
   - DOMAIN-SUFFIX,wufafangwen.com
-  - DOMAIN-SUFFIX,wufi.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,wufi.org.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,wuguoguang.com
   - DOMAIN-SUFFIX,wujie.net
   - DOMAIN-SUFFIX,wujieliulan.com
@@ -779,7 +779,7 @@ payload:
   - DOMAIN-SUFFIX,xbookcn.com
   - DOMAIN-SUFFIX,xbtce.com
   - DOMAIN-SUFFIX,xcafe.in
-  - DOMAIN-SUFFIX,xcity.jp
+# [已停用-冗余] DOMAIN-SUFFIX,xcity.jp  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,xcritic.com
   - DOMAIN-SUFFIX,xda-developers.com
   - DOMAIN-SUFFIX,xerotica.com
@@ -789,7 +789,7 @@ payload:
   - DOMAIN-SUFFIX,xhamster.com
   - DOMAIN-SUFFIX,xianba.net
   - DOMAIN-SUFFIX,xianchawang.net
-  - DOMAIN-SUFFIX,xianjian.tw
+# [已停用-冗余] DOMAIN-SUFFIX,xianjian.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,xianqiao.net
   - DOMAIN-SUFFIX,xiaobaiwu.com
   - DOMAIN-SUFFIX,xiaochuncnjp.com
@@ -797,7 +797,7 @@ payload:
   - DOMAIN-SUFFIX,xiaohexie.com
   - DOMAIN-SUFFIX,xiaolan.me
   - DOMAIN-SUFFIX,xiaoma.org
-  - DOMAIN-SUFFIX,xiaomi.eu
+# [已停用-冗余] DOMAIN-SUFFIX,xiaomi.eu  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,xiaxiaoqiang.net
   - DOMAIN-SUFFIX,xiezhua.com
   - DOMAIN-SUFFIX,xihua.es
@@ -805,7 +805,7 @@ payload:
   - DOMAIN-SUFFIX,xing.com
   - DOMAIN-SUFFIX,xinhuanet.org
   - DOMAIN-SUFFIX,xinjiangpolicefiles.org
-  - DOMAIN-SUFFIX,xinmiao.com.hk
+# [已停用-冗余] DOMAIN-SUFFIX,xinmiao.com.hk  ← 已被 HK_Domain 以同一分组命中
   - DOMAIN-SUFFIX,xinsheng.net
   - DOMAIN-SUFFIX,xinshijue.com
   - DOMAIN-SUFFIX,xinyubbs.net
@@ -825,7 +825,7 @@ payload:
   - DOMAIN-SUFFIX,xn--9pr62r24a.com
   - DOMAIN-SUFFIX,xn--czq75pvv1aj5c.org
   - DOMAIN-SUFFIX,xn--i2ru8q2qg.com
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+# [已停用-冗余] DOMAIN-SUFFIX,xn--ngstr-lra8j.com  ← 已被 Custom_Proxy_Domain 以同一分组命中
   - DOMAIN-SUFFIX,xn--oiq.cc
   - DOMAIN-SUFFIX,xnxx.com
   - DOMAIN-SUFFIX,xpdo.net
@@ -837,7 +837,7 @@ payload:
   - DOMAIN-SUFFIX,xtube.com
   - DOMAIN-SUFFIX,xuchao.net
   - DOMAIN-SUFFIX,xuchao.org
-  - DOMAIN-SUFFIX,xuehua.us
+# [已停用-冗余] DOMAIN-SUFFIX,xuehua.us  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,xuite.net
   - DOMAIN-SUFFIX,xuzhiyong.net
   - DOMAIN-SUFFIX,xvbelink.com
@@ -864,12 +864,12 @@ payload:
   - DOMAIN-SUFFIX,yadi.sk
   - DOMAIN-SUFFIX,yahoo.co.jp
   - DOMAIN-SUFFIX,yahoo.com
-  - DOMAIN-SUFFIX,yahoo.com.hk
-  - DOMAIN-SUFFIX,yahoo.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,yahoo.com.hk  ← 已被 HK_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,yahoo.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,yahoo.net
   - DOMAIN-SUFFIX,yakbutterblues.com
   - DOMAIN-SUFFIX,yam.com
-  - DOMAIN-SUFFIX,yam.org.tw
+# [已停用-冗余] DOMAIN-SUFFIX,yam.org.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,yande.re
   - DOMAIN-SUFFIX,yandex.com
   - DOMAIN-SUFFIX,yandex.ru
@@ -886,10 +886,10 @@ payload:
   - DOMAIN-SUFFIX,yegle.net
   - DOMAIN-SUFFIX,yes-news.com
   - DOMAIN-SUFFIX,yes.xxx
-  - DOMAIN-SUFFIX,yes123.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,yes123.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,yesasia.com
-  - DOMAIN-SUFFIX,yesasia.com.hk
-  - DOMAIN-SUFFIX,yespornplease.com
+# [已停用-冗余] DOMAIN-SUFFIX,yesasia.com.hk  ← 已被 HK_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,yespornplease.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,yeyeclub.com
   - DOMAIN-SUFFIX,ygto.com
   - DOMAIN-SUFFIX,yhcw.net
@@ -910,17 +910,17 @@ payload:
   - DOMAIN-SUFFIX,yolasite.com
   - DOMAIN-SUFFIX,yomiuri.co.jp
   - DOMAIN-SUFFIX,yong.hu
-  - DOMAIN-SUFFIX,yorkbbs.ca
+# [已停用-冗余] DOMAIN-SUFFIX,yorkbbs.ca  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,you-get.org
   - DOMAIN-SUFFIX,you.com
   - DOMAIN-SUFFIX,youdontcare.com
   - DOMAIN-SUFFIX,youjizz.com
   - DOMAIN-SUFFIX,youmaker.com
-  - DOMAIN-SUFFIX,youngpornvideos.com
-  - DOMAIN-SUFFIX,youngspiration.hk
+# [已停用-冗余] DOMAIN-SUFFIX,youngpornvideos.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,youngspiration.hk  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,youpai.org
-  - DOMAIN-SUFFIX,youporn.com
-  - DOMAIN-SUFFIX,youporngay.com
+# [已停用-冗余] DOMAIN-SUFFIX,youporn.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,youporngay.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,your-freedom.net
   - DOMAIN-SUFFIX,yourepeat.com
   - DOMAIN-SUFFIX,yourlisten.com
@@ -931,7 +931,7 @@ payload:
   - DOMAIN-SUFFIX,youshun12.com
   - DOMAIN-SUFFIX,youthforfreechina.org
   - DOMAIN-SUFFIX,youthnetradio.org
-  - DOMAIN-SUFFIX,youthwant.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,youthwant.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,youtube-nocookie.com
   - DOMAIN-SUFFIX,youtube.com
@@ -945,7 +945,7 @@ payload:
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytht.net
   - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN-SUFFIX,ytn.co.kr
+# [已停用-冗余] DOMAIN-SUFFIX,ytn.co.kr  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,yuanming.net
   - DOMAIN-SUFFIX,yuanzhengtang.org
   - DOMAIN-SUFFIX,yulghun.com
@@ -969,7 +969,7 @@ payload:
   - DOMAIN-SUFFIX,zapto.org
   - DOMAIN-SUFFIX,zattoo.com
   - DOMAIN-SUFFIX,zb.com
-  - DOMAIN-SUFFIX,zdnet.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,zdnet.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,zello.com
   - DOMAIN-SUFFIX,zengjinyan.org
   - DOMAIN-SUFFIX,zenmate.com
@@ -991,7 +991,7 @@ payload:
   - DOMAIN-SUFFIX,zhenlibu1984.com
   - DOMAIN-SUFFIX,zhenxiang.biz
   - DOMAIN-SUFFIX,zhinengluyou.com
-  - DOMAIN-SUFFIX,zhongguo.ca
+# [已停用-冗余] DOMAIN-SUFFIX,zhongguo.ca  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,zhongguorenquan.org
   - DOMAIN-SUFFIX,zhongguotese.net
   - DOMAIN-SUFFIX,zhongmeng.org
@@ -1007,12 +1007,12 @@ payload:
   - DOMAIN-SUFFIX,zillionk.com
   - DOMAIN-SUFFIX,zim.vn
   - DOMAIN-SUFFIX,zinio.com
-  - DOMAIN-SUFFIX,ziporn.com
+# [已停用-冗余] DOMAIN-SUFFIX,ziporn.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,zippyshare.com
   - DOMAIN-SUFFIX,zkaip.com
   - DOMAIN-SUFFIX,zkiz.com
   - DOMAIN-SUFFIX,zmw.cn
-  - DOMAIN-SUFFIX,zodgame.us
+# [已停用-冗余] DOMAIN-SUFFIX,zodgame.us  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
   - DOMAIN-SUFFIX,zoho.com
   - DOMAIN-SUFFIX,zomobo.net
   - DOMAIN-SUFFIX,zonaeuropa.com
@@ -1065,7 +1065,7 @@ payload:
   - DOMAIN-SUFFIX,discord.co
   - DOMAIN-SUFFIX,discord.media
 # Facebook
-  - DOMAIN-SUFFIX,fbcdn.com
+# [已停用-冗余] DOMAIN-SUFFIX,fbcdn.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 # Github
   - DOMAIN-SUFFIX,githubapp.com
 # Google
@@ -1082,8 +1082,8 @@ payload:
 # Line
   - DOMAIN-SUFFIX,lin.ee
   - DOMAIN-SUFFIX,line-cdn.net
-  - DOMAIN-SUFFIX,line.naver.jp
-  - DOMAIN-SUFFIX,nhncorp.jp
+# [已停用-冗余] DOMAIN-SUFFIX,line.naver.jp  ← 已被 ProxyGFWlist_Domain_2 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,nhncorp.jp  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 # Oracle Cloud
   - DOMAIN,cloud.oracle.com
   - DOMAIN-SUFFIX,oraclecloud.com
@@ -1137,7 +1137,7 @@ payload:
   - DOMAIN,steampipe.akamaized.net
 # TapTap
   - DOMAIN-SUFFIX,tap.io
-  - DOMAIN-SUFFIX,taptap.tw
+# [已停用-冗余] DOMAIN-SUFFIX,taptap.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 # Twitch
   - DOMAIN-KEYWORD,ttvnw
 # Twitter

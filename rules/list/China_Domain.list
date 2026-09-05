@@ -1,9 +1,8 @@
 # NAME: China_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 12
-# DOMAIN-SUFFIX: 573
+# UPDATED: 2026-09-05
+# DOMAIN-SUFFIX: 539
 # DOMAIN-KEYWORD: 16
-# TOTAL: 601
+# TOTAL: 555
 # === 以下合并自 ChinaDomain.list ===
 # 直连列表
 # MyList
@@ -16,8 +15,8 @@ DOMAIN-SUFFIX,hrtsea.com
 DOMAIN-SUFFIX,kaikeba.com
 DOMAIN-SUFFIX,laomo.me
 DOMAIN-SUFFIX,mpyit.com
-DOMAIN-SUFFIX,msftconnecttest.com
-DOMAIN-SUFFIX,msftncsi.com
+# [已停用-冗余] DOMAIN-SUFFIX,msftconnecttest.com  ← 已被 Custom_Direct_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,msftncsi.com  ← 已被 Custom_Direct_Domain 以同一分组命中
 DOMAIN-SUFFIX,qupu123.com
 DOMAIN-SUFFIX,pdfwifi.com
 DOMAIN-SUFFIX,zhenguanyu.biz
@@ -68,13 +67,13 @@ DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alibabacloud.com
 DOMAIN-SUFFIX,alibabausercontent.com
-DOMAIN-SUFFIX,alicdn.com
+# [已停用-冗余] DOMAIN-SUFFIX,alicdn.com  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,alicloudccp.com
 DOMAIN-SUFFIX,aliexpress.com
 DOMAIN-SUFFIX,aliimg.com
 DOMAIN-SUFFIX,alikunlun.com
-DOMAIN-SUFFIX,alipay.com
-DOMAIN-SUFFIX,alipayobjects.com
+# [已停用-冗余] DOMAIN-SUFFIX,alipay.com  ← 文件内被 China_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,alipayobjects.com  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,alisoft.com
 DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,aliyuncdn.com
@@ -103,7 +102,7 @@ DOMAIN-SUFFIX,youku.com
 # Baidu
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baidubcr.com
-DOMAIN-SUFFIX,baidupcs.com
+# [已停用-冗余] DOMAIN-SUFFIX,baidupcs.com  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,baidustatic.com
 DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bdimg.com
@@ -150,7 +149,7 @@ DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvod.com
-DOMAIN-SUFFIX,feelgood.cn
+# [已停用-冗余] DOMAIN-SUFFIX,feelgood.cn  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,feiliao.com
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,huoshan.com
@@ -237,13 +236,13 @@ DOMAIN-SUFFIX,qiyi.com
 DOMAIN-SUFFIX,qiyipic.com
 DOMAIN-SUFFIX,qy.net
 # JD
-DOMAIN-SUFFIX,360buy.com
-DOMAIN-SUFFIX,360buyimg.com
+# [已停用-冗余] DOMAIN-SUFFIX,360buy.com  ← 文件内被 China_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,360buyimg.com  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,jcloudcs.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,jd.hk
 DOMAIN-SUFFIX,jdcloud.com
-DOMAIN-SUFFIX,jdpay.com
+# [已停用-冗余] DOMAIN-SUFFIX,jdpay.com  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,paipai.com
 # Kingsoft
 DOMAIN-SUFFIX,iciba.com
@@ -297,16 +296,16 @@ DOMAIN-SUFFIX,yangkeduo.com
 DOMAIN-SUFFIX,leju.com
 DOMAIN-SUFFIX,miaopai.com
 DOMAIN-SUFFIX,sina.com
-DOMAIN-SUFFIX,sina.com.cn
-DOMAIN-SUFFIX,sina.cn
+# [已停用-冗余] DOMAIN-SUFFIX,sina.com.cn  ← 文件内被 China_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,sina.cn  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,sinaapp.com
-DOMAIN-SUFFIX,sinaapp.cn
+# [已停用-冗余] DOMAIN-SUFFIX,sinaapp.cn  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,sinaimg.com
-DOMAIN-SUFFIX,sinaimg.cn
+# [已停用-冗余] DOMAIN-SUFFIX,sinaimg.cn  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,weibo.com
-DOMAIN-SUFFIX,weibo.cn
+# [已停用-冗余] DOMAIN-SUFFIX,weibo.cn  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,weibocdn.com
-DOMAIN-SUFFIX,weibocdn.cn
+# [已停用-冗余] DOMAIN-SUFFIX,weibocdn.cn  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,xiaoka.tv
 # Sohu Sogo
 DOMAIN-SUFFIX,go2map.com
@@ -326,22 +325,22 @@ DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 # SteamCN
-DOMAIN-SUFFIX,cm.steampowered.com
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamusercontent.com
-DOMAIN-SUFFIX,steamchina.com
-DOMAIN,csgo.wmsj.cn
-DOMAIN,dota2.wmsj.cn
-DOMAIN,wmsjsteam.com
-DOMAIN,dl.steam.clngaa.com
-DOMAIN,dl.steam.ksyna.com
-DOMAIN,st.dl.bscstorage.net
-DOMAIN,st.dl.eccdnx.com
-DOMAIN,st.dl.pinyuncloud.com
-DOMAIN,xz.pphimalayanrt.com
-DOMAIN,steampipe.steamcontent.tnkjmec.com
-DOMAIN,steampowered.com.8686c.com
-DOMAIN,steamstatic.com.8686c.com
+# [已停用-冗余] DOMAIN-SUFFIX,cm.steampowered.com  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,steamcontent.com  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,steamusercontent.com  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,steamchina.com  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN,csgo.wmsj.cn  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN,dota2.wmsj.cn  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN,wmsjsteam.com  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN,dl.steam.clngaa.com  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN,dl.steam.ksyna.com  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN,st.dl.bscstorage.net  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN,st.dl.eccdnx.com  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN,st.dl.pinyuncloud.com  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN,xz.pphimalayanrt.com  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN,steampipe.steamcontent.tnkjmec.com  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN,steampowered.com.8686c.com  ← 已被 SteamCN_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN,steamstatic.com.8686c.com  ← 已被 SteamCN_Domain 以同一分组命中
 # Tencent
 DOMAIN-SUFFIX,foxmail.com
 DOMAIN-SUFFIX,gtimg.com
@@ -376,8 +375,8 @@ DOMAIN-SUFFIX,kanimg.com
 DOMAIN-SUFFIX,kankan.com
 DOMAIN-SUFFIX,p2cdn.com
 DOMAIN-SUFFIX,sandai.net
-DOMAIN-SUFFIX,thundercdn.com
-DOMAIN-SUFFIX,xunlei.com
+# [已停用-冗余] DOMAIN-SUFFIX,thundercdn.com  ← 已被 Download_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,xunlei.com  ← 已被 Direct_Domain 以同一分组命中
 # YYeTs 人人影视
 DOMAIN-SUFFIX,got001.com
 DOMAIN-SUFFIX,p4pfile.com
@@ -397,15 +396,15 @@ DOMAIN-SUFFIX,zmzfile.com
 # TeamViewer
 DOMAIN-SUFFIX,teamviewer.com
 # Public Direct CDN 公共直连
-DOMAIN-SUFFIX,baomitu.com
-DOMAIN-SUFFIX,bootcss.com
-DOMAIN-SUFFIX,jiasule.com
-DOMAIN-SUFFIX,staticfile.org
-DOMAIN-SUFFIX,upaiyun.com
+# [已停用-冗余] DOMAIN-SUFFIX,baomitu.com  ← 已被 Direct_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,bootcss.com  ← 已被 Direct_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,jiasule.com  ← 已被 Direct_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,staticfile.org  ← 已被 Direct_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,upaiyun.com  ← 已被 Direct_Domain 以同一分组命中
 # China DNS
 DOMAIN-SUFFIX,doh.pub
 DOMAIN-SUFFIX,dns.alidns.com
-DOMAIN-SUFFIX,doh.360.cn
+# [已停用-冗余] DOMAIN-SUFFIX,doh.360.cn  ← 文件内被 China_Domain 包含
 # AccelerateDirectSites
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,115.com
@@ -442,7 +441,7 @@ DOMAIN-SUFFIX,camera360.com
 DOMAIN-SUFFIX,cdnmama.com
 DOMAIN-SUFFIX,chaoxing.com
 DOMAIN-SUFFIX,che168.com
-DOMAIN-SUFFIX,chinacache.net
+# [已停用-冗余] DOMAIN-SUFFIX,chinacache.net  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,chinaso.com
 DOMAIN-SUFFIX,chinaz.com
 DOMAIN-SUFFIX,chinaz.net
@@ -452,7 +451,7 @@ DOMAIN-SUFFIX,clouddn.com
 DOMAIN-SUFFIX,cloudxns.net
 DOMAIN-SUFFIX,cn163.net
 DOMAIN-SUFFIX,cnblogs.com
-DOMAIN-SUFFIX,cnki.net
+# [已停用-冗余] DOMAIN-SUFFIX,cnki.net  ← 已被 Direct_Domain 以同一分组命中
 DOMAIN-SUFFIX,cnmstl.net
 DOMAIN-SUFFIX,coolapk.com
 DOMAIN-SUFFIX,coolapkmarket.com
@@ -545,7 +544,7 @@ DOMAIN-SUFFIX,mogu.com
 DOMAIN-SUFFIX,mogucdn.com
 DOMAIN-SUFFIX,mogujie.com
 DOMAIN-SUFFIX,moji.com
-DOMAIN-SUFFIX,moke.com
+# [已停用-冗余] DOMAIN-SUFFIX,moke.com  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,msstatic.com
 DOMAIN-SUFFIX,mubu.com
 DOMAIN-SUFFIX,myunlu.com
@@ -563,7 +562,7 @@ DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,qcloudcdn.com
 DOMAIN-SUFFIX,qdaily.com
 DOMAIN-SUFFIX,qdmm.com
-DOMAIN-SUFFIX,qhimg.com
+# [已停用-冗余] DOMAIN-SUFFIX,qhimg.com  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,qianqian.com
 DOMAIN-SUFFIX,qidian.com
 DOMAIN-SUFFIX,qihucdn.com
@@ -590,7 +589,7 @@ DOMAIN-SUFFIX,soufunimg.com
 DOMAIN-SUFFIX,sspai.com
 DOMAIN-SUFFIX,startssl.com
 DOMAIN-SUFFIX,suning.com
-DOMAIN-SUFFIX,synology.com
+# [已停用-冗余] DOMAIN-SUFFIX,synology.com  ← 已被 Custom_Direct_Domain 以同一分组命中
 DOMAIN-SUFFIX,taihe.com
 DOMAIN-SUFFIX,th-sjy.com
 DOMAIN-SUFFIX,tianqi.com
@@ -600,7 +599,7 @@ DOMAIN-SUFFIX,tianyaui.com
 DOMAIN-SUFFIX,tietuku.com
 DOMAIN-SUFFIX,tiexue.net
 DOMAIN-SUFFIX,tmiaoo.com
-DOMAIN-SUFFIX,trip.com
+# [已停用-冗余] DOMAIN-SUFFIX,trip.com  ← 已被 Direct_Domain 以同一分组命中
 DOMAIN-SUFFIX,ttmeiju.com
 DOMAIN-SUFFIX,tudou.com
 DOMAIN-SUFFIX,tuniu.com

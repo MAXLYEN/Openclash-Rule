@@ -1,13 +1,13 @@
 # NAME: EUNet_Domain
 # UPDATED: 2026-09-05
 # DOMAIN-SUFFIX: 39
-# DOMAIN-KEYWORD: 157
-# TOTAL: 196
+# DOMAIN-KEYWORD: 156
+# TOTAL: 195
 payload:
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
   - DOMAIN-KEYWORD,byffbb
-  - DOMAIN-KEYWORD,bybit
+# [已停用-冗余] DOMAIN-KEYWORD,bybit  ← 已被 Bybit_Domain 以同一分组命中
   - DOMAIN-SUFFIX,contentstack.io
   - DOMAIN-SUFFIX,usercentrics.eu
   - DOMAIN-SUFFIX,smooch.io

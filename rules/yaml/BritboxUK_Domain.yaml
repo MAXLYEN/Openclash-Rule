@@ -1,14 +1,4 @@
 # NAME: BritboxUK_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 2
-# DOMAIN-SUFFIX: 6
-# TOTAL: 8
-payload:
-  - DOMAIN,itvpnp.live.ott.irdeto.com
-  - DOMAIN,itvpnp.stage.ott.irdeto.com
-  - DOMAIN-SUFFIX,bb-static.com
-  - DOMAIN-SUFFIX,bbc.co.uk
-  - DOMAIN-SUFFIX,britbox.co.uk
-  - DOMAIN-SUFFIX,britbox.com
-  - DOMAIN-SUFFIX,itv.com
-  - DOMAIN-SUFFIX,massive-itv.com
+# UPDATED: 2026-09-05
+# TOTAL: 0
+payload: []

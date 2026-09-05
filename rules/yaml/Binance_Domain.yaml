@@ -1,13 +1,13 @@
 # NAME: Binance_Domain
 # UPDATED: 2026-09-05
 # DOMAIN-SUFFIX: 1
-# DOMAIN-KEYWORD: 11
-# TOTAL: 12
+# DOMAIN-KEYWORD: 8
+# TOTAL: 9
 payload:
   - DOMAIN-KEYWORD,binance
-  - DOMAIN-KEYWORD,binancezh
-  - DOMAIN-KEYWORD,binancecnt
-  - DOMAIN-KEYWORD,binanceapi
+# [已停用-冗余] DOMAIN-KEYWORD,binancezh  ← 文件内被 Binance_Domain 包含
+# [已停用-冗余] DOMAIN-KEYWORD,binancecnt  ← 文件内被 Binance_Domain 包含
+# [已停用-冗余] DOMAIN-KEYWORD,binanceapi  ← 文件内被 Binance_Domain 包含
   - DOMAIN-KEYWORD,saasexch
   - DOMAIN-KEYWORD,yingwangtech
   - DOMAIN-KEYWORD,bnbstatic

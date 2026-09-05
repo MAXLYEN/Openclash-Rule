@@ -1,8 +1,8 @@
 # NAME: JP_Domain
-# UPDATED: 2026-08-30
-# DOMAIN-SUFFIX: 143
+# UPDATED: 2026-09-05
+# DOMAIN-SUFFIX: 123
 # DOMAIN-KEYWORD: 14
-# TOTAL: 157
+# TOTAL: 137
 #亚洲-日本分流
 DOMAIN-SUFFIX,co.jp
 DOMAIN-SUFFIX,com.jp
@@ -26,30 +26,30 @@ DOMAIN-KEYWORD,jp-tencentclb
 DOMAIN-SUFFIX,pst.net
 #菲律宾运营商
 DOMAIN-KEYWORD,globe
-DOMAIN-SUFFIX,csftr.com
+# [已停用-冗余] DOMAIN-SUFFIX,csftr.com  ← 文件内被 JP_Domain 包含
 # ===== Japan Online Services =====
 # Yahoo! JAPAN
-DOMAIN-SUFFIX,yahoo.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,yahoo.co.jp  ← 文件内被 JP_Domain 包含
 DOMAIN-SUFFIX,yimg.jp
 DOMAIN-SUFFIX,yahooapis.com
 DOMAIN-SUFFIX,yahoo-net.jp
 DOMAIN-SUFFIX,slim01.jp
 DOMAIN-SUFFIX,yahooapis.jp
 # Yahoo! JAPAN Shopping / Auction / Flea Market
-DOMAIN-SUFFIX,shopping.yahoo.co.jp
-DOMAIN-SUFFIX,auctions.yahoo.co.jp
-DOMAIN-SUFFIX,paypayfleamarket.yahoo.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,shopping.yahoo.co.jp  ← 文件内被 JP_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,auctions.yahoo.co.jp  ← 文件内被 JP_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,paypayfleamarket.yahoo.co.jp  ← 文件内被 JP_Domain 包含
 # Yahoo! JAPAN related
-DOMAIN-SUFFIX,news.yahoo.co.jp
-DOMAIN-SUFFIX,search.yahoo.co.jp
-DOMAIN-SUFFIX,chiebukuro.yahoo.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,news.yahoo.co.jp  ← 文件内被 JP_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,search.yahoo.co.jp  ← 文件内被 JP_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,chiebukuro.yahoo.co.jp  ← 文件内被 JP_Domain 包含
 # ===== Hatena =====
 DOMAIN-SUFFIX,hatena.ne.jp
 DOMAIN-SUFFIX,hatena.com
 DOMAIN-SUFFIX,hatena.blog
 DOMAIN-SUFFIX,hatenablog.com
 DOMAIN-SUFFIX,st-hatena.com
-DOMAIN-SUFFIX,impress.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,impress.co.jp  ← 文件内被 JP_Domain 包含
 DOMAIN-SUFFIX,ad-hatena.com
 # ===== LINE =====
 DOMAIN-SUFFIX,line.me
@@ -84,8 +84,8 @@ DOMAIN-SUFFIX,nxtv.jp
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dmm.co.jp
 # ===== FOD =====
-DOMAIN-SUFFIX,fod.fujitv.co.jp
-DOMAIN-SUFFIX,fujitv.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,fod.fujitv.co.jp  ← 文件内被 JP_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,fujitv.co.jp  ← 文件内被 JP_Domain 包含
 # ===== TELASA =====
 DOMAIN-SUFFIX,telasa.jp
 # ===== Lemino =====
@@ -134,19 +134,19 @@ DOMAIN-SUFFIX,mechacomic.jp
 DOMAIN-SUFFIX,cmoa.jp
 # ===== Japanese Publishing / Digital Books =====
 DOMAIN-SUFFIX,bookwalker.jp
-DOMAIN-SUFFIX,ebookjapan.yahoo.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,ebookjapan.yahoo.co.jp  ← 文件内被 JP_Domain 包含
 # ===== Japanese Game / Game Community =====
 DOMAIN-SUFFIX,game8.jp
 DOMAIN-SUFFIX,appmedia.jp
 DOMAIN-SUFFIX,gamepedia.jp
 # ===== Japanese Game / Entertainment =====
 DOMAIN-SUFFIX,cygames.jp
-DOMAIN-SUFFIX,aniplex.co.jp
-DOMAIN-SUFFIX,bandainamcoent.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,aniplex.co.jp  ← 文件内被 JP_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,bandainamcoent.co.jp  ← 文件内被 JP_Domain 包含
 DOMAIN-SUFFIX,sega.jp
 DOMAIN-SUFFIX,konami.com
 DOMAIN-SUFFIX,square-enix.com
-DOMAIN-SUFFIX,level5.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,level5.co.jp  ← 文件内被 JP_Domain 包含
 # ===== Japanese Anime / Entertainment =====
 DOMAIN-SUFFIX,animate-onlineshop.jp
 DOMAIN-SUFFIX,animate.tv
@@ -156,7 +156,7 @@ DOMAIN-SUFFIX,d-anime.jp
 DOMAIN-SUFFIX,nhk.or.jp
 DOMAIN-SUFFIX,nhk.jp
 DOMAIN-SUFFIX,asahi.com
-DOMAIN-SUFFIX,yomiuri.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,yomiuri.co.jp  ← 文件内被 JP_Domain 包含
 DOMAIN-SUFFIX,mainichi.jp
 DOMAIN-SUFFIX,nikkei.com
 DOMAIN-SUFFIX,sankei.com
@@ -164,13 +164,13 @@ DOMAIN-SUFFIX,sankei.com
 DOMAIN-SUFFIX,weathernews.jp
 DOMAIN-SUFFIX,tenki.jp
 # ===== Japanese Shopping =====
-DOMAIN-SUFFIX,amazon.co.jp
-DOMAIN-SUFFIX,rakuten.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,amazon.co.jp  ← 文件内被 JP_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,rakuten.co.jp  ← 文件内被 JP_Domain 包含
 DOMAIN-SUFFIX,yodobashi.com
 DOMAIN-SUFFIX,biccamera.com
 DOMAIN-SUFFIX,joshinweb.jp
 DOMAIN-SUFFIX,edion.com
-DOMAIN-SUFFIX,nojima.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,nojima.co.jp  ← 文件内被 JP_Domain 包含
 # ===== Japanese Fashion / Lifestyle Shopping =====
 DOMAIN-SUFFIX,zozo.jp
 DOMAIN-SUFFIX,uniqlo.com
@@ -179,7 +179,7 @@ DOMAIN-SUFFIX,nitori-net.jp
 # ===== Japanese Second-hand / Marketplace =====
 DOMAIN-SUFFIX,mercari.jp
 DOMAIN-SUFFIX,fril.jp
-DOMAIN-SUFFIX,rakuma.rakuten.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,rakuma.rakuten.co.jp  ← 文件内被 JP_Domain 包含
 # ===== Rakuten Online Services =====
 DOMAIN-SUFFIX,rakuten.ne.jp
 # ===== Japanese Digital Music / Audio =====

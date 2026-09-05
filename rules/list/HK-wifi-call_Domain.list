@@ -1,9 +1,9 @@
 # NAME: HK-wifi-call_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 5
-# TOTAL: 5
+# UPDATED: 2026-09-05
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
 DOMAIN-SUFFIX,csl.prod.ondemandconnectivity.com
 DOMAIN-SUFFIX,hhk.prod.ondemandconnectivity.com
 DOMAIN-SUFFIX,epdg.epc.mnc000.mcc454.pub.3gppnetwork.org
-DOMAIN-SUFFIX,ss.epdg.epc.mnc000.mcc454.pub.3gppnetwork.org
+# [已停用-冗余] DOMAIN-SUFFIX,ss.epdg.epc.mnc000.mcc454.pub.3gppnetwork.org  ← 文件内被 HK-wifi-call_Domain 包含
 DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc000.mcc454.pub.3gppnetwork.org

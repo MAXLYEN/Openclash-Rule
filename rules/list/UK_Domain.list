@@ -1,9 +1,9 @@
 # NAME: UK_Domain
-# UPDATED: 2026-08-04
+# UPDATED: 2026-09-05
 # DOMAIN: 3
-# DOMAIN-SUFFIX: 66
+# DOMAIN-SUFFIX: 49
 # DOMAIN-KEYWORD: 8
-# TOTAL: 77
+# TOTAL: 60
 # 英国银行
 DOMAIN-SUFFIX,online-metrix.net
 DOMAIN-SUFFIX,yapily.com
@@ -16,19 +16,19 @@ DOMAIN-SUFFIX,skrill.uk
 # Chase
 DOMAIN-SUFFIX,chase.com
 DOMAIN-SUFFIX,chase.uk
-DOMAIN-SUFFIX,chase.co.uk
+# [已停用-冗余] DOMAIN-SUFFIX,chase.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 # 信用查询
-DOMAIN-SUFFIX,creditkarma.co.uk
+# [已停用-冗余] DOMAIN-SUFFIX,creditkarma.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 DOMAIN-SUFFIX,totallymoney.uk
 DOMAIN-SUFFIX,totallymoney.com
 DOMAIN-SUFFIX,clearscore.com
 DOMAIN-SUFFIX,checkmyfile.com
 DOMAIN-SUFFIX,hellopillar.com
 DOMAIN-SUFFIX,pillar.money
-DOMAIN-SUFFIX,experian.co.uk
-DOMAIN-SUFFIX,experianidentityservice.co.uk
+# [已停用-冗余] DOMAIN-SUFFIX,experian.co.uk  ← 已被 UKNet_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,experianidentityservice.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 # barclays
-DOMAIN-SUFFIX,barclays.co.uk
+# [已停用-冗余] DOMAIN-SUFFIX,barclays.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 DOMAIN-SUFFIX,barclays.com
 DOMAIN-SUFFIX,barclays.mobi
 DOMAIN,barclaysuk.sc.omtrdc.net
@@ -39,25 +39,25 @@ DOMAIN-SUFFIX,guavapay.com
 DOMAIN-KEYWORD,myguava
 DOMAIN-KEYWORD,guavapay
 # 小马系列
-DOMAIN-SUFFIX,lloydsbank.co.uk
+# [已停用-冗余] DOMAIN-SUFFIX,lloydsbank.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,dynatrace.com
 DOMAIN-KEYWORD,lloydsbank
 DOMAIN-KEYWORD,halifax
-DOMAIN-SUFFIX,bankofscotland.co.uk
-DOMAIN-SUFFIX,tsb.co.uk
+# [已停用-冗余] DOMAIN-SUFFIX,bankofscotland.co.uk  ← 已被 UKNet_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,tsb.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 DOMAIN-SUFFIX,demdex.net
 DOMAIN-SUFFIX,cm.everesttech.net
 DOMAIN-SUFFIX,omtrdc.net
 # ifast
-DOMAIN-SUFFIX,ifastgb.com
+# [已停用-冗余] DOMAIN-SUFFIX,ifastgb.com  ← 已被 UKNet_Domain 以同一分组命中
 # wuzo
-DOMAIN-SUFFIX,wuzo.co.uk
+# [已停用-冗余] DOMAIN-SUFFIX,wuzo.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 DOMAIN-SUFFIX,wuzo.com
 DOMAIN-SUFFIX,api.ipify.org
 # zilch
 DOMAIN-SUFFIX,payzilch.com
-DOMAIN-SUFFIX,eu.intercom.io
+# [已停用-冗余] DOMAIN-SUFFIX,eu.intercom.io  ← 已被 UKNet_Domain 以同一分组命中
 DOMAIN-SUFFIX,verygoodvault.com
 DOMAIN-SUFFIX,verygood.systems
 DOMAIN-SUFFIX,appsflyer.com
@@ -80,12 +80,12 @@ DOMAIN-KEYWORD,monzo
 DOMAIN-SUFFIX,lemfi.com
 DOMAIN-SUFFIX,customer.io
 # freetrade
-DOMAIN-SUFFIX,freetrade.io
+# [已停用-冗余] DOMAIN-SUFFIX,freetrade.io  ← 已被 UKNet_Domain 以同一分组命中
 DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,asnapieu.com
 # 212
 DOMAIN-SUFFIX,trading212.com
-DOMAIN-SUFFIX,appsflyersdk.com
+# [已停用-冗余] DOMAIN-SUFFIX,appsflyersdk.com  ← 已被 UKNet_Domain 以同一分组命中
 DOMAIN-KEYWORD,trading212
 # aqua
 DOMAIN-SUFFIX,newdaycards.com
@@ -94,9 +94,9 @@ DOMAIN-KEYWORD,newdaycards
 DOMAIN-SUFFIX,moneyboxapp.com
 DOMAIN-SUFFIX,browser-intake-datadoghq.eu
 # paysend
-DOMAIN-SUFFIX,paysend.io
+# [已停用-冗余] DOMAIN-SUFFIX,paysend.io  ← 已被 UKNet_Domain 以同一分组命中
 # hsbc uk
-DOMAIN-SUFFIX,hsbc.co.uk
+# [已停用-冗余] DOMAIN-SUFFIX,hsbc.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 # topcashback
 DOMAIN-SUFFIX,topcashback.com
 # kroo
@@ -104,6 +104,6 @@ DOMAIN-SUFFIX,kroo.com
 # uphold
 DOMAIN-SUFFIX,uphold.com
 # yonder
-DOMAIN-SUFFIX,yondercard.com
+# [已停用-冗余] DOMAIN-SUFFIX,yondercard.com  ← 已被 UKNet_Domain 以同一分组命中
 # 兜底
-DOMAIN-SUFFIX,co.uk
+# [已停用-冗余] DOMAIN-SUFFIX,co.uk  ← 已被 UKNet_Domain 以同一分组命中

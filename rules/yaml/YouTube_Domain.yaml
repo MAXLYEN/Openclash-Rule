@@ -1,8 +1,8 @@
 # NAME: YouTube_Domain
-# UPDATED: 2026-08-04
+# UPDATED: 2026-09-05
 # DOMAIN-SUFFIX: 178
-# DOMAIN-KEYWORD: 2
-# TOTAL: 180
+# DOMAIN-KEYWORD: 1
+# TOTAL: 179
 payload:
   - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com
@@ -182,5 +182,5 @@ payload:
   - DOMAIN-SUFFIX,youtubemobilesupport.com
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN-KEYWORD,youtube
+# [已停用-冗余] DOMAIN-KEYWORD,youtube  ← 文件内被 YouTube_Domain 包含
   - DOMAIN-KEYWORD,googlevideo
