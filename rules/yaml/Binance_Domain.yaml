@@ -1,8 +1,8 @@
 # NAME: Binance_Domain
 # UPDATED: 2026-09-05
-# DOMAIN-SUFFIX: 4
+# DOMAIN-SUFFIX: 1
 # DOMAIN-KEYWORD: 11
-# TOTAL: 15
+# TOTAL: 12
 payload:
   - DOMAIN-KEYWORD,binance
   - DOMAIN-KEYWORD,binancezh
@@ -15,7 +15,4 @@ payload:
   - DOMAIN-KEYWORD,bnbzh
   - DOMAIN-KEYWORD,bntrace
   - DOMAIN-KEYWORD,nftstatic
-  - DOMAIN-SUFFIX,saasexch.info
-  - DOMAIN-SUFFIX,saasexch.co
-  - DOMAIN-SUFFIX,saasexch.com
   - DOMAIN-SUFFIX,bnappweb.black
