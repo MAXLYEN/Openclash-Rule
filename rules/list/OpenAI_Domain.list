@@ -1,9 +1,9 @@
 # NAME: OpenAI_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 8
+# UPDATED: 2026-09-05
+# DOMAIN: 7
 # DOMAIN-SUFFIX: 24
 # DOMAIN-KEYWORD: 2
-# TOTAL: 34
+# TOTAL: 33
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 # [已停用-串味] DOMAIN,gemini.google.com  ← Gemini 属 Google，不属 OpenAI
