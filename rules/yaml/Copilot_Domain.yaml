@@ -1,9 +1,8 @@
 # NAME: Copilot_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 16
-# DOMAIN-SUFFIX: 26
-# DOMAIN-KEYWORD: 1
-# TOTAL: 43
+# UPDATED: 2026-09-05
+# DOMAIN: 12
+# DOMAIN-SUFFIX: 3
+# TOTAL: 15
 payload:
   - DOMAIN,api.msn.com
 # [已停用] DOMAIN,api.statsig.com  ← Statsig 特性开关服务，全网通用
@@ -16,39 +15,39 @@ payload:
 # [已停用] DOMAIN,in.appcenter.ms  ← 微软 AppCenter，非 Copilot 专有
   - DOMAIN,location.microsoft.com
   - DOMAIN,odc.officeapps.live.com
-  - DOMAIN,openai-api.arkoselabs.com
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN,production-openaicom-storage.azureedge.net
+# [已停用-串味] DOMAIN,openai-api.arkoselabs.com  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN,openaicomproductionae4b.blob.core.windows.net  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN,production-openaicom-storage.azureedge.net  ← 与 OpenAI_Domain 重复
   - DOMAIN,r.bing.com
   - DOMAIN,self.events.data.microsoft.com
   - DOMAIN,services.bingapis.com
-  - DOMAIN,static.cloudflareinsights.com
+# [已停用-串味] DOMAIN,static.cloudflareinsights.com  ← 与 OpenAI_Domain 重复
   - DOMAIN,sydney.bing.com
   - DOMAIN,www.bing.com
-  - DOMAIN-SUFFIX,algolia.net
+# [已停用-串味] DOMAIN-SUFFIX,algolia.net  ← 与 OpenAI_Domain 重复
   - DOMAIN-SUFFIX,api.microsoftapp.net
-  - DOMAIN-SUFFIX,auth0.com
+# [已停用-串味] DOMAIN-SUFFIX,auth0.com  ← 与 OpenAI_Domain 重复
   - DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+# [已停用-串味] DOMAIN-SUFFIX,challenges.cloudflare.com  ← Cloudflare 通用验证页，非 Copilot 专属
+# [已停用-串味] DOMAIN-SUFFIX,chatgpt.com  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,chatgpt.livekit.cloud  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,client-api.arkoselabs.com  ← 与 OpenAI_Domain 重复
   - DOMAIN-SUFFIX,edgeservices.bing.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,host.livekit.cloud
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,launchdarkly.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,observeit.net
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,openaicom.imgix.net
-  - DOMAIN-SUFFIX,segment.io
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,turn.livekit.cloud
-  - DOMAIN-KEYWORD,openaicom-api
+# [已停用-串味] DOMAIN-SUFFIX,events.statsigapi.net  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,featuregates.org  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,host.livekit.cloud  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,identrust.com  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,intercom.io  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,intercomcdn.com  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,launchdarkly.com  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,oaistatic.com  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,oaiusercontent.com  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,observeit.net  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,openai.com  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,openaiapi-site.azureedge.net  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,openaicom.imgix.net  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,segment.io  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,sentry.io  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,stripe.com  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-SUFFIX,turn.livekit.cloud  ← 与 OpenAI_Domain 重复
+# [已停用-串味] DOMAIN-KEYWORD,openaicom-api  ← 属 OpenAI，不属 Copilot

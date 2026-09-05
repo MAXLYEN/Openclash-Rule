@@ -1,9 +1,8 @@
 # NAME: Copilot_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 16
-# DOMAIN-SUFFIX: 26
-# DOMAIN-KEYWORD: 1
-# TOTAL: 43
+# UPDATED: 2026-09-05
+# DOMAIN: 12
+# DOMAIN-SUFFIX: 3
+# TOTAL: 15
 DOMAIN,api.msn.com
 # [已停用] DOMAIN,api.statsig.com  ← Statsig 特性开关服务，全网通用
 DOMAIN,assets.msn.com
