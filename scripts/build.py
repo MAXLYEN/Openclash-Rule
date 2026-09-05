@@ -186,10 +186,18 @@ def main():
         if write_if_changed(path, '\n'.join(head + body) + '\n'):
             fixed_n += 1
 
-        payload = ('payload:\n' + '\n'.join('  - ' + r for r in new_rules)) if new_rules else 'payload: []'
-        notes_only = [it[1] for it in seq if it[0] == 'c']
+        # 保序输出：注释留在其原本所属规则的上方。
+        # 旧实现把所有注释抽成 notes_only 堆在 payload 之前，排查时看的是 yaml
+        # （provider 缓存下来的也是 yaml），注释和规则完全对不上号。
+        # YAML 允许块内注释，缩进在 payload: 之下不影响解析。
+        if new_rules:
+            body = ['payload:']
+            for it in seq:
+                body.append(it[1] if it[0] == 'c' else '  - %s,%s' % (it[1], it[2]))
+        else:
+            body = ['payload: []']
         if write_if_changed(os.path.join(YAML, name + '.yaml'),
-                            '\n'.join(head + notes_only) + '\n' + payload + '\n'):
+                            '\n'.join(head + body) + '\n'):
             yaml_n += 1
 
     # ---------- 清理 list 中已删除文件的 yaml 产物 ----------
