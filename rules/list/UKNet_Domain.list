@@ -23,7 +23,7 @@ DOMAIN-KEYWORD,mathwallet
 DOMAIN-KEYWORD,wirex
 DOMAIN-KEYWORD,klarna
 DOMAIN-KEYWORD,coinjar
-DOMAIN-KEYWORD,crypto
+# [已停用-串味] DOMAIN-KEYWORD,crypto  ← 关键词过宽且 crypto.com 不属英国本地服务，交由 Cryptocurrency 组
 DOMAIN-KEYWORD,trastra
 DOMAIN-KEYWORD,bitsa
 DOMAIN-KEYWORD,bunq
