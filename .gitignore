@@ -1,1 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
 
+# 编辑器
+.idea/
+.vscode/
+*.swp
+*~
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 本地测试产物
+*.local.ini
+/tmp/
