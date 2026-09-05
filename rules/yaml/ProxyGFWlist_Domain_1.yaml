@@ -3,12 +3,9 @@
 # DOMAIN-SUFFIX: 2480
 # DOMAIN-KEYWORD: 20
 # TOTAL: 2500
+payload:
 # 代理列表
 # MyList && Other
-# 国外域名
-# 国外域名关键字
-# GFW list
-payload:
   - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,adguard.org
   - DOMAIN-SUFFIX,bit.no.com
@@ -33,6 +30,7 @@ payload:
   - DOMAIN-SUFFIX,twdvd.com
   - DOMAIN-SUFFIX,unsplash.com
   - DOMAIN-SUFFIX,buzzsprout.com
+# 国外域名
   - DOMAIN-SUFFIX,eu
   - DOMAIN-SUFFIX,hk
   - DOMAIN-SUFFIX,jp
@@ -42,6 +40,7 @@ payload:
   - DOMAIN-SUFFIX,uk
   - DOMAIN-SUFFIX,us
   - DOMAIN-SUFFIX,ca
+# 国外域名关键字
   - DOMAIN-KEYWORD,1e100
   - DOMAIN-KEYWORD,abema
   - DOMAIN-KEYWORD,appledaily
@@ -62,6 +61,7 @@ payload:
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-KEYWORD,whatsapp
   - DOMAIN-KEYWORD,youtube
+# GFW list
   - DOMAIN-SUFFIX,gfwlist.start
   - DOMAIN-SUFFIX,000webhost.com
   - DOMAIN-SUFFIX,030buy.com

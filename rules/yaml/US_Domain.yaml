@@ -3,22 +3,9 @@
 # DOMAIN-SUFFIX: 21
 # DOMAIN-KEYWORD: 31
 # TOTAL: 52
+payload:
 #美洲分流
 #娱乐生活
-#DOMAIN-SUFFIX,gemini.google.com
-#DOMAIN-SUFFIX,gstatic.com
-#实体金融
-#虚拟金融
-#游戏
-#运营商
-#其他
-#Talkatone美区代理
-# 核心功能走美国节点（Talkatone 策略组）
-#Peacock美区代理
-#Paramountplus
-#brazaon
-# Backpack（钱包站 + 交易所站）
-payload:
   - DOMAIN-KEYWORD,tubi
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,coze.com
@@ -26,15 +13,19 @@ payload:
   - DOMAIN-SUFFIX,csn.edu
   - DOMAIN-KEYWORD,chatrandom
   - DOMAIN-KEYWORD,tiktok
+#DOMAIN-SUFFIX,gemini.google.com
+#DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-KEYWORD,copilot
   - DOMAIN-KEYWORD,grok
   - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,chatgpt
+#实体金融
   - DOMAIN-KEYWORD,capitalone
   - DOMAIN-KEYWORD,eastwestbank
   - DOMAIN-KEYWORD,wellsfargo
   - DOMAIN-KEYWORD,bankofamerica
   - DOMAIN-KEYWORD,us.hsbc.com
+#虚拟金融
   - DOMAIN-SUFFIX,binance.us
   - DOMAIN-KEYWORD,wealthfront
   - DOMAIN-KEYWORD,firstrade
@@ -44,9 +35,12 @@ payload:
   - DOMAIN-KEYWORD,kalshi
   - DOMAIN-KEYWORD,bitpay
   - DOMAIN-KEYWORD,westernunion
+#游戏
+#运营商
   - DOMAIN-SUFFIX,ultramobile.com
   - DOMAIN-SUFFIX,realphonevalidation.com
   - DOMAIN-KEYWORD,flexiroam
+#其他
   - DOMAIN-SUFFIX,slgnt.eu
   - DOMAIN-SUFFIX,powerschool.com
   - DOMAIN-KEYWORD,postman
@@ -54,8 +48,10 @@ payload:
   - DOMAIN-KEYWORD,rokt
   - DOMAIN-KEYWORD,quantummetric
   - DOMAIN-KEYWORD,onetrust
+#Talkatone美区代理
   - DOMAIN-KEYWORD,tktn
   - DOMAIN-SUFFIX,talkatone.com
+# 核心功能走美国节点（Talkatone 策略组）
   - DOMAIN-SUFFIX,talkamobile.com
   - DOMAIN-SUFFIX,tktn.at
   - DOMAIN-SUFFIX,tktn.be
@@ -64,10 +60,14 @@ payload:
   - DOMAIN-SUFFIX,mobilefuse.com
   - DOMAIN-SUFFIX,spadsync.com
   - DOMAIN-SUFFIX,media.tenor.com     # 表情包
+#Peacock美区代理
   - DOMAIN-KEYWORD,peacocktv
   - DOMAIN-KEYWORD,newrelic
+#Paramountplus
   - DOMAIN-KEYWORD,paramountplus
+#brazaon
   - DOMAIN-KEYWORD,brazaon
+# Backpack（钱包站 + 交易所站）
   - DOMAIN-SUFFIX,backpack.app
   - DOMAIN-SUFFIX,backpack.exchange
   - DOMAIN-KEYWORD,backpack

@@ -3,16 +3,9 @@
 # DOMAIN-SUFFIX: 39
 # DOMAIN-KEYWORD: 157
 # TOTAL: 196
+payload:
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
-#DOMAIN-KEYWORD,kraken
-#whitebit
-#weex
-# 沃达丰
-# === 以下合并自 EUNet_1.list ===
-# 欧洲分流续表
-# 欧盟转运（含UK）
-payload:
   - DOMAIN-KEYWORD,byffbb
   - DOMAIN-KEYWORD,bybit
   - DOMAIN-SUFFIX,contentstack.io
@@ -20,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,smooch.io
   - DOMAIN-SUFFIX,ledger.com
   - DOMAIN-KEYWORD,withcl
+#DOMAIN-KEYWORD,kraken
   - DOMAIN-KEYWORD,n26
   - DOMAIN-KEYWORD,number26
   - DOMAIN-SUFFIX,tech26.de
@@ -105,12 +99,15 @@ payload:
   - DOMAIN-KEYWORD,rapidssl
   - DOMAIN-KEYWORD,bitapi
   - DOMAIN-KEYWORD,lymryy
+#whitebit
   - DOMAIN-SUFFIX,whitebit.com
+#weex
   - DOMAIN-SUFFIX,janapw.com
   - DOMAIN-SUFFIX,wkobosx.site
   - DOMAIN-SUFFIX,weex3.com
   - DOMAIN-SUFFIX,weex168.ru
   - DOMAIN-SUFFIX,weexwbs.com
+# 沃达丰
   - DOMAIN-KEYWORD,vodafone
   - DOMAIN-KEYWORD,demdex
   - DOMAIN-KEYWORD,urbanairship
@@ -118,6 +115,9 @@ payload:
   - DOMAIN-KEYWORD,tealiumiq
   - DOMAIN-KEYWORD,adobedc
   - DOMAIN-SUFFIX,fil-vf.de
+# === 以下合并自 EUNet_1.list ===
+# 欧洲分流续表
+# 欧盟转运（含UK）
   - DOMAIN-KEYWORD,ipostalmail
   - DOMAIN-KEYWORD,tiptrans
   - DOMAIN-KEYWORD,greentreeone

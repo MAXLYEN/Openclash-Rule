@@ -4,17 +4,17 @@
 # DOMAIN-SUFFIX: 264
 # DOMAIN-KEYWORD: 1
 # TOTAL: 284
+payload:
 # [已停用] DOMAIN-KEYWORD,tracker  ← tracker 过于宽泛，会误匹配大量含该词的普通域名
 # [已停用] DOMAIN-KEYWORD,announce.php?passkey=  ← DOMAIN-KEYWORD 只匹配域名，含 ? = / 的 URL 片段永远不会命中
 # [已停用] DOMAIN-KEYWORD,peer_id=  ← DOMAIN-KEYWORD 只匹配域名，含 ? = / 的 URL 片段永远不会命中
 # [已停用] DOMAIN-KEYWORD,info_hash  ← 这是 BT/DHT 协议的报文字段名，不会出现在域名中，恒不生效
 # [已停用] DOMAIN-KEYWORD,get_peers  ← 这是 BT/DHT 协议的报文字段名，不会出现在域名中，恒不生效
 # [已停用] DOMAIN-KEYWORD,find_node  ← 这是 BT/DHT 协议的报文字段名，不会出现在域名中，恒不生效
+  - DOMAIN-KEYWORD,bittorrent
 # [已停用] DOMAIN-KEYWORD,announce_peer  ← 这是 BT/DHT 协议的报文字段名，不会出现在域名中，恒不生效
 # [已停用] DOMAIN-KEYWORD,audiences  ← audiences 是通用词，广告/分析类域名普遍含此词
 # > Private Tracker
-payload:
-  - DOMAIN-KEYWORD,bittorrent
   - DOMAIN-SUFFIX,club.hares.top
   - DOMAIN-SUFFIX,tracker.hhan.club
   - DOMAIN-SUFFIX,hhanclub.top

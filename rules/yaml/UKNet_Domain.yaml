@@ -3,13 +3,11 @@
 # DOMAIN-SUFFIX: 22
 # DOMAIN-KEYWORD: 59
 # TOTAL: 81
+payload:
 # === 以下合并自 UKNet.list ===
 #英国分流
-#虚拟金融
-# MetaMask（infura 是其默认 RPC 提供方，不加会导致余额/交易加载失败）
-#运营商
-payload:
   - DOMAIN-SUFFIX,co.uk
+#虚拟金融
   - DOMAIN-SUFFIX,cex.io
   - DOMAIN-SUFFIX,checkout.com
   - DOMAIN-SUFFIX,rudderlabs.com
@@ -85,8 +83,10 @@ payload:
   - DOMAIN-SUFFIX,privy.io
   - DOMAIN-KEYWORD,kraken
   - DOMAIN-SUFFIX,ctexcel.com
+# MetaMask（infura 是其默认 RPC 提供方，不加会导致余额/交易加载失败）
   - DOMAIN-SUFFIX,metamask.io
   - DOMAIN-SUFFIX,infura.io
+#运营商
   - DOMAIN-KEYWORD,giffgaff
   - DOMAIN-KEYWORD,firsty
   - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com

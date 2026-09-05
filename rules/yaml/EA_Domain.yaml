@@ -2,9 +2,9 @@
 # UPDATED: 2026-08-04
 # DOMAIN-SUFFIX: 163
 # TOTAL: 163
+payload:
 # [已停用] DOMAIN-KEYWORD,akamaihd  ← Akamai 是全球通用 CDN，绝非 EA 专有
 # [已停用] DOMAIN-SUFFIX,akamaihd.net  ← 同上；且与 Custom_Direct.list 的同名直连规则冲突
-payload:
   - DOMAIN-SUFFIX,anthemgame.com
   - DOMAIN-SUFFIX,anthemthegame.com
   - DOMAIN-SUFFIX,apexlegends.com

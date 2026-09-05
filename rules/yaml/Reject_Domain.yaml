@@ -2,6 +2,6 @@
 # UPDATED: 2026-08-04
 # DOMAIN-SUFFIX: 1
 # TOTAL: 1
-#Reject
 payload:
+#Reject
   - DOMAIN-SUFFIX,release.gitkraken.com

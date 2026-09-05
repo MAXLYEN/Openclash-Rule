@@ -2,8 +2,8 @@
 # UPDATED: 2026-08-04
 # DOMAIN-SUFFIX: 44
 # TOTAL: 44
-# 广告/追踪/已知无效 → REJECT
 payload:
+# 广告/追踪/已知无效 → REJECT
   - DOMAIN-SUFFIX,a1.tktn.be
   - DOMAIN-SUFFIX,d.tktn.be
   - DOMAIN-SUFFIX,adclick.g.doubleclick.net

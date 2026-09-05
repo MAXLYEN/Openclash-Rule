@@ -3,17 +3,14 @@
 # DOMAIN-SUFFIX: 47
 # DOMAIN-KEYWORD: 6
 # TOTAL: 53
-# === 以下合并自 HBO.list ===
-# [已停用] DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com  ← 同上
-# [已停用] DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com  ← AWS API Gateway 区域公共端点，非 HBO 专有
-# [已停用] PROCESS-NAME,com.hbo.hbonow  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# === 以下合并自 HBO_fix.list ===
-# 对 blackmatrix7 的 HBO 规则进行补充
 payload:
+# === 以下合并自 HBO.list ===
   - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
   - DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
   - DOMAIN-SUFFIX,cinemax.com
   - DOMAIN-SUFFIX,dai3fd1oh325y.cloudfront.net
+# [已停用] DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com  ← 同上
+# [已停用] DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com  ← AWS API Gateway 区域公共端点，非 HBO 专有
   - DOMAIN-SUFFIX,forthethrone.com
   - DOMAIN-SUFFIX,hbo.com
   - DOMAIN-SUFFIX,hbo.com.c.footprint.net
@@ -55,6 +52,7 @@ payload:
   - DOMAIN-SUFFIX,players.brightcove.net
   - DOMAIN-SUFFIX,warnermediacdn.com
   - DOMAIN-SUFFIX,youboranqs01.com
+# [已停用] PROCESS-NAME,com.hbo.hbonow  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
   - DOMAIN-KEYWORD,discomax
   - DOMAIN-KEYWORD,braze
   - DOMAIN-KEYWORD,branch
@@ -62,4 +60,6 @@ payload:
   - DOMAIN-KEYWORD,h264
   - DOMAIN-KEYWORD,apptentive
   - DOMAIN-KEYWORD,brightline
+# === 以下合并自 HBO_fix.list ===
+# 对 blackmatrix7 的 HBO 规则进行补充
   - DOMAIN-SUFFIX,prd.api.discomax.com

@@ -4,31 +4,6 @@
 # DOMAIN-SUFFIX: 1119
 # DOMAIN-KEYWORD: 5
 # TOTAL: 1131
-# Amazon
-# BBC
-# Developer 开发者常用国外网站、镜像和论坛
-# Discord
-# Facebook
-# Github
-# Google
-# Instagram
-# Iwara
-# Kakao Talk
-# Line
-# Oracle Cloud
-# OneDrive
-# Porn
-# Pixiv
-# Spark
-# Steam
-# TapTap
-# Twitch
-# Twitter
-# TeraBox
-# Wikipedia 维基相关域名
-#飞流直播
-#华文电视
-# VikACG
 payload:
   - DOMAIN-SUFFIX,tibetancommunityuk.net
   - DOMAIN-SUFFIX,tibetanculture.org
@@ -1065,9 +1040,12 @@ payload:
   - DOMAIN-SUFFIX,zzcloud.me
   - DOMAIN-SUFFIX,zzux.com
   - DOMAIN-SUFFIX,gfwlist.end
+# Amazon
   - DOMAIN-SUFFIX,amazonaws.com
+# BBC
   - DOMAIN-KEYWORD,uk-live
   - DOMAIN-SUFFIX,bbc.co
+# Developer 开发者常用国外网站、镜像和论坛
   - DOMAIN-SUFFIX,apache.org
   - DOMAIN-SUFFIX,docker.io
   - DOMAIN-SUFFIX,elastic.co
@@ -1083,23 +1061,33 @@ payload:
   - DOMAIN-SUFFIX,sourcegraph.com
   - DOMAIN-SUFFIX,spring.io
   - DOMAIN-SUFFIX,spring.net
+# Discord
   - DOMAIN-SUFFIX,discord.co
   - DOMAIN-SUFFIX,discord.media
+# Facebook
   - DOMAIN-SUFFIX,fbcdn.com
+# Github
   - DOMAIN-SUFFIX,githubapp.com
+# Google
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,app-measurement.net
   - DOMAIN-SUFFIX,gstatic.cn
   - DOMAIN-SUFFIX,gvt2.com
+# Instagram
   - DOMAIN-SUFFIX,instagr.am
+# Iwara
+# Kakao Talk
   - DOMAIN-SUFFIX,kakao.co.kr
   - DOMAIN-SUFFIX,kakaocdn.net
+# Line
   - DOMAIN-SUFFIX,lin.ee
   - DOMAIN-SUFFIX,line-cdn.net
   - DOMAIN-SUFFIX,line.naver.jp
   - DOMAIN-SUFFIX,nhncorp.jp
+# Oracle Cloud
   - DOMAIN,cloud.oracle.com
   - DOMAIN-SUFFIX,oraclecloud.com
+# OneDrive
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,skydrive
@@ -1112,6 +1100,7 @@ payload:
   - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
   - DOMAIN-SUFFIX,storage.live.com
   - DOMAIN-SUFFIX,storage.msn.com
+# Porn
   - DOMAIN-SUFFIX,8teenxxx.com
   - DOMAIN-SUFFIX,ahcdn.com
   - DOMAIN-SUFFIX,bcvcdn.com
@@ -1123,10 +1112,13 @@ payload:
   - DOMAIN-SUFFIX,sb-cd.com
   - DOMAIN-SUFFIX,xnxx-cdn.com
   - DOMAIN-SUFFIX,ypncdn.com
+# Pixiv
   - DOMAIN-SUFFIX,fanbox.cc
+# Spark
   - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,hockeyapp.net
   - DOMAIN-SUFFIX,readdle.com
+# Steam
   - DOMAIN-SUFFIX,fanatical.com
   - DOMAIN-SUFFIX,humblebundle.com
   - DOMAIN-SUFFIX,underlords.com
@@ -1143,21 +1135,29 @@ payload:
   - DOMAIN,steamusercontent-a.akamaihd.net
   - DOMAIN,steamuserimages-a.akamaihd.net
   - DOMAIN,steampipe.akamaized.net
+# TapTap
   - DOMAIN-SUFFIX,tap.io
   - DOMAIN-SUFFIX,taptap.tw
+# Twitch
   - DOMAIN-KEYWORD,ttvnw
+# Twitter
   - DOMAIN-SUFFIX,twimg.co
   - DOMAIN-SUFFIX,twimg.org
+# TeraBox
   - DOMAIN-SUFFIX,teraboxcdn.com
+# Wikipedia 维基相关域名
   - DOMAIN-SUFFIX,mediawiki.org
   - DOMAIN-SUFFIX,wikibooks.org
   - DOMAIN-SUFFIX,wikidata.org
   - DOMAIN-SUFFIX,wikiversity.org
   - DOMAIN-SUFFIX,wikivoyage.org
   - DOMAIN-SUFFIX,wiktionary.org
+#飞流直播
   - DOMAIN-SUFFIX,neulion.com
   - DOMAIN-SUFFIX,icntv.xyz
   - DOMAIN-SUFFIX,flzbcdn.xyz
+#华文电视
   - DOMAIN-SUFFIX,ocnttv.com
+# VikACG
   - DOMAIN-SUFFIX,vikacg.com
   - DOMAIN-SUFFIX,picjs.xyz

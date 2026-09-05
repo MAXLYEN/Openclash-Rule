@@ -3,11 +3,11 @@
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 4
 # TOTAL: 5
-# [已停用] DOMAIN-SUFFIX,digicert.com  ← DigiCert 是全球证书颁发机构，所有 HTTPS 站点都会用到
-# [已停用] DOMAIN-SUFFIX,gvt1.com  ← Google 通用 CDN，会误伤谷歌服务分流
 payload:
   - DOMAIN,bahamut.akamaized.net
   - DOMAIN-SUFFIX,bahamut.com.tw
+# [已停用] DOMAIN-SUFFIX,digicert.com  ← DigiCert 是全球证书颁发机构，所有 HTTPS 站点都会用到
   - DOMAIN-SUFFIX,gamer.com.tw
+# [已停用] DOMAIN-SUFFIX,gvt1.com  ← Google 通用 CDN，会误伤谷歌服务分流
   - DOMAIN-SUFFIX,hinet.net
   - DOMAIN-SUFFIX,viblast.com

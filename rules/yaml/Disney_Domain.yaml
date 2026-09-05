@@ -2,7 +2,6 @@
 # UPDATED: 2026-08-04
 # DOMAIN-SUFFIX: 170
 # TOTAL: 170
-# [已停用] DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com  ← AWS API Gateway 区域公共端点，非迪士尼专有
 payload:
   - DOMAIN-SUFFIX,20thcenturystudios.com.au
   - DOMAIN-SUFFIX,20thcenturystudios.com.br
@@ -131,6 +130,7 @@ payload:
   - DOMAIN-SUFFIX,espncdn.com
   - DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net
   - DOMAIN-SUFFIX,espnqa.com
+# [已停用] DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com  ← AWS API Gateway 区域公共端点，非迪士尼专有
   - DOMAIN-SUFFIX,go-disneyworldgo.com
   - DOMAIN-SUFFIX,go.com
   - DOMAIN-SUFFIX,hotstar-cdn.net

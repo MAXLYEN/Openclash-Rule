@@ -4,12 +4,6 @@
 # DOMAIN-SUFFIX: 1250
 # DOMAIN-KEYWORD: 24
 # TOTAL: 1301
-# [已停用] DOMAIN-SUFFIX,akamaized.net  ← Akamai 通用 CDN
-# [已停用] DOMAIN-SUFFIX,amazonaws.co.uk  ← 同上
-# [已停用] DOMAIN-SUFFIX,amazonaws.com  ← 整个 AWS，范围极大
-# [已停用] DOMAIN-SUFFIX,challenges.cloudflare.com  ← Cloudflare 人机验证，全网通用
-# [已停用] DOMAIN-SUFFIX,cloudfront.net  ← 整个 CloudFront CDN，范围极大
-# [已停用] DOMAIN-SUFFIX,gvt1.com  ← Google 通用 CDN，会打乱谷歌服务分流
 payload:
   - DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
   - DOMAIN,api.okzy.tv
@@ -58,7 +52,10 @@ payload:
   - DOMAIN-SUFFIX,afpforum.com
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiv-delivery.net
+# [已停用] DOMAIN-SUFFIX,akamaized.net  ← Akamai 通用 CDN
   - DOMAIN-SUFFIX,amazon.jobs
+# [已停用] DOMAIN-SUFFIX,amazonaws.co.uk  ← 同上
+# [已停用] DOMAIN-SUFFIX,amazonaws.com  ← 整个 AWS，范围极大
   - DOMAIN-SUFFIX,amazonprimevideos.com
   - DOMAIN-SUFFIX,amazontools.com
   - DOMAIN-SUFFIX,amazontours.com
@@ -161,10 +158,12 @@ payload:
   - DOMAIN-SUFFIX,cbstelevisioncity.com
   - DOMAIN-SUFFIX,cdn.optimizely.com
   - DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
+# [已停用] DOMAIN-SUFFIX,challenges.cloudflare.com  ← Cloudflare 人机验证，全网通用
   - DOMAIN-SUFFIX,channel4.com
   - DOMAIN-SUFFIX,channel5.com
   - DOMAIN-SUFFIX,chocotv.com.tw
   - DOMAIN-SUFFIX,cinemax.com
+# [已停用] DOMAIN-SUFFIX,cloudfront.net  ← 整个 CloudFront CDN，范围极大
   - DOMAIN-SUFFIX,cnbc.com
   - DOMAIN-SUFFIX,cnbcfm.com
   - DOMAIN-SUFFIX,cnn.com
@@ -1113,6 +1112,7 @@ payload:
   - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,googlevideo.com
+# [已停用] DOMAIN-SUFFIX,gvt1.com  ← Google 通用 CDN，会打乱谷歌服务分流
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,video.google.com
   - DOMAIN-SUFFIX,wide-youtube.l.google.com

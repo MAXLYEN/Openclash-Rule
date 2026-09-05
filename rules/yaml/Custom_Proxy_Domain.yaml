@@ -2,28 +2,28 @@
 # UPDATED: 2026-08-15
 # DOMAIN-SUFFIX: 14
 # TOTAL: 14
+payload:
 # 强制代理列表，来自个人收集
 # GooglePlay 相关
-# PS5 STUN
-# 嵌入式相关
-# PT 相关
-# Google 相关
-# EA Desktop 云同步
-# 云平台
-# 苹果通知
-# 验证器
-payload:
   - DOMAIN-SUFFIX,services.googleapis.cn
   - DOMAIN-SUFFIX,clientservices.googleapis.com
   - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+# PS5 STUN
   - DOMAIN-SUFFIX,stun.playstation.net
+# 嵌入式相关
   - DOMAIN-SUFFIX,platformio.org
   - DOMAIN-SUFFIX,arduino.cc
+# PT 相关
   - DOMAIN-SUFFIX,dmhy.org
+# Google 相关
   - DOMAIN-SUFFIX,mtalk.google.com
+# EA Desktop 云同步
   - DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
+# 云平台
   - DOMAIN-SUFFIX,nosla.cloud
+# 苹果通知
   - DOMAIN-SUFFIX,push.apple.com
+# 验证器
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,jishubai.com

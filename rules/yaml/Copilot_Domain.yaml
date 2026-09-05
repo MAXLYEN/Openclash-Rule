@@ -4,16 +4,16 @@
 # DOMAIN-SUFFIX: 26
 # DOMAIN-KEYWORD: 1
 # TOTAL: 43
-# [已停用] DOMAIN,api.statsig.com  ← Statsig 特性开关服务，全网通用
-# [已停用] DOMAIN,browser-intake-datadoghq.com  ← Datadog 监控，全网通用
-# [已停用] DOMAIN,chat.openai.com.cdn.cloudflare.net  ← 这是 OpenAI 的域名，应归入 OpenAI.list
-# [已停用] DOMAIN,in.appcenter.ms  ← 微软 AppCenter，非 Copilot 专有
 payload:
   - DOMAIN,api.msn.com
+# [已停用] DOMAIN,api.statsig.com  ← Statsig 特性开关服务，全网通用
   - DOMAIN,assets.msn.com
+# [已停用] DOMAIN,browser-intake-datadoghq.com  ← Datadog 监控，全网通用
+# [已停用] DOMAIN,chat.openai.com.cdn.cloudflare.net  ← 这是 OpenAI 的域名，应归入 OpenAI.list
   - DOMAIN,copilot.microsoft.com
   - DOMAIN,gateway.bingviz.microsoft.net
   - DOMAIN,gateway.bingviz.microsoftapp.net
+# [已停用] DOMAIN,in.appcenter.ms  ← 微软 AppCenter，非 Copilot 专有
   - DOMAIN,location.microsoft.com
   - DOMAIN,odc.officeapps.live.com
   - DOMAIN,openai-api.arkoselabs.com

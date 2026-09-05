@@ -3,20 +3,18 @@
 # DOMAIN-SUFFIX: 8
 # DOMAIN-KEYWORD: 40
 # TOTAL: 48
+payload:
 # === 以下合并自 HK.list ===
 #亚洲-香港分流
-#旅行
-#实体金融
-# [已停用] DOMAIN-KEYWORD,go-mpulse  ← Akamai mPulse 性能监测，全网站点通用，非香港专有
-#虚拟金融
-#其他
-payload:
   - DOMAIN-SUFFIX,com.hk
+#旅行
   - DOMAIN-KEYWORD,klook
   - DOMAIN-SUFFIX,trip.com
+#实体金融
   - DOMAIN-KEYWORD,interactivebrokers
   - DOMAIN-KEYWORD,ibllc
   - DOMAIN-KEYWORD,ibkr
+# [已停用] DOMAIN-KEYWORD,go-mpulse  ← Akamai mPulse 性能监测，全网站点通用，非香港专有
   - DOMAIN-SUFFIX,za.group
   - DOMAIN-SUFFIX,sc.com
   - DOMAIN-KEYWORD,schwab
@@ -34,6 +32,7 @@ payload:
   - DOMAIN-KEYWORD,ant-hkbank
   - DOMAIN-KEYWORD,fusionbank
   - DOMAIN-KEYWORD,welab
+#虚拟金融
   - DOMAIN-KEYWORD,onekeycn
   - DOMAIN-SUFFIX,onekey.so
   - DOMAIN-SUFFIX,wise.com
@@ -50,6 +49,7 @@ payload:
   - DOMAIN-KEYWORD,madlads
   - DOMAIN-KEYWORD,bpinfra
   - DOMAIN-KEYWORD,pokepay
+#其他
   - DOMAIN-SUFFIX,clashpost.com
   - DOMAIN-KEYWORD,stc-hk
   - DOMAIN-KEYWORD,stcserver

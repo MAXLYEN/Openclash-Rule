@@ -3,7 +3,6 @@
 # IP-CIDR: 20
 # IP-CIDR6: 4
 # TOTAL: 24
-# 私有云服务
 payload:
   - IP-CIDR,0.0.0.0/8,no-resolve
   - IP-CIDR,10.0.0.0/8,no-resolve
@@ -23,6 +22,7 @@ payload:
   - IP-CIDR6,fc00::/7,no-resolve
   - IP-CIDR6,fe80::/10,no-resolve
   - IP-CIDR6,ff00::/8,no-resolve
+# 私有云服务
   - IP-CIDR,142.171.193.56/32,no-resolve
   - IP-CIDR,5.231.70.52/32,no-resolve
   - IP-CIDR,31.25.235.38/32,no-resolve

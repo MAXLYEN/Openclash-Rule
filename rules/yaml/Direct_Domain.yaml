@@ -4,50 +4,12 @@
 # DOMAIN-SUFFIX: 155
 # DOMAIN-KEYWORD: 13
 # TOTAL: 222
-# [已停用] DOMAIN,alt1-mtalk.google.com  ← FCM 推送域名，直连会使 GoogleFCM 分组失效（与 GoogleFCM.list 冲突）
-# [已停用] DOMAIN,alt2-mtalk.google.com  ← 同上
-# [已停用] PROCESS-NAME,BaiduNetdisk_mac  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,BitComet  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,ClashX  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,DownloadService  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,Folx  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,LogiOptions  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,LogiOptionsDaemon  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,Motrix.app  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,NetTransport  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,SunloginClient_Desktop  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,SunloginClient_Helper  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,Thunder  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,ThunderVIP  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,Transmission  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,UUBooster  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,WebTorrent  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,WebTorrentHelper  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,amuled  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,aria2c  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,clash  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,cloudflared  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,fdm  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,parsecd  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,privoxy  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,qBittorrent  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,qbittorrent*  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,qbittorrent-nox  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,ss-local  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,tailscaled  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,transmission-daemon  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,transmission-qt  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,trojan  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,trojan-go  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,uTorrent  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,v2ray  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# [已停用] PROCESS-NAME,xray  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
-# Talkatone
-# 分析/崩溃报告/部分非核心 → DIRECT（不走代理，减少延迟）
 payload:
   - DOMAIN,ad.10010.com
   - DOMAIN,ad.12306.cn
   - DOMAIN,ain.bgm.tv
+# [已停用] DOMAIN,alt1-mtalk.google.com  ← FCM 推送域名，直连会使 GoogleFCM 分组失效（与 GoogleFCM.list 冲突）
+# [已停用] DOMAIN,alt2-mtalk.google.com  ← 同上
   - DOMAIN,alt3-mtalk.google.com
   - DOMAIN,alt4-mtalk.google.com
   - DOMAIN,alt5-mtalk.google.com
@@ -263,6 +225,44 @@ payload:
   - DOMAIN-SUFFIX,weather-adge.apple.com
   - DOMAIN-SUFFIX,weather-edge.apple.com
   - DOMAIN-KEYWORD,westlawchina
+# [已停用] PROCESS-NAME,BaiduNetdisk_mac  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,BitComet  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,ClashX  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,DownloadService  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,Folx  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,LogiOptions  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,LogiOptionsDaemon  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,Motrix.app  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,NetTransport  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,SunloginClient_Desktop  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,SunloginClient_Helper  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,Thunder  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,ThunderVIP  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,Transmission  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,UUBooster  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,WebTorrent  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,WebTorrentHelper  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,amuled  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,aria2c  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,clash  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,cloudflared  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,fdm  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,parsecd  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,privoxy  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,qBittorrent  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,qbittorrent*  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,qbittorrent-nox  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,ss-local  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,tailscaled  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,transmission-daemon  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,transmission-qt  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,trojan  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,trojan-go  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,uTorrent  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,v2ray  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# [已停用] PROCESS-NAME,xray  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
+# Talkatone
+# 分析/崩溃报告/部分非核心 → DIRECT（不走代理，减少延迟）
   - DOMAIN-SUFFIX,agkn.com
   - DOMAIN-SUFFIX,cohere.com
   - DOMAIN-SUFFIX,crashlytics.com

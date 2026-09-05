@@ -3,12 +3,12 @@
 # DOMAIN-SUFFIX: 5
 # DOMAIN-KEYWORD: 49
 # TOTAL: 54
-# === 以下合并自 Amazon.list ===
-# [已停用] DOMAIN-SUFFIX,aws  ← aws 不是合法域名后缀，此条恒不生效
 payload:
+# === 以下合并自 Amazon.list ===
   - DOMAIN-SUFFIX,a2z.com
   - DOMAIN-SUFFIX,alexa.com
   - DOMAIN-SUFFIX,audible.com
+# [已停用] DOMAIN-SUFFIX,aws  ← aws 不是合法域名后缀，此条恒不生效
   - DOMAIN-SUFFIX,wfm.com
   - DOMAIN-SUFFIX,z.cn
   - DOMAIN-KEYWORD,acmvalidations

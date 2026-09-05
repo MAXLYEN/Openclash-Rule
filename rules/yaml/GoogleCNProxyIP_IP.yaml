@@ -2,8 +2,8 @@
 # UPDATED: 2026-08-04
 # IP-CIDR: 18
 # TOTAL: 18
-# 内容：GoogleCNProxyIP 谷歌中国服务 services.googleapis.cn
 payload:
+# 内容：GoogleCNProxyIP 谷歌中国服务 services.googleapis.cn
   - IP-CIDR,120.232.181.162/32,no-resolve
   - IP-CIDR,120.241.147.226/32,no-resolve
   - IP-CIDR,120.253.253.226/32,no-resolve
