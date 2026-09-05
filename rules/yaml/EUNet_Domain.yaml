@@ -1,8 +1,8 @@
 # NAME: EUNet_Domain
-# UPDATED: 2026-08-30
-# DOMAIN-SUFFIX: 33
+# UPDATED: 2026-09-05
+# DOMAIN-SUFFIX: 34
 # DOMAIN-KEYWORD: 157
-# TOTAL: 190
+# TOTAL: 191
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
 #DOMAIN-KEYWORD,kraken
@@ -10,7 +10,6 @@
 # === 以下合并自 EUNet_1.list ===
 # 欧洲分流续表
 # 欧盟转运（含UK）
-# [已停用] DOMAIN-KEYWORD,cloudfront  ← AWS CloudFront 通用 CDN，会把海量无关站点拖进欧洲节点
 payload:
   - DOMAIN-KEYWORD,byffbb
   - DOMAIN-KEYWORD,bybit
@@ -104,6 +103,7 @@ payload:
   - DOMAIN-KEYWORD,rapidssl
   - DOMAIN-KEYWORD,bitapi
   - DOMAIN-KEYWORD,lymryy
+  - DOMAIN-SUFFIX,whitebit.com
   - DOMAIN-KEYWORD,vodafone
   - DOMAIN-KEYWORD,demdex
   - DOMAIN-KEYWORD,urbanairship
