@@ -1,8 +1,8 @@
 # NAME: SG_Domain
 # UPDATED: 2026-09-05
-# DOMAIN-SUFFIX: 24
+# DOMAIN-SUFFIX: 25
 # DOMAIN-KEYWORD: 39
-# TOTAL: 63
+# TOTAL: 64
 payload:
 #亚洲-新加坡分流
 #实体金融
@@ -36,6 +36,7 @@ payload:
   - DOMAIN-KEYWORD,itiger
   - DOMAIN-KEYWORD,poems
   - DOMAIN-KEYWORD,lbkrs
+  - DOMAIN-SUFFIX,crypto.com
 #mexc
   - DOMAIN-SUFFIX,mocortech.com
   - DOMAIN-SUFFIX,coldbookfly.ru
