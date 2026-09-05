@@ -1,7 +1,7 @@
 # NAME: Binance_IP
-# UPDATED: 2026-08-04
-# IP-CIDR: 7
-# TOTAL: 7
+# UPDATED: 2026-09-05
+# IP-CIDR: 9
+# TOTAL: 9
 IP-CIDR,47.107.98.0/24,no-resolve
 IP-CIDR,47.107.127.0/24,no-resolve
 IP-CIDR,52.68.117.0/24,no-resolve
