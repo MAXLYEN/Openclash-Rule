@@ -23,10 +23,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出仓库
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: 安装 Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
@@ -51,27 +51,3 @@ jobs:
           COUNT=$(git diff --cached --name-only | wc -l)
           git commit -m "chore: 重新生成规则产物（${COUNT} 个文件）" -m "来源提交 ${GITHUB_SHA::7}"
           git push
-
-      - name: 通知 Openclash-Config 校验引用
-        # 本仓库改文件名或目录结构时，Openclash-Config 的 ini 会静默断链
-        # （Clash_Sub_Store.ini 的 74 条 URL 全部 404 就是这么来的）。
-        # 构建完成后主动通知对方跑一次联网校验，几分钟内暴露而不是几个月后。
-        #
-        # 需要在本仓库 Settings → Secrets and variables → Actions 添加 DISPATCH_TOKEN：
-        # 一个 fine-grained PAT，仓库范围选 MAXLYEN/Openclash-Config，
-        # 权限 Contents: Read and write。GITHUB_TOKEN 无法跨仓库触发 workflow。
-        if: always()
-        continue-on-error: true
-        env:
-          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
-        run: |
-          if [ -z "$DISPATCH_TOKEN" ]; then
-            echo "未配置 DISPATCH_TOKEN，跳过通知"
-            exit 0
-          fi
-          curl -sS -f -X POST \
-            -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer $DISPATCH_TOKEN" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            https://api.github.com/repos/MAXLYEN/Openclash-Config/dispatches \
-            -d "{\"event_type\":\"rules-updated\",\"client_payload\":{\"sha\":\"${GITHUB_SHA}\"}}"
