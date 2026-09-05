@@ -1,9 +1,10 @@
 # NAME: EUNet_IP
-# UPDATED: 2026-08-04
-# IP-CIDR: 22
-# TOTAL: 22
+# UPDATED: 2026-09-05
+# IP-CIDR: 23
+# TOTAL: 23
 # === 以下合并自 EUNetIP.list ===
 #欧洲IP分流
+#weex
 # Bitget wallet
 payload:
   - IP-CIDR,43.157.0.0/16,no-resolve
@@ -24,6 +25,7 @@ payload:
   - IP-CIDR,99.83.0.0/16,no-resolve
   - IP-CIDR,124.243.0.0/16,no-resolve
   - IP-CIDR,75.2.0.0/16,no-resolve
+  - IP-CIDR,43.153.0.0/16,no-resolve
   - IP-CIDR,189.1.0.0/16,no-resolve
   - IP-CIDR,183.87.0.0/16,no-resolve
   - IP-CIDR,8.223.0.0/16,no-resolve

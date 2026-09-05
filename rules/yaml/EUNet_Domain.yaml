@@ -1,11 +1,13 @@
 # NAME: EUNet_Domain
 # UPDATED: 2026-09-05
-# DOMAIN-SUFFIX: 34
+# DOMAIN-SUFFIX: 39
 # DOMAIN-KEYWORD: 157
-# TOTAL: 191
+# TOTAL: 196
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
 #DOMAIN-KEYWORD,kraken
+#whitebit
+#weex
 # 沃达丰
 # === 以下合并自 EUNet_1.list ===
 # 欧洲分流续表
@@ -104,6 +106,11 @@ payload:
   - DOMAIN-KEYWORD,bitapi
   - DOMAIN-KEYWORD,lymryy
   - DOMAIN-SUFFIX,whitebit.com
+  - DOMAIN-SUFFIX,janapw.com
+  - DOMAIN-SUFFIX,wkobosx.site
+  - DOMAIN-SUFFIX,weex3.com
+  - DOMAIN-SUFFIX,weex168.ru
+  - DOMAIN-SUFFIX,weexwbs.com
   - DOMAIN-KEYWORD,vodafone
   - DOMAIN-KEYWORD,demdex
   - DOMAIN-KEYWORD,urbanairship
