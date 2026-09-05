@@ -1,11 +1,12 @@
 # NAME: SG_Domain
-# UPDATED: 2026-08-30
-# DOMAIN-SUFFIX: 19
+# UPDATED: 2026-09-05
+# DOMAIN-SUFFIX: 24
 # DOMAIN-KEYWORD: 39
-# TOTAL: 58
+# TOTAL: 63
 #亚洲-新加坡分流
 #实体金融
 #证劵
+#mexc
 #Bybit
 ################ 硬件钱包 ################
 # Keystone（含 shop.keyst.one）
@@ -54,6 +55,11 @@ payload:
   - DOMAIN-KEYWORD,itiger
   - DOMAIN-KEYWORD,poems
   - DOMAIN-KEYWORD,lbkrs
+  - DOMAIN-SUFFIX,mocortech.com
+  - DOMAIN-SUFFIX,coldbookfly.ru
+  - DOMAIN-SUFFIX,payapptoday.com
+  - DOMAIN-SUFFIX,gotoda.co
+  - DOMAIN-SUFFIX,dgshen.com
   - DOMAIN-SUFFIX,bybit.biz
   - DOMAIN-KEYWORD,byd3c3
   - DOMAIN-KEYWORD,byapps

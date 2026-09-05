@@ -1,8 +1,8 @@
 # NAME: SG_Domain
-# UPDATED: 2026-08-30
-# DOMAIN-SUFFIX: 19
+# UPDATED: 2026-09-05
+# DOMAIN-SUFFIX: 24
 # DOMAIN-KEYWORD: 39
-# TOTAL: 58
+# TOTAL: 63
 #亚洲-新加坡分流
 #实体金融
 DOMAIN-KEYWORD,ocbc
@@ -35,7 +35,6 @@ DOMAIN-KEYWORD,longbridge
 DOMAIN-KEYWORD,itiger
 DOMAIN-KEYWORD,poems
 DOMAIN-KEYWORD,lbkrs
-
 #mexc
 DOMAIN-SUFFIX,mocortech.com
 DOMAIN-SUFFIX,coldbookfly.ru
