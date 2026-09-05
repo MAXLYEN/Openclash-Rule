@@ -1,0 +1,74 @@
+name: Dedupe rules
+
+# 为什么不挂在 push 上：
+# 一条规则是否冗余，取决于它在 Openclash-Config 的 ini 里排第几位 ——
+# 判定依赖的是**另一个仓库**的内容。挂在 push 上会出现"刚加的规则在同一次提交里
+# 被自己停用"这种莫名其妙的情况。所以只在手动触发、或配置仓库通知时跑。
+#
+# scripts/dedupe.py 是可逆的：已停用但不再冗余的行会被自动恢复，
+# 所以重复运行安全，不会形成单向棘轮。
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: '写入改动（不勾选则只出报告）'
+        type: boolean
+        default: false
+  # 可选：由 Openclash-Config 在 ini 顺序变更后通知本仓库重新评估。
+  # 需要在 Openclash-Config 侧配一个反向的 dispatch 步骤和 token。
+  repository_dispatch:
+    types: [config-updated]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dedupe
+  cancel-in-progress: true
+
+jobs:
+  dedupe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v6
+
+      - name: 安装 Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: pip install --quiet pyyaml
+
+      - name: 冗余分析
+        run: |
+          python3 scripts/dedupe.py | tee /tmp/report.txt
+          {
+            echo '## 冗余分析报告'
+            echo '```'
+            cat /tmp/report.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # repository_dispatch 触发时默认只报告，避免配置仓库一改就自动改规则
+      - name: 应用改动
+        if: inputs.apply
+        run: |
+          python3 scripts/dedupe.py --apply
+          python3 scripts/build.py
+          python3 scripts/validate.py
+
+      - name: 提交
+        if: inputs.apply
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rules
+          if git diff --cached --quiet; then
+            echo "无变化，跳过提交"
+            exit 0
+          fi
+          COUNT=$(git diff --cached --name-only | wc -l)
+          git commit -m "chore: 冗余规则停用/恢复（${COUNT} 个文件）"
+          git push
