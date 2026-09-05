@@ -98,6 +98,7 @@ DOMAIN-KEYWORD,ljhsnzpc
 DOMAIN-KEYWORD,rapidssl
 DOMAIN-KEYWORD,bitapi
 DOMAIN-KEYWORD,lymryy
+DOMAIN-SUFFIX,whitebit.com
 # 沃达丰
 DOMAIN-KEYWORD,vodafone
 DOMAIN-KEYWORD,demdex
@@ -119,7 +120,6 @@ DOMAIN-KEYWORD,mocortexh
 DOMAIN-SUFFIX,log.aliyuncs.com
 DOMAIN-KEYWORD,pushsdk
 DOMAIN-KEYWORD,88maru
-# [已停用] DOMAIN-KEYWORD,cloudfront  ← AWS CloudFront 通用 CDN，会把海量无关站点拖进欧洲节点
 DOMAIN-KEYWORD,htx
 DOMAIN-KEYWORD,daumoon
 DOMAIN-KEYWORD,woodpeckerlog
