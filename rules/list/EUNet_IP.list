@@ -22,6 +22,8 @@ IP-CIDR,52.68.117.1/32,no-resolve
 IP-CIDR,99.83.0.0/16,no-resolve
 IP-CIDR,124.243.0.0/16,no-resolve
 IP-CIDR,75.2.0.0/16,no-resolve
+#weex
+IP-CIDR,43.153.0.0/16,no-resolve
 # Bitget wallet
 IP-CIDR,189.1.0.0/16,no-resolve
 IP-CIDR,183.87.0.0/16,no-resolve
