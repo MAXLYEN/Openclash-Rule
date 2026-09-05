@@ -1,8 +1,8 @@
 # NAME: UKNet_Domain
 # UPDATED: 2026-09-05
 # DOMAIN-SUFFIX: 22
-# DOMAIN-KEYWORD: 59
-# TOTAL: 81
+# DOMAIN-KEYWORD: 58
+# TOTAL: 80
 payload:
 # === 以下合并自 UKNet.list ===
 #英国分流
@@ -24,7 +24,7 @@ payload:
   - DOMAIN-KEYWORD,wirex
   - DOMAIN-KEYWORD,klarna
   - DOMAIN-KEYWORD,coinjar
-  - DOMAIN-KEYWORD,crypto
+# [已停用-串味] DOMAIN-KEYWORD,crypto  ← 关键词过宽且 crypto.com 不属英国本地服务，交由 Cryptocurrency 组
   - DOMAIN-KEYWORD,trastra
   - DOMAIN-KEYWORD,bitsa
   - DOMAIN-KEYWORD,bunq
