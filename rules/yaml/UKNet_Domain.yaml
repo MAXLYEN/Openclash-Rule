@@ -1,8 +1,8 @@
 # NAME: UKNet_Domain
-# UPDATED: 2026-09-05
+# UPDATED: 2026-09-06
 # DOMAIN-SUFFIX: 21
-# DOMAIN-KEYWORD: 57
-# TOTAL: 78
+# DOMAIN-KEYWORD: 56
+# TOTAL: 77
 payload:
 # === 以下合并自 UKNet.list ===
 #英国分流
@@ -54,7 +54,7 @@ payload:
   - DOMAIN-KEYWORD,adjust
   - DOMAIN-KEYWORD,yonder
   - DOMAIN-KEYWORD,bugsnag
-  - DOMAIN-KEYWORD,intercom
+# [已停用-过宽] DOMAIN-KEYWORD,intercom  ← 匹配所有含 intercom 的域名。Intercom 是全球客服 SDK，非英国本地服务，实测把 app.intercom.io / widget.intercom.io 全部导向 UKNet
   - DOMAIN-KEYWORD,segment
   - DOMAIN-KEYWORD,datocms
   - DOMAIN-KEYWORD,sentry
