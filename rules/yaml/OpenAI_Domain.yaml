@@ -1,18 +1,18 @@
 # NAME: OpenAI_Domain
-# UPDATED: 2026-09-05
-# DOMAIN: 7
-# DOMAIN-SUFFIX: 16
-# DOMAIN-KEYWORD: 2
-# TOTAL: 25
+# UPDATED: 2026-09-06
+# DOMAIN: 5
+# DOMAIN-SUFFIX: 15
+# DOMAIN-KEYWORD: 1
+# TOTAL: 21
 payload:
-  - DOMAIN,browser-intake-datadoghq.com
+# [已停用-串味] DOMAIN,browser-intake-datadoghq.com  ← Datadog RUM 埋点，全网通用，断开不影响 ChatGPT 功能
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
 # [已停用-串味] DOMAIN,gemini.google.com  ← Gemini 属 Google，不属 OpenAI
   - DOMAIN,openai-api.arkoselabs.com
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
   - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN,static.cloudflareinsights.com
+# [已停用-串味] DOMAIN,static.cloudflareinsights.com  ← Cloudflare 分析脚本，全网通用，断开不影响功能
   - DOMAIN-SUFFIX,ai.com
 #DOMAIN-SUFFIX,algolia.net
   - DOMAIN-SUFFIX,api.statsig.com
@@ -29,7 +29,7 @@ payload:
 #DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,observeit.net
+# [已停用-串味] DOMAIN-SUFFIX,observeit.net  ← ObserveIT 会话监控，全网通用，断开不影响功能
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,openaicom.imgix.net
@@ -38,4 +38,4 @@ payload:
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-KEYWORD,openai
-  - DOMAIN-KEYWORD,cursor
+# [已停用-过宽] DOMAIN-KEYWORD,cursor  ← 匹配所有含 cursor 的域名；且 cursor.com / cursor.sh 已在 Custom_Direct_Domain 中先行命中走直连，本条实际只会误伤无关域名
