@@ -53,7 +53,7 @@ DOMAIN-KEYWORD,fundsupermart
 DOMAIN-KEYWORD,adjust
 DOMAIN-KEYWORD,yonder
 DOMAIN-KEYWORD,bugsnag
-DOMAIN-KEYWORD,intercom
+# [已停用-过宽] DOMAIN-KEYWORD,intercom  ← 匹配所有含 intercom 的域名。Intercom 是全球客服 SDK，非英国本地服务，实测把 app.intercom.io / widget.intercom.io 全部导向 UKNet
 DOMAIN-KEYWORD,segment
 DOMAIN-KEYWORD,datocms
 DOMAIN-KEYWORD,sentry
