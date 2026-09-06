@@ -3,4 +3,4 @@
 # IP-CIDR: 2
 # TOTAL: 2
 IP-CIDR,43.128.0.0/16,no-resolve
-IP-CIDR,149.154.167.0/24,no-resolve
+#IP-CIDR,149.154.167.0/24,no-resolve
