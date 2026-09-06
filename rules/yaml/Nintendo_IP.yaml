@@ -1,6 +1,4 @@
 # NAME: Nintendo_IP
-# UPDATED: 2026-08-04
-# IP-CIDR: 1
-# TOTAL: 1
-payload:
-  - IP-CIDR,35.192.0.0/12,no-resolve
+# UPDATED: 2026-09-06
+# TOTAL: 0
+payload: []
