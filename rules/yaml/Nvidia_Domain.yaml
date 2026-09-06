@@ -1,7 +1,3 @@
-# NAME: Nvidia_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 62
-# TOTAL: 62
 payload:
   - DOMAIN-SUFFIX,geforce.cn
   - DOMAIN-SUFFIX,geforce.co.kr

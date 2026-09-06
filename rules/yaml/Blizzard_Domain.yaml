@@ -1,7 +1,3 @@
-# NAME: Blizzard_Domain
-# UPDATED: 2026-09-05
-# DOMAIN-SUFFIX: 38
-# TOTAL: 38
 payload:
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,battlenet.com.cn
@@ -23,7 +19,6 @@ payload:
   - DOMAIN-SUFFIX,bnetcmsus-a.akamaihd.net
   - DOMAIN-SUFFIX,bnetproduct-a.akamaihd.net
   - DOMAIN-SUFFIX,bnetshopus.akamaized.net
-# [已停用-冗余] DOMAIN-SUFFIX,cdp.cloud.unity3d.com  ← 已被 Game_Domain 以同一分组命中
   - DOMAIN-SUFFIX,di.res.netease.com
   - DOMAIN-SUFFIX,diablo3.com
   - DOMAIN-SUFFIX,diablo3.nosdn.127.net

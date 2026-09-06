@@ -1,8 +1,3 @@
-# NAME: Download_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 1
-# DOMAIN-KEYWORD: 5
-# TOTAL: 6
 payload:
   - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-KEYWORD,aria2

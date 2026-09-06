@@ -1,8 +1,3 @@
-# NAME: GlobalMedia_IP
-# UPDATED: 2026-08-04
-# IP-CIDR: 918
-# IP-CIDR6: 6
-# TOTAL: 924
 payload:
   - IP-CIDR,1.201.0.0/24,no-resolve
   - IP-CIDR,1.37.35.6/32,no-resolve

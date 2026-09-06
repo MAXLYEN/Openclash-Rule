@@ -1,7 +1,3 @@
-# NAME: Twitter_IP
-# UPDATED: 2026-08-04
-# IP-CIDR: 6
-# TOTAL: 6
 payload:
   - IP-CIDR,192.133.76.0/22,no-resolve
   - IP-CIDR,199.59.148.0/22,no-resolve

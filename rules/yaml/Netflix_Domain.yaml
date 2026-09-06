@@ -1,9 +1,3 @@
-# NAME: Netflix_Domain
-# UPDATED: 2026-09-05
-# DOMAIN: 3
-# DOMAIN-SUFFIX: 29
-# DOMAIN-KEYWORD: 11
-# TOTAL: 43
 payload:
   - DOMAIN,e13252.dscg.akamaiedge.net
   - DOMAIN,h-netflix.online-metrix.net
@@ -14,7 +8,6 @@ payload:
   - DOMAIN-SUFFIX,netflix.ca
   - DOMAIN-SUFFIX,netflix.com
   - DOMAIN-SUFFIX,netflix.com.au
-# [已停用-冗余] DOMAIN-SUFFIX,netflix.com.edgesuite.net  ← 文件内被 Netflix_Domain 包含
   - DOMAIN-SUFFIX,netflix.net
   - DOMAIN-SUFFIX,netflixdnstest0.com
   - DOMAIN-SUFFIX,netflixdnstest1.com
@@ -49,4 +42,3 @@ payload:
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,dualstack.apiproxy-
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-
-# [已停用-冗余] DOMAIN-KEYWORD,netflixdnstest  ← 文件内被 Netflix_Domain 包含

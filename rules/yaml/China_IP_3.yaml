@@ -1,7 +1,3 @@
-# NAME: China_IP_3
-# UPDATED: 2026-08-04
-# IP-CIDR: 1894
-# TOTAL: 1894
 payload:
   - IP-CIDR,198.208.19.0/24,no-resolve
   - IP-CIDR,198.208.30.0/24,no-resolve

@@ -1,7 +1,3 @@
-# NAME: Snap_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 6
-# TOTAL: 6
 payload:
   - DOMAIN-SUFFIX,sc-cdn.net
   - DOMAIN-SUFFIX,snap-dev.net

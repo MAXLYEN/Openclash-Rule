@@ -1,9 +1,3 @@
-# NAME: Google_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 1
-# DOMAIN-SUFFIX: 708
-# DOMAIN-KEYWORD: 5
-# TOTAL: 714
 payload:
   - DOMAIN,voice.telephony.goog
   - DOMAIN-SUFFIX,0emm.com

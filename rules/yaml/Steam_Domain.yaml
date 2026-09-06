@@ -1,8 +1,3 @@
-# NAME: Steam_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 51
-# DOMAIN-KEYWORD: 4
-# TOTAL: 55
 payload:
   - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
   - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com

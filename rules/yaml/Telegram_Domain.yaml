@@ -1,9 +1,3 @@
-# NAME: Telegram_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 2
-# DOMAIN-SUFFIX: 22
-# DOMAIN-KEYWORD: 1
-# TOTAL: 25
 payload:
   - DOMAIN,api.imem.app
   - DOMAIN,api.swiftgram.app

@@ -1,7 +1,3 @@
-# NAME: GoogleFCM_IP
-# UPDATED: 2026-08-04
-# IP-CIDR: 26
-# TOTAL: 26
 payload:
   - IP-CIDR,108.177.125.188/32,no-resolve
   - IP-CIDR,142.250.10.188/32,no-resolve

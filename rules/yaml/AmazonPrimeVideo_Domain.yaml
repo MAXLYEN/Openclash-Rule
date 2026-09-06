@@ -1,9 +1,3 @@
-# NAME: AmazonPrimeVideo_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 5
-# DOMAIN-SUFFIX: 19
-# DOMAIN-KEYWORD: 1
-# TOTAL: 25
 payload:
   - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
   - DOMAIN,d22qjgkvxw22r6.cloudfront.net

@@ -1,9 +1,3 @@
-# NAME: PrivateTracker_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 133
-# DOMAIN-SUFFIX: 123
-# DOMAIN-KEYWORD: 4
-# TOTAL: 260
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx

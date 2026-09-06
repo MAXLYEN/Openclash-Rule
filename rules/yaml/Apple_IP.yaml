@@ -1,7 +1,3 @@
-# NAME: Apple_IP
-# UPDATED: 2026-08-04
-# IP-CIDR: 10
-# TOTAL: 10
 payload:
   - IP-CIDR,139.178.128.0/18,no-resolve
   - IP-CIDR,144.178.0.0/19,no-resolve

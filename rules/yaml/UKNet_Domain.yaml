@@ -1,13 +1,5 @@
-# NAME: UKNet_Domain
-# UPDATED: 2026-09-06
-# DOMAIN-SUFFIX: 21
-# DOMAIN-KEYWORD: 56
-# TOTAL: 77
 payload:
-# === 以下合并自 UKNet.list ===
-#英国分流
   - DOMAIN-SUFFIX,co.uk
-#虚拟金融
   - DOMAIN-SUFFIX,cex.io
   - DOMAIN-SUFFIX,checkout.com
   - DOMAIN-SUFFIX,rudderlabs.com
@@ -24,7 +16,6 @@ payload:
   - DOMAIN-KEYWORD,wirex
   - DOMAIN-KEYWORD,klarna
   - DOMAIN-KEYWORD,coinjar
-# [已停用-串味] DOMAIN-KEYWORD,crypto  ← 关键词过宽且 crypto.com 不属英国本地服务，交由 Cryptocurrency 组
   - DOMAIN-KEYWORD,trastra
   - DOMAIN-KEYWORD,bitsa
   - DOMAIN-KEYWORD,bunq
@@ -54,7 +45,6 @@ payload:
   - DOMAIN-KEYWORD,adjust
   - DOMAIN-KEYWORD,yonder
   - DOMAIN-KEYWORD,bugsnag
-# [已停用-过宽] DOMAIN-KEYWORD,intercom  ← 匹配所有含 intercom 的域名。Intercom 是全球客服 SDK，非英国本地服务，实测把 app.intercom.io / widget.intercom.io 全部导向 UKNet
   - DOMAIN-KEYWORD,segment
   - DOMAIN-KEYWORD,datocms
   - DOMAIN-KEYWORD,sentry
@@ -75,7 +65,6 @@ payload:
   - DOMAIN-KEYWORD,freetrade
   - DOMAIN-KEYWORD,kulipa
   - DOMAIN-KEYWORD,argent
-# [已停用-冗余] DOMAIN-KEYWORD,argent-api  ← 文件内被 UKNet_Domain 包含
   - DOMAIN-KEYWORD,appsflyersdk
   - DOMAIN-KEYWORD,iterable
   - DOMAIN-KEYWORD,jibecloud
@@ -83,10 +72,7 @@ payload:
   - DOMAIN-SUFFIX,privy.io
   - DOMAIN-KEYWORD,kraken
   - DOMAIN-SUFFIX,ctexcel.com
-# MetaMask（infura 是其默认 RPC 提供方，不加会导致余额/交易加载失败）
-# [已停用-冗余] DOMAIN-SUFFIX,metamask.io  ← 文件内被 UKNet_Domain 包含
   - DOMAIN-SUFFIX,infura.io
-#运营商
   - DOMAIN-KEYWORD,giffgaff
   - DOMAIN-KEYWORD,firsty
   - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com

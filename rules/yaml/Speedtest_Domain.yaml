@@ -1,8 +1,3 @@
-# NAME: Speedtest_Domain
-# UPDATED: 2026-08-20
-# DOMAIN-SUFFIX: 8
-# DOMAIN-KEYWORD: 1
-# TOTAL: 9
 payload:
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,ooklaserver.net

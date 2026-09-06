@@ -1,9 +1,4 @@
-# NAME: HDOBOXAds_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 14
-# TOTAL: 14
 payload:
-#HDOBOXAds
   - DOMAIN-SUFFIX,applovin.com
   - DOMAIN-SUFFIX,applvn.com
   - DOMAIN-SUFFIX,doubleclick.net

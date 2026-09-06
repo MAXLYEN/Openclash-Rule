@@ -1,7 +1,3 @@
-# NAME: Supercell_IP
-# UPDATED: 2026-08-04
-# IP-CIDR: 22
-# TOTAL: 22
 payload:
   - IP-CIDR,13.210.25.233/32,no-resolve
   - IP-CIDR,13.212.170.102/32,no-resolve

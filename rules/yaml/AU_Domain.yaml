@@ -1,7 +1,3 @@
-# NAME: AU_Domain
-# UPDATED: 2026-09-06
-# DOMAIN-SUFFIX: 7
-# TOTAL: 7
 payload:
   - DOMAIN-SUFFIX,com.au
   - DOMAIN-SUFFIX,gov.au

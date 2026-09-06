@@ -1,7 +1,3 @@
-# NAME: Shopify_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 8
-# TOTAL: 8
 payload:
   - DOMAIN-SUFFIX,myshopify.com
   - DOMAIN-SUFFIX,shop.app

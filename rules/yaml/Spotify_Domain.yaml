@@ -1,9 +1,3 @@
-# NAME: Spotify_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 6
-# DOMAIN-SUFFIX: 20
-# DOMAIN-KEYWORD: 1
-# TOTAL: 27
 payload:
   - DOMAIN,audio4-ak-spotify-com.akamaized.net
   - DOMAIN,cdn-spotify-experiments.conductrics.com

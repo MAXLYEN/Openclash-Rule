@@ -1,7 +1,3 @@
-# NAME: Epic_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 15
-# TOTAL: 15
 payload:
   - DOMAIN-SUFFIX,battlebreakers.com
   - DOMAIN-SUFFIX,eac-cdn.com

@@ -1,8 +1,3 @@
-# NAME: NetEaseMusic_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 1
-# DOMAIN-SUFFIX: 9
-# TOTAL: 10
 payload:
   - DOMAIN,netease.ugcvideoss.ourdvs.com
   - DOMAIN-SUFFIX,163yun.com

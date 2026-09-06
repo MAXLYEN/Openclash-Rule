@@ -1,7 +1,3 @@
-# NAME: GoogleFCM_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 9
-# TOTAL: 9
 payload:
   - DOMAIN,alt1-mtalk.google.com
   - DOMAIN,alt2-mtalk.google.com

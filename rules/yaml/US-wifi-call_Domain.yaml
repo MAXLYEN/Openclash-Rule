@@ -1,8 +1,3 @@
-# NAME: US-wifi-call_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 4
-# DOMAIN-KEYWORD: 1
-# TOTAL: 5
 payload:
   - DOMAIN-KEYWORD,t-mobile
   - DOMAIN,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org

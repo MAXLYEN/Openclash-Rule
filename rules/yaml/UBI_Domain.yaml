@@ -1,7 +1,3 @@
-# NAME: UBI_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 5
-# TOTAL: 5
 payload:
   - DOMAIN-SUFFIX,ubi.com
   - DOMAIN-SUFFIX,ubisoft-orbit-savegames.s3.amazonaws.com
