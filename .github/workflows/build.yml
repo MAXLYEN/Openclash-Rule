@@ -49,8 +49,28 @@ jobs:
             exit 0
           fi
           COUNT=$(git diff --cached --name-only | wc -l)
+          git diff --cached --name-only | grep '^rules/yaml/.*\.yaml$' > /tmp/changed.txt || true
           git commit -m "chore: 重新生成规则产物（${COUNT} 个文件）" -m "来源提交 ${GITHUB_SHA::7}"
           git push
+
+      - name: 刷新 jsdelivr 缓存
+        # 规则产物走 rule-provider，客户端的更新延迟 = jsdelivr CDN 缓存 + provider interval
+        # 两层叠加。这一步把 CDN 那层消掉，剩下的就只有 interval。
+        # 必须排在 git push 之后：purge 会让 jsdelivr 立即回源，推送之前回源拿到的还是旧内容。
+        if: always()
+        continue-on-error: true
+        run: |
+          [ -s /tmp/changed.txt ] || { echo "无 yaml 变动，跳过"; exit 0; }
+          n=0
+          while read -r f; do
+            name=$(basename "$f")
+            code=$(curl -s -o /dev/null -w '%{http_code}' \
+                   "https://purge.jsdelivr.net/gh/MAXLYEN/Openclash-Rule@main/rules/yaml/$name")
+            echo "  $name -> HTTP $code"
+            n=$((n+1))
+            sleep 0.3
+          done < /tmp/changed.txt
+          echo "已请求刷新 $n 个文件"
 
       - name: 通知 Openclash-Config 校验引用
         # 本仓库改文件名或目录结构时，Openclash-Config 的 ini 会静默断链
