@@ -1,8 +1,8 @@
 # NAME: BR_Domain
-# UPDATED: 2026-08-20
-# DOMAIN-SUFFIX: 10
+# UPDATED: 2026-09-06
+# DOMAIN-SUFFIX: 9
 # DOMAIN-KEYWORD: 7
-# TOTAL: 17
+# TOTAL: 16
 payload:
   - DOMAIN-SUFFIX,com.br
   - DOMAIN-SUFFIX,gov.br
@@ -10,7 +10,7 @@ payload:
   - DOMAIN-SUFFIX,ng.cash
   - DOMAIN-SUFFIX,external-ng.cash
   - DOMAIN-SUFFIX,posthog.com
-  - DOMAIN-SUFFIX,intercom.io
+# [已停用-串味] DOMAIN-SUFFIX,intercom.io  ← Intercom 是全球客服 SDK，非巴西本地服务
   - DOMAIN-SUFFIX,sardine.ai
   - DOMAIN-SUFFIX,moengage.com
   - DOMAIN-SUFFIX,recarga.com
