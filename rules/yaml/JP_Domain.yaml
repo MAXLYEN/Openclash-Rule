@@ -16,11 +16,14 @@ payload:
   - DOMAIN-KEYWORD,jp-tencentclb
   - DOMAIN-SUFFIX,pst.net
   - DOMAIN-KEYWORD,globe
+  - DOMAIN-SUFFIX,yahoo.co.jp
   - DOMAIN-SUFFIX,yimg.jp
   - DOMAIN-SUFFIX,yahooapis.com
   - DOMAIN-SUFFIX,yahoo-net.jp
   - DOMAIN-SUFFIX,slim01.jp
   - DOMAIN-SUFFIX,yahooapis.jp
+  - DOMAIN-SUFFIX,realtime.yahoo.co.jp
+  - DOMAIN-SUFFIX,chiebukuro.yahoo.co.jp
   - DOMAIN-SUFFIX,hatena.ne.jp
   - DOMAIN-SUFFIX,hatena.com
   - DOMAIN-SUFFIX,hatena.blog
@@ -31,10 +34,13 @@ payload:
   - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,line-apps.com
   - DOMAIN-SUFFIX,lin.ee
+  - DOMAIN-SUFFIX,line.biz
+  - DOMAIN-SUFFIX,linecorp.com
   - DOMAIN-SUFFIX,linemanga.jp
   - DOMAIN-SUFFIX,nicovideo.jp
   - DOMAIN-SUFFIX,niconico.jp
   - DOMAIN-SUFFIX,dwango.jp
+  - DOMAIN-SUFFIX,nimg.jp
   - DOMAIN-SUFFIX,nicovideo.cdn.nimg.jp
   - DOMAIN-SUFFIX,fivecdm.com
   - DOMAIN-KEYWORD,nicovideo
@@ -52,6 +58,8 @@ payload:
   - DOMAIN-SUFFIX,nxtv.jp
   - DOMAIN-SUFFIX,dmm.com
   - DOMAIN-SUFFIX,dmm.co.jp
+  - DOMAIN-SUFFIX,dmmtv.jp
+  - DOMAIN-SUFFIX,fod.fujitv.co.jp
   - DOMAIN-SUFFIX,telasa.jp
   - DOMAIN-SUFFIX,lemino.docomo.ne.jp
   - DOMAIN-SUFFIX,lemino.com
