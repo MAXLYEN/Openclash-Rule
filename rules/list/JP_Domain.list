@@ -1,8 +1,8 @@
 # NAME: JP_Domain
-# UPDATED: 2026-09-05
-# DOMAIN-SUFFIX: 123
+# UPDATED: 2026-09-08
+# DOMAIN-SUFFIX: 131
 # DOMAIN-KEYWORD: 14
-# TOTAL: 137
+# TOTAL: 145
 #亚洲-日本分流
 DOMAIN-SUFFIX,co.jp
 DOMAIN-SUFFIX,com.jp
@@ -29,12 +29,15 @@ DOMAIN-KEYWORD,globe
 # [已停用-冗余] DOMAIN-SUFFIX,csftr.com  ← 文件内被 JP_Domain 包含
 # ===== Japan Online Services =====
 # Yahoo! JAPAN
-# [已停用-冗余] DOMAIN-SUFFIX,yahoo.co.jp  ← 文件内被 JP_Domain 包含
+DOMAIN-SUFFIX,yahoo.co.jp
 DOMAIN-SUFFIX,yimg.jp
 DOMAIN-SUFFIX,yahooapis.com
 DOMAIN-SUFFIX,yahoo-net.jp
 DOMAIN-SUFFIX,slim01.jp
 DOMAIN-SUFFIX,yahooapis.jp
+# Yahoo! JAPAN リアルタイム / 知恵袋
+DOMAIN-SUFFIX,realtime.yahoo.co.jp
+DOMAIN-SUFFIX,chiebukuro.yahoo.co.jp
 # Yahoo! JAPAN Shopping / Auction / Flea Market
 # [已停用-冗余] DOMAIN-SUFFIX,shopping.yahoo.co.jp  ← 文件内被 JP_Domain 包含
 # [已停用-冗余] DOMAIN-SUFFIX,auctions.yahoo.co.jp  ← 文件内被 JP_Domain 包含
@@ -42,7 +45,6 @@ DOMAIN-SUFFIX,yahooapis.jp
 # Yahoo! JAPAN related
 # [已停用-冗余] DOMAIN-SUFFIX,news.yahoo.co.jp  ← 文件内被 JP_Domain 包含
 # [已停用-冗余] DOMAIN-SUFFIX,search.yahoo.co.jp  ← 文件内被 JP_Domain 包含
-# [已停用-冗余] DOMAIN-SUFFIX,chiebukuro.yahoo.co.jp  ← 文件内被 JP_Domain 包含
 # ===== Hatena =====
 DOMAIN-SUFFIX,hatena.ne.jp
 DOMAIN-SUFFIX,hatena.com
@@ -56,12 +58,15 @@ DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,line-apps.com
 DOMAIN-SUFFIX,lin.ee
+DOMAIN-SUFFIX,line.biz
+DOMAIN-SUFFIX,linecorp.com
 # ===== LINE Manga =====
 DOMAIN-SUFFIX,linemanga.jp
 # ===== Niconico / Dwango =====
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,niconico.jp
 DOMAIN-SUFFIX,dwango.jp
+DOMAIN-SUFFIX,nimg.jp
 DOMAIN-SUFFIX,nicovideo.cdn.nimg.jp
 DOMAIN-SUFFIX,fivecdm.com
 DOMAIN-KEYWORD,nicovideo
@@ -83,8 +88,9 @@ DOMAIN-SUFFIX,nxtv.jp
 # ===== DMM / DMM TV =====
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmmtv.jp
 # ===== FOD =====
-# [已停用-冗余] DOMAIN-SUFFIX,fod.fujitv.co.jp  ← 文件内被 JP_Domain 包含
+DOMAIN-SUFFIX,fod.fujitv.co.jp
 # [已停用-冗余] DOMAIN-SUFFIX,fujitv.co.jp  ← 文件内被 JP_Domain 包含
 # ===== TELASA =====
 DOMAIN-SUFFIX,telasa.jp
