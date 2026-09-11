@@ -2,6 +2,11 @@ payload:
   - DOMAIN-SUFFIX,co.jp
   - DOMAIN-SUFFIX,com.jp
   - DOMAIN-SUFFIX,cuniq.jp
+  - DOMAIN-SUFFIX,mocortech.com
+  - DOMAIN-SUFFIX,coldbookfly.ru
+  - DOMAIN-SUFFIX,payapptoday.com
+  - DOMAIN-SUFFIX,gotoda.co
+  - DOMAIN-SUFFIX,dgshen.com
   - DOMAIN-KEYWORD,coins
   - DOMAIN-KEYWORD,maya
   - DOMAIN-KEYWORD,csftr
