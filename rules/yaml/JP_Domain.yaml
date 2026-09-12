@@ -9,7 +9,11 @@ payload:
   - DOMAIN-SUFFIX,dgshen.com
   - DOMAIN-SUFFIX,hotbookzone.com
   - DOMAIN-SUFFIX,moloco.com
-  - DOMAIN-KEYWORD,coins
+  - DOMAIN-SUFFIX,coins.ph
+  - DOMAIN-SUFFIX,coins.xyz
+  - DOMAIN-SUFFIX,coinsapp.net
+  - DOMAIN-SUFFIX,coinsph.zendesk.com
+  - DOMAIN-KEYWORD,k0eilw
   - DOMAIN-KEYWORD,maya
   - DOMAIN-KEYWORD,csftr
   - DOMAIN-KEYWORD,split
