@@ -64,7 +64,7 @@ DOMAIN-KEYWORD,pusher
 DOMAIN-SUFFIX,ada.support
 DOMAIN-SUFFIX,braze.com
 DOMAIN-SUFFIX,nsureapi.com
-DOMAIN-SUFFIX,launchdarly.com
+DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,bitdrift.io
 DOMAIN-SUFFIX,expo.dev
 DOMAIN-KEYWORD,freetrade
@@ -74,15 +74,17 @@ DOMAIN-KEYWORD,appsflyersdk
 DOMAIN-KEYWORD,iterable
 DOMAIN-KEYWORD,jibecloud
 DOMAIN-KEYWORD,mixpanel
-DOMAIN-SUFFIX,privy.io
 DOMAIN-SUFFIX,ctexcel.com
 DOMAIN-SUFFIX,infura.io
+
+#krak、kraken、krakken pro
 DOMAIN-SUFFIX,kraken.com
 DOMAIN-SUFFIX,sardine.ai
 DOMAIN-SUFFIX,kraken.zendesk.com
-DOMAIN-KEYWORD,asgpkt
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,segment.com
+DOMAIN-SUFFIX,privy.io
+DOMAIN-SUFFIX,fullstory.com
 #运营商
 DOMAIN-KEYWORD,giffgaff
 DOMAIN-KEYWORD,firsty
