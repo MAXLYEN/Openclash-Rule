@@ -9,8 +9,6 @@ DOMAIN-SUFFIX,org.br
 DOMAIN-SUFFIX,ng.cash
 DOMAIN-SUFFIX,external-ng.cash
 DOMAIN-SUFFIX,posthog.com
-# [已停用-串味] DOMAIN-SUFFIX,intercom.io  ← Intercom 是全球客服 SDK，非巴西本地服务
-DOMAIN-SUFFIX,sardine.ai
 DOMAIN-SUFFIX,moengage.com
 DOMAIN-SUFFIX,recarga.com
 DOMAIN-KEYWORD,ngcash
