@@ -20,7 +20,6 @@ payload:
   - DOMAIN-KEYWORD,bitsa
   - DOMAIN-KEYWORD,bunq
   - DOMAIN-KEYWORD,lokalise
-  - DOMAIN-KEYWORD,sardine
   - DOMAIN-KEYWORD,sendwave
   - DOMAIN-KEYWORD,yuh
   - DOMAIN-KEYWORD,pendo
@@ -45,7 +44,6 @@ payload:
   - DOMAIN-KEYWORD,adjust
   - DOMAIN-KEYWORD,yonder
   - DOMAIN-KEYWORD,bugsnag
-  - DOMAIN-KEYWORD,segment
   - DOMAIN-KEYWORD,datocms
   - DOMAIN-KEYWORD,sentry
   - DOMAIN-KEYWORD,siftscience
