@@ -38,7 +38,6 @@ DOMAIN-KEYWORD,jp-tencentclb
 DOMAIN-SUFFIX,pst.net
 #菲律宾运营商
 DOMAIN-KEYWORD,globe
-# [已停用-冗余] DOMAIN-SUFFIX,csftr.com  ← 文件内被 JP_Domain 包含
 # ===== Japan Online Services =====
 # Yahoo! JAPAN
 DOMAIN-SUFFIX,yahoo.co.jp
