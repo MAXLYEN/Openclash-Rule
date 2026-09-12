@@ -5,7 +5,6 @@ payload:
   - DOMAIN-SUFFIX,ng.cash
   - DOMAIN-SUFFIX,external-ng.cash
   - DOMAIN-SUFFIX,posthog.com
-  - DOMAIN-SUFFIX,sardine.ai
   - DOMAIN-SUFFIX,moengage.com
   - DOMAIN-SUFFIX,recarga.com
   - DOMAIN-KEYWORD,ngcash
