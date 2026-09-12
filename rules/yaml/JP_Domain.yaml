@@ -7,6 +7,8 @@ payload:
   - DOMAIN-SUFFIX,payapptoday.com
   - DOMAIN-SUFFIX,gotoda.co
   - DOMAIN-SUFFIX,dgshen.com
+  - DOMAIN-SUFFIX,hotbookzone.com
+  - DOMAIN-SUFFIX,moloco.com
   - DOMAIN-KEYWORD,coins
   - DOMAIN-KEYWORD,maya
   - DOMAIN-KEYWORD,csftr
