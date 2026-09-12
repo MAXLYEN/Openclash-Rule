@@ -17,12 +17,12 @@ payload:
   - DOMAIN-KEYWORD,klarna
   - DOMAIN-KEYWORD,coinjar
   - DOMAIN-KEYWORD,trastra
-  - DOMAIN-KEYWORD,bitsa
+  - DOMAIN-SUFFIX,bitsacard.com
   - DOMAIN-KEYWORD,bunq
   - DOMAIN-KEYWORD,lokalise
   - DOMAIN-KEYWORD,sendwave
-  - DOMAIN-KEYWORD,yuh
-  - DOMAIN-KEYWORD,pendo
+  - DOMAIN-SUFFIX,yuh.com
+  - DOMAIN-SUFFIX,pendo.io
   - DOMAIN-KEYWORD,sumsub
   - DOMAIN-KEYWORD,jeton
   - DOMAIN-KEYWORD,metamask
@@ -41,7 +41,10 @@ payload:
   - DOMAIN-KEYWORD,zopa
   - DOMAIN-KEYWORD,thisisbud
   - DOMAIN-KEYWORD,fundsupermart
-  - DOMAIN-KEYWORD,adjust
+  - DOMAIN-SUFFIX,adjust.com
+  - DOMAIN-SUFFIX,adjust.world
+  - DOMAIN-SUFFIX,adjust.net.in
+  - DOMAIN-SUFFIX,adj.st
   - DOMAIN-KEYWORD,yonder
   - DOMAIN-KEYWORD,bugsnag
   - DOMAIN-KEYWORD,datocms
@@ -51,9 +54,11 @@ payload:
   - DOMAIN-KEYWORD,pndsn
   - DOMAIN-KEYWORD,kustomerapp
   - DOMAIN-KEYWORD,instarem
-  - DOMAIN-KEYWORD,osl
+  - DOMAIN-SUFFIX,osl.com
+  - DOMAIN-SUFFIX,bc.group
   - DOMAIN-KEYWORD,fpconfig
-  - DOMAIN-KEYWORD,pusher
+  - DOMAIN-SUFFIX,pusher.com
+  - DOMAIN-SUFFIX,pusherapp.com
   - DOMAIN-SUFFIX,ada.support
   - DOMAIN-SUFFIX,braze.com
   - DOMAIN-SUFFIX,nsureapi.com
