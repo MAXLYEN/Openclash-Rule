@@ -57,7 +57,7 @@ payload:
   - DOMAIN-SUFFIX,ada.support
   - DOMAIN-SUFFIX,braze.com
   - DOMAIN-SUFFIX,nsureapi.com
-  - DOMAIN-SUFFIX,launchdarly.com
+  - DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,bitdrift.io
   - DOMAIN-SUFFIX,expo.dev
   - DOMAIN-KEYWORD,freetrade
@@ -67,15 +67,15 @@ payload:
   - DOMAIN-KEYWORD,iterable
   - DOMAIN-KEYWORD,jibecloud
   - DOMAIN-KEYWORD,mixpanel
-  - DOMAIN-SUFFIX,privy.io
   - DOMAIN-SUFFIX,ctexcel.com
   - DOMAIN-SUFFIX,infura.io
   - DOMAIN-SUFFIX,kraken.com
   - DOMAIN-SUFFIX,sardine.ai
   - DOMAIN-SUFFIX,kraken.zendesk.com
-  - DOMAIN-KEYWORD,asgpkt
   - DOMAIN-SUFFIX,segment.io
   - DOMAIN-SUFFIX,segment.com
+  - DOMAIN-SUFFIX,privy.io
+  - DOMAIN-SUFFIX,fullstory.com
   - DOMAIN-KEYWORD,giffgaff
   - DOMAIN-KEYWORD,firsty
   - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com

@@ -1,7 +1,7 @@
 # NAME: UKNet_Domain
 # UPDATED: 2026-09-12
-# DOMAIN-SUFFIX: 26
-# DOMAIN-KEYWORD: 54
+# DOMAIN-SUFFIX: 27
+# DOMAIN-KEYWORD: 53
 # TOTAL: 80
 # === 以下合并自 UKNet.list ===
 #英国分流
@@ -76,7 +76,6 @@ DOMAIN-KEYWORD,jibecloud
 DOMAIN-KEYWORD,mixpanel
 DOMAIN-SUFFIX,ctexcel.com
 DOMAIN-SUFFIX,infura.io
-
 #krak、kraken、krakken pro
 DOMAIN-SUFFIX,kraken.com
 DOMAIN-SUFFIX,sardine.ai
