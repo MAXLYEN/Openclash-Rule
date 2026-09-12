@@ -6,6 +6,17 @@
 
 ---
 
+## 2026-09-12
+
+配合模板把「地区专属」名单块上移到「泛分类 GeoSite」之前，宽泛 keyword 的误伤面随之扩大，逐条收敛为精确域名。
+
+- `UKNet_Domain`：`osl` / `adjust` / `pusher` / `yuh` / `bitsa` / `pendo` 六条 DOMAIN-KEYWORD 换成对应 DOMAIN-SUFFIX
+  - Adjust 补齐区域端点 `adjust.world` / `adjust.net.in` 与短链域 `adj.st`；`adjust.cn` 为境内端点，不收
+  - Pusher 补 `pusherapp.com`（mt1 主集群的默认 host），只钉 `pusher.com` 会漏
+- `SG_Domain`：`trae` → `trae.ai`（`trae.com.cn` 为国内站，不收）；`plasma` → `plasma.to`
+- `SG_Domain`：停用 `keystone` / `keyst` / `ledger` / `phantom` 四条冗余 keyword，同文件已有对应 suffix
+- `SG_Domain`：停用 `onelink` —— `onelink.me` 是 AppsFlyer 全体客户共用的深链域名，与 OneKey 无关
+
 ## 2026-09-05
 
 - 构建脚本修复 yaml 注释归位：注释不再被抽到 `payload:` 之前，回到各自规则上方（97 个文件受影响）
