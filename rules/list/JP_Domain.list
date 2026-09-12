@@ -16,8 +16,12 @@ DOMAIN-SUFFIX,dgshen.com
 DOMAIN-SUFFIX,hotbookzone.com
 DOMAIN-SUFFIX,moloco.com
 #虚拟金融
-# coins.ph（菲律宾加密钱包）；如需收窄可改为 DOMAIN-SUFFIX,coins.ph
-DOMAIN-KEYWORD,coins
+# Coins.ph / Coins.xyz —— 主站与 API
+DOMAIN-SUFFIX,coins.ph
+DOMAIN-SUFFIX,coins.xyz
+DOMAIN-SUFFIX,coinsapp.net
+DOMAIN-SUFFIX,coinsph.zendesk.com
+DOMAIN-KEYWORD,k0eilw
 # Maya（菲律宾电子钱包）；如需收窄可改为 DOMAIN-SUFFIX,maya.ph
 DOMAIN-KEYWORD,maya
 DOMAIN-KEYWORD,csftr
