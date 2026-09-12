@@ -74,17 +74,20 @@ DOMAIN-SUFFIX,expo.dev
 DOMAIN-KEYWORD,freetrade
 DOMAIN-KEYWORD,kulipa
 DOMAIN-KEYWORD,argent
-# [已停用-冗余] DOMAIN-KEYWORD,argent-api  ← 文件内被 UKNet_Domain 包含
 DOMAIN-KEYWORD,appsflyersdk
 DOMAIN-KEYWORD,iterable
 DOMAIN-KEYWORD,jibecloud
 DOMAIN-KEYWORD,mixpanel
 DOMAIN-SUFFIX,privy.io
-DOMAIN-KEYWORD,kraken
 DOMAIN-SUFFIX,ctexcel.com
-# MetaMask（infura 是其默认 RPC 提供方，不加会导致余额/交易加载失败）
-# [已停用-冗余] DOMAIN-SUFFIX,metamask.io  ← 文件内被 UKNet_Domain 包含
 DOMAIN-SUFFIX,infura.io
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,sardine.ai
+DOMAIN-SUFFIX,nsureapi.com
+DOMAIN-SUFFIX,kraken.zendesk.com
+DOMAIN-KEYWORD,asgpkt
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,segment.com
 #运营商
 DOMAIN-KEYWORD,giffgaff
 DOMAIN-KEYWORD,firsty
