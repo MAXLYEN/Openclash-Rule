@@ -1,8 +1,8 @@
 # NAME: SG_Domain
-# UPDATED: 2026-09-11
-# DOMAIN-SUFFIX: 20
-# DOMAIN-KEYWORD: 37
-# TOTAL: 57
+# UPDATED: 2026-09-12
+# DOMAIN-SUFFIX: 22
+# DOMAIN-KEYWORD: 30
+# TOTAL: 52
 #亚洲-新加坡分流
 #实体金融
 DOMAIN-KEYWORD,ocbc
@@ -10,11 +10,13 @@ DOMAIN-KEYWORD,cobo
 DOMAIN-KEYWORD,dcscc
 DOMAIN-KEYWORD,jumio
 DOMAIN-KEYWORD,straitsx
-DOMAIN-KEYWORD,trae
+#Trae（字节 AI IDE）国际站；trae.com.cn 是国内站，故意不收
+DOMAIN-SUFFIX,trae.ai
 DOMAIN-KEYWORD,cloudauth-device
 DOMAIN-KEYWORD,edgeone
 DOMAIN-KEYWORD,harvestsharp
-DOMAIN-KEYWORD,plasma
+#Plasma 稳定币公链（XPL），官方文档在 plasma.to/docs
+DOMAIN-SUFFIX,plasma.to
 DOMAIN-KEYWORD,bigpay
 DOMAIN-KEYWORD,redotpay
 DOMAIN-KEYWORD,applanga
@@ -28,8 +30,6 @@ DOMAIN-SUFFIX,imdap-sea.alipay.com
 #证劵
 DOMAIN-KEYWORD,webull
 DOMAIN-KEYWORD,wbsgsecurities
-# [已停用-冗余] DOMAIN-KEYWORD,webullfintech  ← 文件内被 SG_Domain 包含
-# [已停用-冗余] DOMAIN-KEYWORD,webullfinance  ← 文件内被 SG_Domain 包含
 DOMAIN-KEYWORD,moomoo
 DOMAIN-KEYWORD,longbridge
 DOMAIN-KEYWORD,itiger
@@ -46,17 +46,13 @@ DOMAIN-KEYWORD,wsot2022
 ################ 硬件钱包 ################
 # Keystone（含 shop.keyst.one）
 DOMAIN-SUFFIX,keyst.one
-DOMAIN-KEYWORD,keystone
-DOMAIN-KEYWORD,keyst
 # OneKey
 DOMAIN-SUFFIX,onekey.so
-DOMAIN-KEYWORD,onelink
 DOMAIN-KEYWORD,onekey
 # Ledger（官方仓库 docs/services.md 明示：Ledger 自营域为 *.ledger.com / *.ledger.app）
 DOMAIN-SUFFIX,ledger.com
 DOMAIN-SUFFIX,ledger.app
 DOMAIN-SUFFIX,ledger.fr
-DOMAIN-KEYWORD,ledger
 # ELLIPAL
 DOMAIN-SUFFIX,ellipal.com
 DOMAIN-KEYWORD,ellipal
@@ -74,7 +70,7 @@ DOMAIN-KEYWORD,bitget
 # Phantom（官方条款写明主域为 phantom.com；phantom.app 为旧域，App 包名仍是 app.phantom）
 DOMAIN-SUFFIX,phantom.com
 DOMAIN-SUFFIX,phantom.app
-DOMAIN-KEYWORD,phantom
+# [已停用-冗余] DOMAIN-KEYWORD,phantom ← 上面两条 suffix 已覆盖
 ################ 通用依赖 ################
 # 上面几乎所有钱包连 dApp 都走 WalletConnect，建议一起分流
 DOMAIN-KEYWORD,walletconnect
