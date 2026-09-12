@@ -70,9 +70,14 @@ payload:
   - DOMAIN-KEYWORD,jibecloud
   - DOMAIN-KEYWORD,mixpanel
   - DOMAIN-SUFFIX,privy.io
-  - DOMAIN-KEYWORD,kraken
   - DOMAIN-SUFFIX,ctexcel.com
   - DOMAIN-SUFFIX,infura.io
+  - DOMAIN-SUFFIX,kraken.com
+  - DOMAIN-SUFFIX,sardine.ai
+  - DOMAIN-SUFFIX,kraken.zendesk.com
+  - DOMAIN-KEYWORD,asgpkt
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,segment.com
   - DOMAIN-KEYWORD,giffgaff
   - DOMAIN-KEYWORD,firsty
   - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com

@@ -1,8 +1,8 @@
 # NAME: UKNet_Domain
-# UPDATED: 2026-09-06
-# DOMAIN-SUFFIX: 21
+# UPDATED: 2026-09-12
+# DOMAIN-SUFFIX: 26
 # DOMAIN-KEYWORD: 56
-# TOTAL: 77
+# TOTAL: 82
 # === 以下合并自 UKNet.list ===
 #英国分流
 DOMAIN-SUFFIX,co.uk
@@ -83,7 +83,6 @@ DOMAIN-SUFFIX,ctexcel.com
 DOMAIN-SUFFIX,infura.io
 DOMAIN-SUFFIX,kraken.com
 DOMAIN-SUFFIX,sardine.ai
-DOMAIN-SUFFIX,nsureapi.com
 DOMAIN-SUFFIX,kraken.zendesk.com
 DOMAIN-KEYWORD,asgpkt
 DOMAIN-SUFFIX,segment.io
