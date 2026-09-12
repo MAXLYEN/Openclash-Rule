@@ -1,8 +1,8 @@
 # NAME: UKNet_Domain
 # UPDATED: 2026-09-12
-# DOMAIN-SUFFIX: 27
-# DOMAIN-KEYWORD: 53
-# TOTAL: 80
+# DOMAIN-SUFFIX: 38
+# DOMAIN-KEYWORD: 47
+# TOTAL: 85
 # === 以下合并自 UKNet.list ===
 #英国分流
 DOMAIN-SUFFIX,co.uk
@@ -24,12 +24,14 @@ DOMAIN-KEYWORD,wirex
 DOMAIN-KEYWORD,klarna
 DOMAIN-KEYWORD,coinjar
 DOMAIN-KEYWORD,trastra
-DOMAIN-KEYWORD,bitsa
+#Bitsa 预付卡（运营方 Bitnovo，如出现 bitnovo.com 连接再补）
+DOMAIN-SUFFIX,bitsacard.com
 DOMAIN-KEYWORD,bunq
 DOMAIN-KEYWORD,lokalise
 DOMAIN-KEYWORD,sendwave
-DOMAIN-KEYWORD,yuh
-DOMAIN-KEYWORD,pendo
+#Yuh（瑞士，Swissquote 全资）
+DOMAIN-SUFFIX,yuh.com
+DOMAIN-SUFFIX,pendo.io
 DOMAIN-KEYWORD,sumsub
 DOMAIN-KEYWORD,jeton
 DOMAIN-KEYWORD,metamask
@@ -48,7 +50,12 @@ DOMAIN-KEYWORD,coinmarketcap
 DOMAIN-KEYWORD,zopa
 DOMAIN-KEYWORD,thisisbud
 DOMAIN-KEYWORD,fundsupermart
-DOMAIN-KEYWORD,adjust
+#Adjust 归因：主端点 *.adjust.com，另有区域端点与短链域名
+#adjust.cn 是中国境内端点，故意不收，应走直连
+DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,adjust.world
+DOMAIN-SUFFIX,adjust.net.in
+DOMAIN-SUFFIX,adj.st
 DOMAIN-KEYWORD,yonder
 DOMAIN-KEYWORD,bugsnag
 DOMAIN-KEYWORD,datocms
@@ -58,9 +65,13 @@ DOMAIN-KEYWORD,microlink
 DOMAIN-KEYWORD,pndsn
 DOMAIN-KEYWORD,kustomerapp
 DOMAIN-KEYWORD,instarem
-DOMAIN-KEYWORD,osl
+#OSL 集团（香港持牌数字资产平台，bc.group 为集团站）
+DOMAIN-SUFFIX,osl.com
+DOMAIN-SUFFIX,bc.group
 DOMAIN-KEYWORD,fpconfig
-DOMAIN-KEYWORD,pusher
+#Pusher Channels：mt1 主集群走 pusherapp.com，其余集群走 pusher.com，两个都要
+DOMAIN-SUFFIX,pusher.com
+DOMAIN-SUFFIX,pusherapp.com
 DOMAIN-SUFFIX,ada.support
 DOMAIN-SUFFIX,braze.com
 DOMAIN-SUFFIX,nsureapi.com
