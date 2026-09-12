@@ -13,6 +13,8 @@ DOMAIN-SUFFIX,coldbookfly.ru
 DOMAIN-SUFFIX,payapptoday.com
 DOMAIN-SUFFIX,gotoda.co
 DOMAIN-SUFFIX,dgshen.com
+DOMAIN-SUFFIX,hotbookzone.com
+DOMAIN-SUFFIX,moloco.com
 #虚拟金融
 # coins.ph（菲律宾加密钱包）；如需收窄可改为 DOMAIN-SUFFIX,coins.ph
 DOMAIN-KEYWORD,coins
