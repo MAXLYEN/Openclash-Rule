@@ -25,8 +25,6 @@ payload:
   - DOMAIN-SUFFIX,dell.com
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,cloudflarestorage.com
-  - DOMAIN-SUFFIX,cursor.sh
-  - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,flingtrainer.com
   - DOMAIN-SUFFIX,ddsrem.com
   - DOMAIN-SUFFIX,ipinfo.io
