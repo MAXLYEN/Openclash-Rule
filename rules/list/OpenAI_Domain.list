@@ -37,4 +37,11 @@ DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
-# [已停用-过宽] DOMAIN-KEYWORD,cursor  ← 匹配所有含 cursor 的域名；且 cursor.com / cursor.sh 已在 Custom_Direct_Domain 中先行命中走直连，本条实际只会误伤无关域名
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
