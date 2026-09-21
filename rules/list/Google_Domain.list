@@ -4,6 +4,11 @@
 # DOMAIN-SUFFIX: 708
 # DOMAIN-KEYWORD: 5
 # TOTAL: 714
+# GooglePlay 相关
+DOMAIN-SUFFIX,services.googleapis.cn
+DOMAIN-SUFFIX,clientservices.googleapis.com
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN,voice.telephony.goog
 DOMAIN-SUFFIX,0emm.com
 DOMAIN-SUFFIX,1e100.net
