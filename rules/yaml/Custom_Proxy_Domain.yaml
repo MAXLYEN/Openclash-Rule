@@ -1,13 +1,8 @@
 payload:
-  - DOMAIN-SUFFIX,services.googleapis.cn
-  - DOMAIN-SUFFIX,clientservices.googleapis.com
-  - DOMAIN-SUFFIX,googleapis.cn
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,stun.playstation.net
   - DOMAIN-SUFFIX,platformio.org
   - DOMAIN-SUFFIX,arduino.cc
   - DOMAIN-SUFFIX,dmhy.org
-  - DOMAIN-SUFFIX,mtalk.google.com
   - DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,nosla.cloud
   - DOMAIN-SUFFIX,push.apple.com

@@ -1,7 +1,7 @@
 # NAME: Custom_Proxy_Domain
-# UPDATED: 2026-08-15
-# DOMAIN-SUFFIX: 14
-# TOTAL: 14
+# UPDATED: 2026-09-21
+# DOMAIN-SUFFIX: 9
+# TOTAL: 9
 # 强制代理列表，来自个人收集
 # PS5 STUN
 DOMAIN-SUFFIX,stun.playstation.net
