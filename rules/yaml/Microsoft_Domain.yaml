@@ -16,7 +16,6 @@ payload:
   - DOMAIN-SUFFIX,aggresmart.com
   - DOMAIN-SUFFIX,aicscience.com
   - DOMAIN-SUFFIX,aka.ms
-  - DOMAIN-SUFFIX,akadns.net
   - DOMAIN-SUFFIX,ankarazirvesi2018.com
   - DOMAIN-SUFFIX,api-extractor.com
   - DOMAIN-SUFFIX,apihub-internal.cn
@@ -91,7 +90,6 @@ payload:
   - DOMAIN-SUFFIX,azureserviceprofiler.com
   - DOMAIN-SUFFIX,azuresmartspaces.net
   - DOMAIN-SUFFIX,azurestackvalidation.com
-  - DOMAIN-SUFFIX,azurewebsites.net
   - DOMAIN-SUFFIX,b.akamaiedge.net
   - DOMAIN-SUFFIX,b2clogin.cn
   - DOMAIN-SUFFIX,b3itech.cn

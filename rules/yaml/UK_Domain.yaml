@@ -1,11 +1,57 @@
 payload:
-  - DOMAIN-SUFFIX,online-metrix.net
+  - DOMAIN-SUFFIX,co.uk
+  - DOMAIN-SUFFIX,cex.io
+  - DOMAIN-SUFFIX,revolut.com
+  - DOMAIN-SUFFIX,zero.co
+  - DOMAIN-SUFFIX,nexo.com
+  - DOMAIN-SUFFIX,zen.com
+  - DOMAIN-KEYWORD,ifast
+  - DOMAIN-KEYWORD,trezor
+  - DOMAIN-KEYWORD,mathwallet
+  - DOMAIN-KEYWORD,wirex
+  - DOMAIN-KEYWORD,klarna
+  - DOMAIN-KEYWORD,coinjar
+  - DOMAIN-KEYWORD,trastra
+  - DOMAIN-SUFFIX,bitsacard.com
+  - DOMAIN-KEYWORD,bunq
+  - DOMAIN-KEYWORD,sendwave
+  - DOMAIN-SUFFIX,yuh.com
+  - DOMAIN-KEYWORD,sumsub
+  - DOMAIN-KEYWORD,jeton
+  - DOMAIN-KEYWORD,metamask
+  - DOMAIN-KEYWORD,monerium
+  - DOMAIN-KEYWORD,consensys
+  - DOMAIN-KEYWORD,lemonade
+  - DOMAIN-KEYWORD,hyperjar
+  - DOMAIN-KEYWORD,neverless
+  - DOMAIN-KEYWORD,paysend
+  - DOMAIN-KEYWORD,tevau
+  - DOMAIN-KEYWORD,ninerealms
+  - DOMAIN-KEYWORD,zopa
+  - DOMAIN-KEYWORD,thisisbud
+  - DOMAIN-KEYWORD,fundsupermart
+  - DOMAIN-KEYWORD,yonder
+  - DOMAIN-KEYWORD,pndsn
+  - DOMAIN-KEYWORD,instarem
+  - DOMAIN-SUFFIX,osl.com
+  - DOMAIN-SUFFIX,bc.group
+  - DOMAIN-KEYWORD,fpconfig
+  - DOMAIN-SUFFIX,nsureapi.com
+  - DOMAIN-KEYWORD,freetrade
+  - DOMAIN-KEYWORD,kulipa
+  - DOMAIN-KEYWORD,argent
+  - DOMAIN-SUFFIX,ctexcel.com
+  - DOMAIN-SUFFIX,kraken.com
+  - DOMAIN-SUFFIX,sardine.ai
+  - DOMAIN-SUFFIX,kraken.zendesk.com
+  - DOMAIN-SUFFIX,privy.io
+  - DOMAIN-KEYWORD,giffgaff
+  - DOMAIN-KEYWORD,firsty
   - DOMAIN-SUFFIX,yapily.com
   - DOMAIN-SUFFIX,wise.com
   - DOMAIN,tw-avatar.s3.eu-central-1.amazonaws.com
   - DOMAIN-SUFFIX,skrill.com
   - DOMAIN-SUFFIX,skrill.uk
-  - DOMAIN-SUFFIX,chase.com
   - DOMAIN-SUFFIX,chase.uk
   - DOMAIN-SUFFIX,totallymoney.uk
   - DOMAIN-SUFFIX,totallymoney.com
@@ -22,23 +68,13 @@ payload:
   - DOMAIN-KEYWORD,myguava
   - DOMAIN-KEYWORD,guavapay
   - DOMAIN-SUFFIX,amazontrust.com
-  - DOMAIN-SUFFIX,dynatrace.com
   - DOMAIN-KEYWORD,lloydsbank
   - DOMAIN-KEYWORD,halifax
-  - DOMAIN-SUFFIX,demdex.net
-  - DOMAIN-SUFFIX,cm.everesttech.net
-  - DOMAIN-SUFFIX,omtrdc.net
   - DOMAIN-SUFFIX,wuzo.com
-  - DOMAIN-SUFFIX,api.ipify.org
   - DOMAIN-SUFFIX,payzilch.com
-  - DOMAIN-SUFFIX,verygoodvault.com
-  - DOMAIN-SUFFIX,verygood.systems
-  - DOMAIN-SUFFIX,appsflyer.com
   - DOMAIN-SUFFIX,curve.app
-  - DOMAIN-SUFFIX,branch.io
   - DOMAIN-SUFFIX,emb-api.com
   - DOMAIN-SUFFIX,imaginecurve.com
-  - DOMAIN-SUFFIX,sprig.com
   - DOMAIN-SUFFIX,stripe.uk
   - DOMAIN-SUFFIX,monzo-alt.net
   - DOMAIN-SUFFIX,monzo.com
@@ -47,15 +83,12 @@ payload:
   - DOMAIN-SUFFIX,nonprod-ffs.io
   - DOMAIN-KEYWORD,monzo
   - DOMAIN-SUFFIX,lemfi.com
-  - DOMAIN-SUFFIX,customer.io
-  - DOMAIN-SUFFIX,algolia.net
   - DOMAIN-SUFFIX,asnapieu.com
   - DOMAIN-SUFFIX,trading212.com
   - DOMAIN-KEYWORD,trading212
   - DOMAIN-SUFFIX,newdaycards.com
   - DOMAIN-KEYWORD,newdaycards
   - DOMAIN-SUFFIX,moneyboxapp.com
-  - DOMAIN-SUFFIX,browser-intake-datadoghq.eu
   - DOMAIN-SUFFIX,topcashback.com
   - DOMAIN-SUFFIX,kroo.com
   - DOMAIN-SUFFIX,uphold.com

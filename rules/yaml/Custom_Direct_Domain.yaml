@@ -18,13 +18,14 @@ payload:
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,psmartcloud.com
-  - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,cjjd19.com
   - DOMAIN-SUFFIX,powershellgallery.com
   - DOMAIN-SUFFIX,pool.ntp.org
   - DOMAIN-SUFFIX,dell.com
-  - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,cloudflarestorage.com
+  - DOMAIN,cloudflare.com
+  - DOMAIN,www.cloudflare.com
+  - DOMAIN,dash.cloudflare.com
+  - DOMAIN,api.cloudflare.com
   - DOMAIN-SUFFIX,flingtrainer.com
   - DOMAIN-SUFFIX,ddsrem.com
   - DOMAIN-SUFFIX,ipinfo.io
@@ -59,5 +60,4 @@ payload:
   - DOMAIN-SUFFIX,gztowngas.com
   - DOMAIN-SUFFIX,115vod.com
   - DOMAIN-KEYWORD,wegame
-  - DOMAIN-SUFFIX,fastly-edge.com
   - DOMAIN-KEYWORD,egdownload

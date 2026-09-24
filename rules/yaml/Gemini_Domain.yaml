@@ -5,7 +5,6 @@ payload:
   - DOMAIN-SUFFIX,aistudio.google.com
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
@@ -15,4 +14,3 @@ payload:
   - DOMAIN-SUFFIX,notebooklm.google
   - DOMAIN-SUFFIX,colab.google
   - DOMAIN-SUFFIX,colab.research.google.com
-  - DOMAIN-KEYWORD,developerprofiles

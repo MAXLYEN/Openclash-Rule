@@ -166,7 +166,6 @@ payload:
   - DOMAIN-SUFFIX,content.jwplatform.com
   - DOMAIN-SUFFIX,control.kochava.com
   - DOMAIN-SUFFIX,conviva.com
-  - DOMAIN-SUFFIX,cookielaw.org
   - DOMAIN-SUFFIX,coronavirusnow.com
   - DOMAIN-SUFFIX,cstatic.net
   - DOMAIN-SUFFIX,curbed.com
@@ -680,7 +679,6 @@ payload:
   - DOMAIN-SUFFIX,litix.io
   - DOMAIN-SUFFIX,litv.tv
   - DOMAIN-SUFFIX,livestream.com
-  - DOMAIN-SUFFIX,llnwd.net
   - DOMAIN-SUFFIX,logx.optimizely.com
   - DOMAIN-SUFFIX,londonreal.tv
   - DOMAIN-SUFFIX,m-content-viki.s.llnwi.net
@@ -829,7 +827,6 @@ payload:
   - DOMAIN-SUFFIX,olevod.io
   - DOMAIN-SUFFIX,olevod.tv
   - DOMAIN-SUFFIX,olevodtv.com
-  - DOMAIN-SUFFIX,onetrust.com
   - DOMAIN-SUFFIX,originalhulu.com
   - DOMAIN-SUFFIX,orlandohurricane.com
   - DOMAIN-SUFFIX,overcast.fm

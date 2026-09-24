@@ -26,7 +26,6 @@ payload:
   - DOMAIN,m3u8.mstopq.com
   - DOMAIN,msg.umeng.com
   - DOMAIN,msg.umengcloud.com
-  - DOMAIN,mtalk.google.com
   - DOMAIN,new-api.meiqia.com
   - DOMAIN,ok.zuidapic.com
   - DOMAIN,rewards.hypixel.net

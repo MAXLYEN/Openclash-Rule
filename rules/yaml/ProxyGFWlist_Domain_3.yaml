@@ -956,7 +956,6 @@ payload:
   - DOMAIN-SUFFIX,zzcloud.me
   - DOMAIN-SUFFIX,zzux.com
   - DOMAIN-SUFFIX,gfwlist.end
-  - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-KEYWORD,uk-live
   - DOMAIN-SUFFIX,bbc.co
   - DOMAIN-SUFFIX,apache.org

@@ -3,6 +3,12 @@ payload:
   - DOMAIN,push.apple.com
   - DOMAIN,courier.push.apple.com
   - DOMAIN,push-apple.com.akadns.net
+  - DOMAIN-SUFFIX,apple-relay.cloudflare.com
+  - DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+  - DOMAIN-SUFFIX,cp4.cloudflare.com
+  - DOMAIN-SUFFIX,apple-relay.apple.com
+  - DOMAIN-SUFFIX,guzzoni.apple.com
+  - DOMAIN-SUFFIX,smoot.apple.com
   - DOMAIN,appldnld.apple.com.edgesuite.net
   - DOMAIN,apple-events.akamaized.net
   - DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
@@ -48,7 +54,6 @@ payload:
   - DOMAIN-SUFFIX,airtunes.info
   - DOMAIN-SUFFIX,airtunes.net
   - DOMAIN-SUFFIX,ajtalk.com
-  - DOMAIN-SUFFIX,akadns.net
   - DOMAIN-SUFFIX,albeats.com
   - DOMAIN-SUFFIX,alchemysynth.com
   - DOMAIN-SUFFIX,annstores.net
@@ -1558,7 +1563,6 @@ payload:
   - DOMAIN-SUFFIX,apple.news
   - DOMAIN-SUFFIX,appsto.re
   - DOMAIN-SUFFIX,cdn-apple.com
-  - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,apple-cloudkit.com
   - DOMAIN-SUFFIX,apple-livephotoskit.com
   - DOMAIN-SUFFIX,apzones.com

@@ -4,14 +4,34 @@ payload:
   - DOMAIN-SUFFIX,audible.com
   - DOMAIN-SUFFIX,wfm.com
   - DOMAIN-SUFFIX,z.cn
+  - DOMAIN-SUFFIX,amazon.ae
+  - DOMAIN-SUFFIX,amazon.ca
+  - DOMAIN-SUFFIX,amazon.co.jp
+  - DOMAIN-SUFFIX,amazon.co.uk
+  - DOMAIN-SUFFIX,amazon.com
+  - DOMAIN-SUFFIX,amazon.com.au
+  - DOMAIN-SUFFIX,amazon.com.be
+  - DOMAIN-SUFFIX,amazon.com.br
+  - DOMAIN-SUFFIX,amazon.com.mx
+  - DOMAIN-SUFFIX,amazon.com.tr
+  - DOMAIN-SUFFIX,amazon.de
+  - DOMAIN-SUFFIX,amazon.eg
+  - DOMAIN-SUFFIX,amazon.es
+  - DOMAIN-SUFFIX,amazon.fr
+  - DOMAIN-SUFFIX,amazon.ie
+  - DOMAIN-SUFFIX,amazon.in
+  - DOMAIN-SUFFIX,amazon.it
+  - DOMAIN-SUFFIX,amazon.nl
+  - DOMAIN-SUFFIX,amazon.pl
+  - DOMAIN-SUFFIX,amazon.sa
+  - DOMAIN-SUFFIX,amazon.se
+  - DOMAIN-SUFFIX,amazon.sg
   - DOMAIN-KEYWORD,acmvalidations
   - DOMAIN-KEYWORD,aesworkshops
   - DOMAIN-KEYWORD,aiv-cdn
   - DOMAIN-KEYWORD,aiv-delivery
   - DOMAIN-KEYWORD,alexafund
   - DOMAIN-KEYWORD,amaaozn
-  - DOMAIN-KEYWORD,amazon
-  - DOMAIN-KEYWORD,amplifyapp
   - DOMAIN-KEYWORD,amplifyframework
   - DOMAIN-KEYWORD,amzn
   - DOMAIN-KEYWORD,avodmp4s3ww
@@ -31,14 +51,11 @@ payload:
   - DOMAIN-KEYWORD,awstrust
   - DOMAIN-KEYWORD,boxofficemojo
   - DOMAIN-KEYWORD,cdkworkshop
-  - DOMAIN-KEYWORD,cloudfront
   - DOMAIN-KEYWORD,containersonaws
   - DOMAIN-KEYWORD,createspace
-  - DOMAIN-KEYWORD,elasticbeanstalk
   - DOMAIN-KEYWORD,gameon-masters
   - DOMAIN-KEYWORD,imdb
   - DOMAIN-KEYWORD,kindle
-  - DOMAIN-KEYWORD,llnwd
   - DOMAIN-KEYWORD,prime-video
   - DOMAIN-KEYWORD,primeday
   - DOMAIN-KEYWORD,primevideo

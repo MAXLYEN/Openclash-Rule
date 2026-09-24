@@ -33,19 +33,20 @@ payload:
   - DOMAIN-SUFFIX,truthsocial.com
   - DOMAIN-KEYWORD,rokt
   - DOMAIN-KEYWORD,quantummetric
-  - DOMAIN-KEYWORD,onetrust
   - DOMAIN-KEYWORD,tktn
   - DOMAIN-SUFFIX,talkatone.com
   - DOMAIN-SUFFIX,talkamobile.com
-  - DOMAIN-SUFFIX,inmobi.com          # 部分广告但也用于功能
+  - DOMAIN-SUFFIX,inmobi.com
   - DOMAIN-SUFFIX,inner-active.mobi
   - DOMAIN-SUFFIX,mobilefuse.com
   - DOMAIN-SUFFIX,spadsync.com
-  - DOMAIN-SUFFIX,media.tenor.com     # 表情包
+  - DOMAIN-SUFFIX,media.tenor.com
   - DOMAIN-KEYWORD,peacocktv
-  - DOMAIN-KEYWORD,newrelic
   - DOMAIN-KEYWORD,paramountplus
   - DOMAIN-KEYWORD,brazaon
   - DOMAIN-SUFFIX,backpack.app
   - DOMAIN-SUFFIX,backpack.exchange
   - DOMAIN-KEYWORD,backpack
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,chase.com

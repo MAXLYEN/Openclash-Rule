@@ -35,5 +35,4 @@ payload:
   - DOMAIN-SUFFIX,inhousedsp.com
   - DOMAIN-SUFFIX,i.sng.link
   - DOMAIN-SUFFIX,richmob.cn
-  - DOMAIN-SUFFIX,akamaized.net          # 如影响功能可移到 Talkatone
   - DOMAIN-SUFFIX,4dvertible.com

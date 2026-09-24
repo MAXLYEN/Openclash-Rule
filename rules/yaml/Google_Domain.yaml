@@ -43,7 +43,6 @@ payload:
   - DOMAIN-SUFFIX,appbridge.io
   - DOMAIN-SUFFIX,appbridge.it
   - DOMAIN-SUFFIX,apps5.oingo.com
-  - DOMAIN-SUFFIX,appspot.com
   - DOMAIN-SUFFIX,apture.com
   - DOMAIN-SUFFIX,area120.com
   - DOMAIN-SUFFIX,asp-cc.com
@@ -711,7 +710,6 @@ payload:
   - DOMAIN-SUFFIX,zynamics.com
   - DOMAIN-SUFFIX,googledrive.com
   - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-KEYWORD,appspot
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,google
