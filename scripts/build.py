@@ -104,9 +104,11 @@ def build_head(name, seq, updated):
 
 
 def write_if_changed(path, content):
-    if os.path.exists(path) and open(path, encoding='utf-8').read() == content:
+    # newline='' 读写原样字节：默认的通用换行模式读时会把 CRLF 折成 LF，
+    # 只差换行符的文件被判为「未变化」而永不修正；Windows 上写时又会把 LF 写成 CRLF
+    if os.path.exists(path) and open(path, encoding='utf-8', newline='').read() == content:
         return False
-    open(path, 'w', encoding='utf-8').write(content)
+    open(path, 'w', encoding='utf-8', newline='').write(content)
     return True
 
 
@@ -134,7 +136,8 @@ def main():
                 continue
             if any(f[:-5].startswith('%s_%s_' % (plat, k)) for f in files):
                 continue                      # 分片文件视为已有该类型
-            open(os.path.join(LIST, '%s_%s.list' % (plat, k)), 'w', encoding='utf-8').write(
+            open(os.path.join(LIST, '%s_%s.list' % (plat, k)), 'w', encoding='utf-8',
+                 newline='').write(
                 '# NAME: %s_%s\n# UPDATED: %s\n# TOTAL: 0\n'
                 '# 占位文件：本平台暂无%s规则，保留成对结构以便后续补充\n'
                 % (plat, k, TODAY, '域名' if k == 'Domain' else ' IP '))
