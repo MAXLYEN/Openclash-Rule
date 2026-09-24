@@ -51,8 +51,8 @@ rules/
 引用 `rules/yaml/` 下的文件，**必须带 `clash-classic:` 前缀**：
 
 ```
-ruleset=Netflix,clash-classic:https://testingcf.jsdelivr.net/gh/MAXLYEN/Openclash-Rule@main/rules/yaml/Netflix_Domain.yaml,28800
-ruleset=Netflix,clash-classic:https://testingcf.jsdelivr.net/gh/MAXLYEN/Openclash-Rule@main/rules/yaml/Netflix_IP.yaml,28800
+ruleset=Netflix,clash-classic:https://fastly.jsdelivr.net/gh/MAXLYEN/Openclash-Rule@main/rules/yaml/Netflix_Domain.yaml,28800
+ruleset=Netflix,clash-classic:https://fastly.jsdelivr.net/gh/MAXLYEN/Openclash-Rule@main/rules/yaml/Netflix_IP.yaml,28800
 ```
 
 ### Mihomo 配置文件直接引用
@@ -62,7 +62,7 @@ rule-providers:
   netflix-domain:
     type: http
     behavior: classical
-    url: "https://testingcf.jsdelivr.net/gh/MAXLYEN/Openclash-Rule@main/rules/yaml/Netflix_Domain.yaml"
+    url: "https://fastly.jsdelivr.net/gh/MAXLYEN/Openclash-Rule@main/rules/yaml/Netflix_Domain.yaml"
     path: ./ruleset/netflix-domain.yaml
     interval: 28800
 
@@ -77,10 +77,10 @@ rules:
 国内环境建议使用 jsdelivr 镜像替代 `raw.githubusercontent.com`：
 
 ```
-https://testingcf.jsdelivr.net/gh/MAXLYEN/Openclash-Rule@main/rules/yaml/文件名.yaml
+https://fastly.jsdelivr.net/gh/MAXLYEN/Openclash-Rule@main/rules/yaml/文件名.yaml
 ```
 
-jsdelivr 对 `@main` 分支引用存在 CDN 缓存，更新后生效可能延迟数小时。需要立即生效时手动刷新：
+jsdelivr 对 `@main` 分支引用存在 CDN 缓存。构建完成后 CI 会自动请求刷新，`fastly` 节点随即生效；`testingcf`（Cloudflare 节点）不跟随刷新，可能延迟数小时，因此不推荐。需要手动刷新时：
 
 ```
 https://purge.jsdelivr.net/gh/MAXLYEN/Openclash-Rule@main/rules/yaml/文件名.yaml

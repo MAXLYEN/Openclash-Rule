@@ -1,0 +1,3 @@
+# 工作区统一 LF：CRLF 的 \r 会并入域名，规则永不命中。
+# 构建脚本也会修正，但本机 core.autocrlf=true 时检出即变 CRLF，这里从源头钉死。
+* text=auto eol=lf
