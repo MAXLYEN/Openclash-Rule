@@ -1,12 +1,12 @@
 # NAME: YouTube_Domain
 # UPDATED: 2026-09-24
-# DOMAIN-SUFFIX: 178
+# DOMAIN-SUFFIX: 176
 # DOMAIN-KEYWORD: 2
-# TOTAL: 180
+# TOTAL: 178
 DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,gvt1.com  ← Google 通用下载/更新 CDN（Chrome、Play、Android），由 GEOSITE,google 交还 Google 分组
+# [已停用-分组冲突] DOMAIN-SUFFIX,gvt2.com  ← Google 通用 CDN，由 GEOSITE,google 交还 Google 分组
 DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,wide-youtube.l.google.com
 DOMAIN-SUFFIX,withyoutube.com

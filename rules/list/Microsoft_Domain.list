@@ -1,9 +1,9 @@
 # NAME: Microsoft_Domain
 # UPDATED: 2026-09-24
 # DOMAIN: 1
-# DOMAIN-SUFFIX: 660
+# DOMAIN-SUFFIX: 659
 # DOMAIN-KEYWORD: 4
-# TOTAL: 665
+# TOTAL: 664
 DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN-SUFFIX,1drv.ms
 DOMAIN-SUFFIX,21vbc.com
@@ -179,7 +179,7 @@ DOMAIN-SUFFIX,dwh5.com
 DOMAIN-SUFFIX,dynamics.cn
 DOMAIN-SUFFIX,dynamics.com
 DOMAIN-SUFFIX,e-msedge.net
-DOMAIN-SUFFIX,edgesuite.net
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,edgesuite.net  ← Akamai 通用 CDN 域名，非微软专属；会截走 netflix.com.edgesuite.net 等
 DOMAIN-SUFFIX,efproject.net
 DOMAIN-SUFFIX,elderscrolls.com
 DOMAIN-SUFFIX,engkoo.com

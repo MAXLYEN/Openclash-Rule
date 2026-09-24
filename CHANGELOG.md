@@ -6,13 +6,21 @@
 
 ---
 
+## 2026-09-24（四）
+
+全链路复查的中风险项，以及对（三）的部分回滚。
+
+- 回滚（三）中的两处，恢复原状：`SG_Domain` 的 `cloudauth-device`（收窄依据是推测，没有抓包）；`EUNet_Domain` 的 `pushsdk` / `pushcloud` / `qq-os` / `we-api`。**约定：交易所 App 的推送、统计等 SDK 流量随 EUNet 走，保持出口一致，不按「跨平台共享服务」拆出**
+- `EUNet_Domain` 停用 7 个常见词 keyword：`ether`（together / whether / netherlands）、`engage`、`coca`、`pave`、`tuyo`（途游 tuyoo.com）、`ramp`、`exactly`；后两个收窄为 `ramp.network`、`exact.ly`
+- `Microsoft_Domain` 停用 `edgesuite.net`：Akamai 通用 CDN，非微软专属，截走了 `netflix.com.edgesuite.net`。Azure 系（`azureedge.net` 等）保留 —— 上游 `GEOSITE,microsoft` 已收录且同组，停用不改变行为
+- `YouTube_Domain` 停用 `gvt1.com` / `gvt2.com`：Google 通用下载 / 更新 CDN，由 `GEOSITE,google` 交还 Google 分组
+
 ## 2026-09-24（三）
 
 全链路复查的高风险项：排在 `China_Domain` / `GEOSITE,cn` 之前的列表把国内流量送去了海外节点。
 
 - `TikTok_Domain` / `GlobalMedia_Domain` 停用 `snssdk.com`：字节国内域名（抖音 / 头条 / 西瓜），v2fly 上游归在 bytedance 而非 tiktok；TikTok 分组没有直连选项，国内 App 全走美国节点。现由 `ChinaMedia_Domain` 接管，国际版仍由 `isnssdk.com` 命中
-- `EUNet_Domain` 停用 8 条国内基础设施 / 通用词：`volces`（火山引擎）、`tobsnssdk`（字节 toB SDK）、`log.aliyuncs.com`（阿里云日志）、`im.qcloud.com`（腾讯云 IM）、`pushsdk`、`pushcloud`、`qq-os`、`we-api`。交易所主域名不受影响
-- `SG_Domain`：`cloudauth-device` 会命中阿里云国内实人认证 `cloudauth-device.aliyuncs.com`，收窄为 `cloudauth-device.ap-`（亚太海外区域端点）
+- `EUNet_Domain` 停用 4 条国内基础设施：`volces`（火山引擎）、`tobsnssdk`（字节 toB SDK）、`log.aliyuncs.com`（阿里云日志）、`im.qcloud.com`（腾讯云 IM）。交易所主域名不受影响
 - `Game_Domain` 停用 `DOMAIN-KEYWORD,adjust`：全体 App 共用的归因 SDK，且命中境内端点 `adjust.cn`；与 `UK_Domain` 的「跨平台共享服务」处理一致
 
 ## 2026-09-24（二）

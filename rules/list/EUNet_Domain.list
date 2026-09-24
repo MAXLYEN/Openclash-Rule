@@ -1,8 +1,8 @@
 # NAME: EUNet_Domain
 # UPDATED: 2026-09-24
-# DOMAIN-SUFFIX: 37
-# DOMAIN-KEYWORD: 150
-# TOTAL: 187
+# DOMAIN-SUFFIX: 39
+# DOMAIN-KEYWORD: 147
+# TOTAL: 186
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
 DOMAIN-KEYWORD,byffbb
@@ -54,7 +54,7 @@ DOMAIN-KEYWORD,panpno
 DOMAIN-KEYWORD,gateimg
 DOMAIN-KEYWORD,gateimage
 DOMAIN-KEYWORD,appchannel
-# [已停用-跨平台共享服务] DOMAIN-KEYWORD,pushcloud  ← 通用推送服务词
+DOMAIN-KEYWORD,pushcloud
 DOMAIN-KEYWORD,airpackapp
 DOMAIN-KEYWORD,wrgsb
 DOMAIN-KEYWORD,didhelper
@@ -62,11 +62,11 @@ DOMAIN-KEYWORD,chain-api
 DOMAIN-KEYWORD,google-analytics
 DOMAIN-KEYWORD,freshchat
 DOMAIN-KEYWORD,crydit
-DOMAIN-KEYWORD,pave
+# [已停用-范围过宽] DOMAIN-KEYWORD,pave  ← 常见英文单词片段
 DOMAIN-KEYWORD,bitkeep
 DOMAIN-KEYWORD,chainnear
 DOMAIN-KEYWORD,fcmtoken
-DOMAIN-KEYWORD,engage
+# [已停用-范围过宽] DOMAIN-KEYWORD,engage  ← 常见英文单词
 DOMAIN-KEYWORD,bgstatic
 DOMAIN-KEYWORD,bitget
 DOMAIN-SUFFIX,vrenthaliox.site
@@ -125,7 +125,7 @@ DOMAIN-KEYWORD,mexc
 DOMAIN-KEYWORD,365huo
 DOMAIN-KEYWORD,mocortexh
 # [已停用-跨平台共享服务] DOMAIN-SUFFIX,log.aliyuncs.com  ← 阿里云日志服务，大量国内 App 上报日志共用
-# [已停用-跨平台共享服务] DOMAIN-KEYWORD,pushsdk  ← 通用推送 SDK 词，国内推送服务共用
+DOMAIN-KEYWORD,pushsdk
 DOMAIN-KEYWORD,88maru
 DOMAIN-KEYWORD,htx
 DOMAIN-KEYWORD,daumoon
@@ -133,12 +133,12 @@ DOMAIN-KEYWORD,woodpeckerlog
 DOMAIN-KEYWORD,okx-dns
 DOMAIN-KEYWORD,huobi
 DOMAIN-KEYWORD,hbfile
-# [已停用-范围过宽] DOMAIN-KEYWORD,qq-os  ← 疑似腾讯系国内服务，无法归属到具体平台
+DOMAIN-KEYWORD,qq-os
 # [已停用-跨平台共享服务] DOMAIN-KEYWORD,tobsnssdk  ← 字节 toB 统计 SDK，大量国内 App 共用
 # [已停用-跨平台共享服务] DOMAIN-KEYWORD,volces  ← 火山引擎（字节国内云，豆包等），排在 China_Domain 之前会把国内 App 送去 EUNet
 DOMAIN-KEYWORD,luck-in
 DOMAIN-KEYWORD,bingx
-# [已停用-范围过宽] DOMAIN-KEYWORD,we-api  ← 通用 API 词，无法归属到具体平台
+DOMAIN-KEYWORD,we-api
 DOMAIN-KEYWORD,zendesk
 DOMAIN-KEYWORD,coinex
 DOMAIN-KEYWORD,viaconfig
@@ -155,12 +155,14 @@ DOMAIN-KEYWORD,my-imcloud
 DOMAIN-KEYWORD,pinoe
 DOMAIN-KEYWORD,baanxapi
 DOMAIN-KEYWORD,exodus
-DOMAIN-KEYWORD,ramp
+# [已停用-范围过宽] DOMAIN-KEYWORD,ramp  ← 会命中 trampoline / rampage 等；收窄为下一行的 ramp.network（Ramp Network）
+DOMAIN-SUFFIX,ramp.network
 DOMAIN-KEYWORD,blockchain
-DOMAIN-KEYWORD,coca
+# [已停用-范围过宽] DOMAIN-KEYWORD,coca  ← 会命中 coca-cola 等
 DOMAIN-KEYWORD,ipregistry
 DOMAIN-KEYWORD,amplitude
-DOMAIN-KEYWORD,exactly
+# [已停用-范围过宽] DOMAIN-KEYWORD,exactly  ← 常见英文单词；收窄为下一行的 exact.ly（Exactly Protocol）
+DOMAIN-SUFFIX,exact.ly
 DOMAIN-KEYWORD,smold
 DOMAIN-SUFFIX,li.quest
 DOMAIN-SUFFIX,braze.eu
@@ -171,7 +173,7 @@ DOMAIN-SUFFIX,sgp.tencent.com
 DOMAIN-KEYWORD,zksync
 DOMAIN-KEYWORD,avici
 DOMAIN-KEYWORD,web3modal
-DOMAIN-KEYWORD,ether
+# [已停用-范围过宽] DOMAIN-KEYWORD,ether  ← 会命中 together / whether / netherlands / ethernet
 DOMAIN-KEYWORD,spindl
 DOMAIN-KEYWORD,unpkg
 DOMAIN-KEYWORD,zdassets
@@ -194,7 +196,7 @@ DOMAIN-KEYWORD,publicnode
 DOMAIN-KEYWORD,lr-intake
 DOMAIN-KEYWORD,typeform
 DOMAIN-KEYWORD,solayer
-DOMAIN-KEYWORD,tuyo
+# [已停用-范围过宽] DOMAIN-KEYWORD,tuyo  ← 会命中国内游戏公司途游 tuyoo.com
 DOMAIN-KEYWORD,beyondwickedmapping
 DOMAIN-KEYWORD,monese
 DOMAIN-KEYWORD,cloudinary
