@@ -1,8 +1,8 @@
 # NAME: EUNet_Domain
-# UPDATED: 2026-09-05
-# DOMAIN-SUFFIX: 39
-# DOMAIN-KEYWORD: 156
-# TOTAL: 195
+# UPDATED: 2026-09-24
+# DOMAIN-SUFFIX: 37
+# DOMAIN-KEYWORD: 150
+# TOTAL: 187
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
 DOMAIN-KEYWORD,byffbb
@@ -54,7 +54,7 @@ DOMAIN-KEYWORD,panpno
 DOMAIN-KEYWORD,gateimg
 DOMAIN-KEYWORD,gateimage
 DOMAIN-KEYWORD,appchannel
-DOMAIN-KEYWORD,pushcloud
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,pushcloud  ← 通用推送服务词
 DOMAIN-KEYWORD,airpackapp
 DOMAIN-KEYWORD,wrgsb
 DOMAIN-KEYWORD,didhelper
@@ -124,8 +124,8 @@ DOMAIN-KEYWORD,flytogarden
 DOMAIN-KEYWORD,mexc
 DOMAIN-KEYWORD,365huo
 DOMAIN-KEYWORD,mocortexh
-DOMAIN-SUFFIX,log.aliyuncs.com
-DOMAIN-KEYWORD,pushsdk
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,log.aliyuncs.com  ← 阿里云日志服务，大量国内 App 上报日志共用
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,pushsdk  ← 通用推送 SDK 词，国内推送服务共用
 DOMAIN-KEYWORD,88maru
 DOMAIN-KEYWORD,htx
 DOMAIN-KEYWORD,daumoon
@@ -133,12 +133,12 @@ DOMAIN-KEYWORD,woodpeckerlog
 DOMAIN-KEYWORD,okx-dns
 DOMAIN-KEYWORD,huobi
 DOMAIN-KEYWORD,hbfile
-DOMAIN-KEYWORD,qq-os
-DOMAIN-KEYWORD,tobsnssdk
-DOMAIN-KEYWORD,volces
+# [已停用-范围过宽] DOMAIN-KEYWORD,qq-os  ← 疑似腾讯系国内服务，无法归属到具体平台
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,tobsnssdk  ← 字节 toB 统计 SDK，大量国内 App 共用
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,volces  ← 火山引擎（字节国内云，豆包等），排在 China_Domain 之前会把国内 App 送去 EUNet
 DOMAIN-KEYWORD,luck-in
 DOMAIN-KEYWORD,bingx
-DOMAIN-KEYWORD,we-api
+# [已停用-范围过宽] DOMAIN-KEYWORD,we-api  ← 通用 API 词，无法归属到具体平台
 DOMAIN-KEYWORD,zendesk
 DOMAIN-KEYWORD,coinex
 DOMAIN-KEYWORD,viaconfig
@@ -167,7 +167,7 @@ DOMAIN-SUFFIX,braze.eu
 DOMAIN-KEYWORD,wxy86j
 DOMAIN-KEYWORD,hbabit
 DOMAIN-SUFFIX,sgp.tencent.com
-DOMAIN-SUFFIX,im.qcloud.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,im.qcloud.com  ← 腾讯云 IM，国内 App 共用
 DOMAIN-KEYWORD,zksync
 DOMAIN-KEYWORD,avici
 DOMAIN-KEYWORD,web3modal

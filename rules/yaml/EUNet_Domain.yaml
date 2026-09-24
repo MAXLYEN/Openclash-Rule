@@ -46,7 +46,6 @@ payload:
   - DOMAIN-KEYWORD,gateimg
   - DOMAIN-KEYWORD,gateimage
   - DOMAIN-KEYWORD,appchannel
-  - DOMAIN-KEYWORD,pushcloud
   - DOMAIN-KEYWORD,airpackapp
   - DOMAIN-KEYWORD,wrgsb
   - DOMAIN-KEYWORD,didhelper
@@ -110,8 +109,6 @@ payload:
   - DOMAIN-KEYWORD,mexc
   - DOMAIN-KEYWORD,365huo
   - DOMAIN-KEYWORD,mocortexh
-  - DOMAIN-SUFFIX,log.aliyuncs.com
-  - DOMAIN-KEYWORD,pushsdk
   - DOMAIN-KEYWORD,88maru
   - DOMAIN-KEYWORD,htx
   - DOMAIN-KEYWORD,daumoon
@@ -119,12 +116,8 @@ payload:
   - DOMAIN-KEYWORD,okx-dns
   - DOMAIN-KEYWORD,huobi
   - DOMAIN-KEYWORD,hbfile
-  - DOMAIN-KEYWORD,qq-os
-  - DOMAIN-KEYWORD,tobsnssdk
-  - DOMAIN-KEYWORD,volces
   - DOMAIN-KEYWORD,luck-in
   - DOMAIN-KEYWORD,bingx
-  - DOMAIN-KEYWORD,we-api
   - DOMAIN-KEYWORD,zendesk
   - DOMAIN-KEYWORD,coinex
   - DOMAIN-KEYWORD,viaconfig
@@ -153,7 +146,6 @@ payload:
   - DOMAIN-KEYWORD,wxy86j
   - DOMAIN-KEYWORD,hbabit
   - DOMAIN-SUFFIX,sgp.tencent.com
-  - DOMAIN-SUFFIX,im.qcloud.com
   - DOMAIN-KEYWORD,zksync
   - DOMAIN-KEYWORD,avici
   - DOMAIN-KEYWORD,web3modal

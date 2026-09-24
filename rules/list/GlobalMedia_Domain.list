@@ -1,9 +1,9 @@
 # NAME: GlobalMedia_Domain
 # UPDATED: 2026-09-24
 # DOMAIN: 27
-# DOMAIN-SUFFIX: 1246
+# DOMAIN-SUFFIX: 1245
 # DOMAIN-KEYWORD: 24
-# TOTAL: 1297
+# TOTAL: 1296
 DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
 DOMAIN,api.okzy.tv
 DOMAIN,apm-misaka.biliapi.net
@@ -934,7 +934,7 @@ DOMAIN-SUFFIX,skygo.co.nz
 DOMAIN-SUFFIX,skyking.com.tw
 DOMAIN-SUFFIX,smartmediarep.com
 DOMAIN-SUFFIX,sndcdn.com
-DOMAIN-SUFFIX,snssdk.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,snssdk.com  ← 字节国内域名，由 ChinaMedia_Domain 接管；国际版为 isnssdk.com
 DOMAIN-SUFFIX,soccermatchpass.com
 DOMAIN-SUFFIX,socdm.com
 DOMAIN-SUFFIX,sorcerersarena.com

@@ -6,6 +6,15 @@
 
 ---
 
+## 2026-09-24（三）
+
+全链路复查的高风险项：排在 `China_Domain` / `GEOSITE,cn` 之前的列表把国内流量送去了海外节点。
+
+- `TikTok_Domain` / `GlobalMedia_Domain` 停用 `snssdk.com`：字节国内域名（抖音 / 头条 / 西瓜），v2fly 上游归在 bytedance 而非 tiktok；TikTok 分组没有直连选项，国内 App 全走美国节点。现由 `ChinaMedia_Domain` 接管，国际版仍由 `isnssdk.com` 命中
+- `EUNet_Domain` 停用 8 条国内基础设施 / 通用词：`volces`（火山引擎）、`tobsnssdk`（字节 toB SDK）、`log.aliyuncs.com`（阿里云日志）、`im.qcloud.com`（腾讯云 IM）、`pushsdk`、`pushcloud`、`qq-os`、`we-api`。交易所主域名不受影响
+- `SG_Domain`：`cloudauth-device` 会命中阿里云国内实人认证 `cloudauth-device.aliyuncs.com`，收窄为 `cloudauth-device.ap-`（亚太海外区域端点）
+- `Game_Domain` 停用 `DOMAIN-KEYWORD,adjust`：全体 App 共用的归因 SDK，且命中境内端点 `adjust.cn`；与 `UK_Domain` 的「跨平台共享服务」处理一致
+
 ## 2026-09-24（二）
 
 清理 PT 相关的异组冲突（按 V2 规则链：`PT_Domain`[PT] → `PrivateTracker_Domain` / `Direct_Domain`[Global Direct]）。异组冲突 1657 → 1459。

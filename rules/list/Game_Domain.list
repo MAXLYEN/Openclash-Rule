@@ -1,7 +1,7 @@
 # NAME: Game_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-KEYWORD: 24
-# TOTAL: 24
+# UPDATED: 2026-09-24
+# DOMAIN-KEYWORD: 23
+# TOTAL: 23
 #游戏
 DOMAIN-KEYWORD,unity3d
 DOMAIN-KEYWORD,supercell
@@ -23,7 +23,7 @@ DOMAIN-KEYWORD,onezapp
 DOMAIN-KEYWORD,listdl
 DOMAIN-KEYWORD,gjacky
 DOMAIN-KEYWORD,anticheatexpert
-DOMAIN-KEYWORD,adjust
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,adjust  ← Adjust 归因 SDK 全体 App 共用，且会命中境内端点 adjust.cn；与 UK_Domain 的处理一致
 DOMAIN-KEYWORD,wetest
 DOMAIN-KEYWORD,tdatamaster
 DOMAIN-KEYWORD,amsoveasea

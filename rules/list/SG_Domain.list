@@ -1,5 +1,5 @@
 # NAME: SG_Domain
-# UPDATED: 2026-09-12
+# UPDATED: 2026-09-24
 # DOMAIN-SUFFIX: 22
 # DOMAIN-KEYWORD: 30
 # TOTAL: 52
@@ -12,7 +12,8 @@ DOMAIN-KEYWORD,jumio
 DOMAIN-KEYWORD,straitsx
 #Trae（字节 AI IDE）国际站；trae.com.cn 是国内站，故意不收
 DOMAIN-SUFFIX,trae.ai
-DOMAIN-KEYWORD,cloudauth-device
+# [已停用-范围过宽] DOMAIN-KEYWORD,cloudauth-device  ← 同时命中阿里云国内实人认证 cloudauth-device.aliyuncs.com，国内核验走 SG 易触发风控；收窄为下一行的亚太海外区域端点
+DOMAIN-KEYWORD,cloudauth-device.ap-
 DOMAIN-KEYWORD,edgeone
 DOMAIN-KEYWORD,harvestsharp
 #Plasma 稳定币公链（XPL），官方文档在 plasma.to/docs
