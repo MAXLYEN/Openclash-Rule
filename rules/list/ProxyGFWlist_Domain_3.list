@@ -1,9 +1,9 @@
 # NAME: ProxyGFWlist_Domain_3
 # UPDATED: 2026-09-24
 # DOMAIN: 7
-# DOMAIN-SUFFIX: 1036
+# DOMAIN-SUFFIX: 1037
 # DOMAIN-KEYWORD: 5
-# TOTAL: 1048
+# TOTAL: 1049
 DOMAIN-SUFFIX,tibetancommunityuk.net
 DOMAIN-SUFFIX,tibetanculture.org
 DOMAIN-SUFFIX,tibetanentrepreneurs.org
@@ -824,7 +824,7 @@ DOMAIN-SUFFIX,xn--4gq171p.com
 DOMAIN-SUFFIX,xn--9pr62r24a.com
 DOMAIN-SUFFIX,xn--czq75pvv1aj5c.org
 DOMAIN-SUFFIX,xn--i2ru8q2qg.com
-# [已停用-冗余] DOMAIN-SUFFIX,xn--ngstr-lra8j.com  ← 已被 Custom_Proxy_Domain 以同一分组命中
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,xn--oiq.cc
 DOMAIN-SUFFIX,xnxx.com
 DOMAIN-SUFFIX,xpdo.net

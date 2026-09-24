@@ -1,8 +1,8 @@
 # NAME: ProxyGFWlist_Domain_1
 # UPDATED: 2026-09-24
-# DOMAIN-SUFFIX: 2248
+# DOMAIN-SUFFIX: 2249
 # DOMAIN-KEYWORD: 20
-# TOTAL: 2268
+# TOTAL: 2269
 # 代理列表
 # MyList && Other
 DOMAIN-SUFFIX,1password.com
@@ -2268,7 +2268,7 @@ DOMAIN-SUFFIX,google.vg
 DOMAIN-SUFFIX,google.vn
 DOMAIN-SUFFIX,google.vu
 DOMAIN-SUFFIX,google.ws
-# [已停用-冗余] DOMAIN-SUFFIX,googleapis.cn  ← 已被 Custom_Proxy_Domain 以同一分组命中
+DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleapps.com
 DOMAIN-SUFFIX,googlearth.com

@@ -55,7 +55,8 @@ def read_list(name):
     冗余与否取决于 ini 的规则顺序，而 ini 会独立演进 —— 某条规则今天冗余，
     改了顺序之后可能就不冗余了。只停用不恢复会变成单向棘轮，
     时间一长就会有规则被错误地长期禁用。
-    其他 # 开头的行（人工注释、header）一律不碰。"""
+    其他 # 开头的行（人工注释、header）一律不碰。
+    因此人工停用必须用 `# [已停用]` 等其他标记，不能借用 MARK，否则会被自动恢复。"""
     p = os.path.join(LIST, name + '.list')
     if not os.path.exists(p):
         return None
@@ -65,7 +66,8 @@ def read_list(name):
         t = line.strip()
         was_off = False
         if t.startswith(MARK):
-            t = t[len(MARK):].split('  ←')[0].strip()
+            # 原因分隔符按「←」切，不依赖前面的空格数；否则恢复时会把原因一起写回规则行
+            t = t[len(MARK):].split('←')[0].strip()
             was_off = True
         elif t.startswith('#') or not t:
             continue
@@ -90,8 +92,12 @@ def analyse(chain):
             continue
         for lineno, typ, val, raw, was_off in rows:
             hit = None
+            # 覆盖关系只能由「更宽」的规则成立：
+            #   DOMAIN        <- 同名 DOMAIN / 祖先 SUFFIX / 子串 KEYWORD
+            #   DOMAIN-SUFFIX <- 祖先 SUFFIX / 子串 KEYWORD（同名 DOMAIN 盖不住子域）
+            #   DOMAIN-KEYWORD <- 子串 KEYWORD（任何 SUFFIX 都盖不住「包含即命中」）
             if typ in ('DOMAIN', 'DOMAIN-SUFFIX'):
-                if val in exact:
+                if typ == 'DOMAIN' and val in exact:
                     hit = exact[val]
                 if not hit:
                     parts = val.split('.')
@@ -106,13 +112,10 @@ def analyse(chain):
                             hit = (g, f, kw)
                             break
             elif typ == 'DOMAIN-KEYWORD':
-                if val in suffix:
-                    hit = suffix[val]
-                if not hit:
-                    for kw, g, f in keyword:
-                        if kw in val:
-                            hit = (g, f, kw)
-                            break
+                for kw, g, f in keyword:
+                    if kw in val:
+                        hit = (g, f, kw)
+                        break
             is_red = False
             why = ''
             if hit:
@@ -190,8 +193,19 @@ def main():
         if not total and not n_res:
             print('\n无需改动。')
             return
-        n = apply_changes(redundant, restore)
-        print('\n改动 %d 个文件：停用 %d 条，恢复 %d 条。' % (n, total, n_res))
+        # 一轮改动会改变后续判定：恢复一条规则后，它会重新遮蔽链上更靠后的同名规则。
+        # 反复分析直到不动点，保证单次 --apply 之后再跑只读模式结果为零。
+        files, rounds = set(), 0
+        while (total or n_res) and rounds < 10:
+            files |= set(redundant) | set(restore)
+            apply_changes(redundant, restore)
+            rounds += 1
+            redundant, restore = analyse(chain)[:2]
+            total = sum(len(v) for v in redundant.values())
+            n_res = sum(len(v) for v in restore.values())
+        if total or n_res:
+            print('\n⚠ %d 轮后仍未收敛，剩余停用 %d 条、恢复 %d 条' % (rounds, total, n_res))
+        print('\n改动 %d 个文件（%d 轮收敛）。' % (len(files), rounds))
         print('接下来跑 scripts/build.py 重新生成 yaml，再跑 scripts/validate.py 校验。')
     else:
         print('\n（只读模式。加 --apply 执行停用/恢复）')

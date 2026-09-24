@@ -6,6 +6,16 @@
 
 ---
 
+## 2026-09-24
+
+修复 `scripts/dedupe.py` 覆盖判定错误，并按 V2 规则链重新评估冗余。
+
+- 判定修正：`DOMAIN-SUFFIX` 不再被同名 `DOMAIN` 判为已覆盖（盖不住子域）；`DOMAIN-KEYWORD` 只由更短的 keyword 覆盖，不再被同名 suffix 判为已覆盖
+- 恢复被误停用的 12 条：`Apple_Domain` 推送 4 条（`push.apple.com` 等）、`Microsoft_Domain` 的 `microsoft`、`YouTube_Domain` 的 `youtube`、`Netflix_Domain` 的 `netflix.com.edgesuite.net`、`TikTok_Domain` 的 `musical.ly`、`Emby_Domain` 的 `emby.wtf`、`PT_Domain` 的 `tjupt.org`，以及 `ProxyGFWlist_Domain_1/3` 各 1 条（`Custom_Proxy_Domain` 已不再收录）
+- 新停用 5 条：`JP_Domain` 4 条文件内冗余，`Direct_Domain` 的 `hdsky.me`（已被 `PrivateTracker_Domain` 同组命中）
+- `--apply` 改为循环到不动点：恢复一条规则会重新遮蔽链上靠后的同名规则，单轮应用不一定收敛
+- `SG_Domain` 的 `phantom` 是人工停用，改用 `# [已停用]` 标记 —— 借用脚本的 `# [已停用-冗余]` 会被自动恢复，且原因前只有一个空格，恢复时会把说明一起写进规则行
+
 ## 2026-09-12
 
 配合模板把「地区专属」名单块上移到「泛分类 GeoSite」之前，宽泛 keyword 的误伤面随之扩大，逐条收敛为精确域名。

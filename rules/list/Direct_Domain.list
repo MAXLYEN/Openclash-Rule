@@ -1,9 +1,9 @@
 # NAME: Direct_Domain
 # UPDATED: 2026-09-24
 # DOMAIN: 43
-# DOMAIN-SUFFIX: 150
+# DOMAIN-SUFFIX: 149
 # DOMAIN-KEYWORD: 13
-# TOTAL: 206
+# TOTAL: 205
 DOMAIN,ad.10010.com
 DOMAIN,ad.12306.cn
 DOMAIN,ain.bgm.tv
@@ -121,7 +121,7 @@ DOMAIN-SUFFIX,hdfans.org
 DOMAIN-SUFFIX,hdhome.org
 DOMAIN-SUFFIX,hdpost.top
 DOMAIN-SUFFIX,hdroute.org
-DOMAIN-SUFFIX,hdsky.me
+# [已停用-冗余] DOMAIN-SUFFIX,hdsky.me  ← 已被 PrivateTracker_Domain 以同一分组命中
 DOMAIN-SUFFIX,hdstreet.club
 DOMAIN-SUFFIX,hdtime.org
 DOMAIN-SUFFIX,hdupt.com

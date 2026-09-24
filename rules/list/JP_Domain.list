@@ -1,8 +1,8 @@
 # NAME: JP_Domain
 # UPDATED: 2026-09-24
-# DOMAIN-SUFFIX: 139
+# DOMAIN-SUFFIX: 135
 # DOMAIN-KEYWORD: 14
-# TOTAL: 153
+# TOTAL: 149
 #亚洲-日本分流
 DOMAIN-SUFFIX,co.jp
 DOMAIN-SUFFIX,com.jp
@@ -40,15 +40,15 @@ DOMAIN-SUFFIX,pst.net
 DOMAIN-KEYWORD,globe
 # ===== Japan Online Services =====
 # Yahoo! JAPAN
-DOMAIN-SUFFIX,yahoo.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,yahoo.co.jp  ← 文件内被 JP_Domain 包含
 DOMAIN-SUFFIX,yimg.jp
 DOMAIN-SUFFIX,yahooapis.com
 DOMAIN-SUFFIX,yahoo-net.jp
 DOMAIN-SUFFIX,slim01.jp
 DOMAIN-SUFFIX,yahooapis.jp
 # Yahoo! JAPAN リアルタイム / 知恵袋
-DOMAIN-SUFFIX,realtime.yahoo.co.jp
-DOMAIN-SUFFIX,chiebukuro.yahoo.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,realtime.yahoo.co.jp  ← 文件内被 JP_Domain 包含
+# [已停用-冗余] DOMAIN-SUFFIX,chiebukuro.yahoo.co.jp  ← 文件内被 JP_Domain 包含
 # Yahoo! JAPAN Shopping / Auction / Flea Market
 # [已停用-冗余] DOMAIN-SUFFIX,shopping.yahoo.co.jp  ← 文件内被 JP_Domain 包含
 # [已停用-冗余] DOMAIN-SUFFIX,auctions.yahoo.co.jp  ← 文件内被 JP_Domain 包含
@@ -101,7 +101,7 @@ DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmmtv.jp
 # ===== FOD =====
-DOMAIN-SUFFIX,fod.fujitv.co.jp
+# [已停用-冗余] DOMAIN-SUFFIX,fod.fujitv.co.jp  ← 文件内被 JP_Domain 包含
 # [已停用-冗余] DOMAIN-SUFFIX,fujitv.co.jp  ← 文件内被 JP_Domain 包含
 # ===== TELASA =====
 DOMAIN-SUFFIX,telasa.jp

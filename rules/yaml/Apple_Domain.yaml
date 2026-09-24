@@ -9,6 +9,10 @@ payload:
   - DOMAIN-SUFFIX,apple-relay.apple.com
   - DOMAIN-SUFFIX,guzzoni.apple.com
   - DOMAIN-SUFFIX,smoot.apple.com
+  - DOMAIN-SUFFIX,init.push.apple.com
+  - DOMAIN-SUFFIX,push.apple.com
+  - DOMAIN-SUFFIX,courier.push.apple.com
+  - DOMAIN-SUFFIX,push-apple.com.akadns.net
   - DOMAIN,appldnld.apple.com.edgesuite.net
   - DOMAIN,apple-events.akamaized.net
   - DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net

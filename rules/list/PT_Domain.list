@@ -1,9 +1,9 @@
 # NAME: PT_Domain
-# UPDATED: 2026-09-05
+# UPDATED: 2026-09-24
 # DOMAIN: 10
-# DOMAIN-SUFFIX: 263
+# DOMAIN-SUFFIX: 264
 # DOMAIN-KEYWORD: 1
-# TOTAL: 274
+# TOTAL: 275
 # [已停用] DOMAIN-KEYWORD,tracker  ← tracker 过于宽泛，会误匹配大量含该词的普通域名
 # [已停用] DOMAIN-KEYWORD,announce.php?passkey=  ← DOMAIN-KEYWORD 只匹配域名，含 ? = / 的 URL 片段永远不会命中
 # [已停用] DOMAIN-KEYWORD,peer_id=  ← DOMAIN-KEYWORD 只匹配域名，含 ? = / 的 URL 片段永远不会命中
@@ -275,7 +275,7 @@ DOMAIN-SUFFIX,theshinning.me
 DOMAIN-SUFFIX,theshow.click
 DOMAIN-SUFFIX,thevault.click
 DOMAIN-SUFFIX,theaudioscene.net
-# [已停用-冗余] DOMAIN-SUFFIX,tjupt.org  ← 文件内被 PT_Domain 包含
+DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,tongyifan.me
 DOMAIN-SUFFIX,torrentday.com
 DOMAIN-SUFFIX,torrentleech.com

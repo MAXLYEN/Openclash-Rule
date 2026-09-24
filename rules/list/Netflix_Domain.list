@@ -1,9 +1,9 @@
 # NAME: Netflix_Domain
 # UPDATED: 2026-09-24
 # DOMAIN: 3
-# DOMAIN-SUFFIX: 26
+# DOMAIN-SUFFIX: 27
 # DOMAIN-KEYWORD: 9
-# TOTAL: 38
+# TOTAL: 39
 DOMAIN,e13252.dscg.akamaiedge.net
 DOMAIN,h-netflix.online-metrix.net
 DOMAIN,netflix.com.edgesuite.net
@@ -13,7 +13,7 @@ DOMAIN-SUFFIX,flxvpn.net
 DOMAIN-SUFFIX,netflix.ca
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.com.au
-# [已停用-冗余] DOMAIN-SUFFIX,netflix.com.edgesuite.net  ← 文件内被 Netflix_Domain 包含
+DOMAIN-SUFFIX,netflix.com.edgesuite.net
 DOMAIN-SUFFIX,netflix.net
 DOMAIN-SUFFIX,netflixdnstest0.com
 DOMAIN-SUFFIX,netflixdnstest1.com

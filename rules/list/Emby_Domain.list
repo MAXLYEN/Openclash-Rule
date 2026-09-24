@@ -1,9 +1,9 @@
 # NAME: Emby_Domain
-# UPDATED: 2026-09-05
+# UPDATED: 2026-09-24
 # DOMAIN: 17
 # DOMAIN-SUFFIX: 63
-# DOMAIN-KEYWORD: 2
-# TOTAL: 82
+# DOMAIN-KEYWORD: 3
+# TOTAL: 83
 # === 以下合并自 Emby.list ===
 DOMAIN,emby.enjoyit.eu.org
 DOMAIN,emby.lcloud.wiki
@@ -53,7 +53,7 @@ DOMAIN-SUFFIX,poloemby.xyz
 DOMAIN-SUFFIX,pornemby.club
 DOMAIN-SUFFIX,servers.xeton.dev
 DOMAIN-SUFFIX,xmsl.org
-# [已停用-冗余] DOMAIN-KEYWORD,emby.wtf  ← 文件内被 Emby_Domain 包含
+DOMAIN-KEYWORD,emby.wtf
 DOMAIN-KEYWORD,jmsooo
 DOMAIN-KEYWORD,odysseyplus
 # [已停用] PROCESS-NAME,com.mb.android  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
