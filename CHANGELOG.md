@@ -6,6 +6,16 @@
 
 ---
 
+## 2026-09-24（二）
+
+清理 PT 相关的异组冲突（按 V2 规则链：`PT_Domain`[PT] → `PrivateTracker_Domain` / `Direct_Domain`[Global Direct]）。异组冲突 1657 → 1459。
+
+- 停用 `PrivateTracker_Domain` 102 条、`Direct_Domain` 88 条与 `PT_Domain` 完全重复的 PT 站点：排在 PT 之后永不命中，PT 站点统一由 PT 分组管理，行为不变
+- 停用 `PrivateTracker_Domain` 的 `DOMAIN-KEYWORD,torrent`：常见单词，把 `torrentkitty.tv` 等被墙站点截到直连
+- `Direct_Domain` 停用 4 条外部列表收录、压过专属分组的规则：`blog.google` / `googletraveladservices.com` 交还 Google，`trip.com` 交还 HK_Domain（「旅行」），`icloud.com` 交还 Apple 分组
+- `China_Domain` 的 `trip.com` 由 dedupe 恢复（不再与 Direct 同组冗余，仍被 HK_Domain 先命中，行为不变）
+- 遗留：`Direct_Domain` 的 `ls.apple.com` 仍截走 `UK-wifi-call_Domain` 的地区检测端点 `gspe1-ssl.ls.apple.com`，需在 Openclash-Config 把 UK-wifi-call_Domain 移到 Direct_Domain 之前
+
 ## 2026-09-24
 
 修复 `scripts/dedupe.py` 覆盖判定错误，并按 V2 规则链重新评估冗余。

@@ -1,8 +1,8 @@
 # NAME: China_Domain
-# UPDATED: 2026-09-05
-# DOMAIN-SUFFIX: 539
+# UPDATED: 2026-09-24
+# DOMAIN-SUFFIX: 540
 # DOMAIN-KEYWORD: 16
-# TOTAL: 555
+# TOTAL: 556
 # === 以下合并自 ChinaDomain.list ===
 # 直连列表
 # MyList
@@ -599,7 +599,7 @@ DOMAIN-SUFFIX,tianyaui.com
 DOMAIN-SUFFIX,tietuku.com
 DOMAIN-SUFFIX,tiexue.net
 DOMAIN-SUFFIX,tmiaoo.com
-# [已停用-冗余] DOMAIN-SUFFIX,trip.com  ← 已被 Direct_Domain 以同一分组命中
+DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,ttmeiju.com
 DOMAIN-SUFFIX,tudou.com
 DOMAIN-SUFFIX,tuniu.com

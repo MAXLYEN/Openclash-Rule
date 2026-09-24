@@ -1,9 +1,9 @@
 # NAME: Direct_Domain
 # UPDATED: 2026-09-24
 # DOMAIN: 43
-# DOMAIN-SUFFIX: 149
+# DOMAIN-SUFFIX: 57
 # DOMAIN-KEYWORD: 13
-# TOTAL: 205
+# TOTAL: 113
 DOMAIN,ad.10010.com
 DOMAIN,ad.12306.cn
 DOMAIN,ain.bgm.tv
@@ -60,128 +60,128 @@ DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
 DOMAIN,vip.ffzyread.com
 DOMAIN,vip.imgffzy.com
-DOMAIN-SUFFIX,52pt.site
+# [已停用-分组冲突] DOMAIN-SUFFIX,52pt.site  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,acg.rip
 DOMAIN-SUFFIX,acm.org
-DOMAIN-SUFFIX,aidoru-online.me
-DOMAIN-SUFFIX,alpharatio.cc
-DOMAIN-SUFFIX,animebytes.tv
-DOMAIN-SUFFIX,anthelion.me
-DOMAIN-SUFFIX,asiancinema.me
-DOMAIN-SUFFIX,avgv.cc
-DOMAIN-SUFFIX,avistaz.to
-DOMAIN-SUFFIX,awesome-hd.me
+# [已停用-分组冲突] DOMAIN-SUFFIX,aidoru-online.me  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,alpharatio.cc  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,animebytes.tv  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,anthelion.me  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,asiancinema.me  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,avgv.cc  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,avistaz.to  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,awesome-hd.me  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,baomitu.com
-DOMAIN-SUFFIX,beitai.pt
-DOMAIN-SUFFIX,beyond-hd.me
-DOMAIN-SUFFIX,bibliotik.me
+# [已停用-分组冲突] DOMAIN-SUFFIX,beitai.pt  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,beyond-hd.me  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,bibliotik.me  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,blackwell-synergy.com
-DOMAIN-SUFFIX,blog.google
-DOMAIN-SUFFIX,blutopia.xyz
+# [已停用-分组冲突] DOMAIN-SUFFIX,blog.google  ← 外部列表误收，交还 Google 分组
+# [已停用-分组冲突] DOMAIN-SUFFIX,blutopia.xyz  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,bootcss.com
-DOMAIN-SUFFIX,broadcasthe.net
-DOMAIN-SUFFIX,bt.byr.cn
+# [已停用-分组冲突] DOMAIN-SUFFIX,broadcasthe.net  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,bt.byr.cn  ← 与 PT_Domain 重复，由 PT 分组接管
 # [已停用-冗余] DOMAIN-SUFFIX,bt.neu6.edu.cn  ← 已被 PrivateTracker_Domain 以同一分组命中
-DOMAIN-SUFFIX,btschool.club
+# [已停用-分组冲突] DOMAIN-SUFFIX,btschool.club  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,cabdirect.org
-DOMAIN-SUFFIX,ccfbits.org
-DOMAIN-SUFFIX,cgpeers.com
-DOMAIN-SUFFIX,cinemageddon.net
-DOMAIN-SUFFIX,cinematik.net
-DOMAIN-SUFFIX,cinemaz.to
-DOMAIN-SUFFIX,classix-unlimited.co.uk
+# [已停用-分组冲突] DOMAIN-SUFFIX,ccfbits.org  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,cgpeers.com  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,cinemageddon.net  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,cinematik.net  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,cinemaz.to  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,classix-unlimited.co.uk  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,comicat.org
-DOMAIN-SUFFIX,concertos.live
-DOMAIN-SUFFIX,dicmusic.club
-DOMAIN-SUFFIX,discfan.net
+# [已停用-分组冲突] DOMAIN-SUFFIX,concertos.live  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,dicmusic.club  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,discfan.net  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,dizhensubao.getui.com
 DOMAIN-SUFFIX,doi.org
-DOMAIN-SUFFIX,dxdhd.com
-DOMAIN-SUFFIX,eastgame.org
-DOMAIN-SUFFIX,empornium.me
-DOMAIN-SUFFIX,et8.org
-DOMAIN-SUFFIX,exoticaz.to
+# [已停用-分组冲突] DOMAIN-SUFFIX,dxdhd.com  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,eastgame.org  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,empornium.me  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,et8.org  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,exoticaz.to  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,f.video.weibocdn.com
-DOMAIN-SUFFIX,filelist.io
+# [已停用-分组冲突] DOMAIN-SUFFIX,filelist.io  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,fus.cdn.krcom.cn
-DOMAIN-SUFFIX,gazellegames.net
-DOMAIN-SUFFIX,gfxpeers.net
-DOMAIN-SUFFIX,googletraveladservices.com
-DOMAIN-SUFFIX,hd-space.org
-DOMAIN-SUFFIX,hd4.xyz
-DOMAIN-SUFFIX,hd4fans.org
-DOMAIN-SUFFIX,hdarea.co
-DOMAIN-SUFFIX,hdatmos.club
-DOMAIN-SUFFIX,hdbd.us
-DOMAIN-SUFFIX,hdbits.org
-DOMAIN-SUFFIX,hdchina.org
-DOMAIN-SUFFIX,hdcity.city
-DOMAIN-SUFFIX,hddolby.com
-DOMAIN-SUFFIX,hdfans.org
-DOMAIN-SUFFIX,hdhome.org
-DOMAIN-SUFFIX,hdpost.top
-DOMAIN-SUFFIX,hdroute.org
+# [已停用-分组冲突] DOMAIN-SUFFIX,gazellegames.net  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,gfxpeers.net  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,googletraveladservices.com  ← 外部列表误收，交还 Google 分组
+# [已停用-分组冲突] DOMAIN-SUFFIX,hd-space.org  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hd4.xyz  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hd4fans.org  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hdarea.co  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hdatmos.club  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hdbd.us  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hdbits.org  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hdchina.org  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hdcity.city  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hddolby.com  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hdfans.org  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hdhome.org  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hdpost.top  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hdroute.org  ← 与 PT_Domain 重复，由 PT 分组接管
 # [已停用-冗余] DOMAIN-SUFFIX,hdsky.me  ← 已被 PrivateTracker_Domain 以同一分组命中
-DOMAIN-SUFFIX,hdstreet.club
-DOMAIN-SUFFIX,hdtime.org
-DOMAIN-SUFFIX,hdupt.com
-DOMAIN-SUFFIX,hdzone.me
-DOMAIN-SUFFIX,hitpt.com
-DOMAIN-SUFFIX,hitpt.org
-DOMAIN-SUFFIX,hudbt.hust.edu.cn
-DOMAIN-SUFFIX,icetorrent.org
+# [已停用-分组冲突] DOMAIN-SUFFIX,hdstreet.club  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hdtime.org  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hdupt.com  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hdzone.me  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hitpt.com  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hitpt.org  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hudbt.hust.edu.cn  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,icetorrent.org  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,ieee.org
-DOMAIN-SUFFIX,j99.info
+# [已停用-分组冲突] DOMAIN-SUFFIX,j99.info  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,jiasule.com
-DOMAIN-SUFFIX,joyhd.net
-DOMAIN-SUFFIX,jpopsuki.eu
+# [已停用-分组冲突] DOMAIN-SUFFIX,joyhd.net  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,jpopsuki.eu  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,jstor.org
-DOMAIN-SUFFIX,karagarga.in
-DOMAIN-SUFFIX,keepfrds.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,karagarga.in  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,keepfrds.com  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,koodomobile.ca
 DOMAIN-SUFFIX,koodomobile.com
-DOMAIN-SUFFIX,leaguehd.com
-DOMAIN-SUFFIX,lztr.me
-DOMAIN-SUFFIX,m-team.cc
+# [已停用-分组冲突] DOMAIN-SUFFIX,leaguehd.com  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,lztr.me  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,m-team.cc  ← 与 PT_Domain 重复，由 PT 分组接管
 # [已停用-冗余] DOMAIN-SUFFIX,madsrevolution.net  ← 已被 PrivateTracker_Domain 以同一分组命中
-DOMAIN-SUFFIX,moecat.best
-DOMAIN-SUFFIX,morethan.tv
+# [已停用-分组冲突] DOMAIN-SUFFIX,moecat.best  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,morethan.tv  ← 与 PT_Domain 重复，由 PT 分组接管
 # [已停用-冗余] DOMAIN-SUFFIX,msg.vg  ← 已被 PrivateTracker_Domain 以同一分组命中
-DOMAIN-SUFFIX,myanonamouse.net
-DOMAIN-SUFFIX,nanyangpt.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,myanonamouse.net  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,nanyangpt.com  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,nature.com
-DOMAIN-SUFFIX,ncore.cc
-DOMAIN-SUFFIX,nebulance.io
-DOMAIN-SUFFIX,nicept.net
-DOMAIN-SUFFIX,npupt.com
-DOMAIN-SUFFIX,open.cd
-DOMAIN-SUFFIX,oppaiti.me
-DOMAIN-SUFFIX,orpheus.network
+# [已停用-分组冲突] DOMAIN-SUFFIX,ncore.cc  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,nebulance.io  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,nicept.net  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,npupt.com  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,open.cd  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,oppaiti.me  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,orpheus.network  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,osapublishing.org
 DOMAIN-SUFFIX,oup.com
-DOMAIN-SUFFIX,ourbits.club
-DOMAIN-SUFFIX,passthepopcorn.me
-DOMAIN-SUFFIX,pornbits.net
-DOMAIN-SUFFIX,privatehd.to
-DOMAIN-SUFFIX,pterclub.com
-DOMAIN-SUFFIX,pthome.net
-DOMAIN-SUFFIX,ptsbao.club
-DOMAIN-SUFFIX,redacted.ch
+# [已停用-分组冲突] DOMAIN-SUFFIX,ourbits.club  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,passthepopcorn.me  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,pornbits.net  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,privatehd.to  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,pterclub.com  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,pthome.net  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,ptsbao.club  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,redacted.ch  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,researchgate.net
 DOMAIN-SUFFIX,sciencemag.org
 DOMAIN-SUFFIX,scopus.com
-DOMAIN-SUFFIX,sdbits.org
-DOMAIN-SUFFIX,skyey2.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,sdbits.org  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,skyey2.com  ← 与 PT_Domain 重复，由 PT 分组接管
 # [已停用-冗余] DOMAIN-SUFFIX,soulvoice.club  ← 已被 PrivateTracker_Domain 以同一分组命中
 DOMAIN-SUFFIX,springer.com
 DOMAIN-SUFFIX,springernature.com
-DOMAIN-SUFFIX,springsunday.net
+# [已停用-分组冲突] DOMAIN-SUFFIX,springsunday.net  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,staticfile.org
-DOMAIN-SUFFIX,tjupt.org
-DOMAIN-SUFFIX,totheglory.im
+# [已停用-分组冲突] DOMAIN-SUFFIX,tjupt.org  ← 与 PT_Domain 重复，由 PT 分组接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,totheglory.im  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
 # [已停用-冗余] DOMAIN-SUFFIX,trontv.com  ← 已被 PrivateTracker_Domain 以同一分组命中
-DOMAIN-SUFFIX,uhdbits.org
+# [已停用-分组冲突] DOMAIN-SUFFIX,uhdbits.org  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,upaiyun.com
 DOMAIN-SUFFIX,weather-analytics-events.apple.com
 DOMAIN-SUFFIX,weather-data.apple.com
@@ -205,7 +205,7 @@ DOMAIN-KEYWORD,elsevier
 DOMAIN-SUFFIX,ess.apple.com
 DOMAIN-SUFFIX,gsa.apple.com
 DOMAIN-SUFFIX,humb.apple.com
-DOMAIN-SUFFIX,icloud.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,icloud.com  ← 交还 Apple 分组，需要直连时在分组里选 Global Direct
 DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,o.lencr.org
 DOMAIN-KEYWORD,pkulaw
@@ -213,7 +213,7 @@ DOMAIN-SUFFIX,push.apple.com
 DOMAIN-KEYWORD,readcube
 DOMAIN-KEYWORD,sciencedirect
 DOMAIN-SUFFIX,ssl.apple.com
-DOMAIN-SUFFIX,trip.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,trip.com  ← HK_Domain「旅行」已收录，交还 HK 地区分流
 DOMAIN-SUFFIX,ttcdn-tos.kkimg.cc
 DOMAIN-KEYWORD,vip.ffzy-online
 DOMAIN-KEYWORD,vip.ffzy-play
