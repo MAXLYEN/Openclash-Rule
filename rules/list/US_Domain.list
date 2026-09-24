@@ -1,8 +1,8 @@
 # NAME: US_Domain
-# UPDATED: 2026-09-05
-# DOMAIN-SUFFIX: 19
-# DOMAIN-KEYWORD: 31
-# TOTAL: 50
+# UPDATED: 2026-09-24
+# DOMAIN-SUFFIX: 22
+# DOMAIN-KEYWORD: 29
+# TOTAL: 51
 #美洲分流
 #娱乐生活
 DOMAIN-KEYWORD,tubi
@@ -46,7 +46,7 @@ DOMAIN-KEYWORD,postman
 DOMAIN-SUFFIX,truthsocial.com
 DOMAIN-KEYWORD,rokt
 DOMAIN-KEYWORD,quantummetric
-DOMAIN-KEYWORD,onetrust
+# [已停用-范围过宽] DOMAIN-KEYWORD,onetrust  ← 通用隐私管理服务，不能作为美国流量判据
 #Talkatone美区代理
 DOMAIN-KEYWORD,tktn
 DOMAIN-SUFFIX,talkatone.com
@@ -54,14 +54,16 @@ DOMAIN-SUFFIX,talkatone.com
 DOMAIN-SUFFIX,talkamobile.com
 # [已停用-冗余] DOMAIN-SUFFIX,tktn.at  ← 文件内被 US_Domain 包含
 # [已停用-冗余] DOMAIN-SUFFIX,tktn.be  ← 文件内被 US_Domain 包含
-DOMAIN-SUFFIX,inmobi.com          # 部分广告但也用于功能
+# 部分广告但也用于功能
+DOMAIN-SUFFIX,inmobi.com
 DOMAIN-SUFFIX,inner-active.mobi
 DOMAIN-SUFFIX,mobilefuse.com
 DOMAIN-SUFFIX,spadsync.com
-DOMAIN-SUFFIX,media.tenor.com     # 表情包
+# 表情包
+DOMAIN-SUFFIX,media.tenor.com
 #Peacock美区代理
 DOMAIN-KEYWORD,peacocktv
-DOMAIN-KEYWORD,newrelic
+# [已停用-范围过宽] DOMAIN-KEYWORD,newrelic  ← 通用监控服务，不能作为美国流量判据
 #Paramountplus
 DOMAIN-KEYWORD,paramountplus
 #brazaon
@@ -70,3 +72,8 @@ DOMAIN-KEYWORD,brazaon
 DOMAIN-SUFFIX,backpack.app
 DOMAIN-SUFFIX,backpack.exchange
 DOMAIN-KEYWORD,backpack
+# Cursor 为独立 AI 应用，沿用美国节点，不并入 ChatGPT 专属组
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+# Chase 美国主站，从 UK_Domain 迁入
+DOMAIN-SUFFIX,chase.com

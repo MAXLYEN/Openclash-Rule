@@ -1,9 +1,9 @@
 # NAME: Google_Domain
-# UPDATED: 2026-09-21
+# UPDATED: 2026-09-24
 # DOMAIN: 1
-# DOMAIN-SUFFIX: 711
-# DOMAIN-KEYWORD: 5
-# TOTAL: 717
+# DOMAIN-SUFFIX: 710
+# DOMAIN-KEYWORD: 4
+# TOTAL: 715
 # GooglePlay 相关
 DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,services.googleapis.cn
@@ -49,7 +49,7 @@ DOMAIN-SUFFIX,appbridge.ca
 DOMAIN-SUFFIX,appbridge.io
 DOMAIN-SUFFIX,appbridge.it
 DOMAIN-SUFFIX,apps5.oingo.com
-DOMAIN-SUFFIX,appspot.com
+# [已停用-范围过宽] DOMAIN-SUFFIX,appspot.com  ← App Engine 承载第三方应用
 DOMAIN-SUFFIX,apture.com
 DOMAIN-SUFFIX,area120.com
 DOMAIN-SUFFIX,asp-cc.com
@@ -717,7 +717,7 @@ DOMAIN-SUFFIX,zukunftswerkstatt.de
 DOMAIN-SUFFIX,zynamics.com
 DOMAIN-SUFFIX,googledrive.com
 DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-KEYWORD,appspot
+# [已停用-范围过宽] DOMAIN-KEYWORD,appspot  ← 仍会把第三方 App Engine 应用送入 Google 组
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google

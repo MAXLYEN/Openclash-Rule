@@ -1,11 +1,107 @@
 # NAME: UK_Domain
-# UPDATED: 2026-09-05
+# UPDATED: 2026-09-24
 # DOMAIN: 3
-# DOMAIN-SUFFIX: 49
-# DOMAIN-KEYWORD: 8
-# TOTAL: 60
+# DOMAIN-SUFFIX: 50
+# DOMAIN-KEYWORD: 40
+# TOTAL: 93
+# 英国地区聚合：本地银行、金融、通信与其他英国业务
+#英国分流
+DOMAIN-SUFFIX,co.uk
+#虚拟金融
+DOMAIN-SUFFIX,cex.io
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,checkout.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,rudderlabs.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,gist.build
+DOMAIN-SUFFIX,revolut.com
+DOMAIN-SUFFIX,zero.co
+DOMAIN-SUFFIX,nexo.com
+DOMAIN-SUFFIX,zen.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,oraclersys.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,eum-appdynamics.com
+DOMAIN-KEYWORD,ifast
+DOMAIN-KEYWORD,trezor
+DOMAIN-KEYWORD,mathwallet
+DOMAIN-KEYWORD,wirex
+DOMAIN-KEYWORD,klarna
+DOMAIN-KEYWORD,coinjar
+DOMAIN-KEYWORD,trastra
+#Bitsa 预付卡（运营方 Bitnovo，如出现 bitnovo.com 连接再补）
+DOMAIN-SUFFIX,bitsacard.com
+DOMAIN-KEYWORD,bunq
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,lokalise
+DOMAIN-KEYWORD,sendwave
+#Yuh（瑞士，Swissquote 全资）
+DOMAIN-SUFFIX,yuh.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,pendo.io
+DOMAIN-KEYWORD,sumsub
+DOMAIN-KEYWORD,jeton
+DOMAIN-KEYWORD,metamask
+DOMAIN-KEYWORD,monerium
+DOMAIN-KEYWORD,consensys
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,crowdin
+DOMAIN-KEYWORD,lemonade
+# [已停用-范围过宽] DOMAIN-KEYWORD,newrelic  ← 通用监控服务，不能作为英国流量判据
+DOMAIN-KEYWORD,hyperjar
+DOMAIN-KEYWORD,neverless
+DOMAIN-KEYWORD,paysend
+DOMAIN-KEYWORD,tevau
+DOMAIN-KEYWORD,ninerealms
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,posthog
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,coinmarketcap
+DOMAIN-KEYWORD,zopa
+DOMAIN-KEYWORD,thisisbud
+DOMAIN-KEYWORD,fundsupermart
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,adjust.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,adjust.world
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,adjust.net.in
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,adj.st
+DOMAIN-KEYWORD,yonder
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,bugsnag
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,datocms
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,sentry
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,siftscience
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,microlink
+DOMAIN-KEYWORD,pndsn
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,kustomerapp
+DOMAIN-KEYWORD,instarem
+#OSL 集团（香港持牌数字资产平台，bc.group 为集团站）
+DOMAIN-SUFFIX,osl.com
+DOMAIN-SUFFIX,bc.group
+DOMAIN-KEYWORD,fpconfig
+#Pusher Channels：mt1 主集群走 pusherapp.com，其余集群走 pusher.com，两个都要
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,pusher.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,pusherapp.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,ada.support
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,braze.com
+DOMAIN-SUFFIX,nsureapi.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,launchdarkly.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,bitdrift.io
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,expo.dev
+DOMAIN-KEYWORD,freetrade
+DOMAIN-KEYWORD,kulipa
+DOMAIN-KEYWORD,argent
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,appsflyersdk
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,iterable
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,jibecloud
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,mixpanel
+DOMAIN-SUFFIX,ctexcel.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,infura.io
+#krak、kraken、krakken pro
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,sardine.ai
+DOMAIN-SUFFIX,kraken.zendesk.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,segment.io
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,segment.com
+DOMAIN-SUFFIX,privy.io
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,fullstory.com
+#运营商
+DOMAIN-KEYWORD,giffgaff
+DOMAIN-KEYWORD,firsty
+# [已归入 UK-wifi-call_Domain] DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+
+# 原 UK_Domain 的英国本地业务
 # 英国银行
-DOMAIN-SUFFIX,online-metrix.net
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,online-metrix.net
 DOMAIN-SUFFIX,yapily.com
 #wise
 DOMAIN-SUFFIX,wise.com
@@ -14,21 +110,16 @@ DOMAIN,tw-avatar.s3.eu-central-1.amazonaws.com
 DOMAIN-SUFFIX,skrill.com
 DOMAIN-SUFFIX,skrill.uk
 # Chase
-DOMAIN-SUFFIX,chase.com
+# [迁移至 US_Domain] DOMAIN-SUFFIX,chase.com
 DOMAIN-SUFFIX,chase.uk
-# [已停用-冗余] DOMAIN-SUFFIX,chase.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 # 信用查询
-# [已停用-冗余] DOMAIN-SUFFIX,creditkarma.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 DOMAIN-SUFFIX,totallymoney.uk
 DOMAIN-SUFFIX,totallymoney.com
 DOMAIN-SUFFIX,clearscore.com
 DOMAIN-SUFFIX,checkmyfile.com
 DOMAIN-SUFFIX,hellopillar.com
 DOMAIN-SUFFIX,pillar.money
-# [已停用-冗余] DOMAIN-SUFFIX,experian.co.uk  ← 已被 UKNet_Domain 以同一分组命中
-# [已停用-冗余] DOMAIN-SUFFIX,experianidentityservice.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 # barclays
-# [已停用-冗余] DOMAIN-SUFFIX,barclays.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 DOMAIN-SUFFIX,barclays.com
 DOMAIN-SUFFIX,barclays.mobi
 DOMAIN,barclaysuk.sc.omtrdc.net
@@ -39,35 +130,29 @@ DOMAIN-SUFFIX,guavapay.com
 DOMAIN-KEYWORD,myguava
 DOMAIN-KEYWORD,guavapay
 # 小马系列
-# [已停用-冗余] DOMAIN-SUFFIX,lloydsbank.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 DOMAIN-SUFFIX,amazontrust.com
-DOMAIN-SUFFIX,dynatrace.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,dynatrace.com
 DOMAIN-KEYWORD,lloydsbank
 DOMAIN-KEYWORD,halifax
-# [已停用-冗余] DOMAIN-SUFFIX,bankofscotland.co.uk  ← 已被 UKNet_Domain 以同一分组命中
-# [已停用-冗余] DOMAIN-SUFFIX,tsb.co.uk  ← 已被 UKNet_Domain 以同一分组命中
-DOMAIN-SUFFIX,demdex.net
-DOMAIN-SUFFIX,cm.everesttech.net
-DOMAIN-SUFFIX,omtrdc.net
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,demdex.net
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,cm.everesttech.net
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,omtrdc.net
 # ifast
-# [已停用-冗余] DOMAIN-SUFFIX,ifastgb.com  ← 已被 UKNet_Domain 以同一分组命中
 # wuzo
-# [已停用-冗余] DOMAIN-SUFFIX,wuzo.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 DOMAIN-SUFFIX,wuzo.com
-DOMAIN-SUFFIX,api.ipify.org
+# [迁移至 IPCheck_Domain] DOMAIN-SUFFIX,api.ipify.org
 # zilch
 DOMAIN-SUFFIX,payzilch.com
-# [已停用-冗余] DOMAIN-SUFFIX,eu.intercom.io  ← 已被 UKNet_Domain 以同一分组命中
-DOMAIN-SUFFIX,verygoodvault.com
-DOMAIN-SUFFIX,verygood.systems
-DOMAIN-SUFFIX,appsflyer.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,verygoodvault.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,verygood.systems
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,appsflyer.com
 # curve
 DOMAIN-SUFFIX,curve.app
-DOMAIN-SUFFIX,branch.io
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,branch.io
 DOMAIN-SUFFIX,emb-api.com
 DOMAIN-SUFFIX,imaginecurve.com
 # stripe
-DOMAIN-SUFFIX,sprig.com
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,sprig.com
 DOMAIN-SUFFIX,stripe.uk
 # monzo
 DOMAIN-SUFFIX,monzo-alt.net
@@ -78,25 +163,21 @@ DOMAIN-SUFFIX,nonprod-ffs.io
 DOMAIN-KEYWORD,monzo
 # lemfi
 DOMAIN-SUFFIX,lemfi.com
-DOMAIN-SUFFIX,customer.io
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,customer.io
 # freetrade
-# [已停用-冗余] DOMAIN-SUFFIX,freetrade.io  ← 已被 UKNet_Domain 以同一分组命中
-DOMAIN-SUFFIX,algolia.net
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,asnapieu.com
 # 212
 DOMAIN-SUFFIX,trading212.com
-# [已停用-冗余] DOMAIN-SUFFIX,appsflyersdk.com  ← 已被 UKNet_Domain 以同一分组命中
 DOMAIN-KEYWORD,trading212
 # aqua
 DOMAIN-SUFFIX,newdaycards.com
 DOMAIN-KEYWORD,newdaycards
 # moneybox
 DOMAIN-SUFFIX,moneyboxapp.com
-DOMAIN-SUFFIX,browser-intake-datadoghq.eu
+# [已停用-跨平台共享服务] DOMAIN-SUFFIX,browser-intake-datadoghq.eu
 # paysend
-# [已停用-冗余] DOMAIN-SUFFIX,paysend.io  ← 已被 UKNet_Domain 以同一分组命中
 # hsbc uk
-# [已停用-冗余] DOMAIN-SUFFIX,hsbc.co.uk  ← 已被 UKNet_Domain 以同一分组命中
 # topcashback
 DOMAIN-SUFFIX,topcashback.com
 # kroo
@@ -104,6 +185,4 @@ DOMAIN-SUFFIX,kroo.com
 # uphold
 DOMAIN-SUFFIX,uphold.com
 # yonder
-# [已停用-冗余] DOMAIN-SUFFIX,yondercard.com  ← 已被 UKNet_Domain 以同一分组命中
 # 兜底
-# [已停用-冗余] DOMAIN-SUFFIX,co.uk  ← 已被 UKNet_Domain 以同一分组命中

@@ -1,9 +1,9 @@
 # NAME: OpenAI_Domain
-# UPDATED: 2026-09-18
+# UPDATED: 2026-09-24
 # DOMAIN: 5
-# DOMAIN-SUFFIX: 23
+# DOMAIN-SUFFIX: 11
 # DOMAIN-KEYWORD: 1
-# TOTAL: 29
+# TOTAL: 17
 # [已停用-串味] DOMAIN,browser-intake-datadoghq.com  ← Datadog RUM 埋点，全网通用，断开不影响 ChatGPT 功能
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 # [已停用-串味] DOMAIN,gemini.google.com  ← Gemini 属 Google，不属 OpenAI
@@ -14,17 +14,17 @@ DOMAIN,production-openaicom-storage.azureedge.net
 # [已停用-串味] DOMAIN,static.cloudflareinsights.com  ← Cloudflare 分析脚本，全网通用，断开不影响功能
 DOMAIN-SUFFIX,ai.com
 #DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,api.statsig.com
+# [已停用-范围过宽] DOMAIN-SUFFIX,api.statsig.com  ← Statsig 为多应用共用服务
 #DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
+# [已停用-范围过宽] DOMAIN-SUFFIX,events.statsigapi.net  ← Statsig 为多应用共用服务
 #DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,host.livekit.cloud
 #DOMAIN-SUFFIX,identrust.com
 #DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
+# [已停用-范围过宽] DOMAIN-SUFFIX,intercomcdn.com  ← Intercom 为多应用共用服务
 #DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
@@ -34,14 +34,8 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom.imgix.net
 #DOMAIN-SUFFIX,segment.io
 #DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
+# [已停用-范围过宽] DOMAIN-SUFFIX,stripe.com  ← Stripe 为多商户共用支付服务
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
-DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursor.sh
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-DOMAIN-SUFFIX,cp4.cloudflare.com
-DOMAIN-SUFFIX,apple-relay.apple.com
-DOMAIN-SUFFIX,guzzoni.apple.com
-DOMAIN-SUFFIX,smoot.apple.com
+# [已迁移] Cursor 域名已移至 US_Domain，避免独立应用进入 ChatGPT 专属组
+# [已迁移] Apple Relay 与 Siri 域名已移至 Apple_Domain

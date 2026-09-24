@@ -1,8 +1,8 @@
 # NAME: Amazon_Domain
-# UPDATED: 2026-08-04
-# DOMAIN-SUFFIX: 5
-# DOMAIN-KEYWORD: 49
-# TOTAL: 54
+# UPDATED: 2026-09-24
+# DOMAIN-SUFFIX: 27
+# DOMAIN-KEYWORD: 44
+# TOTAL: 71
 # === 以下合并自 Amazon.list ===
 DOMAIN-SUFFIX,a2z.com
 DOMAIN-SUFFIX,alexa.com
@@ -10,14 +10,37 @@ DOMAIN-SUFFIX,audible.com
 # [已停用] DOMAIN-SUFFIX,aws  ← aws 不是合法域名后缀，此条恒不生效
 DOMAIN-SUFFIX,wfm.com
 DOMAIN-SUFFIX,z.cn
+# Amazon 各国商城；精确后缀避免 amazon 关键词误匹配 AWS 客户域名
+DOMAIN-SUFFIX,amazon.ae
+DOMAIN-SUFFIX,amazon.ca
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,amazon.co.uk
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazon.com.au
+DOMAIN-SUFFIX,amazon.com.be
+DOMAIN-SUFFIX,amazon.com.br
+DOMAIN-SUFFIX,amazon.com.mx
+DOMAIN-SUFFIX,amazon.com.tr
+DOMAIN-SUFFIX,amazon.de
+DOMAIN-SUFFIX,amazon.eg
+DOMAIN-SUFFIX,amazon.es
+DOMAIN-SUFFIX,amazon.fr
+DOMAIN-SUFFIX,amazon.ie
+DOMAIN-SUFFIX,amazon.in
+DOMAIN-SUFFIX,amazon.it
+DOMAIN-SUFFIX,amazon.nl
+DOMAIN-SUFFIX,amazon.pl
+DOMAIN-SUFFIX,amazon.sa
+DOMAIN-SUFFIX,amazon.se
+DOMAIN-SUFFIX,amazon.sg
 DOMAIN-KEYWORD,acmvalidations
 DOMAIN-KEYWORD,aesworkshops
 DOMAIN-KEYWORD,aiv-cdn
 DOMAIN-KEYWORD,aiv-delivery
 DOMAIN-KEYWORD,alexafund
 DOMAIN-KEYWORD,amaaozn
-DOMAIN-KEYWORD,amazon
-DOMAIN-KEYWORD,amplifyapp
+# [已停用-范围过宽] DOMAIN-KEYWORD,amazon  ← 会误匹配 amazonaws.com 等 AWS 客户域名
+# [已停用-范围过宽] DOMAIN-KEYWORD,amplifyapp  ← Amplify 承载第三方应用
 DOMAIN-KEYWORD,amplifyframework
 DOMAIN-KEYWORD,amzn
 DOMAIN-KEYWORD,avodmp4s3ww
@@ -37,14 +60,14 @@ DOMAIN-KEYWORD,awstrack
 DOMAIN-KEYWORD,awstrust
 DOMAIN-KEYWORD,boxofficemojo
 DOMAIN-KEYWORD,cdkworkshop
-DOMAIN-KEYWORD,cloudfront
+# [已停用-范围过宽] DOMAIN-KEYWORD,cloudfront  ← CloudFront 承载其他客户，不属于 Amazon 购物专有
 DOMAIN-KEYWORD,containersonaws
 DOMAIN-KEYWORD,createspace
-DOMAIN-KEYWORD,elasticbeanstalk
+# [已停用-范围过宽] DOMAIN-KEYWORD,elasticbeanstalk  ← Elastic Beanstalk 承载第三方应用
 DOMAIN-KEYWORD,gameon-masters
 DOMAIN-KEYWORD,imdb
 DOMAIN-KEYWORD,kindle
-DOMAIN-KEYWORD,llnwd
+# [已停用-范围过宽] DOMAIN-KEYWORD,llnwd  ← Limelight 共享 CDN，不属于 Amazon 购物专有
 DOMAIN-KEYWORD,prime-video
 DOMAIN-KEYWORD,primeday
 DOMAIN-KEYWORD,primevideo

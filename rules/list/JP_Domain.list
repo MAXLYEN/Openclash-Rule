@@ -1,8 +1,8 @@
 # NAME: JP_Domain
-# UPDATED: 2026-09-12
-# DOMAIN-SUFFIX: 142
+# UPDATED: 2026-09-24
+# DOMAIN-SUFFIX: 139
 # DOMAIN-KEYWORD: 14
-# TOTAL: 156
+# TOTAL: 153
 #亚洲-日本分流
 DOMAIN-SUFFIX,co.jp
 DOMAIN-SUFFIX,com.jp
@@ -86,10 +86,10 @@ DOMAIN-SUFFIX,tver.jp
 # ===== ABEMA =====
 DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,abema.io
-DOMAIN-SUFFIX,app-analytics-services.com
+# [已停用-范围过宽] DOMAIN-SUFFIX,app-analytics-services.com  ← 通用统计服务，不属于日本站点专有
 DOMAIN-SUFFIX,bucketeer.jp
-DOMAIN-SUFFIX,akamaized.net
-DOMAIN-SUFFIX,newrelic.com
+# [已停用-范围过宽] DOMAIN-SUFFIX,akamaized.net  ← Akamai 共享 CDN，不能作为日本流量判据
+# [已停用-范围过宽] DOMAIN-SUFFIX,newrelic.com  ← 通用监控服务，不能作为日本流量判据
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,abema-tv.com
 # ===== U-NEXT =====
@@ -181,7 +181,7 @@ DOMAIN-SUFFIX,sankei.com
 DOMAIN-SUFFIX,weathernews.jp
 DOMAIN-SUFFIX,tenki.jp
 # ===== Japanese Shopping =====
-# [已停用-冗余] DOMAIN-SUFFIX,amazon.co.jp  ← 文件内被 JP_Domain 包含
+# [已停用-分组冲突] DOMAIN-SUFFIX,amazon.co.jp  ← Amazon_Domain 的商城规则更早匹配
 # [已停用-冗余] DOMAIN-SUFFIX,rakuten.co.jp  ← 文件内被 JP_Domain 包含
 DOMAIN-SUFFIX,yodobashi.com
 DOMAIN-SUFFIX,biccamera.com

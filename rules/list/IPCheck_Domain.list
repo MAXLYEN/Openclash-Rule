@@ -1,9 +1,10 @@
-# NAME: Others_Domain
+# NAME: IPCheck_Domain
 # UPDATED: 2026-09-24
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 7
 # TOTAL: 8
-# 兼容旧配置；配置切换后由 IPCheck_Domain 接管
+# IP 查询与风险检测服务，保留 Others 策略组
+# 收窄旧 Others_Domain 的模糊关键字，避免误命中无关域名
 # ipinfo.io 当前由更靠前的 Custom_Direct_Domain 直连；此处保留为后备
 DOMAIN-SUFFIX,ipinfo.io
 DOMAIN-SUFFIX,ipdata.co

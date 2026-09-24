@@ -1,9 +1,9 @@
 # NAME: AmazonPrimeVideo_Domain
-# UPDATED: 2026-08-04
+# UPDATED: 2026-09-24
 # DOMAIN: 5
-# DOMAIN-SUFFIX: 19
+# DOMAIN-SUFFIX: 18
 # DOMAIN-KEYWORD: 1
-# TOTAL: 25
+# TOTAL: 24
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d22qjgkvxw22r6.cloudfront.net
 DOMAIN,d25xi40x97liuc.cloudfront.net
@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,atv-ps.amazon.com
 DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
 DOMAIN-SUFFIX,fls-na.amazon.com
-DOMAIN-SUFFIX,llnwd.net
+# [已停用-范围过宽] DOMAIN-SUFFIX,llnwd.net  ← Limelight 共享 CDN，不能全部归入 Prime Video
 DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,prime-video.com
 DOMAIN-SUFFIX,primevideo.cc

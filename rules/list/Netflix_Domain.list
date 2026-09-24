@@ -1,13 +1,13 @@
 # NAME: Netflix_Domain
-# UPDATED: 2026-09-05
+# UPDATED: 2026-09-24
 # DOMAIN: 3
-# DOMAIN-SUFFIX: 29
-# DOMAIN-KEYWORD: 11
-# TOTAL: 43
+# DOMAIN-SUFFIX: 26
+# DOMAIN-KEYWORD: 9
+# TOTAL: 38
 DOMAIN,e13252.dscg.akamaiedge.net
 DOMAIN,h-netflix.online-metrix.net
 DOMAIN,netflix.com.edgesuite.net
-DOMAIN-SUFFIX,cookielaw.org
+# [已停用-范围过宽] DOMAIN-SUFFIX,cookielaw.org  ← 多站共用的 Cookie 同意服务
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,flxvpn.net
 DOMAIN-SUFFIX,netflix.ca
@@ -35,14 +35,14 @@ DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxsearch.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
-DOMAIN-SUFFIX,onetrust.com
-DOMAIN-SUFFIX,us-west-2.amazonaws.com
+# [已停用-范围过宽] DOMAIN-SUFFIX,onetrust.com  ← 多站共用的隐私管理服务
+# [已停用-范围过宽] DOMAIN-SUFFIX,us-west-2.amazonaws.com  ← AWS 整个区域不属于 Netflix 专有
 DOMAIN-KEYWORD,nflxext
 DOMAIN-KEYWORD,nflximg
 DOMAIN-KEYWORD,nflxsearch
 DOMAIN-KEYWORD,nflxso
-DOMAIN-KEYWORD,onetrust
-DOMAIN-KEYWORD,amazonaws
+# [已停用-范围过宽] DOMAIN-KEYWORD,onetrust  ← 会匹配其他站点的隐私管理域名
+# [已停用-范围过宽] DOMAIN-KEYWORD,amazonaws  ← 会将其他 AWS 客户流量送到 Netflix
 DOMAIN-KEYWORD,netflix
 DOMAIN-KEYWORD,nflxvideo
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-

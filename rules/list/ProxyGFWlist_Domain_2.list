@@ -1,7 +1,7 @@
 # NAME: ProxyGFWlist_Domain_2
-# UPDATED: 2026-09-05
-# DOMAIN-SUFFIX: 2225
-# TOTAL: 2225
+# UPDATED: 2026-09-24
+# DOMAIN-SUFFIX: 2224
+# TOTAL: 2224
 DOMAIN-SUFFIX,hkheadline.com
 DOMAIN-SUFFIX,hkhkhk.com
 # [已停用-冗余] DOMAIN-SUFFIX,hkhrc.org.hk  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
@@ -1851,7 +1851,7 @@ DOMAIN-SUFFIX,s1heng.com
 DOMAIN-SUFFIX,s1s1s1.com
 DOMAIN-SUFFIX,s3-ap-northeast-1.amazonaws.com
 DOMAIN-SUFFIX,s3-ap-southeast-2.amazonaws.com
-DOMAIN-SUFFIX,s3.amazonaws.com
+# [已停用-范围过宽] DOMAIN-SUFFIX,s3.amazonaws.com  ← AWS S3 承载大量第三方站点
 DOMAIN-SUFFIX,s4miniarchive.com
 DOMAIN-SUFFIX,s8forum.com
 DOMAIN-SUFFIX,saboom.com

@@ -1,8 +1,8 @@
 # NAME: ProxyGFWlist_Domain_1
-# UPDATED: 2026-09-05
-# DOMAIN-SUFFIX: 2250
+# UPDATED: 2026-09-24
+# DOMAIN-SUFFIX: 2248
 # DOMAIN-KEYWORD: 20
-# TOTAL: 2270
+# TOTAL: 2268
 # 代理列表
 # MyList && Other
 DOMAIN-SUFFIX,1password.com
@@ -264,9 +264,9 @@ DOMAIN-SUFFIX,aiweiweiblog.com
 DOMAIN-SUFFIX,ajsands.com
 DOMAIN-SUFFIX,akademiye.org
 DOMAIN-SUFFIX,akamai.net
-DOMAIN-SUFFIX,akamaihd.net
+# [已停用-范围过宽] DOMAIN-SUFFIX,akamaihd.net  ← Akamai 共享 CDN，不能用作 GFW 判据
 DOMAIN-SUFFIX,akamaistream.net
-DOMAIN-SUFFIX,akamaized.net
+# [已停用-范围过宽] DOMAIN-SUFFIX,akamaized.net  ← Akamai 共享 CDN，不能用作 GFW 判据
 DOMAIN-SUFFIX,akiba-online.com
 DOMAIN-SUFFIX,akiba-web.com
 DOMAIN-SUFFIX,akow.org

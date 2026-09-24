@@ -1,13 +1,20 @@
 # NAME: Apple_Domain
-# UPDATED: 2026-09-05
+# UPDATED: 2026-09-24
 # DOMAIN: 14
-# DOMAIN-SUFFIX: 1549
+# DOMAIN-SUFFIX: 1553
 # DOMAIN-KEYWORD: 7
-# TOTAL: 1570
+# TOTAL: 1574
 DOMAIN,init.push.apple.com
 DOMAIN,push.apple.com
 DOMAIN,courier.push.apple.com
 DOMAIN,push-apple.com.akadns.net
+# Apple Intelligence Private Cloud Compute 与 Siri；AppleAI 配置切换前保留兜底
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
 # [已停用-冗余] DOMAIN-SUFFIX,init.push.apple.com  ← 文件内被 Apple_Domain 包含
 # [已停用-冗余] DOMAIN-SUFFIX,push.apple.com  ← 文件内被 Apple_Domain 包含
 # [已停用-冗余] DOMAIN-SUFFIX,courier.push.apple.com  ← 文件内被 Apple_Domain 包含
@@ -57,7 +64,7 @@ DOMAIN-SUFFIX,airtunes.com
 DOMAIN-SUFFIX,airtunes.info
 DOMAIN-SUFFIX,airtunes.net
 DOMAIN-SUFFIX,ajtalk.com
-DOMAIN-SUFFIX,akadns.net
+# [已停用-范围过宽] DOMAIN-SUFFIX,akadns.net  ← Akamai 共享 DNS 域名，不属于 Apple 专有
 DOMAIN-SUFFIX,albeats.com
 DOMAIN-SUFFIX,alchemysynth.com
 DOMAIN-SUFFIX,annstores.net
@@ -1567,7 +1574,7 @@ DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,digicert.com
+# [已停用-范围过宽] DOMAIN-SUFFIX,digicert.com  ← 通用证书服务，不属于 Apple 专有
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-livephotoskit.com
 DOMAIN-SUFFIX,apzones.com

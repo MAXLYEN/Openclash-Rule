@@ -1,16 +1,15 @@
 # NAME: Gemini_Domain
-# UPDATED: 2026-08-04
+# UPDATED: 2026-09-24
 # DOMAIN: 2
-# DOMAIN-SUFFIX: 14
-# DOMAIN-KEYWORD: 1
-# TOTAL: 17
+# DOMAIN-SUFFIX: 13
+# TOTAL: 15
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,gstatic.com
+# [已停用-范围过宽] DOMAIN-SUFFIX,gstatic.com  ← Google 通用静态资源，不属于 Gemini 专有流量
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
@@ -20,4 +19,4 @@ DOMAIN-SUFFIX,labs.google
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,colab.google
 DOMAIN-SUFFIX,colab.research.google.com
-DOMAIN-KEYWORD,developerprofiles
+# [已停用-范围过宽] DOMAIN-KEYWORD,developerprofiles  ← Google 开发者资料并非 Gemini 专有

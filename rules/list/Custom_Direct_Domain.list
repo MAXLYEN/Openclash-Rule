@@ -1,6 +1,7 @@
 # NAME: Custom_Direct_Domain
-# UPDATED: 2026-09-18
-# DOMAIN-SUFFIX: 58
+# UPDATED: 2026-09-24
+# DOMAIN: 4
+# DOMAIN-SUFFIX: 54
 # DOMAIN-KEYWORD: 4
 # TOTAL: 62
 # 强制直连域名列表，来自个人收集
@@ -33,7 +34,7 @@ DOMAIN-SUFFIX,msftncsi.com
 # 松下智能家居
 DOMAIN-SUFFIX,psmartcloud.com
 # Akamai CDN
-DOMAIN-SUFFIX,akamaihd.net
+# [已停用-范围过宽] DOMAIN-SUFFIX,akamaihd.net  ← 整个 Akamai CDN 会抢先直连其他平台的专用域名
 # 国内 CDN
 DOMAIN-SUFFIX,cjjd19.com
 # UniGetUI
@@ -42,9 +43,13 @@ DOMAIN-SUFFIX,powershellgallery.com
 DOMAIN-SUFFIX,pool.ntp.org
 # Dell
 DOMAIN-SUFFIX,dell.com
-# Cloudflare
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflarestorage.com
+# Cloudflare 官网、控制台与 API 直连，避免抢先命中 Apple Relay 等其他服务
+# [已停用-范围过宽] DOMAIN-SUFFIX,cloudflare.com  ← 整个后缀覆盖其他平台使用的 Cloudflare 端点
+DOMAIN,cloudflare.com
+DOMAIN,www.cloudflare.com
+DOMAIN,dash.cloudflare.com
+DOMAIN,api.cloudflare.com
+# [已停用-范围过宽] DOMAIN-SUFFIX,cloudflarestorage.com  ← R2 承载第三方内容，不能全部强制直连
 # FLiNG Trainer
 DOMAIN-SUFFIX,flingtrainer.com
 # 媒体类规则
@@ -104,5 +109,5 @@ DOMAIN-SUFFIX,115vod.com
 # wegame
 DOMAIN-KEYWORD,wegame
 # Epic Game
-DOMAIN-SUFFIX,fastly-edge.com
+# [已停用-范围过宽] DOMAIN-SUFFIX,fastly-edge.com  ← 整个 Fastly 边缘域名不应作为 Epic 专属直连
 DOMAIN-KEYWORD,egdownload

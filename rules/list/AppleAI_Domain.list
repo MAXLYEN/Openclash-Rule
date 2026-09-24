@@ -1,0 +1,10 @@
+# NAME: AppleAI_Domain
+# UPDATED: 2026-09-24
+# DOMAIN: 4
+# TOTAL: 4
+# Apple Intelligence Private Cloud Compute 与扩展端点
+# 这些端点需要在配置中先于 Apple 通用规则引用，并绑定 USNet
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,apple-relay.apple.com

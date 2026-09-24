@@ -1,9 +1,9 @@
 # NAME: GlobalMedia_Domain
-# UPDATED: 2026-09-12
+# UPDATED: 2026-09-24
 # DOMAIN: 27
-# DOMAIN-SUFFIX: 1249
+# DOMAIN-SUFFIX: 1246
 # DOMAIN-KEYWORD: 24
-# TOTAL: 1300
+# TOTAL: 1297
 DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
 DOMAIN,api.okzy.tv
 DOMAIN,apm-misaka.biliapi.net
@@ -176,7 +176,7 @@ DOMAIN-SUFFIX,cobuzz.fr
 DOMAIN-SUFFIX,content.jwplatform.com
 DOMAIN-SUFFIX,control.kochava.com
 DOMAIN-SUFFIX,conviva.com
-DOMAIN-SUFFIX,cookielaw.org
+# [已停用-范围过宽] DOMAIN-SUFFIX,cookielaw.org  ← 多站共用的 Cookie 同意服务，不属于流媒体专有
 DOMAIN-SUFFIX,coronavirusnow.com
 DOMAIN-SUFFIX,cstatic.net
 DOMAIN-SUFFIX,curbed.com
@@ -690,7 +690,7 @@ DOMAIN-SUFFIX,linetv.tw
 DOMAIN-SUFFIX,litix.io
 DOMAIN-SUFFIX,litv.tv
 DOMAIN-SUFFIX,livestream.com
-DOMAIN-SUFFIX,llnwd.net
+# [已停用-范围过宽] DOMAIN-SUFFIX,llnwd.net  ← Limelight 共享 CDN，不能全部归入流媒体
 DOMAIN-SUFFIX,logx.optimizely.com
 DOMAIN-SUFFIX,londonreal.tv
 DOMAIN-SUFFIX,m-content-viki.s.llnwi.net
@@ -839,7 +839,7 @@ DOMAIN-SUFFIX,olevod.com
 DOMAIN-SUFFIX,olevod.io
 DOMAIN-SUFFIX,olevod.tv
 DOMAIN-SUFFIX,olevodtv.com
-DOMAIN-SUFFIX,onetrust.com
+# [已停用-范围过宽] DOMAIN-SUFFIX,onetrust.com  ← 多站共用的隐私管理服务，不属于流媒体专有
 DOMAIN-SUFFIX,originalhulu.com
 DOMAIN-SUFFIX,orlandohurricane.com
 DOMAIN-SUFFIX,overcast.fm

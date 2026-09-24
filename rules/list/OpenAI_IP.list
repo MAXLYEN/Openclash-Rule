@@ -1,8 +1,6 @@
 # NAME: OpenAI_IP
-# UPDATED: 2026-08-04
-# IP-CIDR: 2
-# IP-ASN: 1
-# TOTAL: 3
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,20473,no-resolve
+# UPDATED: 2026-09-24
+# TOTAL: 0
+# [已停用-无法归属] IP-CIDR,24.199.123.28/32,no-resolve  ← 与 Copilot_IP 重复，IP 无法区分应用
+# [已停用-无法归属] IP-CIDR,64.23.132.171/32,no-resolve  ← 与 Copilot_IP 重复，IP 无法区分应用
+# [已停用-范围过宽] IP-ASN,20473,no-resolve  ← Vultr 全网承载大量无关服务

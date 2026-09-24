@@ -1,9 +1,9 @@
 # NAME: ProxyGFWlist_Domain_3
-# UPDATED: 2026-09-05
+# UPDATED: 2026-09-24
 # DOMAIN: 7
-# DOMAIN-SUFFIX: 1037
+# DOMAIN-SUFFIX: 1036
 # DOMAIN-KEYWORD: 5
-# TOTAL: 1049
+# TOTAL: 1048
 DOMAIN-SUFFIX,tibetancommunityuk.net
 DOMAIN-SUFFIX,tibetanculture.org
 DOMAIN-SUFFIX,tibetanentrepreneurs.org
@@ -1040,7 +1040,7 @@ DOMAIN-SUFFIX,zzcloud.me
 DOMAIN-SUFFIX,zzux.com
 DOMAIN-SUFFIX,gfwlist.end
 # Amazon
-DOMAIN-SUFFIX,amazonaws.com
+# [已停用-范围过宽] DOMAIN-SUFFIX,amazonaws.com  ← AWS 承载大量第三方站点
 # BBC
 DOMAIN-KEYWORD,uk-live
 DOMAIN-SUFFIX,bbc.co

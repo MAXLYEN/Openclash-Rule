@@ -1,9 +1,9 @@
 # NAME: Microsoft_Domain
-# UPDATED: 2026-09-05
+# UPDATED: 2026-09-24
 # DOMAIN: 1
-# DOMAIN-SUFFIX: 662
+# DOMAIN-SUFFIX: 660
 # DOMAIN-KEYWORD: 3
-# TOTAL: 666
+# TOTAL: 664
 DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN-SUFFIX,1drv.ms
 DOMAIN-SUFFIX,21vbc.com
@@ -21,7 +21,7 @@ DOMAIN-SUFFIX,adaptivecards.io
 DOMAIN-SUFFIX,aggresmart.com
 DOMAIN-SUFFIX,aicscience.com
 DOMAIN-SUFFIX,aka.ms
-DOMAIN-SUFFIX,akadns.net
+# [已停用-范围过宽] DOMAIN-SUFFIX,akadns.net  ← Akamai 共享 DNS 域名，不属于 Microsoft 专有
 DOMAIN-SUFFIX,ankarazirvesi2018.com
 DOMAIN-SUFFIX,api-extractor.com
 DOMAIN-SUFFIX,apihub-internal.cn
@@ -96,7 +96,7 @@ DOMAIN-SUFFIX,azuresandbox.cn
 DOMAIN-SUFFIX,azureserviceprofiler.com
 DOMAIN-SUFFIX,azuresmartspaces.net
 DOMAIN-SUFFIX,azurestackvalidation.com
-DOMAIN-SUFFIX,azurewebsites.net
+# [已停用-范围过宽] DOMAIN-SUFFIX,azurewebsites.net  ← Azure App Service 承载第三方应用
 DOMAIN-SUFFIX,b.akamaiedge.net
 DOMAIN-SUFFIX,b2clogin.cn
 DOMAIN-SUFFIX,b3itech.cn
