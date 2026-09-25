@@ -12,8 +12,8 @@
 
 ```
 rules/
-├── list/     166 个 .list —— 手动维护，唯一数据源
-└── yaml/     166 个 .yaml —— 自动生成，供配置引用
+├── list/     172 个 .list —— 手动维护，唯一数据源
+└── yaml/     172 个 .yaml —— 自动生成，供配置引用
 ```
 
 ### 为什么需要 yaml 版本
@@ -44,12 +44,10 @@ match GeoSite(category-ai-!cn) using Optional
 
 `mrs` 是 mihomo 的二进制规则集，体积优势显著（`China_IP_1` 由 96 KB 降至 5.3 KB），但存在两处限制：
 
-1. **只支持 `domain` 与 `ipcidr` 两种 behavior**，无法表达 `DOMAIN-KEYWORD`。而本库 45 个文件含 keyword，且集中在关键位置——`EUNet_Domain` 163/179 条是 keyword、`SG_Domain` 27/28、`Game_Domain` 24/24，转换会丢失绝大部分规则。
+1. **只支持 `domain` 与 `ipcidr` 两种 behavior**，无法表达 `DOMAIN-KEYWORD`。而本库 43 个文件含 keyword，且集中在关键位置——`EUNet_Domain` 147/186 条是 keyword、`SG_Domain` 30/52、`Game_Domain` 22/24（2026-09 统计），转换会丢失绝大部分规则。
 2. ipcidr 类规则集默认触发 DNS 解析，配置语法能否传递 `no-resolve` 未经验证，存在解析泄漏风险。
 
 综合判断收益不足以覆盖风险，暂不生成。
-
----
 
 ---
 
@@ -64,7 +62,8 @@ match GeoSite(category-ai-!cn) using Optional
 | 文件 | 作用 |
 |---|---|
 | `scripts/build.py` | 规范化 list、生成 yaml、补齐配对、清理孤儿产物 |
-| `scripts/validate.py` | 用 YAML 解析器校验产物，条数与源文件比对 |
+| `scripts/validate.py` | 用 YAML 解析器校验产物，与源文件逐条比对（内容与顺序） |
+| `scripts/dedupe.py` | 按 Openclash-Config 的规则链做首命中模拟，停用 / 恢复冗余规则（手动或配置仓库触发） |
 | `.github/workflows/build.yml` | 监听 `rules/list/**` 变化，自动构建并提交 |
 
 ### 自动修复项
@@ -89,6 +88,8 @@ match GeoSite(category-ai-!cn) using Optional
 - `PROCESS-NAME`（网关转发场景取不到进程名，恒不生效）
 - `_Domain` 混入 IP 规则 / `_IP` 混入域名规则
 - 文件名不符合命名规范
+- IP-CIDR 含主机位 / 无法解析 / 与地址族不符——内核按掩码截断，`108.168.174.0/16` 实际生效的是整个 `108.168.0.0/16`，多半是 `/24` 的误写
+- 单文件超过 2500 条分片上限
 
 ### 其他行为
 
@@ -99,9 +100,7 @@ match GeoSite(category-ai-!cn) using Optional
 
 ---
 
----
-
-## 五、文件组织
+## 三、文件组织
 
 ### 合并同源
 
@@ -121,14 +120,16 @@ match GeoSite(category-ai-!cn) using Optional
 
 ### 域名与 IP 强制成对
 
-**每个平台一律产出 `平台_Domain` 与 `平台_IP` 两个文件，某一侧无规则时也建立占位空文件**，共 81 个平台、166 个文件，其中 49 个为占位空文件。
+**每个平台一律产出 `平台_Domain` 与 `平台_IP` 两个文件，某一侧无规则时也建立占位空文件**，共 84 个平台、172 个文件，其中 55 个为占位空文件（2026-09 统计）。
 
 结构完全可预测：任意平台的域名规则必在 `_Domain`，IP 规则必在 `_IP`，新增规则时无需判断文件是否存在。构建脚本会自动补齐缺失的一侧。
 
 ### 超长文件分片（每片 2500 条）
 
-- `China_IP_1` / `China_IP_2` / `China_IP_3`（6894 条）
-- `ProxyGFWlist_Domain_1` / `_2` / `_3`（6131 条）
+- `China_IP_1` / `China_IP_2` / `China_IP_3`（2500 / 2500 / 1894，共 6894 条）
+- `ProxyGFWlist_Domain_1` / `_2` / `_3`（2269 / 2224 / 1049，共 5542 条）
+
+分片是手动的：`build.py` 只在单文件超过 2500 条时告警，不会自动拆分。`China_IP_1` / `_2` 已满，新增 IP 段请加到 `China_IP_3`。
 
 ### 命名规范
 
@@ -154,9 +155,36 @@ match GeoSite(category-ai-!cn) using Optional
 
 ---
 
+## 四、停用标记与有意保留
+
+### 停用标记
+
+规则一律**注释停用而非删除**，格式 `# [标记] 原规则  ← 原因`，随时可恢复。
+
+| 标记 | 含义 |
+|---|---|
+| `[已停用-冗余]` | **仅限 `dedupe.py` 使用**。脚本会重新评估并自动恢复不再冗余的行——人工停用借用它会被自动恢复 |
+| `[已停用]` | 通用人工停用（PROCESS-NAME、恒不生效等） |
+| `[已停用-分组冲突]` | 该域名应由另一个平台 / 分组接管 |
+| `[已停用-范围过宽]` | 常见词 keyword、整域后缀、大 IP 段等误伤面过大 |
+| `[已停用-跨平台共享服务]` | 多个平台共用的 SDK / CDN / 基础设施，不应归入单一平台 |
+| `[已停用-串味]` | 混入了属于别的平台的规则 |
+| `[已停用-宽 IP 段]` / `[已停用-无法归属]` | IP 段过宽，或 IP 无法区分具体应用 |
+
+### 有意保留的例外
+
+复查时会反复出现、但已确认保留的项，不必再报：
+
+- `Custom_Direct_Domain` 的 `ipinfo.io` 直连——需要真实出口，截走 `IPCheck_Domain` 的同名规则属预期
+- `EUNet_Domain` 中交易所 App 抓包得到的推送 / 统计 SDK keyword（`pushsdk`、`mixpanel`、`onesignal` 等）与 `EUNet_IP` 的大段——交易所流量出口保持一致，不按「跨平台共享服务」拆出
+- `Game_Domain` 的 `anticheatexpert` 与 `Game_IP` 的云厂商 /16——海外腾讯游戏需要；代价是国服游戏的反作弊流量也进 Game Platform
+- 仍在使用的服务 keyword：`JP_Domain` 的 `maya` / `globe` / `split`，`HK_Domain` 的 `chie` / `wechat`，`Game_Domain` 的 `telephony` / `fbsbx`
+
+收窄某平台规则前，需要有实际域名依据（抓包或连接日志），不要凭推测改端点。
+
 ---
 
-## 与 Openclash-Config 的边界
+## 五、与 Openclash-Config 的边界
 
 - 本仓库只产出**规则内容**，不决定规则的先后顺序
 - 一条规则是否冗余，取决于它在 `Openclash-Config` 的 ini 里被排在第几位 ——

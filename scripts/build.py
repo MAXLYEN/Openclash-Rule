@@ -23,8 +23,11 @@
   * _Domain 混入 IP 规则 / _IP 混入域名规则
   * 文件名不符合 平台_Domain / 平台_IP 规范
   * 平台缺少配对（自动创建占位文件）
+  * IP-CIDR 含主机位 / 无法解析 / 与地址族不符（内核会按掩码截断，
+    108.168.174.0/16 实际生效的是整个 108.168.0.0/16，多半是 /24 的误写）
+  * 单文件超过分片上限（SHARD 条）
 """
-import os, re, sys, datetime
+import os, re, sys, datetime, ipaddress
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIST = os.path.join(ROOT, 'rules', 'list')
@@ -38,6 +41,7 @@ HDR_RE  = re.compile(r'^#\s*(NAME|UPDATED|TOTAL|DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYW
 DOMAIN_T = ('DOMAIN', 'DOMAIN-SUFFIX', 'DOMAIN-KEYWORD', 'DOMAIN-REGEX')
 IP_T     = ('IP-CIDR', 'IP-CIDR6', 'IP-ASN')
 ORDER    = DOMAIN_T + IP_T + ('PROCESS-NAME', 'DST-PORT', 'SRC-PORT')
+SHARD    = 2500                  # 单文件条数上限，超出后按 _1/_2/_3 分片（手动）
 
 warnings = []
 
@@ -74,6 +78,19 @@ def parse(path, name):
         if t in ('IP-CIDR', 'IP-CIDR6') and 'no-resolve' not in v:
             v += ',no-resolve'
             warn(name, '已补 no-resolve：%s' % v)
+        if t in ('IP-CIDR', 'IP-CIDR6'):
+            cidr = v.split(',')[0]
+            try:
+                net = ipaddress.ip_network(cidr, strict=False)
+            except ValueError:
+                warn(name, 'CIDR 无法解析：%s' % cidr)
+            else:
+                if net.version != (6 if t == 'IP-CIDR6' else 4):
+                    warn(name, '%s 与地址族不符：%s' % (t, cidr))
+                try:
+                    ipaddress.ip_network(cidr, strict=True)
+                except ValueError:
+                    warn(name, 'CIDR 含主机位，实际生效为 %s：%s' % (net, cidr))
         if t == 'DOMAIN-KEYWORD':
             if re.search(r'[?=/\s]', v):
                 warn(name, 'DOMAIN-KEYWORD 含 URL 片段字符，恒不命中：%s' % v)
@@ -157,6 +174,9 @@ def main():
         seq = parse(path, name)
         rule_types = [it[1] for it in seq if it[0] == 'r']
         total += len(rule_types)
+        if len(rule_types) > SHARD:
+            warn(name, '共 %d 条，超过分片上限 %d，请把多出的部分移到下一个序号文件'
+                 % (len(rule_types), SHARD))
 
         m = NAME_RE.match(name)
         if m:

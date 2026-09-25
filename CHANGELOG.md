@@ -6,6 +6,16 @@
 
 ---
 
+## 2026-09-25（三）
+
+构建校验补强与文档同步。
+
+- `build.py` 新增告警：IP-CIDR 含主机位 / 无法解析 / 与地址族不符（本次修正的 `/16` 误写即此类，内核按掩码截断不会报错）；单文件超过 2500 条分片上限（`China_IP_1` / `_2` 已满，新增请加到 `_3`）
+- `validate.py` 改为 list 与 yaml **逐条比对内容与顺序**，不再只比条数——两边各错一条时条数相同，原先会漏掉
+- `docs/design-notes.md`：现状数字更新（172 个文件 / 84 个平台 / 55 个占位）；章节重新编号、去掉重复分隔线；新增「停用标记与有意保留」一节，写明 `[已停用-冗余]` 仅限 `dedupe.py` 使用，以及复查时不必再报的有意保留项
+- `docs/troubleshooting.md` 章节重新编号；README 的告警与校验说明同步
+- 下方 2026-08-05 的遗留事项逐条标注当前状态
+
 ## 2026-09-25（二）
 
 全面复查的 IP 规则项（均为 `no-resolve`，只影响按 IP 直连的流量：游戏对战、语音、P2P 等）。依据 AWS 官方 `ip-ranges.json` 的区域字段。
@@ -100,11 +110,11 @@
 
 ---
 
-## 六、遗留事项
+### 遗留事项（状态更新于 2026-09-25）
 
-1. **`AU_Domain` / `AU_IP` / `BR_Domain` / `BR_IP`** 为占位文件（0 条规则），待补充。
-2. **`Others.list` 的 `DOMAIN-KEYWORD,ipinfo` 与 `Custom_Direct` 的 `ipinfo.io` 冲突**——模板中 Custom_Direct 位置靠前，ipinfo.io 走直连。若用于检测节点出口 IP，看到的将是真实出口而非节点 IP。
-3. **`Download.list`** 停用 PROCESS-NAME 后仅剩 6 条域名关键词，可考虑补充下载站域名或停止引用。
-4. **IP 合并未执行**——`Amazon_IP`（1802）、`China_IP`（6894）为官方发布的精确段，做 /24→/16 合并会吞掉大量不属于它们的地址（AWS 的段尤其碎）。该策略适用于零散收集的 IP，不适用于官方段。
+1. ~~**`AU_Domain` / `AU_IP` / `BR_Domain` / `BR_IP`** 为占位文件（0 条规则），待补充。~~ 部分完成：`AU_Domain` 7 条、`BR_Domain` 15 条；`AU_IP` / `BR_IP` 仍为占位。
+2. ~~**`Others.list` 的 `DOMAIN-KEYWORD,ipinfo` 与 `Custom_Direct` 的 `ipinfo.io` 冲突**~~ 已结论：`ipinfo.io` 直连为**有意保留**（需要真实出口）。`Others_Domain` 的 keyword 已改为精确后缀，IP 查询服务由新增的 `IPCheck_Domain` 承接。
+3. **`Download_Domain`** 停用 PROCESS-NAME 后仅剩 6 条域名关键词，可考虑补充下载站域名或停止引用。——仍有效
+4. **IP 合并未执行**——`Amazon_IP`、`China_IP`（6894）为官方发布的精确段，做 /24→/16 合并会吞掉大量不属于它们的地址（AWS 的段尤其碎）。该策略适用于零散收集的 IP，不适用于官方段。——仍有效，作为长期约定
 
 ---

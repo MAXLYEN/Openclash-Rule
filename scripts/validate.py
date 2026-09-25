@@ -6,7 +6,7 @@
   * yaml 能被 YAML 解析器正确读出 payload（避免线上表现为
     「provider 加载了但规则数为 0」这类静默失效）
   * payload 每条符合规则语法
-  * yaml 与 list 源文件条数一致
+  * yaml 与 list 源文件逐条一致（内容与顺序）
   * list 的 header 完整：NAME 与文件名一致、UPDATED 为合法日期、
     TOTAL 与各类型统计均与实际相符
 """
@@ -57,8 +57,15 @@ for f in sorted(os.listdir(YAML)):
 
     src = open(lp, encoding='utf-8').read()
     rules = [l.strip() for l in src.split('\n') if RULE_RE.match(l.strip())]
-    if len(rules) != len(payload):
-        bad.append('%s: 条数不符 —— yaml %d 条，list %d 条' % (name, len(payload), len(rules)))
+    # 逐条比对而非只比条数：两边各错一条时条数相同，只比条数会漏掉
+    got = [str(r) for r in payload]
+    if len(rules) != len(got):
+        bad.append('%s: 条数不符 —— yaml %d 条，list %d 条' % (name, len(got), len(rules)))
+    elif rules != got:
+        i = next(k for k, (a, b) in enumerate(zip(rules, got)) if a != b)
+        n = sum(a != b for a, b in zip(rules, got))
+        bad.append('%s: 内容不符 %d 条，首处第 %d 条 —— list「%s」 yaml「%s」'
+                   % (name, n, i + 1, rules[i], got[i]))
 
     # header 三项完整性：NAME 与文件名一致、UPDATED 为合法日期、统计与实际相符
     m = re.search(r'^#\s*NAME:\s*(\S+)', src, re.M)
