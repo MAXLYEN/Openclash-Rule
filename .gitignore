@@ -18,3 +18,15 @@ Thumbs.db
 # 本地测试产物
 *.local.ini
 /tmp/
+
+# AI 助手本地会话（Claude Code 后台任务的 git 工作树、Codex 本地目录等）
+.claude/
+.codex/
+
+# 私人配置与笔记（只留本地，不上传）
+CLAUDE.md
+CLAUDE.local.md
+.env
+.env.*
+*.private.*
+private/
