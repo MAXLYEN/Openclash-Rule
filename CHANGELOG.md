@@ -6,6 +6,16 @@
 
 ---
 
+## 2026-09-25（四）
+
+与 Openclash-Config 联合复查：两个仓库的自动化衔接。
+
+- `build.yml` 通知 Openclash-Config 时改传**含产物的 bot 提交号**（原为触发构建的源提交，其上 `rules/yaml` 还是旧的）；配合对方改为按提交号校验，推送后立即触发的校验不再读到自建镜像约 5 分钟前的旧内容
+- `dedupe.yml` 接入反向通知：收到 `config-updated` 时按对方提交号读取 V2 规则链，只出报告；有待停用 / 恢复项或引用缺失时打 `::warning::`，不再只躺在 Summary 里。发送端在 Openclash-Config，需要其配置 `RULE_DISPATCH_TOKEN`
+- `build.yml` / `dedupe.yml` 推送产物失败时 rebase 后重试（最多 3 次，冲突即中止），与 Openclash-Config 对齐——只改 README / docs 的推送不触发构建、不受 concurrency 保护，会与 bot 推送撞车
+- README：配套仓库链接由已不存在的 `Custom_OpenClash_Rules` 改为 `Openclash-Config`；删除「时效敏感规则直接用 raw 地址」的建议（OpenClash 会改写 raw 地址致缓存刷新失效，Openclash-Config 的校验已将其判为错误）
+- `docs/design-notes.md`「与 Openclash-Config 的边界」补充双向通知与密钥说明
+
 ## 2026-09-25（三）
 
 构建校验补强与文档同步。

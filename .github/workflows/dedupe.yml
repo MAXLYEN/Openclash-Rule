@@ -14,8 +14,9 @@ on:
         description: '写入改动（不勾选则只出报告）'
         type: boolean
         default: false
-  # 可选：由 Openclash-Config 在 ini 顺序变更后通知本仓库重新评估。
-  # 需要在 Openclash-Config 侧配一个反向的 dispatch 步骤和 token。
+  # 由 Openclash-Config 在 dist/Custom_Clash_V2.ini 变化后通知本仓库重新评估（只出报告）。
+  # 发送方需要在 Openclash-Config 的 Actions secrets 里配置 RULE_DISPATCH_TOKEN：
+  # fine-grained PAT，仓库范围 MAXLYEN/Openclash-Rule，权限 Contents: Read and write。
   repository_dispatch:
     types: [config-updated]
 
@@ -42,14 +43,29 @@ jobs:
         run: pip install --quiet pyyaml
 
       - name: 冗余分析
+        env:
+          # 由 Openclash-Config 通知时带着它**含产物的**提交号，按提交号读取，
+          # 避开 raw.githubusercontent.com 对 main 分支约 5 分钟的缓存
+          CONFIG_SHA: ${{ github.event.client_payload.sha }}
         run: |
-          python3 scripts/dedupe.py | tee /tmp/report.txt
+          INI_ARG=""
+          if [ -n "$CONFIG_SHA" ]; then
+            INI_ARG="--ini https://raw.githubusercontent.com/MAXLYEN/Openclash-Config/${CONFIG_SHA}/dist/Custom_Clash_V2.ini"
+          fi
+          python3 scripts/dedupe.py $INI_ARG | tee /tmp/report.txt
           {
             echo '## 冗余分析报告'
             echo '```'
             cat /tmp/report.txt
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
+          # 有待处理项时打告警标注，否则只躺在 Summary 里没人看
+          if grep -q '【需恢复】' /tmp/report.txt || ! grep -q 'A+B 可安全停用】共 0 条' /tmp/report.txt; then
+            echo "::warning::规则链变化后有冗余规则待停用 / 恢复，见本次运行的 Summary；需手动以 apply 模式重跑本 workflow"
+          fi
+          if grep -q 'ini 引用但 rules/list 里不存在' /tmp/report.txt; then
+            echo "::warning::配置引用了规则库中不存在的规则集，见 Summary"
+          fi
 
       # repository_dispatch 触发时默认只报告，避免配置仓库一改就自动改规则
       - name: 应用改动
@@ -71,4 +87,10 @@ jobs:
           fi
           COUNT=$(git diff --cached --name-only | wc -l)
           git commit -m "chore: 冗余规则停用/恢复（${COUNT} 个文件）"
-          git push
+          PUSHED=0
+          for i in 1 2 3; do
+            if git push; then PUSHED=1; break; fi
+            echo "推送被拒，rebase 后重试（第 ${i} 次）"
+            git pull --rebase origin main || { git rebase --abort; break; }
+          done
+          [ "$PUSHED" = 1 ] || exit 1

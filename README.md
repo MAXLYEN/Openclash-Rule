@@ -10,7 +10,7 @@
 
 规则以**平台**为单位组织，每个平台的域名规则与 IP 规则分别存放于独立文件。仓库提供 `.list` 与 `.yaml` 两套格式，后者由 GitHub Actions 自动生成。
 
-配套的订阅转换模板见 [Custom_OpenClash_Rules](https://github.com/MAXLYEN/Custom_OpenClash_Rules)。
+配套的订阅转换模板见 [Openclash-Config](https://github.com/MAXLYEN/Openclash-Config)。
 
 ---
 
@@ -86,7 +86,7 @@ jsdelivr 对 `@main` 分支引用存在 CDN 缓存。构建完成后 CI 会自�
 https://purge.jsdelivr.net/gh/MAXLYEN/Openclash-Rule@main/rules/yaml/文件名.yaml
 ```
 
-对时效要求高的规则（金融、AI 平台），建议直接使用 raw 地址并将更新间隔设为 3600。
+对时效要求高的规则（金融、AI 平台），把更新间隔设为 3600 即可，**不要改用 `raw.githubusercontent.com`**：OpenClash 会把 raw 地址改写成 `@refs/heads/main` 形式，与 CI 刷新的缓存键不同，刷新因此长期失效。配套的 Openclash-Config 统一经自建反代分发，校验脚本会把 raw 地址判为错误。
 
 ---
 

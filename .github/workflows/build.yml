@@ -46,12 +46,25 @@ jobs:
           git add rules/list rules/yaml
           if git diff --cached --quiet; then
             echo "无变化，跳过提交"
+            echo "$GITHUB_SHA" > /tmp/rule_sha
             exit 0
           fi
           COUNT=$(git diff --cached --name-only | wc -l)
           git diff --cached --name-only | grep '^rules/yaml/.*\.yaml$' > /tmp/changed.txt || true
           git commit -m "chore: 重新生成规则产物（${COUNT} 个文件）" -m "来源提交 ${GITHUB_SHA::7}"
-          git push
+          # 构建期间 main 可能被推进（只改 README / docs 的推送不触发本 workflow，
+          # 不受 concurrency 保护），直接 push 会被拒。先 rebase 再重试；
+          # rebase 冲突时中止，交给下一次构建，避免把半截状态推上去。
+          PUSHED=0
+          for i in 1 2 3; do
+            if git push; then PUSHED=1; break; fi
+            echo "推送被拒，rebase 后重试（第 ${i} 次）"
+            git pull --rebase origin main || { git rebase --abort; break; }
+          done
+          [ "$PUSHED" = 1 ] || exit 1
+          # 通知 Openclash-Config 时要带上**含产物的**提交号：yaml 生成在本步的 bot 提交里，
+          # 源提交 GITHUB_SHA 上的 rules/yaml 还是旧的
+          git rev-parse HEAD > /tmp/rule_sha
 
       - name: 刷新 jsdelivr 缓存
         # 规则产物走 rule-provider，客户端的更新延迟 = jsdelivr CDN 缓存 + provider interval
@@ -89,9 +102,12 @@ jobs:
             echo "未配置 DISPATCH_TOKEN，跳过通知"
             exit 0
           fi
+          # 推送失败时没有 /tmp/rule_sha，退回源提交（此时线上产物也确实停在旧版本）
+          SHA=$(cat /tmp/rule_sha 2>/dev/null || echo "$GITHUB_SHA")
+          echo "通知提交 ${SHA}"
           curl -sS -f -X POST \
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer $DISPATCH_TOKEN" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
             https://api.github.com/repos/MAXLYEN/Openclash-Config/dispatches \
-            -d "{\"event_type\":\"rules-updated\",\"client_payload\":{\"sha\":\"${GITHUB_SHA}\"}}"
+            -d "{\"event_type\":\"rules-updated\",\"client_payload\":{\"sha\":\"${SHA}\"}}"
