@@ -1,7 +1,7 @@
 # NAME: Amazon_IP
-# UPDATED: 2026-08-04
-# IP-CIDR: 1802
-# TOTAL: 1802
+# UPDATED: 2026-09-24
+# IP-CIDR: 1758
+# TOTAL: 1758
 IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
 IP-CIDR,18.184.0.0/15,no-resolve
@@ -55,7 +55,7 @@ IP-CIDR,104.255.59.85/32,no-resolve
 IP-CIDR,104.255.59.86/31,no-resolve
 IP-CIDR,104.255.59.88/32,no-resolve
 IP-CIDR,104.255.59.91/32,no-resolve
-IP-CIDR,107.176.0.0/15,no-resolve
+# [已停用-分组冲突] IP-CIDR,107.176.0.0/15,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
 IP-CIDR,107.20.0.0/14,no-resolve
 IP-CIDR,108.128.0.0/13,no-resolve
 IP-CIDR,108.136.0.0/14,no-resolve
@@ -611,7 +611,7 @@ IP-CIDR,136.8.0.0/15,no-resolve
 IP-CIDR,139.56.16.0/20,no-resolve
 IP-CIDR,139.56.32.0/23,no-resolve
 IP-CIDR,139.56.34.0/24,no-resolve
-IP-CIDR,140.179.0.0/16,no-resolve
+# [已停用-分组冲突] IP-CIDR,140.179.0.0/16,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
 IP-CIDR,142.4.177.0/24,no-resolve
 IP-CIDR,142.4.178.0/23,no-resolve
 IP-CIDR,142.4.180.0/24,no-resolve
@@ -949,7 +949,7 @@ IP-CIDR,161.178.128.0/18,no-resolve
 IP-CIDR,161.188.0.0/19,no-resolve
 IP-CIDR,161.188.127.0/24,no-resolve
 IP-CIDR,161.188.32.0/20,no-resolve
-IP-CIDR,161.189.0.0/16,no-resolve
+# [已停用-分组冲突] IP-CIDR,161.189.0.0/16,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
 IP-CIDR,161.193.0.0/18,no-resolve
 IP-CIDR,161.193.128.0/18,no-resolve
 IP-CIDR,162.208.121.0/24,no-resolve
@@ -1163,10 +1163,10 @@ IP-CIDR,40.172.0.0/14,no-resolve
 IP-CIDR,40.176.0.0/14,no-resolve
 IP-CIDR,40.180.0.0/15,no-resolve
 IP-CIDR,40.192.0.0/14,no-resolve
-IP-CIDR,43.192.0.0/16,no-resolve
-IP-CIDR,43.193.0.0/18,no-resolve
-IP-CIDR,43.194.0.0/15,no-resolve
-IP-CIDR,43.196.0.0/16,no-resolve
+# [已停用-分组冲突] IP-CIDR,43.192.0.0/16,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,43.193.0.0/18,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,43.194.0.0/15,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,43.196.0.0/16,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
 IP-CIDR,43.198.0.0/15,no-resolve
 IP-CIDR,43.200.0.0/13,no-resolve
 IP-CIDR,43.216.0.0/15,no-resolve
@@ -1310,19 +1310,19 @@ IP-CIDR,52.46.252.0/22,no-resolve
 IP-CIDR,52.47.0.0/16,no-resolve
 IP-CIDR,52.48.0.0/12,no-resolve
 IP-CIDR,52.64.0.0/12,no-resolve
-IP-CIDR,52.80.0.0/15,no-resolve
-IP-CIDR,52.82.0.0/17,no-resolve
+# [已停用-分组冲突] IP-CIDR,52.80.0.0/15,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,52.82.0.0/17,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
 IP-CIDR,52.82.128.0/19,no-resolve
-IP-CIDR,52.82.160.0/21,no-resolve
-IP-CIDR,52.82.168.0/24,no-resolve
-IP-CIDR,52.82.169.0/27,no-resolve
-IP-CIDR,52.82.170.0/23,no-resolve
-IP-CIDR,52.82.176.0/21,no-resolve
-IP-CIDR,52.82.184.0/23,no-resolve
-IP-CIDR,52.82.187.0/24,no-resolve
-IP-CIDR,52.82.188.0/22,no-resolve
-IP-CIDR,52.82.192.0/18,no-resolve
-IP-CIDR,52.83.0.0/16,no-resolve
+# [已停用-分组冲突] IP-CIDR,52.82.160.0/21,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,52.82.168.0/24,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,52.82.169.0/27,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,52.82.170.0/23,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,52.82.176.0/21,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,52.82.184.0/23,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,52.82.187.0/24,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,52.82.188.0/22,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,52.82.192.0/18,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,52.83.0.0/16,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
 IP-CIDR,52.84.0.0/14,no-resolve
 IP-CIDR,52.88.0.0/14,no-resolve
 IP-CIDR,52.92.0.0/16,no-resolve
@@ -1392,7 +1392,7 @@ IP-CIDR,52.93.127.24/30,no-resolve
 IP-CIDR,52.93.127.244/30,no-resolve
 IP-CIDR,52.93.127.248/29,no-resolve
 IP-CIDR,52.93.127.68/30,no-resolve
-IP-CIDR,52.93.127.92/30,no-resolve
+# [已停用-分组冲突] IP-CIDR,52.93.127.92/30,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
 IP-CIDR,52.93.127.96/27,no-resolve
 IP-CIDR,52.93.129.95/32,no-resolve
 IP-CIDR,52.93.131.217/32,no-resolve
@@ -1568,21 +1568,21 @@ IP-CIDR,54.20.0.0/15,no-resolve
 IP-CIDR,54.208.0.0/13,no-resolve
 IP-CIDR,54.216.0.0/14,no-resolve
 IP-CIDR,54.220.0.0/15,no-resolve
-IP-CIDR,54.222.0.0/19,no-resolve
-IP-CIDR,54.222.112.0/20,no-resolve
-IP-CIDR,54.222.128.0/17,no-resolve
-IP-CIDR,54.222.32.0/21,no-resolve
-IP-CIDR,54.222.48.0/21,no-resolve
-IP-CIDR,54.222.57.0/24,no-resolve
-IP-CIDR,54.222.58.0/28,no-resolve
-IP-CIDR,54.222.58.32/27,no-resolve
-IP-CIDR,54.222.64.0/24,no-resolve
-IP-CIDR,54.222.66.0/23,no-resolve
-IP-CIDR,54.222.68.0/22,no-resolve
-IP-CIDR,54.222.76.0/22,no-resolve
-IP-CIDR,54.222.80.0/20,no-resolve
-IP-CIDR,54.222.96.0/21,no-resolve
-IP-CIDR,54.223.0.0/16,no-resolve
+# [已停用-分组冲突] IP-CIDR,54.222.0.0/19,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,54.222.112.0/20,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,54.222.128.0/17,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,54.222.32.0/21,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,54.222.48.0/21,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,54.222.57.0/24,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,54.222.58.0/28,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,54.222.58.32/27,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,54.222.64.0/24,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,54.222.66.0/23,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,54.222.68.0/22,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,54.222.76.0/22,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,54.222.80.0/20,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,54.222.96.0/21,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,54.223.0.0/16,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
 IP-CIDR,54.224.0.0/13,no-resolve
 IP-CIDR,54.232.0.0/14,no-resolve
 IP-CIDR,54.236.0.0/15,no-resolve
@@ -1717,7 +1717,7 @@ IP-CIDR,65.9.128.0/18,no-resolve
 IP-CIDR,67.202.0.0/18,no-resolve
 IP-CIDR,67.220.224.0/19,no-resolve
 IP-CIDR,68.66.112.0/20,no-resolve
-IP-CIDR,68.79.0.0/18,no-resolve
+# [已停用-分组冲突] IP-CIDR,68.79.0.0/18,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
 IP-CIDR,69.107.3.176/28,no-resolve
 IP-CIDR,69.107.6.112/28,no-resolve
 IP-CIDR,69.107.6.160/28,no-resolve
@@ -1729,17 +1729,17 @@ IP-CIDR,69.107.7.128/28,no-resolve
 IP-CIDR,69.107.7.16/29,no-resolve
 IP-CIDR,69.107.7.32/27,no-resolve
 IP-CIDR,69.107.7.64/26,no-resolve
-IP-CIDR,69.230.192.0/18,no-resolve
-IP-CIDR,69.231.128.0/18,no-resolve
-IP-CIDR,69.234.192.0/18,no-resolve
-IP-CIDR,69.235.128.0/18,no-resolve
+# [已停用-分组冲突] IP-CIDR,69.230.192.0/18,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,69.231.128.0/18,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,69.234.192.0/18,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,69.235.128.0/18,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
 IP-CIDR,70.132.0.0/18,no-resolve
 IP-CIDR,70.224.192.0/18,no-resolve
 IP-CIDR,70.232.64.0/18,no-resolve
-IP-CIDR,71.131.192.0/18,no-resolve
-IP-CIDR,71.132.0.0/18,no-resolve
-IP-CIDR,71.136.64.0/18,no-resolve
-IP-CIDR,71.137.0.0/18,no-resolve
+# [已停用-分组冲突] IP-CIDR,71.131.192.0/18,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,71.132.0.0/18,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,71.136.64.0/18,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
+# [已停用-分组冲突] IP-CIDR,71.137.0.0/18,no-resolve  ← AWS 中国区（cn-north-1 / cn-northwest-1，依据 AWS ip-ranges.json），应走国内直连
 IP-CIDR,71.141.0.0/20,no-resolve
 IP-CIDR,71.152.0.0/17,no-resolve
 IP-CIDR,72.21.192.0/19,no-resolve

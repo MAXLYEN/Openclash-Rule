@@ -1,8 +1,8 @@
 # NAME: Netflix_IP
-# UPDATED: 2026-08-04
-# IP-CIDR: 1115
+# UPDATED: 2026-09-24
+# IP-CIDR: 1086
 # IP-CIDR6: 4
-# TOTAL: 1119
+# TOTAL: 1090
 IP-CIDR,103.87.204.0/22,no-resolve
 IP-CIDR,107.23.255.0/26,no-resolve
 IP-CIDR,108.128.160.0/23,no-resolve
@@ -821,10 +821,10 @@ IP-CIDR,3.98.24.0/27,no-resolve
 IP-CIDR,3.98.86.0/23,no-resolve
 IP-CIDR,3.99.194.0/23,no-resolve
 IP-CIDR,3.99.196.0/22,no-resolve
-IP-CIDR,34.192.0.0/16,no-resolve
+# [已停用-范围过宽] IP-CIDR,34.192.0.0/16,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,34.195.252.0/24,no-resolve
 IP-CIDR,34.195.253.0/25,no-resolve
-IP-CIDR,34.208.0.0/12,no-resolve
+# [已停用-范围过宽] IP-CIDR,34.208.0.0/12,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,34.226.106.180/32,no-resolve
 IP-CIDR,34.226.14.0/24,no-resolve
 IP-CIDR,34.228.4.208/28,no-resolve
@@ -839,7 +839,7 @@ IP-CIDR,34.245.205.128/28,no-resolve
 IP-CIDR,34.245.205.160/27,no-resolve
 IP-CIDR,34.245.205.64/26,no-resolve
 IP-CIDR,34.245.82.0/26,no-resolve
-IP-CIDR,34.248.0.0/13,no-resolve
+# [已停用-范围过宽] IP-CIDR,34.248.0.0/13,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,35.152.74.128/29,no-resolve
 IP-CIDR,35.152.74.136/30,no-resolve
 IP-CIDR,35.152.74.144/28,no-resolve
@@ -849,7 +849,7 @@ IP-CIDR,35.152.88.0/24,no-resolve
 IP-CIDR,35.157.127.248/29,no-resolve
 IP-CIDR,35.158.127.64/26,no-resolve
 IP-CIDR,35.158.136.0/24,no-resolve
-IP-CIDR,35.160.0.0/13,no-resolve
+# [已停用-范围过宽] IP-CIDR,35.160.0.0/13,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,35.168.231.216/29,no-resolve
 IP-CIDR,35.170.83.0/25,no-resolve
 IP-CIDR,35.170.83.144/28,no-resolve
@@ -951,9 +951,9 @@ IP-CIDR,44.220.28.0/22,no-resolve
 IP-CIDR,44.222.159.166/31,no-resolve
 IP-CIDR,44.222.159.176/28,no-resolve
 IP-CIDR,44.222.66.0/24,no-resolve
-IP-CIDR,44.224.0.0/16,no-resolve
+# [已停用-范围过宽] IP-CIDR,44.224.0.0/16,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,44.227.178.0/24,no-resolve
-IP-CIDR,44.230.0.0/16,no-resolve
+# [已停用-范围过宽] IP-CIDR,44.230.0.0/16,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,44.233.54.0/23,no-resolve
 IP-CIDR,44.234.108.128/25,no-resolve
 IP-CIDR,44.234.28.0/22,no-resolve
@@ -989,9 +989,9 @@ IP-CIDR,51.16.183.224/29,no-resolve
 IP-CIDR,51.16.183.64/27,no-resolve
 IP-CIDR,51.17.129.160/27,no-resolve
 IP-CIDR,51.17.72.0/22,no-resolve
-IP-CIDR,52.0.0.0/15,no-resolve
-IP-CIDR,52.10.0.0/15,no-resolve
-IP-CIDR,52.12.0.0/15,no-resolve
+# [已停用-范围过宽] IP-CIDR,52.0.0.0/15,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
+# [已停用-范围过宽] IP-CIDR,52.10.0.0/15,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
+# [已停用-范围过宽] IP-CIDR,52.12.0.0/15,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,52.15.127.128/26,no-resolve
 IP-CIDR,52.15.247.208/29,no-resolve
 IP-CIDR,52.19.124.0/23,no-resolve
@@ -999,14 +999,14 @@ IP-CIDR,52.199.127.192/26,no-resolve
 IP-CIDR,52.212.248.0/26,no-resolve
 IP-CIDR,52.215.218.112/28,no-resolve
 IP-CIDR,52.215.218.64/28,no-resolve
-IP-CIDR,52.22.0.0/16,no-resolve
+# [已停用-范围过宽] IP-CIDR,52.22.0.0/16,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,52.220.191.0/26,no-resolve
 IP-CIDR,52.221.221.128/29,no-resolve
 IP-CIDR,52.23.61.0/24,no-resolve
 IP-CIDR,52.23.62.0/24,no-resolve
-IP-CIDR,52.24.0.0/14,no-resolve
-IP-CIDR,52.32.0.0/14,no-resolve
-IP-CIDR,52.40.0.0/14,no-resolve
+# [已停用-范围过宽] IP-CIDR,52.24.0.0/14,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
+# [已停用-范围过宽] IP-CIDR,52.32.0.0/14,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
+# [已停用-范围过宽] IP-CIDR,52.40.0.0/14,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,52.46.0.0/22,no-resolve
 IP-CIDR,52.46.16.0/20,no-resolve
 IP-CIDR,52.46.32.0/19,no-resolve
@@ -1014,10 +1014,10 @@ IP-CIDR,52.46.4.0/23,no-resolve
 IP-CIDR,52.47.139.0/24,no-resolve
 IP-CIDR,52.47.73.160/27,no-resolve
 IP-CIDR,52.47.73.72/29,no-resolve
-IP-CIDR,52.48.0.0/14,no-resolve
-IP-CIDR,52.5.0.0/16,no-resolve
+# [已停用-范围过宽] IP-CIDR,52.48.0.0/14,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
+# [已停用-范围过宽] IP-CIDR,52.5.0.0/16,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,52.52.191.128/26,no-resolve
-IP-CIDR,52.54.0.0/16,no-resolve
+# [已停用-范围过宽] IP-CIDR,52.54.0.0/16,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,52.55.191.224/27,no-resolve
 IP-CIDR,52.56.127.0/25,no-resolve
 IP-CIDR,52.57.254.0/24,no-resolve
@@ -1025,17 +1025,17 @@ IP-CIDR,52.59.127.0/24,no-resolve
 IP-CIDR,52.61.193.0/24,no-resolve
 IP-CIDR,52.61.40.104/29,no-resolve
 IP-CIDR,52.66.194.128/26,no-resolve
-IP-CIDR,52.7.0.0/16,no-resolve
-IP-CIDR,52.72.0.0/16,no-resolve
+# [已停用-范围过宽] IP-CIDR,52.7.0.0/16,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
+# [已停用-范围过宽] IP-CIDR,52.72.0.0/16,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,52.76.127.0/24,no-resolve
 IP-CIDR,52.78.247.128/26,no-resolve
 IP-CIDR,52.82.128.0/23,no-resolve
 IP-CIDR,52.82.134.0/23,no-resolve
-IP-CIDR,52.88.0.0/15,no-resolve
+# [已停用-范围过宽] IP-CIDR,52.88.0.0/15,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,54.0.0.0/16,no-resolve
-IP-CIDR,54.148.0.0/15,no-resolve
+# [已停用-范围过宽] IP-CIDR,54.148.0.0/15,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,54.153.254.0/24,no-resolve
-IP-CIDR,54.175.0.0/16,no-resolve
+# [已停用-范围过宽] IP-CIDR,54.175.0.0/16,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,54.182.128.0/20,no-resolve
 IP-CIDR,54.182.144.0/21,no-resolve
 IP-CIDR,54.182.154.0/23,no-resolve
@@ -1049,11 +1049,11 @@ IP-CIDR,54.182.224.0/21,no-resolve
 IP-CIDR,54.182.240.0/21,no-resolve
 IP-CIDR,54.182.248.0/22,no-resolve
 IP-CIDR,54.183.255.128/26,no-resolve
-IP-CIDR,54.186.0.0/15,no-resolve
-IP-CIDR,54.188.0.0/15,no-resolve
+# [已停用-范围过宽] IP-CIDR,54.186.0.0/15,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
+# [已停用-范围过宽] IP-CIDR,54.188.0.0/15,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,54.190.198.32/28,no-resolve
 IP-CIDR,54.204.25.0/28,no-resolve
-IP-CIDR,54.213.0.0/16,no-resolve
+# [已停用-范围过宽] IP-CIDR,54.213.0.0/16,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,54.214.128.0/17,no-resolve
 IP-CIDR,54.228.16.0/26,no-resolve
 IP-CIDR,54.232.40.64/26,no-resolve
@@ -1076,11 +1076,11 @@ IP-CIDR,54.251.31.128/26,no-resolve
 IP-CIDR,54.252.254.192/26,no-resolve
 IP-CIDR,54.252.79.128/26,no-resolve
 IP-CIDR,54.255.254.192/26,no-resolve
-IP-CIDR,54.68.0.0/15,no-resolve
-IP-CIDR,54.74.0.0/15,no-resolve
-IP-CIDR,54.76.0.0/15,no-resolve
-IP-CIDR,54.85.0.0/16,no-resolve
-IP-CIDR,54.86.0.0/16,no-resolve
+# [已停用-范围过宽] IP-CIDR,54.68.0.0/15,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
+# [已停用-范围过宽] IP-CIDR,54.74.0.0/15,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
+# [已停用-范围过宽] IP-CIDR,54.76.0.0/15,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
+# [已停用-范围过宽] IP-CIDR,54.85.0.0/16,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
+# [已停用-范围过宽] IP-CIDR,54.86.0.0/16,no-resolve  ← AWS 整区大段（依据 ip-ranges.json），按 IP 会截走同区的游戏服务器等；Netflix 视频走自有 CDN 段不受影响
 IP-CIDR,57.181.142.164/31,no-resolve
 IP-CIDR,57.181.142.168/30,no-resolve
 IP-CIDR,57.181.142.182/31,no-resolve
