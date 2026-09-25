@@ -16,6 +16,7 @@
 - README：配套仓库链接由已不存在的 `Custom_OpenClash_Rules` 改为 `Openclash-Config`；删除「时效敏感规则直接用 raw 地址」的建议（OpenClash 会改写 raw 地址致缓存刷新失效，Openclash-Config 的校验已将其判为错误）
 - `docs/design-notes.md`「与 Openclash-Config 的边界」补充双向通知与密钥说明
 - `build.yml` 刷新 jsdelivr 缓存改为按本次运行前后远端 main 上的 `rules/yaml` 变化决定：此前只看 bot 提交，本地生成 yaml 一起推送时 bot 无可提交，一个都不刷（如 `b57c37a` 改了 5 个 yaml，CI 打印「无 yaml 变动」）。与 Openclash-Config 的同类修复一致
+- `dedupe.yml` 以 apply 模式推送后补做刷新 jsdelivr 缓存与通知 Openclash-Config（`rules-updated`，携带推送后的 HEAD）：它用 `GITHUB_TOKEN` 推送，不会触发 `build.yml`，此前这两步都不执行，规则集被清空只能等对方每周一的定时校验发现
 
 ## 2026-09-25（三）
 

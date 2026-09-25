@@ -191,7 +191,9 @@ match GeoSite(category-ai-!cn) using Optional
 - 一条规则是否冗余，取决于它在 `Openclash-Config` 的 ini 里被排在第几位 ——
   所以 `scripts/dedupe.py` 需要读取配置仓库的产物 ini 才能判断
 - 改动本仓库的**文件名或目录结构**会让配置仓库的引用断链。构建 workflow 末尾
-  会向 `Openclash-Config` 发 `repository_dispatch`（`rules-updated`），触发对方跑一次联网校验
+  会向 `Openclash-Config` 发 `repository_dispatch`（`rules-updated`），触发对方跑一次联网校验。
+  `dedupe.yml` 以 apply 模式推送后同样会刷新缓存并发送：它用 `GITHUB_TOKEN` 推送，
+  不会触发 `build.yml`，而停用冗余规则可能把规则集清空，正需要对方校验
 - 双向通知都带**含产物的提交号**（`client_payload.sha`），接收方按提交号从 GitHub 读取，
   不经自建镜像（约 5 分钟同步）和 raw 的分支缓存——否则推送后立即触发的校验看到的是旧内容，
   删文件 / 改名会被放过。规则库发送的是 bot 产物提交，而非触发构建的源提交

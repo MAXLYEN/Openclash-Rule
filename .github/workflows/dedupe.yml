@@ -86,6 +86,8 @@ jobs:
             exit 0
           fi
           COUNT=$(git diff --cached --name-only | wc -l)
+          # 本 workflow 只在手动触发时提交，yaml 的变化全部来自这次 bot 提交，看暂存区即可
+          git diff --cached --name-only -- 'rules/yaml/*.yaml' > /tmp/changed.txt
           git commit -m "chore: 冗余规则停用/恢复（${COUNT} 个文件）"
           PUSHED=0
           for i in 1 2 3; do
@@ -94,3 +96,50 @@ jobs:
             git pull --rebase origin main || { git rebase --abort; break; }
           done
           [ "$PUSHED" = 1 ] || exit 1
+          # 推送成功才记录；中途 rebase 过的话 HEAD 已是 rebase 后的提交
+          git rev-parse HEAD > /tmp/rule_sha
+
+      # 以下两步与 build.yml 的同名步骤作用相同。必须在这里补做：本 workflow 用
+      # GITHUB_TOKEN 推送，GitHub 不会因此触发 build.yml，推送后既不刷新 jsdelivr 缓存，
+      # 也不通知 Openclash-Config 校验。而停用冗余规则恰恰可能把某个规则集清空，
+      # 正是 Openclash-Config 的 --strict-empty 要抓的情况，不通知就只能等它每周一的定时校验。
+      # 不会循环：对方收到 rules-updated 只做校验，产物 V2 变化时回发的 config-updated
+      # 以 repository_dispatch 触发本 workflow，此时 inputs.apply 为空，只出报告。
+      - name: 刷新 jsdelivr 缓存
+        if: always() && inputs.apply
+        continue-on-error: true
+        run: |
+          [ -f /tmp/rule_sha ] || { echo "未推送，跳过"; exit 0; }
+          [ -s /tmp/changed.txt ] || { echo "无 yaml 变动，跳过"; exit 0; }
+          n=0
+          while read -r f; do
+            name=$(basename "$f")
+            code=$(curl -s -o /dev/null -w '%{http_code}' \
+                   "https://purge.jsdelivr.net/gh/MAXLYEN/Openclash-Rule@main/rules/yaml/$name")
+            echo "  $name -> HTTP $code"
+            n=$((n+1))
+            sleep 0.3
+          done < /tmp/changed.txt
+          echo "已请求刷新 $n 个文件"
+
+      - name: 通知 Openclash-Config 校验引用
+        # 密钥与 build.yml 共用 DISPATCH_TOKEN（仓库范围 MAXLYEN/Openclash-Config，
+        # 权限 Contents: Read and write）
+        if: always() && inputs.apply
+        continue-on-error: true
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: |
+          [ -f /tmp/rule_sha ] || { echo "未推送，无需通知"; exit 0; }
+          if [ -z "$DISPATCH_TOKEN" ]; then
+            echo "未配置 DISPATCH_TOKEN，跳过通知"
+            exit 0
+          fi
+          SHA=$(cat /tmp/rule_sha)
+          echo "通知提交 ${SHA}"
+          curl -sS -f -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $DISPATCH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/MAXLYEN/Openclash-Config/dispatches \
+            -d "{\"event_type\":\"rules-updated\",\"client_payload\":{\"sha\":\"${SHA}\"}}"
