@@ -1,9 +1,9 @@
 # NAME: Direct_Domain
 # UPDATED: 2026-09-25
-# DOMAIN: 43
-# DOMAIN-SUFFIX: 75
+# DOMAIN: 41
+# DOMAIN-SUFFIX: 74
 # DOMAIN-KEYWORD: 12
-# TOTAL: 130
+# TOTAL: 127
 DOMAIN,ad.10010.com
 DOMAIN,ad.12306.cn
 DOMAIN,ain.bgm.tv
@@ -17,8 +17,8 @@ DOMAIN,ain.bgm.tv
 # [已停用-分组冲突] DOMAIN,alt8-mtalk.google.com  ← 交由 GoogleFCM_Domain 匹配
 DOMAIN,analytics.95516.com
 DOMAIN,analytics.strava.com
-DOMAIN,app.adjust.com
-DOMAIN,app.appsflyer.com
+# [已停用-分组冲突] DOMAIN,app.adjust.com  ← 统计 / 归因 SDK 直连会暴露国内 IP，改由 Custom_Proxy_Domain 走代理
+# [已停用-分组冲突] DOMAIN,app.appsflyer.com  ← 统计 / 归因 SDK 直连会暴露国内 IP，改由 Custom_Proxy_Domain 走代理
 DOMAIN,bdtj.tagtic.cn
 # [已停用-冗余] DOMAIN,cdn.jsdelivr.net  ← 已被 Custom_Direct_Domain 以同一分组命中
 DOMAIN,clientservices.googleapis.com
@@ -264,7 +264,7 @@ DOMAIN-KEYWORD,westlawchina
 # 分析/崩溃报告/部分非核心 → DIRECT（不走代理，减少延迟）
 DOMAIN-SUFFIX,agkn.com
 DOMAIN-SUFFIX,cohere.com
-DOMAIN-SUFFIX,crashlytics.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,crashlytics.com  ← 统计 / 归因 SDK 直连会暴露国内 IP，改由 Custom_Proxy_Domain 走代理
 DOMAIN-SUFFIX,kochava.com
 # 国内站点的港美域名：China_Domain 里也有，但排在 ProxyGFWlist 的 .hk / .us 顶级域后缀之后，永远命中不到
 DOMAIN-SUFFIX,tmall.hk

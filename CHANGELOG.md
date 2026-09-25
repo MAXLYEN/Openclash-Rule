@@ -6,6 +6,15 @@
 
 ---
 
+## 2026-09-25（十二）
+
+币安 App 被识别为国内 IP：日志里的连接全部走代理，排查出 App 内嵌 SDK 的上报端点被规则直连——服务端按来源 IP 记录地区。
+
+- `Custom_Proxy_Domain` 新增统计 / 崩溃上报 / 归因 SDK：`app-measurement.com`、`google-analytics.com`、`googleanalytics.com`、`ssl-google-analytics.l.google.com`（Firebase Analytics）、`crashlytics.com`、`crashlyticsreports-pa.googleapis.com`（Crashlytics）、`appsflyer.com`、`adjust.com`。原先由 `GoogleCN_Domain`、`GEOSITE,google-cn`、`Direct_Domain` 直连；`Custom_Proxy_Domain` 排在它们之前才截得住。`Direct_Domain` / `GoogleCN_Domain` 的同名直连条目以 `[已停用-分组冲突]` 注明
+- `Binance_Domain` 新增 `DOMAIN-KEYWORD,addfd325e6e3`：币安在反欺诈服务 Forter 上的商户编号（日志中的 `addfd325e6e3.cdn4.forter.com` 等），原先落到 `Amazon_IP` 走香港，与主站 SG 出口不一致
+- `IPCheck_Domain` 明确收录境外 IP 查询服务（`ipify.org`、`ifconfig.me`、`icanhazip.com`、`ip.sb` 等），走代理；原先大多落到 FINAL，结果相同
+- 保持直连（用户指定）：`Custom_Direct_Domain` 的 `ipinfo.io` 与路由器 DDNS 取公网 IP 用的 `checkip.dyndns.org`、`ifconfig.co`、`api.myip.com`、`ipapi.co`、`ip6.seeip.org`、`members.3322.org`；国内 IP 查询（IPIP.NET、PConline、`ip.cn` 等）由 `China_Domain` / `GEOSITE,cn` 直连
+
 ## 2026-09-25（十一）
 
 按 MEXC App 的连接日志，把 MEXC 全部连接统一到 JPNet（用户要求必须走亚洲出口）：

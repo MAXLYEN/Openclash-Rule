@@ -1,7 +1,7 @@
 # NAME: Custom_Proxy_Domain
-# UPDATED: 2026-09-21
-# DOMAIN-SUFFIX: 9
-# TOTAL: 9
+# UPDATED: 2026-09-25
+# DOMAIN-SUFFIX: 17
+# TOTAL: 17
 # 强制代理列表，来自个人收集
 # PS5 STUN
 DOMAIN-SUFFIX,stun.playstation.net
@@ -19,3 +19,13 @@ DOMAIN-SUFFIX,push.apple.com
 # 验证器
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,jishubai.com
+# 统计 / 崩溃上报 / 归因 SDK：服务端按来源 IP 记录地区，直连会把国内 IP 报给 App 后台
+# （币安等交易所的风控会据此判定国内用户）。排在 GoogleCN_Domain / GEOSITE,google-cn / Direct_Domain 之前才能截住
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googleanalytics.com
+DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,adjust.com

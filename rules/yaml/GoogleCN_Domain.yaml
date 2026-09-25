@@ -1,7 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,2mdn.net
-  - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,cache.pack.google.com
   - DOMAIN-SUFFIX,clickserve.dartsearch.net
   - DOMAIN-SUFFIX,crl.pki.goog
@@ -13,8 +12,6 @@ payload:
   - DOMAIN-SUFFIX,ocsp.pki.goog
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,safebrowsing-cache.google.com
-  - DOMAIN-SUFFIX,settings.crashlytics.com
-  - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
   - DOMAIN-SUFFIX,toolbarqueries.google.com
   - DOMAIN-SUFFIX,tools.google.com
   - DOMAIN-SUFFIX,tools.l.google.com

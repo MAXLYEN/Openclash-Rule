@@ -7,3 +7,14 @@ payload:
   - DOMAIN-SUFFIX,scamalytics.com
   - DOMAIN-SUFFIX,ip8.com
   - DOMAIN,api.ipify.org
+  - DOMAIN-SUFFIX,ipify.org
+  - DOMAIN-SUFFIX,ifconfig.me
+  - DOMAIN-SUFFIX,icanhazip.com
+  - DOMAIN-SUFFIX,ip.sb
+  - DOMAIN-SUFFIX,ipecho.net
+  - DOMAIN-SUFFIX,ident.me
+  - DOMAIN-SUFFIX,ip.gs
+  - DOMAIN-SUFFIX,checkip.amazonaws.com
+  - DOMAIN-SUFFIX,whatismyipaddress.com
+  - DOMAIN-SUFFIX,db-ip.com
+  - DOMAIN-SUFFIX,iplocation.net

@@ -1,8 +1,8 @@
 # NAME: Binance_Domain
-# UPDATED: 2026-09-05
+# UPDATED: 2026-09-25
 # DOMAIN-SUFFIX: 1
-# DOMAIN-KEYWORD: 8
-# TOTAL: 9
+# DOMAIN-KEYWORD: 9
+# TOTAL: 10
 DOMAIN-KEYWORD,binance
 # [已停用-冗余] DOMAIN-KEYWORD,binancezh  ← 文件内被 Binance_Domain 包含
 # [已停用-冗余] DOMAIN-KEYWORD,binancecnt  ← 文件内被 Binance_Domain 包含
@@ -15,3 +15,6 @@ DOMAIN-KEYWORD,bnbzh
 DOMAIN-KEYWORD,bntrace
 DOMAIN-KEYWORD,nftstatic
 DOMAIN-SUFFIX,bnappweb.black
+# 币安在反欺诈服务 Forter 上的商户编号（来自连接日志：addfd325e6e3.cdn4.forter.com、<uuid>-addfd325e6e3.cdn.forter.com）；
+# 原先落到 Amazon_IP 走香港，与主站的 SG 出口不一致。只匹配带这个编号的子域，不影响其他商户
+DOMAIN-KEYWORD,addfd325e6e3

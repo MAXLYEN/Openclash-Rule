@@ -8,3 +8,11 @@ payload:
   - DOMAIN-SUFFIX,push.apple.com
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,jishubai.com
+  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,googleanalytics.com
+  - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
+  - DOMAIN-SUFFIX,crashlytics.com
+  - DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
+  - DOMAIN-SUFFIX,appsflyer.com
+  - DOMAIN-SUFFIX,adjust.com

@@ -4,8 +4,6 @@ payload:
   - DOMAIN,ain.bgm.tv
   - DOMAIN,analytics.95516.com
   - DOMAIN,analytics.strava.com
-  - DOMAIN,app.adjust.com
-  - DOMAIN,app.appsflyer.com
   - DOMAIN,bdtj.tagtic.cn
   - DOMAIN,clientservices.googleapis.com
   - DOMAIN,deo.shopeemobile.com
@@ -109,7 +107,6 @@ payload:
   - DOMAIN-KEYWORD,westlawchina
   - DOMAIN-SUFFIX,agkn.com
   - DOMAIN-SUFFIX,cohere.com
-  - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,kochava.com
   - DOMAIN-SUFFIX,tmall.hk
   - DOMAIN-SUFFIX,jd.hk

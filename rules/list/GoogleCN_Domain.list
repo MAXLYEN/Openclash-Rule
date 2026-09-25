@@ -1,7 +1,7 @@
 # NAME: GoogleCN_Domain
-# UPDATED: 2026-09-24
-# DOMAIN-SUFFIX: 20
-# TOTAL: 20
+# UPDATED: 2026-09-25
+# DOMAIN-SUFFIX: 17
+# TOTAL: 17
 # Google China
 DOMAIN-SUFFIX,265.com
 DOMAIN-SUFFIX,2mdn.net
@@ -13,7 +13,7 @@ DOMAIN-SUFFIX,2mdn.net
 # [已停用-分组冲突] DOMAIN-SUFFIX,alt6-mtalk.google.com  ← 交由 GoogleFCM_Domain 匹配
 # [已停用-分组冲突] DOMAIN-SUFFIX,alt7-mtalk.google.com  ← 交由 GoogleFCM_Domain 匹配
 # [已停用-分组冲突] DOMAIN-SUFFIX,alt8-mtalk.google.com  ← 交由 GoogleFCM_Domain 匹配
-DOMAIN-SUFFIX,app-measurement.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,app-measurement.com  ← 统计 / 归因 SDK 直连会暴露国内 IP，改由 Custom_Proxy_Domain 走代理
 DOMAIN-SUFFIX,cache.pack.google.com
 DOMAIN-SUFFIX,clickserve.dartsearch.net
 DOMAIN-SUFFIX,crl.pki.goog
@@ -26,8 +26,8 @@ DOMAIN-SUFFIX,gtm.oasisfeng.com
 DOMAIN-SUFFIX,ocsp.pki.goog
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,safebrowsing-cache.google.com
-DOMAIN-SUFFIX,settings.crashlytics.com
-DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,settings.crashlytics.com  ← 统计 / 归因 SDK 直连会暴露国内 IP，改由 Custom_Proxy_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,ssl-google-analytics.l.google.com  ← 统计 / 归因 SDK 直连会暴露国内 IP，改由 Custom_Proxy_Domain 走代理
 DOMAIN-SUFFIX,toolbarqueries.google.com
 DOMAIN-SUFFIX,tools.google.com
 DOMAIN-SUFFIX,tools.l.google.com
