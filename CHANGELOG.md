@@ -6,6 +6,12 @@
 
 ---
 
+## 2026-09-24（五）
+
+- `Game_Domain`：`gcloudcs` 会同时命中国服腾讯游戏云 `gcloudcs.com`，收窄为海外端点 `hkgcloudcs.com` / `nagcloudcs.com`（依据 v2fly `tencent-games`）；国内端点交由 `GEOSITE,cn`（经 `geolocation-cn` → `tencent`）直连
+- `Game_Domain`：`anticheatexpert` **有意保留** —— 国服与海外腾讯游戏共用该域名、无法区分，需要海外游戏可用。代价：国服游戏的反作弊流量也进 Game Platform 分组
+- `PT_Domain` 停用 `sjtu.edu.cn` / `xauat6.edu.cn` 两条整域后缀：PT 分组切到代理时会把交大 jAccount / 邮箱 / VPN 等一并带走；PT 站本身已由 `pt.sjtu.edu.cn` / `pt.xauat6.edu.cn` 精确收录
+
 ## 2026-09-24（四）
 
 全链路复查的中风险项，以及对（三）的部分回滚。

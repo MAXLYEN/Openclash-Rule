@@ -19,6 +19,7 @@ payload:
   - DOMAIN-KEYWORD,tdatamaster
   - DOMAIN-KEYWORD,amsoveasea
   - DOMAIN-KEYWORD,vasdgame
-  - DOMAIN-KEYWORD,gcloudcs
+  - DOMAIN-SUFFIX,hkgcloudcs.com
+  - DOMAIN-SUFFIX,nagcloudcs.com
   - DOMAIN-KEYWORD,telephony
   - DOMAIN-KEYWORD,fbsbx

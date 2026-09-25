@@ -1,7 +1,8 @@
 # NAME: Game_Domain
 # UPDATED: 2026-09-24
-# DOMAIN-KEYWORD: 23
-# TOTAL: 23
+# DOMAIN-SUFFIX: 2
+# DOMAIN-KEYWORD: 22
+# TOTAL: 24
 #游戏
 DOMAIN-KEYWORD,unity3d
 DOMAIN-KEYWORD,supercell
@@ -28,6 +29,8 @@ DOMAIN-KEYWORD,wetest
 DOMAIN-KEYWORD,tdatamaster
 DOMAIN-KEYWORD,amsoveasea
 DOMAIN-KEYWORD,vasdgame
-DOMAIN-KEYWORD,gcloudcs
+# [已停用-范围过宽] DOMAIN-KEYWORD,gcloudcs  ← 同时命中国服腾讯游戏云 gcloudcs.com；收窄为下两行的海外端点（v2fly tencent-games 列出的港区 / 北美区）
+DOMAIN-SUFFIX,hkgcloudcs.com
+DOMAIN-SUFFIX,nagcloudcs.com
 DOMAIN-KEYWORD,telephony
 DOMAIN-KEYWORD,fbsbx

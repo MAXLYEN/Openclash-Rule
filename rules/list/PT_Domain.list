@@ -1,9 +1,9 @@
 # NAME: PT_Domain
 # UPDATED: 2026-09-24
 # DOMAIN: 10
-# DOMAIN-SUFFIX: 264
+# DOMAIN-SUFFIX: 262
 # DOMAIN-KEYWORD: 1
-# TOTAL: 275
+# TOTAL: 273
 # [已停用] DOMAIN-KEYWORD,tracker  ← tracker 过于宽泛，会误匹配大量含该词的普通域名
 # [已停用] DOMAIN-KEYWORD,announce.php?passkey=  ← DOMAIN-KEYWORD 只匹配域名，含 ? = / 的 URL 片段永远不会命中
 # [已停用] DOMAIN-KEYWORD,peer_id=  ← DOMAIN-KEYWORD 只匹配域名，含 ? = / 的 URL 片段永远不会命中
@@ -253,7 +253,7 @@ DOMAIN-SUFFIX,rstorrent.org.pl
 DOMAIN-SUFFIX,scenetime.com
 DOMAIN-SUFFIX,sdbits.org
 DOMAIN-SUFFIX,secret-cinema.pw
-DOMAIN-SUFFIX,sjtu.edu.cn
+# [已停用-范围过宽] DOMAIN-SUFFIX,sjtu.edu.cn  ← 整个交大主域（jAccount / 邮箱 / VPN 等）随 PT 分组走代理；葡萄 PT 已由 DOMAIN,pt.sjtu.edu.cn 精确收录
 DOMAIN-SUFFIX,skyey2.com
 DOMAIN-SUFFIX,skyeysnow.com
 DOMAIN-SUFFIX,slitopen.me
@@ -290,7 +290,7 @@ DOMAIN-SUFFIX,upxin.net
 DOMAIN-SUFFIX,vhstapes.org
 DOMAIN-SUFFIX,whu.pt
 DOMAIN-SUFFIX,world-in-hd.net
-DOMAIN-SUFFIX,xauat6.edu.cn
+# [已停用-范围过宽] DOMAIN-SUFFIX,xauat6.edu.cn  ← 西安建大整个 IPv6 域；PT 站已由 DOMAIN,pt.xauat6.edu.cn 精确收录
 DOMAIN-SUFFIX,xspeeds.eu
 DOMAIN-SUFFIX,xthor.tk
 DOMAIN-SUFFIX,xthor.to
