@@ -6,6 +6,18 @@
 
 ---
 
+## 2026-09-25（七）
+
+来自 Openclash-Config 会话的交叉检查，逐条核实后处理：
+
+- `dedupe.yml`：`config-updated` 带来的提交号先校验格式（7–40 位十六进制）再拼进 URL；`--ini` 参数改用数组传递，不经分词；加 `pipefail`，拉取配置失败时运行变红，而不是带着空报告通过
+- 新增 `check-token.yml`：每周一检查 `DISPATCH_TOKEN` 是否仍能访问 Openclash-Config、剩余有效期是否不足 14 天。通知步骤是 `continue-on-error`，token 过期后运行仍是绿的，对方也只是「收不到通知」，以前没有任何地方能发现。反方向由 Config 的 `build-ini.yml` 检查
+- `validate.py` 增加规则类型白名单（`DOMAIN-SUFIX` 这类拼写错误会被 classical provider 跳过、静默失效）；IP 规则检查 CIDR 可解析、ASN 为数字、带 `no-resolve`。主机位与地址族不符仍只由 `build.py` 告警——规则照样生效，不值得阻断发布
+- 收窄过宽关键字：`EUNet_Domain` 的 `n26` → `DOMAIN-SUFFIX,n26.com`（原写法命中 `cdn26`、`sn26` 等编号主机名，同段已有 `number26`、`tech26.de`）；`China_Domain` 的 `moke` 停用，恢复被它顶掉的 `DOMAIN-SUFFIX,moke.com`（原写法命中 `smoke`）
+- `HBO_Domain` 停用 `braze`、`branch`：通用推送 / 归因 SDK，所有 App 的这类流量都会被带进 HBO 组；`branch` 还是常见词。与 `UK_Domain` 已停用 `braze.com`、`branch.io` 的处理一致
+- `docs/design-notes.md`：合并同源表改为 `UK_Domain` / `UK_IP`，注明 `UKNet_*`、`Others_Domain` 是 v1 兼容文件；写明 dedupe 只按 V2 顺序判断、对冻结的 v1 可能误停
+- 未处理：`BR_Domain` 的 `neon`（意图应是巴西 Neon 银行，会误中 `neon.tech`），需要该 App 实际连接的域名才能收窄；`UKNet_Domain` 的 `argent` 只被冻结的 v1 引用，不动
+
 ## 2026-09-25（六）
 
 - `dedupe.py` 新增【D IP 覆盖】报告：按规则链做 IP-CIDR 的首命中模拟，列出被更早的段完整包含的条目（分异组 / 同组）与遮蔽最多的段。**只报告不处理**——链上夹着看不到的 GEOIP 行，且大量重叠来自官方段之间，是否处理需要人工判断。首命中取链上最早的包含段；与逐条两两比较的实现核对结果完全一致（当前异组 228 条、同组 119 条），耗时约 0.3 秒

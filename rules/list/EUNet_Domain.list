@@ -1,7 +1,7 @@
 # NAME: EUNet_Domain
-# UPDATED: 2026-09-24
-# DOMAIN-SUFFIX: 39
-# DOMAIN-KEYWORD: 147
+# UPDATED: 2026-09-25
+# DOMAIN-SUFFIX: 40
+# DOMAIN-KEYWORD: 146
 # TOTAL: 186
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
@@ -13,7 +13,8 @@ DOMAIN-SUFFIX,smooch.io
 DOMAIN-SUFFIX,ledger.com
 DOMAIN-KEYWORD,withcl
 #DOMAIN-KEYWORD,kraken
-DOMAIN-KEYWORD,n26
+# [已停用-范围过宽] DOMAIN-KEYWORD,n26  ← 会命中 cdn26、sn26 等编号式主机名，改为下一行的精确后缀
+DOMAIN-SUFFIX,n26.com
 DOMAIN-KEYWORD,number26
 DOMAIN-SUFFIX,tech26.de
 DOMAIN-SUFFIX,26.de

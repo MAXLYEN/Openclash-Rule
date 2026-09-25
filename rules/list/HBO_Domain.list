@@ -1,8 +1,8 @@
 # NAME: HBO_Domain
-# UPDATED: 2026-09-05
+# UPDATED: 2026-09-25
 # DOMAIN-SUFFIX: 45
-# DOMAIN-KEYWORD: 6
-# TOTAL: 51
+# DOMAIN-KEYWORD: 4
+# TOTAL: 49
 # === 以下合并自 HBO.list ===
 DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
 DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
@@ -53,8 +53,8 @@ DOMAIN-SUFFIX,warnermediacdn.com
 DOMAIN-SUFFIX,youboranqs01.com
 # [已停用] PROCESS-NAME,com.hbo.hbonow  ← PROCESS-NAME 匹配本机进程名，OpenClash 作网关转发其他设备流量时不生效
 DOMAIN-KEYWORD,discomax
-DOMAIN-KEYWORD,braze
-DOMAIN-KEYWORD,branch
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,braze  ← 通用推送 / 营销 SDK，所有 App 都在用；UK_Domain 的 braze.com 同样已停用
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,branch  ← 通用归因 SDK（branch.io）且是常见词，会把其他 App 的流量带进 HBO 组
 # [已停用-冗余] DOMAIN-SUFFIX,media.max.com  ← 文件内被 HBO_Domain 包含
 DOMAIN-KEYWORD,h264
 DOMAIN-KEYWORD,apptentive

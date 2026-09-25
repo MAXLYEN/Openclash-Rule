@@ -29,7 +29,6 @@ payload:
   - DOMAIN-KEYWORD,chinacache
   - DOMAIN-KEYWORD,duobao
   - DOMAIN-KEYWORD,jdpay
-  - DOMAIN-KEYWORD,moke
   - DOMAIN-KEYWORD,qhimg
   - DOMAIN-KEYWORD,vpimg
   - DOMAIN-KEYWORD,xiami
@@ -454,6 +453,7 @@ payload:
   - DOMAIN-SUFFIX,mogucdn.com
   - DOMAIN-SUFFIX,mogujie.com
   - DOMAIN-SUFFIX,moji.com
+  - DOMAIN-SUFFIX,moke.com
   - DOMAIN-SUFFIX,msstatic.com
   - DOMAIN-SUFFIX,mubu.com
   - DOMAIN-SUFFIX,myunlu.com

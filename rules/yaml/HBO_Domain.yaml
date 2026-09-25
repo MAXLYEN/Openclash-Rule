@@ -45,8 +45,6 @@ payload:
   - DOMAIN-SUFFIX,warnermediacdn.com
   - DOMAIN-SUFFIX,youboranqs01.com
   - DOMAIN-KEYWORD,discomax
-  - DOMAIN-KEYWORD,braze
-  - DOMAIN-KEYWORD,branch
   - DOMAIN-KEYWORD,h264
   - DOMAIN-KEYWORD,apptentive
   - DOMAIN-KEYWORD,brightline

@@ -62,9 +62,16 @@ match GeoSite(category-ai-!cn) using Optional
 | 文件 | 作用 |
 |---|---|
 | `scripts/build.py` | 规范化 list、生成 yaml、补齐配对、清理孤儿产物 |
-| `scripts/validate.py` | 用 YAML 解析器校验产物，与源文件逐条比对（内容与顺序） |
+| `scripts/validate.py` | 用 YAML 解析器校验产物，与源文件逐条比对（内容与顺序）；规则类型白名单、IP 规则可解析且带 `no-resolve` |
 | `scripts/dedupe.py` | 按 Openclash-Config 的规则链做首命中模拟，停用 / 恢复冗余域名规则（手动或配置仓库触发）；IP 规则的覆盖关系只出报告。GEOSITE / GEOIP 行不展开——路由器实际使用的 geodata 版本不确定 |
 | `.github/workflows/build.yml` | 监听 `rules/list/**` 变化，自动构建并提交 |
+| `.github/workflows/dedupe.yml` | 冗余分析，手动或收到 `config-updated` 时运行，默认只出报告 |
+| `.github/workflows/check-token.yml` | 每周一检查 `DISPATCH_TOKEN` 的有效期 |
+
+`dedupe.py` 只按 **V2**（`dist/Custom_Clash_V2.ini`）的顺序判断冗余。冻结的 v1 `Custom_Clash.ini`
+引用了很多同名规则集但顺序不同，V2 下冗余而停用的规则在 v1 下可能正是生效的那条
+（`Steam_CDN_Domain`、`Supercell_Domain` 就是这样被清空的，Config 已在 v1 中注释掉这几行）。
+v1 已停止维护，这是接受的代价。
 
 ### 自动修复项
 
@@ -111,11 +118,14 @@ match GeoSite(category-ai-!cn) using Optional
 | `Emby_Domain` / `Emby_IP` | Emby + Emby_2 |
 | `HBO_Domain` / `HBO_IP` | HBO + HBO_fix |
 | `HK_Domain` / `HK_IP` | HK + HKIP |
-| `UKNet_Domain` / `UKNet_IP` | UKNet + UKNetIP |
+| `UK_Domain` / `UK_IP` | UKNet + UKNetIP（v2.8 起） |
 | `Amazon_Domain` / `Amazon_IP` | Amazon + AmazonIP |
 | `China_Domain` / `China_IP_1/2/3` | ChinaDomain + ChinaIp（本就是同一平台的域名段与 IP 段） |
 
 合并时保持各源文件内部原始行序，插入 `# === 以下合并自 xxx.list ===` 分界线，跨文件重复规则去重。分节中文注释与其下方规则的对应关系完整保留。
+
+**v1 兼容文件**：`UKNet_Domain`、`UKNet_IP`（已并入 `UK_*`）与 `Others_Domain`（已由 `IPCheck_Domain` 接管）
+V2 不再引用，只因冻结的 v1 配置仍在引用而保留，**不要删除**，也不必再维护。
 
 **未合并**：`GoogleCN` 与 `GoogleCNProxyIP` 名称相近但用途相反（前者直连、后者代理）；`HK-wifi-call` 与 `UK-wifi-call`、`US-wifi-call` 成体系，保持独立。
 
@@ -179,6 +189,7 @@ match GeoSite(category-ai-!cn) using Optional
 - `Custom_Direct_Domain` 的 `ipinfo.io` 直连——需要真实出口，截走 `IPCheck_Domain` 的同名规则属预期
 - `EUNet_Domain` 中交易所 App 抓包得到的推送 / 统计 SDK keyword（`pushsdk`、`mixpanel`、`onesignal` 等）与 `EUNet_IP` 的大段——交易所流量出口保持一致，不按「跨平台共享服务」拆出
 - `Game_Domain` 的 `anticheatexpert` 与 `Game_IP` 的云厂商 /16——海外腾讯游戏需要；代价是国服游戏的反作弊流量也进 Game Platform
+- `HK_Domain` 的 `mixpanel` / `singular` / `braze`：与 EUNet 同类的 App SDK，走通用的 Proxy 组，影响有限
 - 仍在使用的服务 keyword：`JP_Domain` 的 `maya` / `globe` / `split`，`HK_Domain` 的 `chie` / `wechat`，`Game_Domain` 的 `telephony` / `fbsbx`
 
 收窄某平台规则前，需要有实际域名依据（抓包或连接日志），不要凭推测改端点。
@@ -205,3 +216,7 @@ match GeoSite(category-ai-!cn) using Optional
 |---|---|---|---|
 | Rule → Config | `rules-updated` | `DISPATCH_TOKEN`（PAT，范围 Openclash-Config） | 按提交号联网校验所有引用 |
 | Config → Rule | `config-updated` | `RULE_DISPATCH_TOKEN`（PAT，范围 Openclash-Rule） | 冗余分析，只出报告 |
+
+通知步骤都是 `continue-on-error`，token 过期后运行仍显示成功、对方只是收不到通知。
+所以两边各有一个每周定时检查发送方 token 的任务：本仓库 `check-token.yml` 查 `DISPATCH_TOKEN`，
+Config 的 `build-ini.yml` 查 `RULE_DISPATCH_TOKEN`；无效或剩余不足 14 天时运行变红。

@@ -49,11 +49,18 @@ jobs:
           # 避开 raw.githubusercontent.com 对 main 分支约 5 分钟的缓存
           CONFIG_SHA: ${{ github.event.client_payload.sha }}
         run: |
-          INI_ARG=""
+          # 手动运行时 CONFIG_SHA 为空，走 dedupe.py 默认的 main 分支 ini。
+          # 提交号来自对方的 client_payload，先校验格式再拼进 URL；参数用数组传，不经分词
+          INI_ARG=()
           if [ -n "$CONFIG_SHA" ]; then
-            INI_ARG="--ini https://raw.githubusercontent.com/MAXLYEN/Openclash-Config/${CONFIG_SHA}/dist/Custom_Clash_V2.ini"
+            if ! [[ "$CONFIG_SHA" =~ ^[0-9a-f]{7,40}$ ]]; then
+              echo "::error::config-updated 通知里的 sha 格式不对"
+              exit 1
+            fi
+            INI_ARG=(--ini "https://raw.githubusercontent.com/MAXLYEN/Openclash-Config/${CONFIG_SHA}/dist/Custom_Clash_V2.ini")
           fi
-          python3 scripts/dedupe.py $INI_ARG | tee /tmp/report.txt
+          set -o pipefail
+          python3 scripts/dedupe.py "${INI_ARG[@]}" | tee /tmp/report.txt
           {
             echo '## 冗余分析报告'
             echo '```'

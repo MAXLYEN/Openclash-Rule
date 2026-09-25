@@ -1,7 +1,7 @@
 # NAME: China_Domain
-# UPDATED: 2026-09-24
-# DOMAIN-SUFFIX: 540
-# DOMAIN-KEYWORD: 16
+# UPDATED: 2026-09-25
+# DOMAIN-SUFFIX: 541
+# DOMAIN-KEYWORD: 15
 # TOTAL: 556
 # === 以下合并自 ChinaDomain.list ===
 # 直连列表
@@ -40,7 +40,7 @@ DOMAIN-KEYWORD,ccgslb
 DOMAIN-KEYWORD,chinacache
 DOMAIN-KEYWORD,duobao
 DOMAIN-KEYWORD,jdpay
-DOMAIN-KEYWORD,moke
+# [已停用-范围过宽] DOMAIN-KEYWORD,moke  ← 会命中 smoke 等常见词，改回文件内的 DOMAIN-SUFFIX,moke.com
 DOMAIN-KEYWORD,qhimg
 DOMAIN-KEYWORD,vpimg
 DOMAIN-KEYWORD,xiami
@@ -544,7 +544,7 @@ DOMAIN-SUFFIX,mogu.com
 DOMAIN-SUFFIX,mogucdn.com
 DOMAIN-SUFFIX,mogujie.com
 DOMAIN-SUFFIX,moji.com
-# [已停用-冗余] DOMAIN-SUFFIX,moke.com  ← 文件内被 China_Domain 包含
+DOMAIN-SUFFIX,moke.com
 DOMAIN-SUFFIX,msstatic.com
 DOMAIN-SUFFIX,mubu.com
 DOMAIN-SUFFIX,myunlu.com

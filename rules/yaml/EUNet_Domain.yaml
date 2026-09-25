@@ -5,7 +5,7 @@ payload:
   - DOMAIN-SUFFIX,smooch.io
   - DOMAIN-SUFFIX,ledger.com
   - DOMAIN-KEYWORD,withcl
-  - DOMAIN-KEYWORD,n26
+  - DOMAIN-SUFFIX,n26.com
   - DOMAIN-KEYWORD,number26
   - DOMAIN-SUFFIX,tech26.de
   - DOMAIN-SUFFIX,26.de

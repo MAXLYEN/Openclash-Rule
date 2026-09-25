@@ -1,0 +1,49 @@
+name: Check dispatch token
+
+# DISPATCH_TOKEN 用于向 Openclash-Config 发 rules-updated（build.yml、dedupe.yml）。
+# fine-grained PAT 有有效期，过期后通知步骤会失败，但那些步骤 continue-on-error，
+# 运行仍是绿的；Config 那边只是「安静地收不到通知」，也察觉不到。
+# 这里每周检查一次：token 无效或剩余不足 14 天时让运行变红（GitHub 会发邮件）。
+# 反方向的 RULE_DISPATCH_TOKEN 由 Openclash-Config 的 build-ini.yml 检查。
+on:
+  schedule:
+    - cron: '0 3 * * 1'     # 每周一 03:00 UTC
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  check:
+    # 固定版本：ubuntu-latest 自 2026-10-19 起迁移到 Ubuntu 26，避免运行环境悄悄变化
+    runs-on: ubuntu-24.04
+    steps:
+      - name: 检查 DISPATCH_TOKEN 有效期
+        # 过期时间取自 API 响应头 github-authentication-token-expiration
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$DISPATCH_TOKEN" ]; then
+            echo "::warning::未配置 DISPATCH_TOKEN，Openclash-Config 收不到 rules-updated 通知"
+            exit 0
+          fi
+          HDR=$(mktemp)
+          CODE=$(curl -sS -o /dev/null -D "$HDR" -w '%{http_code}' \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $DISPATCH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/MAXLYEN/Openclash-Config)
+          if [ "$CODE" != 200 ]; then
+            echo "::error::DISPATCH_TOKEN 无效、已过期或无权访问 Openclash-Config（HTTP ${CODE}），请重新生成并更新 Secret"
+            exit 1
+          fi
+          EXP=$(grep -i '^github-authentication-token-expiration:' "$HDR" | cut -d' ' -f2- | tr -d '\r')
+          if [ -z "$EXP" ]; then
+            echo "token 有效，未设置过期时间"
+            exit 0
+          fi
+          DAYS=$(( ( $(date -d "$EXP" +%s) - $(date +%s) ) / 86400 ))
+          echo "token 有效，${EXP} 过期（剩 ${DAYS} 天）"
+          if [ "$DAYS" -lt 14 ]; then
+            echo "::error::DISPATCH_TOKEN 将于 ${EXP} 过期（剩 ${DAYS} 天），请提前续期"
+            exit 1
+          fi

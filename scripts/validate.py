@@ -5,12 +5,16 @@
 检查项：
   * yaml 能被 YAML 解析器正确读出 payload（避免线上表现为
     「provider 加载了但规则数为 0」这类静默失效）
-  * payload 每条符合规则语法
+  * payload 每条符合规则语法，规则类型在 mihomo 支持的范围内（拼错的类型
+    如 DOMAIN-SUFIX 会被 classical provider 记一条警告后跳过，规则静默失效）
+  * IP 规则：CIDR 可解析、ASN 为数字、带 no-resolve（缺了会触发 DNS 解析）。
+    主机位与地址族不符不算错误——内核按掩码截断，IP-CIDR / IP-CIDR6 两种写法
+    都能解析任一地址族，规则仍然生效——由 build.py 告警
   * yaml 与 list 源文件逐条一致（内容与顺序）
   * list 的 header 完整：NAME 与文件名一致、UPDATED 为合法日期、
     TOTAL 与各类型统计均与实际相符
 """
-import os, re, sys, datetime, collections
+import os, re, sys, datetime, collections, ipaddress
 
 try:
     import yaml
@@ -21,6 +25,39 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 YAML = os.path.join(ROOT, 'rules', 'yaml')
 LIST = os.path.join(ROOT, 'rules', 'list')
 RULE_RE = re.compile(r'^([A-Z][A-Z0-9-]*),(.+)$')
+# mihomo 规则集里可用的类型。本库实际只用 DOMAIN / DOMAIN-SUFFIX / DOMAIN-KEYWORD /
+# IP-CIDR / IP-CIDR6 / IP-ASN，其余列出是为了不误报合法写法，只拦拼写错误
+TYPES = {
+    'DOMAIN', 'DOMAIN-SUFFIX', 'DOMAIN-KEYWORD', 'DOMAIN-REGEX', 'DOMAIN-WILDCARD',
+    'GEOSITE', 'GEOIP', 'IP-CIDR', 'IP-CIDR6', 'IP-SUFFIX', 'IP-ASN',
+    'SRC-GEOIP', 'SRC-IP-ASN', 'SRC-IP-CIDR', 'SRC-IP-SUFFIX',
+    'DST-PORT', 'SRC-PORT', 'IN-PORT', 'IN-TYPE', 'IN-USER', 'IN-NAME',
+    'PROCESS-NAME', 'PROCESS-PATH', 'PROCESS-NAME-REGEX', 'PROCESS-PATH-REGEX',
+    'NETWORK', 'UID', 'DSCP',
+}
+
+
+def check_rule(r):
+    """返回规则的问题描述，没有问题返回 None。"""
+    m = RULE_RE.match(r)
+    if not m:
+        return '规则格式异常'
+    t, v = m.groups()
+    if t not in TYPES:
+        return '未知规则类型 %s' % t
+    if t in ('IP-CIDR', 'IP-CIDR6', 'IP-ASN'):
+        parts = v.split(',')
+        if 'no-resolve' not in parts[1:]:
+            return 'IP 规则缺少 no-resolve'
+        if t == 'IP-ASN':
+            if not parts[0].isdigit():
+                return 'ASN 不是数字'
+        else:
+            try:
+                ipaddress.ip_network(parts[0], strict=False)
+            except ValueError:
+                return 'CIDR 无法解析'
+    return None
 
 bad, total, empty = [], 0, 0
 
@@ -46,8 +83,9 @@ for f in sorted(os.listdir(YAML)):
     total += len(payload)
 
     for r in payload:
-        if not RULE_RE.match(str(r)):
-            bad.append('%s: 规则格式异常 —— %s' % (name, r))
+        err = check_rule(str(r))
+        if err:
+            bad.append('%s: %s —— %s' % (name, err, r))
 
     # 与 list 源文件条数比对
     lp = os.path.join(LIST, name + '.list')
