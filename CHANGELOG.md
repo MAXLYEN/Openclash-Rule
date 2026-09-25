@@ -6,6 +6,10 @@
 
 ---
 
+## 2026-09-25（五）
+
+- `build.yml` / `dedupe.yml` 运行环境由 `ubuntu-latest` 固定为 `ubuntu-24.04`：GitHub 自 2026-10-19 起将 `ubuntu-latest` 迁移到 Ubuntu 26，固定版本避免运行环境在无改动的情况下变化。Openclash-Config 同步处理
+
 ## 2026-09-25（四）
 
 与 Openclash-Config 联合复查：两个仓库的自动化衔接。
