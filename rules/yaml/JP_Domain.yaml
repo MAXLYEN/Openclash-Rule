@@ -2,6 +2,9 @@ payload:
   - DOMAIN-SUFFIX,co.jp
   - DOMAIN-SUFFIX,com.jp
   - DOMAIN-SUFFIX,cuniq.jp
+  - DOMAIN-KEYWORD,mexc
+  - DOMAIN-KEYWORD,greentreeone
+  - DOMAIN-KEYWORD,mocortexh
   - DOMAIN-SUFFIX,mocortech.com
   - DOMAIN-SUFFIX,coldbookfly.ru
   - DOMAIN-SUFFIX,payapptoday.com

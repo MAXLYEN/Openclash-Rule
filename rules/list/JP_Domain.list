@@ -2,13 +2,16 @@
 # UPDATED: 2026-09-25
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 156
-# DOMAIN-KEYWORD: 13
-# TOTAL: 170
+# DOMAIN-KEYWORD: 16
+# TOTAL: 173
 #亚洲-日本分流
 DOMAIN-SUFFIX,co.jp
 DOMAIN-SUFFIX,com.jp
 DOMAIN-SUFFIX,cuniq.jp
-#mexc
+#mexc（用户要求全部连接走亚洲出口；以下关键字原在 EUNet_Domain，连接日志：tracking.mexc.cg、otc/affiliates/www.greentreeone.com）
+DOMAIN-KEYWORD,mexc
+DOMAIN-KEYWORD,greentreeone
+DOMAIN-KEYWORD,mocortexh
 DOMAIN-SUFFIX,mocortech.com
 DOMAIN-SUFFIX,coldbookfly.ru
 DOMAIN-SUFFIX,payapptoday.com

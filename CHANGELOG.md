@@ -6,6 +6,13 @@
 
 ---
 
+## 2026-09-25（十一）
+
+按 MEXC App 的连接日志，把 MEXC 全部连接统一到 JPNet（用户要求必须走亚洲出口）：
+
+- `EUNet_Domain` 停用 `mexc`、`greentreeone`、`mocortexh` 三个关键字（`[已停用-分组冲突]`），移入 `JP_Domain` 的 `#mexc` 段。日志中 `tracking.mexc.cg`、`www` / `otc` / `affiliates.greentreeone.com` 走的是 EUNet（德国），而同一 App 的 `mocortech.com`、`payapptoday.com`、`gotoda.co` 早已在 `JP_Domain`——`EUNet_Domain` 排在 `JP_Domain` 之前，关键字先命中。`mocortexh` 疑为 `mocortech` 的笔误，随同迁移，保证不会再有 MEXC 相关域名落到欧洲
+- 未处理：App 内 Google 登录的 `oauth2.googleapis.com` 属于 Google 通用接口，仍走 Google 组；`EUNet_Domain` 的交易所通用 SDK 关键字（`pushsdk`、`mixpanel`、`onesignal` 等）被多家交易所共用，按域名无法区分 App，保持 EUNet
+
 ## 2026-09-25（十）
 
 Openclash-Config v2.10 撤除内联内容规则（规则内容一律放本仓库）后，把归属在规则内容层面恢复，并处理同日覆盖复查的两项：

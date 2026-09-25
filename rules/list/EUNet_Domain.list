@@ -1,8 +1,8 @@
 # NAME: EUNet_Domain
 # UPDATED: 2026-09-25
 # DOMAIN-SUFFIX: 40
-# DOMAIN-KEYWORD: 146
-# TOTAL: 186
+# DOMAIN-KEYWORD: 143
+# TOTAL: 183
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
 DOMAIN-KEYWORD,byffbb
@@ -120,11 +120,11 @@ DOMAIN-SUFFIX,fil-vf.de
 # 欧盟转运（含UK）
 DOMAIN-KEYWORD,ipostalmail
 DOMAIN-KEYWORD,tiptrans
-DOMAIN-KEYWORD,greentreeone
+# [已停用-分组冲突] DOMAIN-KEYWORD,greentreeone  ← MEXC 全部连接要求走亚洲出口，交由 JP_Domain（JPNet）接管
 DOMAIN-KEYWORD,flytogarden
-DOMAIN-KEYWORD,mexc
+# [已停用-分组冲突] DOMAIN-KEYWORD,mexc  ← MEXC 全部连接要求走亚洲出口，交由 JP_Domain（JPNet）接管
 DOMAIN-KEYWORD,365huo
-DOMAIN-KEYWORD,mocortexh
+# [已停用-分组冲突] DOMAIN-KEYWORD,mocortexh  ← MEXC 全部连接要求走亚洲出口，交由 JP_Domain（JPNet）接管
 # [已停用-跨平台共享服务] DOMAIN-SUFFIX,log.aliyuncs.com  ← 阿里云日志服务，大量国内 App 上报日志共用
 DOMAIN-KEYWORD,pushsdk
 DOMAIN-KEYWORD,88maru
