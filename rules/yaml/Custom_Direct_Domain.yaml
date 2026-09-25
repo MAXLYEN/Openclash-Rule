@@ -1,6 +1,7 @@
 payload:
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,kaspersky-labs.com
+  - DOMAIN-KEYWORD,kaspersky
   - DOMAIN-SUFFIX,immortalwrt.org
   - DOMAIN-SUFFIX,vsean.net
   - DOMAIN-SUFFIX,jsdelivr.net
