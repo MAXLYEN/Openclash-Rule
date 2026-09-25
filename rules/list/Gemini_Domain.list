@@ -1,8 +1,8 @@
 # NAME: Gemini_Domain
-# UPDATED: 2026-09-24
-# DOMAIN: 2
-# DOMAIN-SUFFIX: 13
-# TOTAL: 15
+# UPDATED: 2026-09-25
+# DOMAIN: 11
+# DOMAIN-SUFFIX: 34
+# TOTAL: 45
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,ai.google.dev
@@ -20,3 +20,35 @@ DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,colab.google
 DOMAIN-SUFFIX,colab.research.google.com
 # [已停用-范围过宽] DOMAIN-KEYWORD,developerprofiles  ← Google 开发者资料并非 Gemini 专有
+# 补自上游 geosite:google-gemini：Gemini CLI / Code Assist、NotebookLM、Antigravity、Jules、Flow 等，
+# 原先被 Google_Domain 的 google.com / googleapis.com 截进 Google 组
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN,cloudaicompanion.googleapis.com
+DOMAIN,cloudcode-pa.googleapis.com
+DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN,notebooklm-pa.googleapis.com
+DOMAIN,notebooklm.googleapis.com
+DOMAIN,antigravity-pa.googleapis.com
+DOMAIN,antigravity.googleapis.com
+DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+DOMAIN-SUFFIX,aicode.googleapis.com
+DOMAIN-SUFFIX,aida.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,gemini.gstatic.com
+DOMAIN-SUFFIX,ai.studio
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN-SUFFIX,jules.google
+DOMAIN-SUFFIX,jules.google.com
+DOMAIN-SUFFIX,flow.google
+DOMAIN-SUFFIX,flow.google.com
+DOMAIN-SUFFIX,opal.google
+DOMAIN-SUFFIX,opal.google.com
+DOMAIN-SUFFIX,notebook.google
+DOMAIN-SUFFIX,notebook.google.com
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,labs.google.com
+DOMAIN-SUFFIX,stitch.withgoogle.com

@@ -1,11 +1,15 @@
 # NAME: US_Domain
-# UPDATED: 2026-09-24
-# DOMAIN-SUFFIX: 22
-# DOMAIN-KEYWORD: 27
-# TOTAL: 49
+# UPDATED: 2026-09-25
+# DOMAIN-SUFFIX: 28
+# DOMAIN-KEYWORD: 25
+# TOTAL: 53
 #美洲分流
 #娱乐生活
-DOMAIN-KEYWORD,tubi
+# [已停用-范围过宽] DOMAIN-KEYWORD,tubi  ← 会命中 tubiaoxiu.com 等；改为上游 v2fly tubi 列表的域名
+DOMAIN-SUFFIX,tubi.io
+DOMAIN-SUFFIX,tubi.tv
+DOMAIN-SUFFIX,tubi.video
+DOMAIN-SUFFIX,tubitv.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,vaxee.co
@@ -30,7 +34,9 @@ DOMAIN-KEYWORD,wealthfront
 DOMAIN-KEYWORD,firstrade
 DOMAIN-KEYWORD,zellepay
 DOMAIN-KEYWORD,cashapp
-DOMAIN-KEYWORD,chime
+# [已停用-范围过宽] DOMAIN-KEYWORD,chime  ← 会命中长隆 chimelong.com 等国内站点；改为 Chime 的官方域名
+DOMAIN-SUFFIX,chime.com
+DOMAIN-SUFFIX,chimebank.com
 DOMAIN-KEYWORD,kalshi
 DOMAIN-KEYWORD,bitpay
 DOMAIN-KEYWORD,westernunion

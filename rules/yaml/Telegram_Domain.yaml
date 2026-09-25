@@ -24,3 +24,6 @@ payload:
   - DOMAIN-SUFFIX,tx.me
   - DOMAIN-SUFFIX,usercontent.dev
   - DOMAIN-KEYWORD,nicegram
+  - DOMAIN-SUFFIX,fragment.com
+  - DOMAIN-SUFFIX,ton.org
+  - DOMAIN-SUFFIX,toncenter.com

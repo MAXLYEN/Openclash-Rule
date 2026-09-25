@@ -1,8 +1,8 @@
 # NAME: China_Domain
 # UPDATED: 2026-09-25
-# DOMAIN-SUFFIX: 541
+# DOMAIN-SUFFIX: 538
 # DOMAIN-KEYWORD: 15
-# TOTAL: 556
+# TOTAL: 553
 # === 以下合并自 ChinaDomain.list ===
 # 直连列表
 # MyList
@@ -93,7 +93,7 @@ DOMAIN-SUFFIX,taobaocdn.com
 DOMAIN-SUFFIX,tbcache.com
 DOMAIN-SUFFIX,tbcdn.com
 DOMAIN-SUFFIX,tmall.com
-DOMAIN-SUFFIX,tmall.hk
+# [已停用-冗余] DOMAIN-SUFFIX,tmall.hk  ← 已被 Direct_Domain 以同一分组命中
 DOMAIN-SUFFIX,ucweb.com
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.net
@@ -240,7 +240,7 @@ DOMAIN-SUFFIX,qy.net
 # [已停用-冗余] DOMAIN-SUFFIX,360buyimg.com  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,jcloudcs.com
 DOMAIN-SUFFIX,jd.com
-DOMAIN-SUFFIX,jd.hk
+# [已停用-冗余] DOMAIN-SUFFIX,jd.hk  ← 已被 Direct_Domain 以同一分组命中
 DOMAIN-SUFFIX,jdcloud.com
 # [已停用-冗余] DOMAIN-SUFFIX,jdpay.com  ← 文件内被 China_Domain 包含
 DOMAIN-SUFFIX,paipai.com
@@ -625,7 +625,7 @@ DOMAIN-SUFFIX,xiaojukeji.com
 DOMAIN-SUFFIX,xinhuanet.com
 DOMAIN-SUFFIX,xip.io
 DOMAIN-SUFFIX,xitek.com
-DOMAIN-SUFFIX,xiumi.us
+# [已停用-冗余] DOMAIN-SUFFIX,xiumi.us  ← 已被 Direct_Domain 以同一分组命中
 DOMAIN-SUFFIX,xslb.net
 DOMAIN-SUFFIX,xueqiu.com
 DOMAIN-SUFFIX,yach.me

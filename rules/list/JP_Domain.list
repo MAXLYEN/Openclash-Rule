@@ -1,8 +1,9 @@
 # NAME: JP_Domain
-# UPDATED: 2026-09-24
-# DOMAIN-SUFFIX: 135
-# DOMAIN-KEYWORD: 14
-# TOTAL: 149
+# UPDATED: 2026-09-25
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 136
+# DOMAIN-KEYWORD: 13
+# TOTAL: 150
 #亚洲-日本分流
 DOMAIN-SUFFIX,co.jp
 DOMAIN-SUFFIX,com.jp
@@ -28,7 +29,9 @@ DOMAIN-KEYWORD,csftr
 # 注意：split 是常见英文单词，存在误匹配风险，如发现无关站点被导向本组可改为精确域名
 DOMAIN-KEYWORD,split
 DOMAIN-KEYWORD,ownbank
-DOMAIN-KEYWORD,gcash
+# [已停用-范围过宽] DOMAIN-KEYWORD,gcash  ← 会截走巴西 NG.CASH 的 ngcash 域名；改为下面的 GCash 实际域名（Mynt 的 mynt.xyz 由上一行 mynt 覆盖）
+DOMAIN-SUFFIX,gcash.com
+DOMAIN,m-gcash-com.s3.ap-southeast-1.amazonaws.com
 DOMAIN-KEYWORD,mynt
 DOMAIN-KEYWORD,vbank
 DOMAIN-KEYWORD,nextbank

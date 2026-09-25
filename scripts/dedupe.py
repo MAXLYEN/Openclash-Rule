@@ -13,6 +13,10 @@
   C 异组冲突   被更早的规则命中，但目标分组不同 -> 行为会变，**只报告不处理**
   D IP 覆盖    IP-CIDR 被链上更早的段完整包含（分异组 / 同组）-> **只报告不处理**
 
+首命中取**链上最早**的覆盖项，而不是最具体的后缀：`dmhy.org` 排在前面时，
+后面的 `u2.dmhy.org` 无论链上还有多少同名条目，都由 `dmhy.org` 命中。
+ini 里的内联域名规则（`[]DOMAIN-SUFFIX,crypto.com` 这类）一并参与遮蔽判定，本身不会被停用。
+
 局限：GEOSITE / GEOIP 行不展开（路由器实际使用的 geodata 版本不确定，
 按 v2fly 展开的结论可能与真实行为不符），模拟时视为不存在。
 
@@ -33,6 +37,7 @@ YAML = os.path.join(ROOT, 'rules', 'yaml')
 DEFAULT_INI = ('https://raw.githubusercontent.com/MAXLYEN/Openclash-Config/'
                'main/dist/Custom_Clash_V2.ini')
 MARK = '# [已停用-冗余] '
+INLINE_T = ('DOMAIN', 'DOMAIN-SUFFIX', 'DOMAIN-KEYWORD')
 
 
 def load_ini(src):
@@ -44,12 +49,25 @@ def load_ini(src):
     chain = []
     for line in text.split('\n'):
         line = line.strip()
-        if not line.startswith('ruleset=') or 'clash-classic:' not in line:
+        if not line.startswith('ruleset='):
             continue
         grp, rest = line[len('ruleset='):].split(',', 1)
+        rest = rest.strip()
+        if rest.startswith('[]'):
+            # 内联规则：域名类参与遮蔽判定，GEOSITE / GEOIP / FINAL 不展开
+            if rest[2:].split(',', 1)[0] in INLINE_T:
+                chain.append((grp.strip(), rest))
+            continue
+        if 'clash-classic:' not in rest:
+            continue
         fn = rest.split('clash-classic:', 1)[1].rsplit(',', 1)[0].rsplit('/', 1)[-1]
         chain.append((grp.strip(), fn[:-5] if fn.endswith('.yaml') else fn))
     return chain
+
+
+def is_inline(name):
+    """ini 内联规则在规则链里以原文（[]TYPE,值）代替文件名。"""
+    return name.startswith('[]')
 
 
 def read_list(name):
@@ -60,7 +78,11 @@ def read_list(name):
     改了顺序之后可能就不冗余了。只停用不恢复会变成单向棘轮，
     时间一长就会有规则被错误地长期禁用。
     其他 # 开头的行（人工注释、header）一律不碰。
-    因此人工停用必须用 `# [已停用]` 等其他标记，不能借用 MARK，否则会被自动恢复。"""
+    因此人工停用必须用 `# [已停用]` 等其他标记，不能借用 MARK，否则会被自动恢复。
+    ini 内联规则返回单行，行号 -1。"""
+    if is_inline(name):
+        parts = name[2:].split(',')
+        return [(-1, parts[0].strip(), parts[1].strip().lower(), name[2:], False)]
     p = os.path.join(LIST, name + '.list')
     if not os.path.exists(p):
         return None
@@ -83,47 +105,45 @@ def read_list(name):
 
 
 def analyse(chain):
-    suffix, exact, keyword = {}, {}, []
+    # 索引值带链上序号：一条规则常被多个更早的项覆盖，内核命中的是**最早**那个，
+    # 而不是最具体的后缀。按最具体取会把同组冗余误报成异组冲突——u2.dmhy.org 先被
+    # 同组 Custom_Proxy 的 dmhy.org 命中，却被判成撞上了 PrivateTracker 的同名条目
+    suffix, exact, keyword = {}, {}, []   # 值 -> (序号, 分组, 文件)；keyword 按序号递增
     redundant = defaultdict(list)   # 需停用：当前生效但冗余
     restore = defaultdict(list)     # 需恢复：已停用但不再冗余
     keep_off = 0                    # 已停用且仍冗余，无需改动
     conflict = []
     missing = []
+    pos = 0
     for grp, name in chain:
         rows = read_list(name)
         if rows is None:
             missing.append(name)
             continue
         for lineno, typ, val, raw, was_off in rows:
-            hit = None
+            pos += 1
             # 覆盖关系只能由「更宽」的规则成立：
             #   DOMAIN        <- 同名 DOMAIN / 祖先 SUFFIX / 子串 KEYWORD
             #   DOMAIN-SUFFIX <- 祖先 SUFFIX / 子串 KEYWORD（同名 DOMAIN 盖不住子域）
             #   DOMAIN-KEYWORD <- 子串 KEYWORD（任何 SUFFIX 都盖不住「包含即命中」）
+            cands = []
             if typ in ('DOMAIN', 'DOMAIN-SUFFIX'):
                 if typ == 'DOMAIN' and val in exact:
-                    hit = exact[val]
-                if not hit:
-                    parts = val.split('.')
-                    for i in range(len(parts)):
-                        s = '.'.join(parts[i:])
-                        if s in suffix:
-                            hit = suffix[s]
-                            break
-                if not hit:
-                    for kw, g, f in keyword:
-                        if kw in val:
-                            hit = (g, f, kw)
-                            break
-            elif typ == 'DOMAIN-KEYWORD':
-                for kw, g, f in keyword:
-                    if kw in val:
-                        hit = (g, f, kw)
-                        break
+                    cands.append(exact[val])
+                parts = val.split('.')
+                for i in range(len(parts)):
+                    h = suffix.get('.'.join(parts[i:]))
+                    if h:
+                        cands.append(h)
+            if typ in INLINE_T:
+                # keyword 表按序号递增，第一个被包含的就是最早的
+                h = next(((p, g, f) for kw, p, g, f in keyword if kw in val), None)
+                if h:
+                    cands.append(h)
+            hit = min(cands) if cands else None
             is_red = False
-            why = ''
-            if hit:
-                hg, hf = hit[0], hit[1]
+            if hit and not is_inline(name):
+                _, hg, hf = hit
                 if hf == name:
                     is_red, why = True, '文件内被 %s 包含' % hf
                 elif hg == grp:
@@ -139,12 +159,13 @@ def analyse(chain):
             # 已停用的行不进索引：它在内核眼里不存在，不能用来遮蔽后面的规则
             if was_off:
                 continue
+            ent = (pos, grp, name)
             if typ == 'DOMAIN-SUFFIX':
-                suffix.setdefault(val, (grp, name))
+                suffix.setdefault(val, ent)
             elif typ == 'DOMAIN':
-                exact.setdefault(val, (grp, name))
-            else:
-                keyword.append((val, grp, name))
+                exact.setdefault(val, ent)
+            elif typ == 'DOMAIN-KEYWORD':
+                keyword.append((val, pos, grp, name))
     return redundant, restore, keep_off, conflict, missing
 
 
@@ -212,7 +233,8 @@ def main():
 
     chain = load_ini(a.ini)
     print('规则链来源 : %s' % a.ini)
-    print('引用规则集 : %d 个\n' % len(chain))
+    print('引用规则集 : %d 个（另有内联域名规则 %d 条）\n'
+          % (sum(not is_inline(n) for _, n in chain), sum(is_inline(n) for _, n in chain)))
 
     redundant, restore, keep_off, conflict, missing = analyse(chain)
     if missing:

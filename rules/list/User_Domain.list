@@ -1,14 +1,14 @@
 # NAME: User_Domain
-# UPDATED: 2026-09-05
-# DOMAIN-SUFFIX: 22
-# TOTAL: 22
+# UPDATED: 2026-09-25
+# DOMAIN-SUFFIX: 21
+# TOTAL: 21
 DOMAIN-SUFFIX,ovh.ie
 DOMAIN-SUFFIX,ovh.com
 DOMAIN-SUFFIX,star-space.net
 DOMAIN-SUFFIX,ovhcloud.com
 DOMAIN-SUFFIX,oneprovider.com
 DOMAIN-SUFFIX,kimoji.club
-DOMAIN-SUFFIX,u2.dmhy.org
+# [已停用-冗余] DOMAIN-SUFFIX,u2.dmhy.org  ← 已被 Custom_Proxy_Domain 以同一分组命中
 DOMAIN-SUFFIX,monikadesign.uk
 DOMAIN-SUFFIX,bulianglin.com
 DOMAIN-SUFFIX,23img.com

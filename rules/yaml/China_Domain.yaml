@@ -74,7 +74,6 @@ payload:
   - DOMAIN-SUFFIX,tbcache.com
   - DOMAIN-SUFFIX,tbcdn.com
   - DOMAIN-SUFFIX,tmall.com
-  - DOMAIN-SUFFIX,tmall.hk
   - DOMAIN-SUFFIX,ucweb.com
   - DOMAIN-SUFFIX,xiami.com
   - DOMAIN-SUFFIX,xiami.net
@@ -204,7 +203,6 @@ payload:
   - DOMAIN-SUFFIX,qy.net
   - DOMAIN-SUFFIX,jcloudcs.com
   - DOMAIN-SUFFIX,jd.com
-  - DOMAIN-SUFFIX,jd.hk
   - DOMAIN-SUFFIX,jdcloud.com
   - DOMAIN-SUFFIX,paipai.com
   - DOMAIN-SUFFIX,iciba.com
@@ -532,7 +530,6 @@ payload:
   - DOMAIN-SUFFIX,xinhuanet.com
   - DOMAIN-SUFFIX,xip.io
   - DOMAIN-SUFFIX,xitek.com
-  - DOMAIN-SUFFIX,xiumi.us
   - DOMAIN-SUFFIX,xslb.net
   - DOMAIN-SUFFIX,xueqiu.com
   - DOMAIN-SUFFIX,yach.me

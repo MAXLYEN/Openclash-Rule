@@ -1965,6 +1965,7 @@ payload:
   - DOMAIN-SUFFIX,google.dz
   - DOMAIN-SUFFIX,google.ee
   - DOMAIN-SUFFIX,google.es
+  - DOMAIN-SUFFIX,google.eu
   - DOMAIN-SUFFIX,google.fi
   - DOMAIN-SUFFIX,google.fm
   - DOMAIN-SUFFIX,google.fr
@@ -1976,6 +1977,7 @@ payload:
   - DOMAIN-SUFFIX,google.gp
   - DOMAIN-SUFFIX,google.gr
   - DOMAIN-SUFFIX,google.gy
+  - DOMAIN-SUFFIX,google.hk
   - DOMAIN-SUFFIX,google.hn
   - DOMAIN-SUFFIX,google.hr
   - DOMAIN-SUFFIX,google.ht
@@ -2040,6 +2042,7 @@ payload:
   - DOMAIN-SUFFIX,google.tn
   - DOMAIN-SUFFIX,google.to
   - DOMAIN-SUFFIX,google.tt
+  - DOMAIN-SUFFIX,google.us
   - DOMAIN-SUFFIX,google.vg
   - DOMAIN-SUFFIX,google.vn
   - DOMAIN-SUFFIX,google.vu

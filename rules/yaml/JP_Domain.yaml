@@ -18,7 +18,8 @@ payload:
   - DOMAIN-KEYWORD,csftr
   - DOMAIN-KEYWORD,split
   - DOMAIN-KEYWORD,ownbank
-  - DOMAIN-KEYWORD,gcash
+  - DOMAIN-SUFFIX,gcash.com
+  - DOMAIN,m-gcash-com.s3.ap-southeast-1.amazonaws.com
   - DOMAIN-KEYWORD,mynt
   - DOMAIN-KEYWORD,vbank
   - DOMAIN-KEYWORD,nextbank

@@ -1,8 +1,8 @@
 # NAME: BR_Domain
-# UPDATED: 2026-09-12
+# UPDATED: 2026-09-25
 # DOMAIN-SUFFIX: 8
-# DOMAIN-KEYWORD: 7
-# TOTAL: 15
+# DOMAIN-KEYWORD: 6
+# TOTAL: 14
 DOMAIN-SUFFIX,com.br
 DOMAIN-SUFFIX,gov.br
 DOMAIN-SUFFIX,org.br
@@ -13,7 +13,8 @@ DOMAIN-SUFFIX,moengage.com
 DOMAIN-SUFFIX,recarga.com
 DOMAIN-KEYWORD,ngcash
 DOMAIN-KEYWORD,recarga
-DOMAIN-KEYWORD,neon
+# [已停用-范围过宽] DOMAIN-KEYWORD,neon  ← 会命中 neon.tech、infineon 等；改为 Neon 的官方域名
+# [已停用-冗余] DOMAIN-SUFFIX,neon.com.br  ← 文件内被 BR_Domain 包含
 DOMAIN-KEYWORD,picpay
 DOMAIN-KEYWORD,c6bank
 DOMAIN-KEYWORD,infinitepay

@@ -111,3 +111,7 @@ payload:
   - DOMAIN-SUFFIX,cohere.com
   - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,kochava.com
+  - DOMAIN-SUFFIX,tmall.hk
+  - DOMAIN-SUFFIX,jd.hk
+  - DOMAIN-SUFFIX,xiumi.us
+  - DOMAIN-SUFFIX,biyao.com

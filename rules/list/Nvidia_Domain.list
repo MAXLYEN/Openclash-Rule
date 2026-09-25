@@ -1,7 +1,8 @@
 # NAME: Nvidia_Domain
-# UPDATED: 2026-08-04
+# UPDATED: 2026-09-25
+# DOMAIN: 1
 # DOMAIN-SUFFIX: 62
-# TOTAL: 62
+# TOTAL: 63
 DOMAIN-SUFFIX,geforce.cn
 DOMAIN-SUFFIX,geforce.co.kr
 DOMAIN-SUFFIX,geforce.co.uk
@@ -64,3 +65,5 @@ DOMAIN-SUFFIX,tegrazone.co.kr
 DOMAIN-SUFFIX,tegrazone.com
 DOMAIN-SUFFIX,tegrazone.jp
 DOMAIN-SUFFIX,tegrazone.kr
+# 补自上游 geosite:nvidia：客服中心，原先落到 FINAL
+DOMAIN,nvidia.custhelp.com

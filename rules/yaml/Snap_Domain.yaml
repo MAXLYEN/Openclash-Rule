@@ -5,3 +5,6 @@ payload:
   - DOMAIN-SUFFIX,snapads.com
   - DOMAIN-SUFFIX,snapchat.com
   - DOMAIN-SUFFIX,snapkit.co
+  - DOMAIN-SUFFIX,sc-static.net
+  - DOMAIN-SUFFIX,sc-gw.com
+  - DOMAIN,impala-media-production.s3.amazonaws.com

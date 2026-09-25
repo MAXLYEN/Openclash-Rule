@@ -41,6 +41,7 @@ HDR_RE  = re.compile(r'^#\s*(NAME|UPDATED|TOTAL|DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYW
 DOMAIN_T = ('DOMAIN', 'DOMAIN-SUFFIX', 'DOMAIN-KEYWORD', 'DOMAIN-REGEX')
 IP_T     = ('IP-CIDR', 'IP-CIDR6', 'IP-ASN')
 ORDER    = DOMAIN_T + IP_T + ('PROCESS-NAME', 'DST-PORT', 'SRC-PORT')
+FAKE_IP  = ipaddress.ip_network('198.18.0.0/15')   # Clash / mihomo 默认 fake-ip-range
 SHARD    = 2500                  # 单文件条数上限，超出后按 _1/_2/_3 分片（手动）
 
 warnings = []
@@ -91,6 +92,16 @@ def parse(path, name):
                     ipaddress.ip_network(cidr, strict=True)
                 except ValueError:
                     warn(name, 'CIDR 含主机位，实际生效为 %s：%s' % (net, cidr))
+                # 内核把 IPv4 目标地址按 4 字节比较，::ffff:a.b.c.d 这种 IPv6 写法永远不会命中
+                v4 = net
+                if net.version == 6 and net.network_address.ipv4_mapped:
+                    v4 = ipaddress.ip_network('%s/%d' % (net.network_address.ipv4_mapped,
+                                                         max(net.prefixlen - 96, 0)), strict=False)
+                    warn(name, 'IPv4 映射写法恒不命中，请改为 IP-CIDR,%s：%s' % (v4, cidr))
+                # fake-IP 地址段里的具体地址多半是从连接日志误抄的虚拟地址
+                # （整段作为保留地址直连是正常写法，见 Lan_IP）
+                if v4.version == 4 and v4.subnet_of(FAKE_IP) and v4 != FAKE_IP:
+                    warn(name, '位于 fake-IP 地址段 %s 内，多半是误抄的虚拟地址：%s' % (FAKE_IP, cidr))
         if t == 'DOMAIN-KEYWORD':
             if re.search(r'[?=/\s]', v):
                 warn(name, 'DOMAIN-KEYWORD 含 URL 片段字符，恒不命中：%s' % v)

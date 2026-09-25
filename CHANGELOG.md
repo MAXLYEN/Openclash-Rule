@@ -6,6 +6,20 @@
 
 ---
 
+## 2026-09-25（八）
+
+规则覆盖复查（首次把链上 GEOSITE 按 MetaCubeX 文本版展开做首命中模拟），并与另外两份独立分析交叉核对：
+
+- `dedupe.py` 判定修正：首命中改取**链上最早**的覆盖项，而不是最具体的后缀；ini 里的内联域名规则（`[]DOMAIN-SUFFIX,crypto.com`）参与遮蔽判定。旧逻辑把 `User_Domain` 的 `u2.dmhy.org` 判成撞上 `PrivateTracker_Domain` 的同名条目（异组），实际先被同组 `Custom_Proxy_Domain` 的 `dmhy.org` 命中——现已停用；`ProxyGFWlist_Domain_1` 的 `google.eu` / `.hk` / `.us` 实际被 `Google_Domain` 先命中（异组），不属冗余，已恢复（出口不变）
+- `ChinaMedia_IP` 的 29 条 `IP-CIDR6,::ffff:<IPv4>/128` 永远不会命中：内核把 IPv4 目标按 4 字节地址比较，IPv4 不匹配 IPv6 前缀。26 条转为 `IP-CIDR,<IPv4>/32`；3 条 `198.18.*` 是 fake-IP 虚拟地址（从连接日志误抄），停用而不转换。`build.py` 对这两类写法告警（`198.18.0.0/15` 整段作保留地址直连不告警）
+- `tmall.hk`、`jd.hk`、`xiumi.us` 加入 `Direct_Domain`：`China_Domain` 里的同名直连规则排在 `ProxyGFWlist_Domain_1` 的 `.hk` / `.us` 顶级域后缀之后，从未命中，天猫国际、京东国际一直走代理
+- 过宽关键字收窄（依据：上游 v2fly 列表或官方域名）：`JP_Domain` 的 `gcash` → `gcash.com` + `m-gcash-com.s3.ap-southeast-1.amazonaws.com`（原先截走 `BR_Domain` 的 `ngcash`）；`US_Domain` 的 `tubi` → `tubi.io` / `tubi.tv` / `tubi.video` / `tubitv.com`，`chime` → `chime.com` / `chimebank.com`（原先命中长隆 `chimelong.com`）；`BR_Domain` 的 `neon` 停用，`neon.com.br` 已由同文件的 `com.br` 覆盖
+- `HK_Domain` 的 `mushroomtrack` 关键字停用，由 `AU_Domain` 的 `mushroomtrack.com` 接管（走 AUNet）
+- `HK_Domain` 的 `biya`（BiyaPay）没有 App 实际域名依据，保留关键字；被它误伤的必要商城 `biyao.com` 加入 `Direct_Domain`
+- 按上游 geosite 补漏：`Gemini_Domain` +30（Gemini CLI / Code Assist、NotebookLM、Antigravity、Jules、Flow、`ai.studio` 等，原先被 `Google_Domain` 截进 Google 组）；`Snap_Domain` +3（`sc-static.net`、`sc-gw.com`，原先落到 FINAL）；`Telegram_Domain` +3（Fragment、TON）；`Nvidia_Domain` +1
+- 未处理：交易所类关键字（`htx`、`bwb`、`bingx`、`blockchain`、`okx`）误伤少量冷门国内站点，按「交易所出口一致」的约定保留；`SG_IP` 唯一的 `43.128.0.0/16` 被 `Game_IP` 的腾讯云段覆盖，是保留海外腾讯游戏大段的代价
+- Openclash-Config 侧另行处理：Hulu 被前面的 `GEOSITE,disney`（含全部 Hulu 域名）截进 Disney+；`category-entertainment` 先于 `category-games`，游戏兜底大半落到 Global TV；`category-games` 把 4399 等国内游戏站带进代理；Emby 的 `notnetflix.cos.cat` 被 `netflix` 关键字截走
+
 ## 2026-09-25（七）
 
 来自 Openclash-Config 会话的交叉检查，逐条核实后处理：

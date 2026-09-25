@@ -68,7 +68,8 @@ match GeoSite(category-ai-!cn) using Optional
 | `.github/workflows/dedupe.yml` | 冗余分析，手动或收到 `config-updated` 时运行，默认只出报告 |
 | `.github/workflows/check-token.yml` | 每周一检查 `DISPATCH_TOKEN` 的有效期 |
 
-`dedupe.py` 只按 **V2**（`dist/Custom_Clash_V2.ini`）的顺序判断冗余。冻结的 v1 `Custom_Clash.ini`
+`dedupe.py` 的首命中取**链上最早**的覆盖项（不是最具体的后缀），ini 里的内联域名规则也参与判定。
+它只按 **V2**（`dist/Custom_Clash_V2.ini`）的顺序判断冗余。冻结的 v1 `Custom_Clash.ini`
 引用了很多同名规则集但顺序不同，V2 下冗余而停用的规则在 v1 下可能正是生效的那条
 （`Steam_CDN_Domain`、`Supercell_Domain` 就是这样被清空的，Config 已在 v1 中注释掉这几行）。
 v1 已停止维护，这是接受的代价。
@@ -96,6 +97,8 @@ v1 已停止维护，这是接受的代价。
 - `_Domain` 混入 IP 规则 / `_IP` 混入域名规则
 - 文件名不符合命名规范
 - IP-CIDR 含主机位 / 无法解析 / 与地址族不符——内核按掩码截断，`108.168.174.0/16` 实际生效的是整个 `108.168.0.0/16`，多半是 `/24` 的误写
+- `IP-CIDR6,::ffff:<IPv4>/128` 这类 IPv4 映射写法——内核按 4 字节比较 IPv4 目标，永远不会命中，应写成 `IP-CIDR,<IPv4>/32`
+- `198.18.0.0/15`（fake-IP 地址段）内的具体地址——多半是从连接日志误抄的虚拟地址
 - 单文件超过 2500 条分片上限
 
 ### 其他行为
@@ -190,6 +193,9 @@ V2 不再引用，只因冻结的 v1 配置仍在引用而保留，**不要删�
 - `EUNet_Domain` 中交易所 App 抓包得到的推送 / 统计 SDK keyword（`pushsdk`、`mixpanel`、`onesignal` 等）与 `EUNet_IP` 的大段——交易所流量出口保持一致，不按「跨平台共享服务」拆出
 - `Game_Domain` 的 `anticheatexpert` 与 `Game_IP` 的云厂商 /16——海外腾讯游戏需要；代价是国服游戏的反作弊流量也进 Game Platform
 - `HK_Domain` 的 `mixpanel` / `singular` / `braze`：与 EUNet 同类的 App SDK，走通用的 Proxy 组，影响有限
+- `EUNet_Domain` 的交易所名关键字（`htx`、`bwb`、`bingx`、`blockchain`）与 `OKX_Domain` 的 `okx`：会误伤少量冷门国内站点，但交易所常换镜像域名，收窄有断连风险
+- `HK_Domain` 的 `biya`（BiyaPay）：没有 App 实际域名依据，保留关键字；误伤的 `biyao.com` 在 `Direct_Domain` 里单独直连
+- `SG_IP` 唯一的 `43.128.0.0/16` 被 `Game_IP` 的腾讯云段覆盖——保留 `Game_IP` 大段的代价
 - 仍在使用的服务 keyword：`JP_Domain` 的 `maya` / `globe` / `split`，`HK_Domain` 的 `chie` / `wechat`，`Game_Domain` 的 `telephony` / `fbsbx`
 
 收窄某平台规则前，需要有实际域名依据（抓包或连接日志），不要凭推测改端点。

@@ -1,9 +1,9 @@
 # NAME: Direct_Domain
-# UPDATED: 2026-09-24
+# UPDATED: 2026-09-25
 # DOMAIN: 43
-# DOMAIN-SUFFIX: 57
+# DOMAIN-SUFFIX: 61
 # DOMAIN-KEYWORD: 12
-# TOTAL: 112
+# TOTAL: 116
 DOMAIN,ad.10010.com
 DOMAIN,ad.12306.cn
 DOMAIN,ain.bgm.tv
@@ -266,3 +266,9 @@ DOMAIN-SUFFIX,agkn.com
 DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,kochava.com
+# 国内站点的港美域名：China_Domain 里也有，但排在 ProxyGFWlist 的 .hk / .us 顶级域后缀之后，永远命中不到
+DOMAIN-SUFFIX,tmall.hk
+DOMAIN-SUFFIX,jd.hk
+DOMAIN-SUFFIX,xiumi.us
+# 必要商城：HK_Domain 的 biya 关键字（BiyaPay）会把它带进代理
+DOMAIN-SUFFIX,biyao.com

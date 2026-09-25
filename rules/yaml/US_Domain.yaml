@@ -1,5 +1,8 @@
 payload:
-  - DOMAIN-KEYWORD,tubi
+  - DOMAIN-SUFFIX,tubi.io
+  - DOMAIN-SUFFIX,tubi.tv
+  - DOMAIN-SUFFIX,tubi.video
+  - DOMAIN-SUFFIX,tubitv.com
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,coze.com
   - DOMAIN-SUFFIX,vaxee.co
@@ -19,7 +22,8 @@ payload:
   - DOMAIN-KEYWORD,firstrade
   - DOMAIN-KEYWORD,zellepay
   - DOMAIN-KEYWORD,cashapp
-  - DOMAIN-KEYWORD,chime
+  - DOMAIN-SUFFIX,chime.com
+  - DOMAIN-SUFFIX,chimebank.com
   - DOMAIN-KEYWORD,kalshi
   - DOMAIN-KEYWORD,bitpay
   - DOMAIN-KEYWORD,westernunion

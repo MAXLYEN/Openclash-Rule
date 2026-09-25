@@ -1,8 +1,8 @@
 # NAME: HK_Domain
-# UPDATED: 2026-09-24
+# UPDATED: 2026-09-25
 # DOMAIN-SUFFIX: 8
-# DOMAIN-KEYWORD: 39
-# TOTAL: 47
+# DOMAIN-KEYWORD: 38
+# TOTAL: 46
 # === 以下合并自 HK.list ===
 #亚洲-香港分流
 DOMAIN-SUFFIX,com.hk
@@ -55,6 +55,6 @@ DOMAIN-KEYWORD,stcserver
 DOMAIN-KEYWORD,stc-server
 DOMAIN-KEYWORD,stcspades
 DOMAIN-KEYWORD,stc-spades
-DOMAIN-KEYWORD,mushroomtrack
+# [已停用-分组冲突] DOMAIN-KEYWORD,mushroomtrack  ← 应走 AUNet，由 AU_Domain 的 mushroomtrack.com 接管
 DOMAIN-KEYWORD,wechat
 DOMAIN-KEYWORD,chie

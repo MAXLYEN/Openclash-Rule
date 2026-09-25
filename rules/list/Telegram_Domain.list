@@ -1,9 +1,9 @@
 # NAME: Telegram_Domain
-# UPDATED: 2026-08-04
+# UPDATED: 2026-09-25
 # DOMAIN: 2
-# DOMAIN-SUFFIX: 22
+# DOMAIN-SUFFIX: 25
 # DOMAIN-KEYWORD: 1
-# TOTAL: 25
+# TOTAL: 28
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
 DOMAIN-SUFFIX,cdn-telegram.org
@@ -29,3 +29,7 @@ DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,tx.me
 DOMAIN-SUFFIX,usercontent.dev
 DOMAIN-KEYWORD,nicegram
+# 补自上游 geosite:telegram：Fragment 与 TON，原先落到 Instant Messaging
+DOMAIN-SUFFIX,fragment.com
+DOMAIN-SUFFIX,ton.org
+DOMAIN-SUFFIX,toncenter.com
