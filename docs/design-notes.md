@@ -97,6 +97,7 @@ match GeoSite(category-ai-!cn) using Optional
 - `list/` 中删除的文件，其 `yaml/` 产物自动清理
 - 内容无变化的文件不重写，不产生空提交
 - 校验不通过时**不提交任何内容**，`yaml/` 保持上一个正确版本
+- 推送后刷新 jsdelivr 缓存，范围是本次运行前后远端 main 上有变化的 `rules/yaml/*.yaml`，不论变化来自 bot 提交还是本地跑完 `build.py` 后一起推上来的（后者 bot 无可提交，只看 bot 提交会漏刷）
 
 ---
 

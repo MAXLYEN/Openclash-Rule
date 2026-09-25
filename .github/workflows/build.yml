@@ -50,7 +50,6 @@ jobs:
             exit 0
           fi
           COUNT=$(git diff --cached --name-only | wc -l)
-          git diff --cached --name-only | grep '^rules/yaml/.*\.yaml$' > /tmp/changed.txt || true
           git commit -m "chore: 重新生成规则产物（${COUNT} 个文件）" -m "来源提交 ${GITHUB_SHA::7}"
           # 构建期间 main 可能被推进（只改 README / docs 的推送不触发本 workflow，
           # 不受 concurrency 保护），直接 push 会被拒。先 rebase 再重试；
@@ -70,9 +69,32 @@ jobs:
         # 规则产物走 rule-provider，客户端的更新延迟 = jsdelivr CDN 缓存 + provider interval
         # 两层叠加。这一步把 CDN 那层消掉，剩下的就只有 interval。
         # 必须排在 git push 之后：purge 会让 jsdelivr 立即回源，推送之前回源拿到的还是旧内容。
+        #
+        # 刷新哪些文件，看的是「本次运行前后远端 main 上哪些 rules/yaml 变了」，
+        # 而不是 bot 自己的提交：在本地跑过 build.py、把 yaml 一起推上来时，bot 无可提交，
+        # 只看 bot 提交会一个都不刷（例如 b57c37a 改了 5 个 yaml，CI 打印「无 yaml 变动」）。
+        # 基准 BASE：push 用推送前的远端 tip（event.before）；手动运行用 GITHUB_SHA，
+        # 此时只有 bot 提交可能改变 yaml。/tmp/rule_sha 存在即表示本地 HEAD 已在远端。
         if: always()
         continue-on-error: true
+        env:
+          EVENT_BEFORE: ${{ github.event_name == 'push' && github.event.before || '' }}
         run: |
+          [ -f /tmp/rule_sha ] || { echo "产物未推送到远端，跳过"; exit 0; }
+          if [ "$GITHUB_EVENT_NAME" = push ]; then BASE="$EVENT_BEFORE"; else BASE="$GITHUB_SHA"; fi
+          if [ -n "$BASE" ] && [ "$BASE" != 0000000000000000000000000000000000000000 ]; then
+            # checkout 是浅克隆，event.before 通常不在本地；diff 只需两端的树，单独取回即可
+            git cat-file -e "$BASE^{commit}" 2>/dev/null \
+              || git fetch --no-tags --depth=1 origin "$BASE" 2>/dev/null || true
+          fi
+          if [ -n "$BASE" ] && git cat-file -e "$BASE^{commit}" 2>/dev/null; then
+            git diff --name-only "$BASE" HEAD -- 'rules/yaml/*.yaml' > /tmp/changed.txt
+            echo "相对 ${BASE::7} 变化 $(wc -l < /tmp/changed.txt) 个 yaml"
+          else
+            # 无基准（新分支）或取不到（被强推覆盖后已不可达）：全部刷新
+            ls rules/yaml/*.yaml > /tmp/changed.txt
+            echo "基准 ${BASE:-（无）} 不可用，全部刷新"
+          fi
           [ -s /tmp/changed.txt ] || { echo "无 yaml 变动，跳过"; exit 0; }
           n=0
           while read -r f; do
