@@ -63,7 +63,7 @@ match GeoSite(category-ai-!cn) using Optional
 |---|---|
 | `scripts/build.py` | 规范化 list、生成 yaml、补齐配对、清理孤儿产物 |
 | `scripts/validate.py` | 用 YAML 解析器校验产物，与源文件逐条比对（内容与顺序） |
-| `scripts/dedupe.py` | 按 Openclash-Config 的规则链做首命中模拟，停用 / 恢复冗余规则（手动或配置仓库触发） |
+| `scripts/dedupe.py` | 按 Openclash-Config 的规则链做首命中模拟，停用 / 恢复冗余域名规则（手动或配置仓库触发）；IP 规则的覆盖关系只出报告。GEOSITE / GEOIP 行不展开——路由器实际使用的 geodata 版本不确定 |
 | `.github/workflows/build.yml` | 监听 `rules/list/**` 变化，自动构建并提交 |
 
 ### 自动修复项

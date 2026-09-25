@@ -11,6 +11,10 @@
   A 同组冗余   被更早的规则命中，且目标分组相同 -> 删了行为完全不变，可安全停用
   B 文件内重复 同一文件里被自己更宽的规则包含   -> 同上
   C 异组冲突   被更早的规则命中，但目标分组不同 -> 行为会变，**只报告不处理**
+  D IP 覆盖    IP-CIDR 被链上更早的段完整包含（分异组 / 同组）-> **只报告不处理**
+
+局限：GEOSITE / GEOIP 行不展开（路由器实际使用的 geodata 版本不确定，
+按 v2fly 展开的结论可能与真实行为不符），模拟时视为不存在。
 
 --apply 只处理 A 和 B，且遵循本仓库既有约定：**注释停用而非删除**，
 前缀 `# [已停用-冗余]`，随时可恢复。C 类永远需要人工判断。
@@ -20,7 +24,7 @@
     python3 scripts/dedupe.py --apply            # 停用 A/B 两类
     python3 scripts/dedupe.py --ini <路径或URL>  # 指定规则链来源
 """
-import os, re, sys, argparse, urllib.request
+import os, re, sys, argparse, ipaddress, urllib.request
 from collections import Counter, defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -144,6 +148,49 @@ def analyse(chain):
     return redundant, restore, keep_off, conflict, missing
 
 
+def analyse_ip(chain):
+    """IP 规则的首命中模拟，**只报告**。
+
+    一条 IP-CIDR 被链上更早的某个段完整包含时，它永远不会被命中。
+    与域名部分不同，这里不做 --apply：链上夹着 GEOIP 行（本脚本看不到），
+    且大量重叠来自官方段之间（Netflix_IP 与 GlobalMedia_IP 互为副本、
+    Apple 17.0.0.0/8 覆盖 China_IP 里的 Apple 中国机房等），是否处理需要人工判断。
+
+    首命中取「链上位置最早」的包含段，而不是最宽的那个 —— 内核按顺序匹配。
+    查找按前缀长度逐级取上级网段查表，每条最多 32（v6 为已出现的前缀种类数）次，
+    避免两两比较。只处理完整包含；部分重叠（后者更宽）不算遮蔽。
+
+    返回 (cross, same)，元素为 (后者文件, 后者分组, 后者段, 前者文件, 前者分组, 前者段)。"""
+    seen = {}                     # (版本, 前缀长度, 网络号) -> (链上序号, 分组, 文件, 段)
+    lens = {4: set(), 6: set()}
+    cross, same = [], []
+    pos = 0
+    for grp, name in chain:
+        for lineno, typ, val, raw, was_off in (read_list(name) or []):
+            if was_off or typ not in ('IP-CIDR', 'IP-CIDR6'):
+                continue
+            try:
+                net = ipaddress.ip_network(val, strict=False)
+            except ValueError:
+                continue
+            pos += 1
+            hit = None
+            for p in lens[net.version]:
+                if p > net.prefixlen:
+                    continue
+                sup = net.supernet(new_prefix=p)
+                h = seen.get((net.version, p, int(sup.network_address)))
+                if h and (hit is None or h[0] < hit[0]):
+                    hit = h
+            if hit:
+                (same if hit[1] == grp else cross).append(
+                    (name, grp, str(net), hit[2], hit[1], hit[3]))
+            seen.setdefault((net.version, net.prefixlen, int(net.network_address)),
+                            (pos, grp, name, str(net)))
+            lens[net.version].add(net.prefixlen)
+    return cross, same
+
+
 def apply_changes(redundant, restore):
     files = set(redundant) | set(restore)
     for name in files:
@@ -188,6 +235,22 @@ def main():
     c = Counter((x[0], x[3]) for x in conflict)
     for (later, earlier), n in c.most_common(10):
         print('   %5d  %-30s 被 %s 提前命中' % (n, later, earlier))
+
+    # IP 部分只报告；IP 规则均为 no-resolve，只影响按 IP 直连的流量（游戏对战、语音、P2P 等）
+    ip_cross, ip_same = analyse_ip(chain)
+    print('\n【D IP 异组覆盖】共 %d 条：被链上更早的其他分组 IP 段完整包含，需人工判断'
+          % len(ip_cross))
+    c = Counter((x[0], x[3]) for x in ip_cross)
+    for (later, earlier), n in c.most_common(10):
+        ex = next(x for x in ip_cross if x[0] == later and x[3] == earlier)
+        print('   %5d  %-24s 被 %-18s 覆盖  例 %s ⊂ %s' % (n, later, earlier, ex[2], ex[5]))
+    wide = Counter('%s %s' % (x[3], x[5]) for x in ip_cross)
+    if wide:
+        print('   遮蔽最多的段：%s' % '、'.join('%s（%d 条）' % kv for kv in wide.most_common(5)))
+    print('【D IP 同组覆盖】共 %d 条：后者永不命中、删了行为不变；IP 规则不自动停用'
+          % len(ip_same))
+    for (later, earlier), n in Counter((x[0], x[3]) for x in ip_same).most_common(5):
+        print('   %5d  %-24s 被 %s 覆盖' % (n, later, earlier))
 
     if a.apply:
         if not total and not n_res:

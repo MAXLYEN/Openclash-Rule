@@ -6,6 +6,12 @@
 
 ---
 
+## 2026-09-25（六）
+
+- `dedupe.py` 新增【D IP 覆盖】报告：按规则链做 IP-CIDR 的首命中模拟，列出被更早的段完整包含的条目（分异组 / 同组）与遮蔽最多的段。**只报告不处理**——链上夹着看不到的 GEOIP 行，且大量重叠来自官方段之间，是否处理需要人工判断。首命中取链上最早的包含段；与逐条两两比较的实现核对结果完全一致（当前异组 228 条、同组 119 条），耗时约 0.3 秒
+- 当前报告中遮蔽最多的是 `Apple_IP` 的 `17.0.0.0/8`（覆盖 `China_IP_1` 里 56 段 Apple 中国机房）；同组覆盖主要是 `ChinaCompany_IP` 被 `China_IP` 完整包含（93 条）
+- GEOSITE / GEOIP 仍不展开：路由器实际使用的 geodata（Loyalsoldier / MetaCubeX）与 v2fly 不完全一致，展开后的结论可能与真实行为不符
+
 ## 2026-09-25（五）
 
 - `build.yml` / `dedupe.yml` 运行环境由 `ubuntu-latest` 固定为 `ubuntu-24.04`：GitHub 自 2026-10-19 起将 `ubuntu-latest` 迁移到 Ubuntu 26，固定版本避免运行环境在无改动的情况下变化。Openclash-Config 同步处理
