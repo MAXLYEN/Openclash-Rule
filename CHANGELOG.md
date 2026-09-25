@@ -6,6 +6,15 @@
 
 ---
 
+## 2026-09-25（九）
+
+按连接日志修正 LINE 日本版与 Yahoo 的分流：
+
+- `GlobalMedia_Domain` 停用 `line-cdn.net`、`line-scdn.net`（`[已停用-分组冲突]`）：LINE 全站通用的静态资源 CDN 排在 `JP_Domain` 之前，LINE 的图片、贴图、动态、新闻一直走 Global TV（HK），只有 `line.me` / `line-apps.com` 走 JPNet。现由 `JP_Domain` 接管；LINE TV 台湾版的 `linetv.tw` 仍留在 GlobalMedia
+- `GlobalMedia_Domain` 停用 `s.yimg.jp`（原为已停服的 GYAO!），由 `JP_Domain` 的 `yimg.jp` 接管
+- `JP_Domain` 补 `line-home.flvcdn.net`（LINE 首页视频，日志中落到 FINAL；`flvcdn.net` 用途不明，只收这个子域）和上游 geosite:line 的其余域名（`lin.ee`、`linegame.jp`、`linemobile.com` 等）
+- Yahoo 全球主站与公共资源定到 JPNet（用户指定）：`JP_Domain` 补 `yahoo.com`、`yahoo.net`、`yimg.com`、`yahoodns.net`、`yahooinc.com`、`yusercontent.com`、`ymail.com`，原先走 GFW 列表（Proxy=HK）。各国分站（`yahoo.com.hk`、`yahoo.com.sg`、`yahoo.co.uk` 等）仍归各自地区
+
 ## 2026-09-25（八）
 
 规则覆盖复查（首次把链上 GEOSITE 按 MetaCubeX 文本版展开做首命中模拟），并与另外两份独立分析交叉核对：

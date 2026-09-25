@@ -1,9 +1,9 @@
 # NAME: JP_Domain
 # UPDATED: 2026-09-25
 # DOMAIN: 1
-# DOMAIN-SUFFIX: 136
+# DOMAIN-SUFFIX: 156
 # DOMAIN-KEYWORD: 13
-# TOTAL: 150
+# TOTAL: 170
 #亚洲-日本分流
 DOMAIN-SUFFIX,co.jp
 DOMAIN-SUFFIX,com.jp
@@ -49,6 +49,14 @@ DOMAIN-SUFFIX,yahooapis.com
 DOMAIN-SUFFIX,yahoo-net.jp
 DOMAIN-SUFFIX,slim01.jp
 DOMAIN-SUFFIX,yahooapis.jp
+# Yahoo 全球主站与公共资源一律走 JPNet（用户指定）；各国分站（yahoo.com.hk / .sg / .co.uk 等）仍归各自地区
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,yahoo.net
+DOMAIN-SUFFIX,yimg.com
+DOMAIN-SUFFIX,yahoodns.net
+DOMAIN-SUFFIX,yahooinc.com
+DOMAIN-SUFFIX,yusercontent.com
+DOMAIN-SUFFIX,ymail.com
 # Yahoo! JAPAN リアルタイム / 知恵袋
 # [已停用-冗余] DOMAIN-SUFFIX,realtime.yahoo.co.jp  ← 文件内被 JP_Domain 包含
 # [已停用-冗余] DOMAIN-SUFFIX,chiebukuro.yahoo.co.jp  ← 文件内被 JP_Domain 包含
@@ -71,7 +79,22 @@ DOMAIN-SUFFIX,ad-hatena.com
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-cdn.net
+# LINE 首页视频，来自连接日志；flvcdn.net 本身用途不明，只收这个子域
+DOMAIN-SUFFIX,line-home.flvcdn.net
+# 补自上游 geosite:line
 DOMAIN-SUFFIX,lin.ee
+DOMAIN-SUFFIX,line-apps-beta.com
+DOMAIN-SUFFIX,line-apps-rc.com
+DOMAIN-SUFFIX,line-beta.me
+DOMAIN-SUFFIX,line.naver.jp
+DOMAIN-SUFFIX,nhncorp.jp
+DOMAIN-SUFFIX,gcld-line.com
+DOMAIN-SUFFIX,linegame.jp
+DOMAIN-SUFFIX,linemobile.com
+DOMAIN-SUFFIX,linefriends.com
+DOMAIN-SUFFIX,linemyshop.com
+DOMAIN-SUFFIX,lineshoppingseller.com
 DOMAIN-SUFFIX,line.biz
 DOMAIN-SUFFIX,linecorp.com
 # ===== LINE Manga =====

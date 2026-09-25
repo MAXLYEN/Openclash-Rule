@@ -677,8 +677,6 @@ payload:
   - DOMAIN-SUFFIX,kmplayer.com
   - DOMAIN-SUFFIX,kobuz.fr
   - DOMAIN-SUFFIX,ktvu.com
-  - DOMAIN-SUFFIX,line-cdn.net
-  - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,linetv.tw
   - DOMAIN-SUFFIX,litix.io
   - DOMAIN-SUFFIX,litv.tv
@@ -908,7 +906,6 @@ payload:
   - DOMAIN-SUFFIX,rthk.hk
   - DOMAIN-SUFFIX,rthk.org.hk
   - DOMAIN-SUFFIX,s-nbcnews.com
-  - DOMAIN-SUFFIX,s.yimg.jp
   - DOMAIN-SUFFIX,sbnation.com
   - DOMAIN-SUFFIX,scdn.co
   - DOMAIN-SUFFIX,screens-lab.jp

@@ -1,9 +1,9 @@
 # NAME: GlobalMedia_Domain
-# UPDATED: 2026-09-24
+# UPDATED: 2026-09-25
 # DOMAIN: 30
-# DOMAIN-SUFFIX: 1244
+# DOMAIN-SUFFIX: 1241
 # DOMAIN-KEYWORD: 24
-# TOTAL: 1298
+# TOTAL: 1295
 DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
 DOMAIN,api.okzy.tv
 DOMAIN,apm-misaka.biliapi.net
@@ -688,8 +688,8 @@ DOMAIN-SUFFIX,kktv.me
 DOMAIN-SUFFIX,kmplayer.com
 DOMAIN-SUFFIX,kobuz.fr
 DOMAIN-SUFFIX,ktvu.com
-DOMAIN-SUFFIX,line-cdn.net
-DOMAIN-SUFFIX,line-scdn.net
+# [已停用-分组冲突] DOMAIN-SUFFIX,line-cdn.net  ← LINE 全站通用的静态资源 CDN，排在 JP_Domain 之前会把 LINE 日本版的图片、贴图、动态带进 Global TV；由 JP_Domain 接管（LINE TV 台湾版保留 linetv.tw）
+# [已停用-分组冲突] DOMAIN-SUFFIX,line-scdn.net  ← LINE 全站通用的静态资源 CDN，排在 JP_Domain 之前会把 LINE 日本版的图片、贴图、动态带进 Global TV；由 JP_Domain 接管（LINE TV 台湾版保留 linetv.tw）
 DOMAIN-SUFFIX,linetv.tw
 DOMAIN-SUFFIX,litix.io
 DOMAIN-SUFFIX,litv.tv
@@ -921,7 +921,7 @@ DOMAIN-SUFFIX,rprimelab.com
 DOMAIN-SUFFIX,rthk.hk
 DOMAIN-SUFFIX,rthk.org.hk
 DOMAIN-SUFFIX,s-nbcnews.com
-DOMAIN-SUFFIX,s.yimg.jp
+# [已停用-分组冲突] DOMAIN-SUFFIX,s.yimg.jp  ← Yahoo! JAPAN 通用图片 CDN（原为已停服的 GYAO!），由 JP_Domain 的 yimg.jp 接管
 DOMAIN-SUFFIX,sbnation.com
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,screens-lab.jp

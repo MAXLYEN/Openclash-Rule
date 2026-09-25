@@ -986,6 +986,8 @@ payload:
   - DOMAIN-SUFFIX,kakaocdn.net
   - DOMAIN-SUFFIX,lin.ee
   - DOMAIN-SUFFIX,line-cdn.net
+  - DOMAIN-SUFFIX,line.naver.jp
+  - DOMAIN-SUFFIX,nhncorp.jp
   - DOMAIN,cloud.oracle.com
   - DOMAIN-SUFFIX,oraclecloud.com
   - DOMAIN-KEYWORD,1drv
