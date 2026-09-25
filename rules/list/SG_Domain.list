@@ -1,8 +1,8 @@
 # NAME: SG_Domain
-# UPDATED: 2026-09-24
-# DOMAIN-SUFFIX: 22
+# UPDATED: 2026-09-25
+# DOMAIN-SUFFIX: 21
 # DOMAIN-KEYWORD: 30
-# TOTAL: 52
+# TOTAL: 51
 #亚洲-新加坡分流
 #实体金融
 DOMAIN-KEYWORD,ocbc
@@ -35,7 +35,7 @@ DOMAIN-KEYWORD,longbridge
 DOMAIN-KEYWORD,itiger
 DOMAIN-KEYWORD,poems
 DOMAIN-KEYWORD,lbkrs
-DOMAIN-SUFFIX,crypto.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,crypto.com  ← 交由 CryptoCom_Domain（Cryptocurrency 组）接管，切换交易所出口时一并跟随
 #Bybit
 DOMAIN-SUFFIX,bybit.biz
 DOMAIN-KEYWORD,byd3c3

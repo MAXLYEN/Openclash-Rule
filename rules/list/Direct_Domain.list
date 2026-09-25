@@ -1,9 +1,9 @@
 # NAME: Direct_Domain
 # UPDATED: 2026-09-25
 # DOMAIN: 43
-# DOMAIN-SUFFIX: 61
+# DOMAIN-SUFFIX: 75
 # DOMAIN-KEYWORD: 12
-# TOTAL: 116
+# TOTAL: 130
 DOMAIN,ad.10010.com
 DOMAIN,ad.12306.cn
 DOMAIN,ain.bgm.tv
@@ -272,3 +272,19 @@ DOMAIN-SUFFIX,jd.hk
 DOMAIN-SUFFIX,xiumi.us
 # 必要商城：HK_Domain 的 biya 关键字（BiyaPay）会把它带进代理
 DOMAIN-SUFFIX,biyao.com
+# 国内游戏站：Game_Domain 的 pubg / roblox / supercell / brawlstars 关键字会把它们带进 Game Platform
+# 前 9 个在 v2fly category-games-cn（不在 category-games@cn，⑦ 的 GEOSITE 接不住），后 5 个在 geosite:cn
+DOMAIN-SUFFIX,brawlstars.cn
+DOMAIN-SUFFIX,pubghelper.com
+DOMAIN-SUFFIX,pubgno1.cn
+DOMAIN-SUFFIX,pubgtool.com
+DOMAIN-SUFFIX,roblox.cn
+DOMAIN-SUFFIX,roblox.qq.com
+DOMAIN-SUFFIX,robloxdev.cn
+DOMAIN-SUFFIX,supercellcommunity.cn
+DOMAIN-SUFFIX,supercellsupport.cn
+DOMAIN-SUFFIX,cnpubg.com
+DOMAIN-SUFFIX,pubg.plus
+DOMAIN-SUFFIX,pubg8x.com
+DOMAIN-SUFFIX,pubgkam.com
+DOMAIN-SUFFIX,pubgzh-cn.vip

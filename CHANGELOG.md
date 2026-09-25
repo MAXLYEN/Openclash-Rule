@@ -6,6 +6,16 @@
 
 ---
 
+## 2026-09-25（十）
+
+Openclash-Config v2.10 撤除内联内容规则（规则内容一律放本仓库）后，把归属在规则内容层面恢复，并处理同日覆盖复查的两项：
+
+- 新增成对的 `CryptoCom_Domain` / `CryptoCom_IP`（IP 侧为占位）：`crypto.com` 原靠 Config 的内联 `[]DOMAIN-SUFFIX,crypto.com` 归 Cryptocurrency 组，撤除后首命中落到 `SG_Domain`（SGNet），切换 Cryptocurrency 组时不跟随。`SG_Domain` 的 `crypto.com` 以 `[已停用-分组冲突]` 停用。单独成集而不放进 `OKX_Domain` / `Binance_Domain`，避免串味。**需要 Config 在 `OKX_Domain` 之前引用、挂 Cryptocurrency 组**；引用前由 ⑨ 之后的 `GEOSITE,category-cryptocurrency` 兜底，同样落在 Cryptocurrency 组
+- `Netflix_Domain` 停用 `DOMAIN-KEYWORD,netflix`（`[已停用-范围过宽]`）：它排在 `Emby_Domain` 之前，截走了 Emby 服 `notnetflix.cos.cat`。上游 v2fly、MetaCubeX geosite:netflix、blackmatrix7 Netflix 列表都没有这个关键字，其后缀本文件已全部收录，Netflix 实际域名不受影响。被它判为冗余的 `netflixdnstest` 关键字由 `dedupe.py` 恢复。`GlobalMedia_Domain` 的 `dashasiafox.akamaized.netflix` 随之由 Global TV 接管。不需要改 Config
+- 新增成对的 `HuluJP_Domain` / `HuluJP_IP`（IP 侧为占位）：`hulu.jp`、`happyon.jp`、`hjholdings.jp`、`streaks.jp`、`yb.uncn.jp`（与 blackmatrix7 HuluJP 列表一致）和 HJ Holdings 的 `prod.hjholdings.tv`。日本 Hulu 需要日本 IP，原在 `Hulu_Domain` 跟着 Hulu 组走 USNet；按「仅共用地区节点的归锚点组」归 JPNet（先例 `AppleAI_Domain` → USNet）。`Hulu_Domain` 的这 6 条以 `[已停用-分组冲突]` 停用；`GlobalMedia_Domain` 的同名条目本就是异组冲突，不动。**需要 Config 在 `Hulu_Domain` 之前引用、挂 JPNet**——geosite:disney 含 `+.hulu.jp`，也必须排在 `GEOSITE,disney` 之前。引用前 `hulu.jp` 落到 Disney+、其余 5 个落到 `GlobalMedia_Domain`（Global TV），都不是日本出口
+- `Direct_Domain` 补 14 个国内游戏站：`Game_Domain` 的 `pubg`、`roblox`、`supercell`、`brawlstars` 关键字把它们带进 Game Platform。其中 `brawlstars.cn`、`pubghelper.com`、`pubgno1.cn`、`pubgtool.com`、`roblox.cn`、`roblox.qq.com`、`robloxdev.cn`、`supercellcommunity.cn`、`supercellsupport.cn` 在 v2fly category-games-cn（但不在 Config ⑦ 引用的 `category-games@cn` 里），`cnpubg.com`、`pubg.plus`、`pubg8x.com`、`pubgkam.com`、`pubgzh-cn.vip` 在 geosite:cn。关键字不收窄：上游 pubg 列表只有 `pubg.com`、`playbattlegrounds.com`、`kraftonde.com`，收窄会断 `pubgmobile.com` 等
+- 未处理：`igamecj`、`gpubgm`、`amsoveasea`、`onezapp`、`tdatamaster`、`vasdgame`、`wetest*`、`supercell.com`、`clashroyaleapp.com`、`proximabeta`、`anticheatexpert`、`hk/nagcloudcs` 虽在 geosite:cn，实为海外游戏基础设施或已列入有意保留
+
 ## 2026-09-25（九）
 
 按连接日志修正 LINE 日本版与 Yahoo 的分流：

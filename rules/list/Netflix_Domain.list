@@ -1,5 +1,5 @@
 # NAME: Netflix_Domain
-# UPDATED: 2026-09-24
+# UPDATED: 2026-09-25
 # DOMAIN: 3
 # DOMAIN-SUFFIX: 27
 # DOMAIN-KEYWORD: 9
@@ -43,9 +43,9 @@ DOMAIN-KEYWORD,nflxsearch
 DOMAIN-KEYWORD,nflxso
 # [已停用-范围过宽] DOMAIN-KEYWORD,onetrust  ← 会匹配其他站点的隐私管理域名
 # [已停用-范围过宽] DOMAIN-KEYWORD,amazonaws  ← 会将其他 AWS 客户流量送到 Netflix
-DOMAIN-KEYWORD,netflix
+# [已停用-范围过宽] DOMAIN-KEYWORD,netflix  ← 截走 Emby 服 notnetflix.cos.cat 等含 netflix 字样的域名；上游 v2fly / MetaCubeX / blackmatrix7 的 netflix 列表均无此关键字，其后缀已全部在本文件
 DOMAIN-KEYWORD,nflxvideo
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,dualstack.apiproxy-
 DOMAIN-KEYWORD,dualstack.ichnaea-web-
-# [已停用-冗余] DOMAIN-KEYWORD,netflixdnstest  ← 文件内被 Netflix_Domain 包含
+DOMAIN-KEYWORD,netflixdnstest

@@ -1,0 +1,7 @@
+# NAME: CryptoCom_Domain
+# UPDATED: 2026-09-25
+# DOMAIN-SUFFIX: 1
+# TOTAL: 1
+# Crypto.com 交易所：独立于 OKX / Binance 规则集，避免串味；配置中挂 Cryptocurrency 组
+# 原在 SG_Domain（SGNet），切换 Cryptocurrency 组时不会跟随
+DOMAIN-SUFFIX,crypto.com

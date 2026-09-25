@@ -1,8 +1,8 @@
 # NAME: Hulu_Domain
-# UPDATED: 2026-08-04
+# UPDATED: 2026-09-25
 # DOMAIN: 1
-# DOMAIN-SUFFIX: 57
-# TOTAL: 58
+# DOMAIN-SUFFIX: 51
+# TOTAL: 52
 DOMAIN,live-mediashield-ava-hulustream-com.akamaized.net
 DOMAIN-SUFFIX,112263.com
 DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
@@ -10,8 +10,8 @@ DOMAIN-SUFFIX,callhulu.com
 DOMAIN-SUFFIX,cws-hulu.conviva.com
 DOMAIN-SUFFIX,findyourlimits.com
 DOMAIN-SUFFIX,freehulu.com
-DOMAIN-SUFFIX,happyon.jp
-DOMAIN-SUFFIX,hjholdings.jp
+# [已停用-分组冲突] DOMAIN-SUFFIX,happyon.jp  ← Hulu 日本需要日本 IP，交由 HuluJP_Domain（JPNet）接管
+# [已停用-分组冲突] DOMAIN-SUFFIX,hjholdings.jp  ← Hulu 日本需要日本 IP，交由 HuluJP_Domain（JPNet）接管
 DOMAIN-SUFFIX,hooloo.tv
 DOMAIN-SUFFIX,hoolu.com
 DOMAIN-SUFFIX,hoolu.tv
@@ -20,7 +20,7 @@ DOMAIN-SUFFIX,huloo.cc
 DOMAIN-SUFFIX,huloo.tv
 DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,hulu.hb.omtrdc.net
-DOMAIN-SUFFIX,hulu.jp
+# [已停用-分组冲突] DOMAIN-SUFFIX,hulu.jp  ← Hulu 日本需要日本 IP，交由 HuluJP_Domain（JPNet）接管
 DOMAIN-SUFFIX,hulu.playback.edge.bamgrid.com
 DOMAIN-SUFFIX,hulu.sc.omtrdc.net
 DOMAIN-SUFFIX,hulu.tv
@@ -55,9 +55,9 @@ DOMAIN-SUFFIX,mushymush.tv
 DOMAIN-SUFFIX,myhulu.com
 DOMAIN-SUFFIX,originalhulu.com
 DOMAIN-SUFFIX,payhulu.com
-DOMAIN-SUFFIX,prod.hjholdings.tv
+# [已停用-分组冲突] DOMAIN-SUFFIX,prod.hjholdings.tv  ← Hulu 日本需要日本 IP，交由 HuluJP_Domain（JPNet）接管
 DOMAIN-SUFFIX,registerhulu.com
-DOMAIN-SUFFIX,streaks.jp
+# [已停用-分组冲突] DOMAIN-SUFFIX,streaks.jp  ← Hulu 日本需要日本 IP，交由 HuluJP_Domain（JPNet）接管
 DOMAIN-SUFFIX,thehulubraintrust.com
 DOMAIN-SUFFIX,wwwhuluplus.com
-DOMAIN-SUFFIX,yb.uncn.jp
+# [已停用-分组冲突] DOMAIN-SUFFIX,yb.uncn.jp  ← Hulu 日本需要日本 IP，交由 HuluJP_Domain（JPNet）接管

@@ -1,0 +1,12 @@
+# NAME: HuluJP_Domain
+# UPDATED: 2026-09-25
+# DOMAIN-SUFFIX: 6
+# TOTAL: 6
+# Hulu 日本（运营方 HJ Holdings）：需要日本 IP，配置中挂 JPNet，且须排在 Hulu_Domain 与 GEOSITE,disney（含 +.hulu.jp）之前
+# 前 5 条与 blackmatrix7 ios_rule_script 的 HuluJP.list 一致；prod.hjholdings.tv 为 HJ Holdings 的播放端点
+DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,hjholdings.jp
+DOMAIN-SUFFIX,hulu.jp
+DOMAIN-SUFFIX,prod.hjholdings.tv
+DOMAIN-SUFFIX,streaks.jp
+DOMAIN-SUFFIX,yb.uncn.jp
