@@ -111,6 +111,10 @@ payload:
   - DOMAIN-SUFFIX,biggggg.com
   - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,biliintl.com
+  - DOMAIN-SUFFIX,biliintl.co
+  - DOMAIN,p-bstarstatic.akamaized.net
+  - DOMAIN,upos-bstar-mirrorakam.akamaized.net
+  - DOMAIN,upos-bstar1-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,bitmovin.com
   - DOMAIN-SUFFIX,bootstrapcdn.com
   - DOMAIN-SUFFIX,bowenpress.com
@@ -997,8 +1001,6 @@ payload:
   - DOMAIN-SUFFIX,uplynk.com
   - DOMAIN-SUFFIX,urduvoa.com
   - DOMAIN-SUFFIX,usanetwork.com
-  - DOMAIN-SUFFIX,v.smtcdns.com
-  - DOMAIN-SUFFIX,v.smtcdns.net
   - DOMAIN-SUFFIX,vhx.tv
   - DOMAIN-SUFFIX,vhxqa1.com
   - DOMAIN-SUFFIX,vhxqa2.com

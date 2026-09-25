@@ -33,7 +33,6 @@ payload:
   - DOMAIN-KEYWORD,binpay
   - DOMAIN-KEYWORD,taptapsend
   - DOMAIN-KEYWORD,hyperpay
-  - DOMAIN-KEYWORD,backpack
   - DOMAIN-SUFFIX,expo.dev
   - DOMAIN-KEYWORD,madlads
   - DOMAIN-KEYWORD,bpinfra

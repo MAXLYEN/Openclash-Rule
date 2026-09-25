@@ -1,9 +1,9 @@
 # NAME: ChinaMedia_Domain
-# UPDATED: 2026-08-04
-# DOMAIN: 71
-# DOMAIN-SUFFIX: 236
+# UPDATED: 2026-09-24
+# DOMAIN: 67
+# DOMAIN-SUFFIX: 233
 # DOMAIN-KEYWORD: 2
-# TOTAL: 309
+# TOTAL: 302
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com
@@ -53,10 +53,10 @@ DOMAIN,3geauymtsgrzdnqbofa5dy.ourdvsss.com
 DOMAIN,3geauymtsgrzdrcbzfahue.ourdvsss.com
 DOMAIN,3geauymtsgrzdrcbzfahuk.ourdvsss.com
 DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com
-DOMAIN,p-bstarstatic.akamaized.net
-DOMAIN,p.bstarstatic.com
-DOMAIN,upos-bstar-mirrorakam.akamaized.net
-DOMAIN,upos-bstar1-mirrorakam.akamaized.net
+# [已停用-分组冲突] DOMAIN,p-bstarstatic.akamaized.net  ← B 站国际版（bstar），移至 GlobalMedia_Domain 走 Global TV
+# [已停用-分组冲突] DOMAIN,p.bstarstatic.com  ← B 站国际版（bstar），移至 GlobalMedia_Domain 走 Global TV
+# [已停用-分组冲突] DOMAIN,upos-bstar-mirrorakam.akamaized.net  ← B 站国际版（bstar），移至 GlobalMedia_Domain 走 Global TV
+# [已停用-分组冲突] DOMAIN,upos-bstar1-mirrorakam.akamaized.net  ← B 站国际版（bstar），移至 GlobalMedia_Domain 走 Global TV
 DOMAIN,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net
 DOMAIN,17caa75e77d31e1f5a7841e0b3374569.dlied1.cdntips.net
 DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net
@@ -96,7 +96,7 @@ DOMAIN-SUFFIX,bilibili.cn
 DOMAIN-SUFFIX,bilibili.co
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.net
-DOMAIN-SUFFIX,bilibili.tv
+# [已停用-分组冲突] DOMAIN-SUFFIX,bilibili.tv  ← B 站国际版（bstar），移至 GlobalMedia_Domain 走 Global TV
 DOMAIN-SUFFIX,bilibiligame.cn
 DOMAIN-SUFFIX,bilibiligame.co
 DOMAIN-SUFFIX,bilibiligame.net
@@ -114,8 +114,8 @@ DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biligame.net
 DOMAIN-SUFFIX,biligo.com
 DOMAIN-SUFFIX,biliimg.com
-DOMAIN-SUFFIX,biliintl.co
-DOMAIN-SUFFIX,biliintl.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,biliintl.co  ← B 站国际版（bstar），移至 GlobalMedia_Domain 走 Global TV
+# [已停用-分组冲突] DOMAIN-SUFFIX,biliintl.com  ← B 站国际版（bstar），移至 GlobalMedia_Domain 走 Global TV
 DOMAIN-SUFFIX,biliplus.com
 DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,bilivideo.com

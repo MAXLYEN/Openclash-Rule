@@ -104,7 +104,6 @@ payload:
   - DOMAIN-KEYWORD,vip.kuaikan-cdn
   - DOMAIN-KEYWORD,vip.lz-cdn
   - DOMAIN-KEYWORD,wanfangdata
-  - DOMAIN-KEYWORD,wb_ad
   - DOMAIN-SUFFIX,weather-adge.apple.com
   - DOMAIN-SUFFIX,weather-edge.apple.com
   - DOMAIN-KEYWORD,westlawchina

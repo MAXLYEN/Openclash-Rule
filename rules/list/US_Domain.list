@@ -1,8 +1,8 @@
 # NAME: US_Domain
 # UPDATED: 2026-09-24
 # DOMAIN-SUFFIX: 22
-# DOMAIN-KEYWORD: 29
-# TOTAL: 51
+# DOMAIN-KEYWORD: 27
+# TOTAL: 49
 #美洲分流
 #娱乐生活
 DOMAIN-KEYWORD,tubi
@@ -16,7 +16,7 @@ DOMAIN-KEYWORD,tiktok
 #DOMAIN-SUFFIX,gstatic.com
 DOMAIN-KEYWORD,copilot
 DOMAIN-KEYWORD,grok
-DOMAIN-KEYWORD,claude
+# [已停用-范围过宽] DOMAIN-KEYWORD,claude  ← 常见人名；Claude 已由更靠前的 Claude_Domain（同为 USNet）完整收录
 DOMAIN-KEYWORD,chatgpt
 #实体金融
 DOMAIN-KEYWORD,capitalone
@@ -71,7 +71,7 @@ DOMAIN-KEYWORD,brazaon
 # Backpack（钱包站 + 交易所站）
 DOMAIN-SUFFIX,backpack.app
 DOMAIN-SUFFIX,backpack.exchange
-DOMAIN-KEYWORD,backpack
+# [已停用-范围过宽] DOMAIN-KEYWORD,backpack  ← 常见英文单词；上两行 backpack.app / backpack.exchange 已精确收录
 # Cursor 为独立 AI 应用，沿用美国节点，不并入 ChatGPT 专属组
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh

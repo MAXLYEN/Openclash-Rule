@@ -8,7 +8,6 @@ payload:
   - DOMAIN-KEYWORD,tiktok
   - DOMAIN-KEYWORD,copilot
   - DOMAIN-KEYWORD,grok
-  - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,chatgpt
   - DOMAIN-KEYWORD,capitalone
   - DOMAIN-KEYWORD,eastwestbank
@@ -46,7 +45,6 @@ payload:
   - DOMAIN-KEYWORD,brazaon
   - DOMAIN-SUFFIX,backpack.app
   - DOMAIN-SUFFIX,backpack.exchange
-  - DOMAIN-KEYWORD,backpack
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,chase.com

@@ -6,6 +6,15 @@
 
 ---
 
+## 2026-09-25
+
+全链路复查的低风险项。
+
+- 停用 5 个宽泛 / 无效 keyword：`US_Domain` 的 `claude`（`Claude_Domain` 已同组完整收录）与 `backpack`（同文件已有 `backpack.app` / `backpack.exchange`）、`HK_Domain` 的 `backpack`、`UK_Domain` 的 `argent`（未在使用，命中 argentina）、`Direct_Domain` 的 `wb_ad`（含下划线恒不命中）
+- B 站 / 爱奇艺国际版改走 Global TV：`ChinaMedia_Domain` 停用 7 条国际版条目（`bilibili.tv`、`biliintl.co/.com`、bstar 静态与 CDN），缺的补进 `GlobalMedia_Domain`；`GlobalMedia_Domain` 停用 `v.smtcdns.com/.net`（腾讯视频国内外共用）。**需配合 Openclash-Config 把 `ChinaMedia_Domain` 移到 `GlobalMedia_Domain` 之后**，否则 `ChinaMedia` 的 `bilibili` / `qiyi` keyword 与 `iqiyi.com` 后缀仍会先命中国际版；模拟确认调整后只有 9 个国际版域名改变去向
+- **有意保留**（在用）：`JP_Domain` 的 `maya` / `globe` / `split`，`HK_Domain` 的 `chie` / `wechat`，`Game_Domain` 的 `telephony` / `fbsbx`
+- 不改（设计取舍）：FINAL 走代理、官方来源的大 IP 段、`HDOBOXAds_Domain` 的 `doubleclick.net`、`Custom_Direct_Domain` 的 `jsdelivr.net`
+
 ## 2026-09-24（五）
 
 - `Game_Domain`：`gcloudcs` 会同时命中国服腾讯游戏云 `gcloudcs.com`，收窄为海外端点 `hkgcloudcs.com` / `nagcloudcs.com`（依据 v2fly `tencent-games`）；国内端点交由 `GEOSITE,cn`（经 `geolocation-cn` → `tencent`）直连

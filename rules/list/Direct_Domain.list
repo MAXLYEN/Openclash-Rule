@@ -2,8 +2,8 @@
 # UPDATED: 2026-09-24
 # DOMAIN: 43
 # DOMAIN-SUFFIX: 57
-# DOMAIN-KEYWORD: 13
-# TOTAL: 113
+# DOMAIN-KEYWORD: 12
+# TOTAL: 112
 DOMAIN,ad.10010.com
 DOMAIN,ad.12306.cn
 DOMAIN,ain.bgm.tv
@@ -220,7 +220,7 @@ DOMAIN-KEYWORD,vip.ffzy-play
 DOMAIN-KEYWORD,vip.kuaikan-cdn
 DOMAIN-KEYWORD,vip.lz-cdn
 DOMAIN-KEYWORD,wanfangdata
-DOMAIN-KEYWORD,wb_ad
+# [已停用-范围过宽] DOMAIN-KEYWORD,wb_ad  ← 含下划线，域名中不可能出现，恒不命中
 DOMAIN-SUFFIX,weather-adge.apple.com
 DOMAIN-SUFFIX,weather-edge.apple.com
 DOMAIN-KEYWORD,westlawchina

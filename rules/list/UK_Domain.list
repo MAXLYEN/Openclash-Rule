@@ -2,8 +2,8 @@
 # UPDATED: 2026-09-24
 # DOMAIN: 3
 # DOMAIN-SUFFIX: 50
-# DOMAIN-KEYWORD: 40
-# TOTAL: 93
+# DOMAIN-KEYWORD: 39
+# TOTAL: 92
 # 英国地区聚合：本地银行、金融、通信与其他英国业务
 #英国分流
 DOMAIN-SUFFIX,co.uk
@@ -79,7 +79,7 @@ DOMAIN-SUFFIX,nsureapi.com
 # [已停用-跨平台共享服务] DOMAIN-SUFFIX,expo.dev
 DOMAIN-KEYWORD,freetrade
 DOMAIN-KEYWORD,kulipa
-DOMAIN-KEYWORD,argent
+# [已停用-范围过宽] DOMAIN-KEYWORD,argent  ← 未在使用；会命中所有含 argentina 的阿根廷站点
 # [已停用-跨平台共享服务] DOMAIN-KEYWORD,appsflyersdk
 # [已停用-跨平台共享服务] DOMAIN-KEYWORD,iterable
 # [已停用-跨平台共享服务] DOMAIN-KEYWORD,jibecloud
