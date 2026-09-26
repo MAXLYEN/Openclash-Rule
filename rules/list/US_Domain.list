@@ -132,9 +132,11 @@ DOMAIN-SUFFIX,stepfun.ai
 # 百炼美国地域独立 API
 DOMAIN,dashscope-us.aliyuncs.com
 DOMAIN-SUFFIX,us-east-1.maas.aliyuncs.com
-# Meta 其余官方产品、开发者平台与一方资源；meta.ai / meta.com 已由 UK_Domain 接管
+# Meta 官方产品、开发者平台与一方资源；一方主域统一由 US_Domain 接管
+DOMAIN-SUFFIX,meta.ai
 # Muse 官方入口及 auth.muse.ai、security.muse.ai 等子域；Meta 公告称先在美国推出
 DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,atmeta.com
 DOMAIN-SUFFIX,llama.com
 DOMAIN-SUFFIX,aboutfacebook.com

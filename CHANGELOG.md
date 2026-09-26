@@ -8,6 +8,7 @@
 
 ## 2026-09-26（AI 编程模型与 Meta 分流）
 
+- 按最终路由要求，撤销 `meta.ai` / `meta.com` 的 UKNet 例外，将两者及其子域改回 USNet；Meta 一方域名在本规则库目标策略组统一为 USNet。实际出口仍需核对路由器上 USNet 当前所选节点。
 - `meta.com` 及其子域跟随 `meta.ai` 改走 UKNet，覆盖 Meta 英国官网与 `ai.meta.com`；Muse 继续保持 USNet。
 - `meta.ai` 及其子域从 USNet 改为 UKNet：用户在原美国出口看到地区不可用提示；英国已在 Meta 公布的支持地区中。Muse 保持 USNet。
 - 补齐 Meta Muse 的独立入口 `muse.ai`，连同 `auth.muse.ai` 等子域走 USNet；`meta.ai` 原已在 USNet 规则中。
