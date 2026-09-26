@@ -5,6 +5,8 @@
 # DOMAIN-KEYWORD: 39
 # TOTAL: 102
 # 英国地区聚合：本地银行、金融、通信与其他英国业务
+# Meta AI 网页及 meta.ai 子域；官方已公布英国支持 Meta AI 网页
+DOMAIN-SUFFIX,meta.ai
 #英国分流
 DOMAIN-SUFFIX,co.uk
 #虚拟金融
