@@ -1,9 +1,9 @@
 # NAME: US_Domain
 # UPDATED: 2026-09-26
 # DOMAIN: 3
-# DOMAIN-SUFFIX: 121
+# DOMAIN-SUFFIX: 120
 # DOMAIN-KEYWORD: 25
-# TOTAL: 149
+# TOTAL: 148
 #美洲分流
 #娱乐生活
 # [已停用-范围过宽] DOMAIN-KEYWORD,tubi  ← 会命中 tubiaoxiu.com 等；改为上游 v2fly tubi 列表的域名
