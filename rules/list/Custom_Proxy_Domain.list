@@ -1,7 +1,7 @@
 # NAME: Custom_Proxy_Domain
 # UPDATED: 2026-09-25
-# DOMAIN-SUFFIX: 17
-# TOTAL: 17
+# DOMAIN-SUFFIX: 22
+# TOTAL: 22
 # 强制代理列表，来自个人收集
 # PS5 STUN
 DOMAIN-SUFFIX,stun.playstation.net
@@ -19,6 +19,14 @@ DOMAIN-SUFFIX,push.apple.com
 # 验证器
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,jishubai.com
+# Pyypl（阿联酋预付虚拟卡）：目前没有中东专属策略组，使用通用代理
+DOMAIN-SUFFIX,pyypl.com
+# Volet / Paxum 跨地区电子钱包与卡：无专属地区锚点，走通用代理
+DOMAIN-SUFFIX,volet.com
+DOMAIN-SUFFIX,paxum.com
+# Fasset 全球稳定币账户 / 卡：旧 .io 跳转至现用 .com
+DOMAIN-SUFFIX,fasset.com
+DOMAIN-SUFFIX,fasset.io
 # 统计 / 崩溃上报 / 归因 SDK：服务端按来源 IP 记录地区，直连会把国内 IP 报给 App 后台
 # （币安等交易所的风控会据此判定国内用户）。排在 GoogleCN_Domain / GEOSITE,google-cn / Direct_Domain 之前才能截住
 DOMAIN-SUFFIX,app-measurement.com

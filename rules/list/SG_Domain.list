@@ -1,8 +1,8 @@
 # NAME: SG_Domain
 # UPDATED: 2026-09-25
-# DOMAIN-SUFFIX: 21
+# DOMAIN-SUFFIX: 26
 # DOMAIN-KEYWORD: 30
-# TOTAL: 51
+# TOTAL: 56
 #亚洲-新加坡分流
 #实体金融
 DOMAIN-KEYWORD,ocbc
@@ -17,8 +17,15 @@ DOMAIN-KEYWORD,edgeone
 DOMAIN-KEYWORD,harvestsharp
 #Plasma 稳定币公链（XPL），官方文档在 plasma.to/docs
 DOMAIN-SUFFIX,plasma.to
+# plasma.to 已跳转至 plasma.org；Plasma One 卡也使用新主域
+DOMAIN-SUFFIX,plasma.org
 DOMAIN-KEYWORD,bigpay
 DOMAIN-KEYWORD,redotpay
+# 虚拟金融：稳定币卡 / 交易所卡 / 稳定币支付平台，只收官方主域
+DOMAIN-SUFFIX,kast.xyz
+DOMAIN-SUFFIX,pionex.com
+DOMAIN-SUFFIX,stables.money
+DOMAIN-SUFFIX,bitunix.com
 DOMAIN-KEYWORD,applanga
 DOMAIN-SUFFIX,com.sg
 DOMAIN-SUFFIX,com.my

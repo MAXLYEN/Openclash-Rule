@@ -1,8 +1,8 @@
 # NAME: EUNet_Domain
 # UPDATED: 2026-09-25
-# DOMAIN-SUFFIX: 40
+# DOMAIN-SUFFIX: 62
 # DOMAIN-KEYWORD: 143
-# TOTAL: 183
+# TOTAL: 205
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
 DOMAIN-KEYWORD,byffbb
@@ -35,6 +35,11 @@ DOMAIN-KEYWORD,mobilum
 DOMAIN-KEYWORD,bankera
 DOMAIN-KEYWORD,bybdc6
 DOMAIN-KEYWORD,bleap
+# 欧洲数字金融：Rebind 卡与 Mercuryo 入金服务官方主域
+DOMAIN-SUFFIX,rebind.co
+DOMAIN-SUFFIX,mercuryo.io
+# 瑞士数字金融企业账户
+DOMAIN-SUFFIX,holyheld.com
 DOMAIN-KEYWORD,portalhq
 DOMAIN-KEYWORD,appcenter
 DOMAIN-SUFFIX,gate.io
@@ -101,7 +106,12 @@ DOMAIN-KEYWORD,bitapi
 DOMAIN-KEYWORD,lymryy
 #whitebit
 DOMAIN-SUFFIX,whitebit.com
+# BloFin 交易所及虚拟卡
+DOMAIN-SUFFIX,blofin.com
+# BitMart 交易所及虚拟卡
+DOMAIN-SUFFIX,bitmart.com
 #weex
+DOMAIN-SUFFIX,weex.com
 DOMAIN-SUFFIX,janapw.com
 DOMAIN-SUFFIX,wkobosx.site
 DOMAIN-SUFFIX,weex3.com
@@ -147,6 +157,8 @@ DOMAIN-KEYWORD,fwimg
 DOMAIN-KEYWORD,bb-os
 DOMAIN-KEYWORD,great-api
 DOMAIN-KEYWORD,phantom
+# Solflare 钱包及面向 EEA / UK 的 Card 官方主域
+DOMAIN-SUFFIX,solflare.com
 DOMAIN-SUFFIX,exp.host
 DOMAIN-SUFFIX,wombat.systems
 DOMAIN-KEYWORD,moonpay
@@ -158,8 +170,31 @@ DOMAIN-KEYWORD,baanxapi
 DOMAIN-KEYWORD,exodus
 # [已停用-范围过宽] DOMAIN-KEYWORD,ramp  ← 会命中 trampoline / rampage 等；收窄为下一行的 ramp.network（Ramp Network）
 DOMAIN-SUFFIX,ramp.network
+# 法币与加密资产出入金平台的官方主域
+DOMAIN-SUFFIX,onramper.com
+DOMAIN-SUFFIX,alchemypay.org
+# 欧洲电子货币账户与数字银行
+DOMAIN-SUFFIX,paysera.com
+DOMAIN-SUFFIX,vivid.money
+# 欧洲证券 / 数字银行平台：Trade Republic 与 DEGIRO 官方主域
+DOMAIN-SUFFIX,traderepublic.com
+DOMAIN-SUFFIX,degiro.com
+# Bitstamp 当前主域；旧 .com 跳转到 .net
+DOMAIN-SUFFIX,bitstamp.net
+DOMAIN-SUFFIX,bitstamp.com
+# Kolo 卡现用 .xyz；旧 .in 仍跳转到现站
+DOMAIN-SUFFIX,kolo.xyz
+DOMAIN-SUFFIX,kolo.in
+# 新增金融平台：Brighty（返现 / IBAN / Sumsub）、Tuyo（低费用账户与卡）
+DOMAIN-SUFFIX,brighty.app
+DOMAIN-SUFFIX,tuyo.com
+# Offramp（低费用 ACH / SEPA 账户）、Deblock（欧元账户与卡）
+DOMAIN-SUFFIX,offramp.xyz
+DOMAIN-SUFFIX,deblock.com
 DOMAIN-KEYWORD,blockchain
 # [已停用-范围过宽] DOMAIN-KEYWORD,coca  ← 会命中 coca-cola 等
+# COCA 稳定币卡，精确后缀避免 coca 关键词误伤
+DOMAIN-SUFFIX,coca.xyz
 DOMAIN-KEYWORD,ipregistry
 DOMAIN-KEYWORD,amplitude
 # [已停用-范围过宽] DOMAIN-KEYWORD,exactly  ← 常见英文单词；收窄为下一行的 exact.ly（Exactly Protocol）

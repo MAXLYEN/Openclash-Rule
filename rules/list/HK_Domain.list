@@ -1,8 +1,8 @@
 # NAME: HK_Domain
 # UPDATED: 2026-09-25
-# DOMAIN-SUFFIX: 8
+# DOMAIN-SUFFIX: 10
 # DOMAIN-KEYWORD: 38
-# TOTAL: 46
+# TOTAL: 48
 # === 以下合并自 HK.list ===
 #亚洲-香港分流
 DOMAIN-SUFFIX,com.hk
@@ -32,6 +32,10 @@ DOMAIN-KEYWORD,ant-hkbank
 DOMAIN-KEYWORD,fusionbank
 DOMAIN-KEYWORD,welab
 #虚拟金融
+# Infini 稳定币账户 / 虚拟卡，官方主域
+DOMAIN-SUFFIX,infini.money
+# Reap 稳定币企业账户与 Visa 公司卡
+DOMAIN-SUFFIX,reap.global
 DOMAIN-KEYWORD,onekeycn
 DOMAIN-SUFFIX,onekey.so
 DOMAIN-SUFFIX,wise.com

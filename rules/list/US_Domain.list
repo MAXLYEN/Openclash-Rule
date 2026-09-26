@@ -1,8 +1,8 @@
 # NAME: US_Domain
 # UPDATED: 2026-09-25
-# DOMAIN-SUFFIX: 28
+# DOMAIN-SUFFIX: 40
 # DOMAIN-KEYWORD: 25
-# TOTAL: 53
+# TOTAL: 65
 #美洲分流
 #娱乐生活
 # [已停用-范围过宽] DOMAIN-KEYWORD,tubi  ← 会命中 tubiaoxiu.com 等；改为上游 v2fly tubi 列表的域名
@@ -30,6 +30,24 @@ DOMAIN-KEYWORD,bankofamerica
 DOMAIN-KEYWORD,us.hsbc.com
 #虚拟金融
 DOMAIN-SUFFIX,binance.us
+# ether.fi Cash 与 PlasBit 虚拟卡：仅收各自官方主域
+DOMAIN-SUFFIX,ether.fi
+DOMAIN-SUFFIX,plasbit.com
+# 企业账户 / 公司卡：平台自有主域，避免共用认证服务改变其他应用分流
+DOMAIN-SUFFIX,payoneer.com
+DOMAIN-SUFFIX,mercury.com
+DOMAIN-SUFFIX,brex.com
+DOMAIN-SUFFIX,ramp.com
+# SoFi 银行、卡与数字资产账户
+DOMAIN-SUFFIX,sofi.com
+# 美国投资 / 加密资产账户：平台自有主域
+DOMAIN-SUFFIX,robinhood.com
+DOMAIN-SUFFIX,public.com
+# Gemini 交易所（与 Google Gemini 的 gemini.google.com 不同）
+DOMAIN-SUFFIX,gemini.com
+# Fold 比特币返现卡；GrabrFi 低费用美元账户与虚拟卡
+DOMAIN-SUFFIX,foldapp.com
+DOMAIN-SUFFIX,grabrfi.com
 DOMAIN-KEYWORD,wealthfront
 DOMAIN-KEYWORD,firstrade
 DOMAIN-KEYWORD,zellepay

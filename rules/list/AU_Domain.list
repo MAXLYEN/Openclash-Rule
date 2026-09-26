@@ -1,10 +1,15 @@
 # NAME: AU_Domain
-# UPDATED: 2026-09-06
-# DOMAIN-SUFFIX: 7
-# TOTAL: 7
+# UPDATED: 2026-09-25
+# DOMAIN-SUFFIX: 10
+# TOTAL: 10
 DOMAIN-SUFFIX,com.au
 DOMAIN-SUFFIX,gov.au
 DOMAIN-SUFFIX,org.au
+# PEXX 稳定币账户 / 虚拟卡（澳大利亚公司）
+DOMAIN-SUFFIX,pexx.com
+# 澳洲支付与入金平台：只收各自官方主域
+DOMAIN-SUFFIX,airwallex.com
+DOMAIN-SUFFIX,banxa.com
 DOMAIN-SUFFIX,uhdnow.com
 DOMAIN-SUFFIX,jable.tv
 DOMAIN-SUFFIX,mushroomtrack.com

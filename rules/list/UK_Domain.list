@@ -1,9 +1,9 @@
 # NAME: UK_Domain
-# UPDATED: 2026-09-24
+# UPDATED: 2026-09-25
 # DOMAIN: 3
-# DOMAIN-SUFFIX: 50
+# DOMAIN-SUFFIX: 60
 # DOMAIN-KEYWORD: 39
-# TOTAL: 92
+# TOTAL: 102
 # 英国地区聚合：本地银行、金融、通信与其他英国业务
 #英国分流
 DOMAIN-SUFFIX,co.uk
@@ -16,6 +16,21 @@ DOMAIN-SUFFIX,revolut.com
 DOMAIN-SUFFIX,zero.co
 DOMAIN-SUFFIX,nexo.com
 DOMAIN-SUFFIX,zen.com
+# 加密资产卡 / 数字金融：Plutus、Cryptopay、Xapo Bank 官方主域
+DOMAIN-SUFFIX,plutus.it
+DOMAIN-SUFFIX,cryptopay.me
+DOMAIN-SUFFIX,xapobank.com
+# Ready Card 与 Transak 入金服务
+DOMAIN-SUFFIX,ready.co
+# Argent 旧主域仍跳转到 Ready，docs.argent.xyz 仍由官网链接使用
+DOMAIN-SUFFIX,argent.xyz
+DOMAIN-SUFFIX,transak.com
+# Neteller 数字钱包与 Net+ 卡（Skrill 同属 Paysafe，但使用独立主域）
+DOMAIN-SUFFIX,neteller.com
+# eToro 投资账户及 Money 卡共用主域
+DOMAIN-SUFFIX,etoro.com
+# nsave 低费用多币种账户与支付卡
+DOMAIN-SUFFIX,nsave.com
 # [已停用-跨平台共享服务] DOMAIN-SUFFIX,oraclersys.com
 # [已停用-跨平台共享服务] DOMAIN-SUFFIX,eum-appdynamics.com
 DOMAIN-KEYWORD,ifast
@@ -146,6 +161,7 @@ DOMAIN-SUFFIX,payzilch.com
 # [已停用-跨平台共享服务] DOMAIN-SUFFIX,verygood.systems
 # [已停用-跨平台共享服务] DOMAIN-SUFFIX,appsflyer.com
 # curve
+DOMAIN-SUFFIX,curve.com
 DOMAIN-SUFFIX,curve.app
 # [已停用-跨平台共享服务] DOMAIN-SUFFIX,branch.io
 DOMAIN-SUFFIX,emb-api.com
