@@ -1,8 +1,8 @@
 # NAME: EUNet_Domain
 # UPDATED: 2026-09-25
-# DOMAIN-SUFFIX: 62
+# DOMAIN-SUFFIX: 66
 # DOMAIN-KEYWORD: 143
-# TOTAL: 205
+# TOTAL: 209
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
 DOMAIN-KEYWORD,byffbb
@@ -29,6 +29,8 @@ DOMAIN-KEYWORD,myfin
 DOMAIN-KEYWORD,meawallet
 DOMAIN-KEYWORD,usertrust
 DOMAIN-KEYWORD,coinbase
+# Coinbase Wallet / Base App 独立入口，base.app 会跳转至 wallet.coinbase.com
+DOMAIN-SUFFIX,base.app
 DOMAIN-KEYWORD,medirect
 DOMAIN-KEYWORD,swissquote
 DOMAIN-KEYWORD,mobilum
@@ -44,6 +46,8 @@ DOMAIN-KEYWORD,portalhq
 DOMAIN-KEYWORD,appcenter
 DOMAIN-SUFFIX,gate.io
 DOMAIN-SUFFIX,gate.com
+# Bitvavo 荷兰交易所官方主域
+DOMAIN-SUFFIX,bitvavo.com
 DOMAIN-KEYWORD,gateio
 DOMAIN-KEYWORD,zhaqby
 DOMAIN-KEYWORD,gposts
@@ -176,6 +180,9 @@ DOMAIN-SUFFIX,alchemypay.org
 # 欧洲电子货币账户与数字银行
 DOMAIN-SUFFIX,paysera.com
 DOMAIN-SUFFIX,vivid.money
+# BitBox 瑞士硬件钱包及 Atomic 软件钱包官方主域
+DOMAIN-SUFFIX,bitbox.swiss
+DOMAIN-SUFFIX,atomicwallet.io
 # 欧洲证券 / 数字银行平台：Trade Republic 与 DEGIRO 官方主域
 DOMAIN-SUFFIX,traderepublic.com
 DOMAIN-SUFFIX,degiro.com

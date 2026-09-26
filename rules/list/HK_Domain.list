@@ -1,8 +1,8 @@
 # NAME: HK_Domain
 # UPDATED: 2026-09-25
-# DOMAIN-SUFFIX: 10
+# DOMAIN-SUFFIX: 11
 # DOMAIN-KEYWORD: 38
-# TOTAL: 48
+# TOTAL: 49
 # === 以下合并自 HK.list ===
 #亚洲-香港分流
 DOMAIN-SUFFIX,com.hk
@@ -36,6 +36,8 @@ DOMAIN-KEYWORD,welab
 DOMAIN-SUFFIX,infini.money
 # Reap 稳定币企业账户与 Visa 公司卡
 DOMAIN-SUFFIX,reap.global
+# HashKey Exchange 香港持牌交易所官方主域
+DOMAIN-SUFFIX,hashkey.com
 DOMAIN-KEYWORD,onekeycn
 DOMAIN-SUFFIX,onekey.so
 DOMAIN-SUFFIX,wise.com

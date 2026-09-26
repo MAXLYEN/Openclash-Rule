@@ -1,8 +1,8 @@
 # NAME: US_Domain
 # UPDATED: 2026-09-25
-# DOMAIN-SUFFIX: 40
+# DOMAIN-SUFFIX: 44
 # DOMAIN-KEYWORD: 25
-# TOTAL: 65
+# TOTAL: 69
 #美洲分流
 #娱乐生活
 # [已停用-范围过宽] DOMAIN-KEYWORD,tubi  ← 会命中 tubiaoxiu.com 等；改为上游 v2fly tubi 列表的域名
@@ -45,9 +45,16 @@ DOMAIN-SUFFIX,robinhood.com
 DOMAIN-SUFFIX,public.com
 # Gemini 交易所（与 Google Gemini 的 gemini.google.com 不同）
 DOMAIN-SUFFIX,gemini.com
+# Bullish 交易所官方主域
+DOMAIN-SUFFIX,bullish.com
 # Fold 比特币返现卡；GrabrFi 低费用美元账户与虚拟卡
 DOMAIN-SUFFIX,foldapp.com
 DOMAIN-SUFFIX,grabrfi.com
+# Tria / UGLYCASH：返现卡，官方均披露使用 Sumsub 身份验证
+DOMAIN-SUFFIX,tria.so
+DOMAIN-SUFFIX,ugly.cash
+# Zolve：面向跨境用户的免月费美元账户与信用卡
+DOMAIN-SUFFIX,zolve.com
 DOMAIN-KEYWORD,wealthfront
 DOMAIN-KEYWORD,firstrade
 DOMAIN-KEYWORD,zellepay

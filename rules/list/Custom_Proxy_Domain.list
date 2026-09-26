@@ -1,7 +1,7 @@
 # NAME: Custom_Proxy_Domain
 # UPDATED: 2026-09-25
-# DOMAIN-SUFFIX: 22
-# TOTAL: 22
+# DOMAIN-SUFFIX: 30
+# TOTAL: 30
 # 强制代理列表，来自个人收集
 # PS5 STUN
 DOMAIN-SUFFIX,stun.playstation.net
@@ -27,6 +27,17 @@ DOMAIN-SUFFIX,paxum.com
 # Fasset 全球稳定币账户 / 卡：旧 .io 跳转至现用 .com
 DOMAIN-SUFFIX,fasset.com
 DOMAIN-SUFFIX,fasset.io
+# Jupiter Global：稳定币卡与 USD / EUR 收付账户，仅收官方 jup.ag 主域
+DOMAIN-SUFFIX,jup.ag
+# 拉美跨境低费用账户与卡：跨多地区运营，使用通用代理
+DOMAIN-SUFFIX,littio.co
+DOMAIN-SUFFIX,takenos.com
+DOMAIN-SUFFIX,dolarapp.com
+DOMAIN-SUFFIX,global66.com
+# 无专属地区策略组的头部交易所：仅收官方主域
+DOMAIN-SUFFIX,toobit.com
+DOMAIN-SUFFIX,bitso.com
+DOMAIN-SUFFIX,upbit.com
 # 统计 / 崩溃上报 / 归因 SDK：服务端按来源 IP 记录地区，直连会把国内 IP 报给 App 后台
 # （币安等交易所的风控会据此判定国内用户）。排在 GoogleCN_Domain / GEOSITE,google-cn / Direct_Domain 之前才能截住
 DOMAIN-SUFFIX,app-measurement.com
