@@ -87,6 +87,7 @@ payload:
   - DOMAIN,dashscope-us.aliyuncs.com
   - DOMAIN-SUFFIX,us-east-1.maas.aliyuncs.com
   - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,muse.ai
   - DOMAIN-SUFFIX,meta.com
   - DOMAIN-SUFFIX,atmeta.com
   - DOMAIN-SUFFIX,llama.com
