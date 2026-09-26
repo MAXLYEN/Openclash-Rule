@@ -8,6 +8,19 @@ payload:
   - DOMAIN-SUFFIX,push.apple.com
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,jishubai.com
+  - DOMAIN-SUFFIX,pyypl.com
+  - DOMAIN-SUFFIX,volet.com
+  - DOMAIN-SUFFIX,paxum.com
+  - DOMAIN-SUFFIX,fasset.com
+  - DOMAIN-SUFFIX,fasset.io
+  - DOMAIN-SUFFIX,jup.ag
+  - DOMAIN-SUFFIX,littio.co
+  - DOMAIN-SUFFIX,takenos.com
+  - DOMAIN-SUFFIX,dolarapp.com
+  - DOMAIN-SUFFIX,global66.com
+  - DOMAIN-SUFFIX,toobit.com
+  - DOMAIN-SUFFIX,bitso.com
+  - DOMAIN-SUFFIX,upbit.com
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,googleanalytics.com

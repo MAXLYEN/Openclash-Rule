@@ -18,6 +18,22 @@ payload:
   - DOMAIN-KEYWORD,bankofamerica
   - DOMAIN-KEYWORD,us.hsbc.com
   - DOMAIN-SUFFIX,binance.us
+  - DOMAIN-SUFFIX,ether.fi
+  - DOMAIN-SUFFIX,plasbit.com
+  - DOMAIN-SUFFIX,payoneer.com
+  - DOMAIN-SUFFIX,mercury.com
+  - DOMAIN-SUFFIX,brex.com
+  - DOMAIN-SUFFIX,ramp.com
+  - DOMAIN-SUFFIX,sofi.com
+  - DOMAIN-SUFFIX,robinhood.com
+  - DOMAIN-SUFFIX,public.com
+  - DOMAIN-SUFFIX,gemini.com
+  - DOMAIN-SUFFIX,bullish.com
+  - DOMAIN-SUFFIX,foldapp.com
+  - DOMAIN-SUFFIX,grabrfi.com
+  - DOMAIN-SUFFIX,tria.so
+  - DOMAIN-SUFFIX,ugly.cash
+  - DOMAIN-SUFFIX,zolve.com
   - DOMAIN-KEYWORD,wealthfront
   - DOMAIN-KEYWORD,firstrade
   - DOMAIN-KEYWORD,zellepay

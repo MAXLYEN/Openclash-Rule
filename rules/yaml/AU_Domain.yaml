@@ -2,6 +2,9 @@ payload:
   - DOMAIN-SUFFIX,com.au
   - DOMAIN-SUFFIX,gov.au
   - DOMAIN-SUFFIX,org.au
+  - DOMAIN-SUFFIX,pexx.com
+  - DOMAIN-SUFFIX,airwallex.com
+  - DOMAIN-SUFFIX,banxa.com
   - DOMAIN-SUFFIX,uhdnow.com
   - DOMAIN-SUFFIX,jable.tv
   - DOMAIN-SUFFIX,mushroomtrack.com

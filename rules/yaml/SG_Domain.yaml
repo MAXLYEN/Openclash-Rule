@@ -9,8 +9,13 @@ payload:
   - DOMAIN-KEYWORD,edgeone
   - DOMAIN-KEYWORD,harvestsharp
   - DOMAIN-SUFFIX,plasma.to
+  - DOMAIN-SUFFIX,plasma.org
   - DOMAIN-KEYWORD,bigpay
   - DOMAIN-KEYWORD,redotpay
+  - DOMAIN-SUFFIX,kast.xyz
+  - DOMAIN-SUFFIX,pionex.com
+  - DOMAIN-SUFFIX,stables.money
+  - DOMAIN-SUFFIX,bitunix.com
   - DOMAIN-KEYWORD,applanga
   - DOMAIN-SUFFIX,com.sg
   - DOMAIN-SUFFIX,com.my
@@ -42,6 +47,9 @@ payload:
   - DOMAIN-KEYWORD,ellipal
   - DOMAIN-SUFFIX,tangem.com
   - DOMAIN-KEYWORD,tangem
+  - DOMAIN-SUFFIX,safepal.com
+  - DOMAIN-SUFFIX,coolwallet.io
+  - DOMAIN-SUFFIX,trustwallet.com
   - DOMAIN-SUFFIX,rabby.io
   - DOMAIN-SUFFIX,debank.com
   - DOMAIN-SUFFIX,bitget.com

@@ -20,16 +20,21 @@ payload:
   - DOMAIN-KEYWORD,meawallet
   - DOMAIN-KEYWORD,usertrust
   - DOMAIN-KEYWORD,coinbase
+  - DOMAIN-SUFFIX,base.app
   - DOMAIN-KEYWORD,medirect
   - DOMAIN-KEYWORD,swissquote
   - DOMAIN-KEYWORD,mobilum
   - DOMAIN-KEYWORD,bankera
   - DOMAIN-KEYWORD,bybdc6
   - DOMAIN-KEYWORD,bleap
+  - DOMAIN-SUFFIX,rebind.co
+  - DOMAIN-SUFFIX,mercuryo.io
+  - DOMAIN-SUFFIX,holyheld.com
   - DOMAIN-KEYWORD,portalhq
   - DOMAIN-KEYWORD,appcenter
   - DOMAIN-SUFFIX,gate.io
   - DOMAIN-SUFFIX,gate.com
+  - DOMAIN-SUFFIX,bitvavo.com
   - DOMAIN-KEYWORD,gateio
   - DOMAIN-KEYWORD,zhaqby
   - DOMAIN-KEYWORD,gposts
@@ -89,6 +94,9 @@ payload:
   - DOMAIN-KEYWORD,bitapi
   - DOMAIN-KEYWORD,lymryy
   - DOMAIN-SUFFIX,whitebit.com
+  - DOMAIN-SUFFIX,blofin.com
+  - DOMAIN-SUFFIX,bitmart.com
+  - DOMAIN-SUFFIX,weex.com
   - DOMAIN-SUFFIX,janapw.com
   - DOMAIN-SUFFIX,wkobosx.site
   - DOMAIN-SUFFIX,weex3.com
@@ -124,6 +132,7 @@ payload:
   - DOMAIN-KEYWORD,bb-os
   - DOMAIN-KEYWORD,great-api
   - DOMAIN-KEYWORD,phantom
+  - DOMAIN-SUFFIX,solflare.com
   - DOMAIN-SUFFIX,exp.host
   - DOMAIN-SUFFIX,wombat.systems
   - DOMAIN-KEYWORD,moonpay
@@ -134,7 +143,24 @@ payload:
   - DOMAIN-KEYWORD,baanxapi
   - DOMAIN-KEYWORD,exodus
   - DOMAIN-SUFFIX,ramp.network
+  - DOMAIN-SUFFIX,onramper.com
+  - DOMAIN-SUFFIX,alchemypay.org
+  - DOMAIN-SUFFIX,paysera.com
+  - DOMAIN-SUFFIX,vivid.money
+  - DOMAIN-SUFFIX,bitbox.swiss
+  - DOMAIN-SUFFIX,atomicwallet.io
+  - DOMAIN-SUFFIX,traderepublic.com
+  - DOMAIN-SUFFIX,degiro.com
+  - DOMAIN-SUFFIX,bitstamp.net
+  - DOMAIN-SUFFIX,bitstamp.com
+  - DOMAIN-SUFFIX,kolo.xyz
+  - DOMAIN-SUFFIX,kolo.in
+  - DOMAIN-SUFFIX,brighty.app
+  - DOMAIN-SUFFIX,tuyo.com
+  - DOMAIN-SUFFIX,offramp.xyz
+  - DOMAIN-SUFFIX,deblock.com
   - DOMAIN-KEYWORD,blockchain
+  - DOMAIN-SUFFIX,coca.xyz
   - DOMAIN-KEYWORD,ipregistry
   - DOMAIN-KEYWORD,amplitude
   - DOMAIN-SUFFIX,exact.ly

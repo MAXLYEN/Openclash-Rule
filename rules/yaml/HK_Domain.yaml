@@ -22,6 +22,9 @@ payload:
   - DOMAIN-KEYWORD,ant-hkbank
   - DOMAIN-KEYWORD,fusionbank
   - DOMAIN-KEYWORD,welab
+  - DOMAIN-SUFFIX,infini.money
+  - DOMAIN-SUFFIX,reap.global
+  - DOMAIN-SUFFIX,hashkey.com
   - DOMAIN-KEYWORD,onekeycn
   - DOMAIN-SUFFIX,onekey.so
   - DOMAIN-SUFFIX,wise.com

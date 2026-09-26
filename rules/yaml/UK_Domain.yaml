@@ -5,6 +5,15 @@ payload:
   - DOMAIN-SUFFIX,zero.co
   - DOMAIN-SUFFIX,nexo.com
   - DOMAIN-SUFFIX,zen.com
+  - DOMAIN-SUFFIX,plutus.it
+  - DOMAIN-SUFFIX,cryptopay.me
+  - DOMAIN-SUFFIX,xapobank.com
+  - DOMAIN-SUFFIX,ready.co
+  - DOMAIN-SUFFIX,argent.xyz
+  - DOMAIN-SUFFIX,transak.com
+  - DOMAIN-SUFFIX,neteller.com
+  - DOMAIN-SUFFIX,etoro.com
+  - DOMAIN-SUFFIX,nsave.com
   - DOMAIN-KEYWORD,ifast
   - DOMAIN-KEYWORD,trezor
   - DOMAIN-KEYWORD,mathwallet
@@ -71,6 +80,7 @@ payload:
   - DOMAIN-KEYWORD,halifax
   - DOMAIN-SUFFIX,wuzo.com
   - DOMAIN-SUFFIX,payzilch.com
+  - DOMAIN-SUFFIX,curve.com
   - DOMAIN-SUFFIX,curve.app
   - DOMAIN-SUFFIX,emb-api.com
   - DOMAIN-SUFFIX,imaginecurve.com
