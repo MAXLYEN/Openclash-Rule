@@ -83,6 +83,7 @@ payload:
   - DOMAIN-SUFFIX,z.ai
   - DOMAIN-SUFFIX,kimi.ai
   - DOMAIN-SUFFIX,moonshot.ai
+  - DOMAIN-SUFFIX,stepfun.ai
   - DOMAIN,dashscope-us.aliyuncs.com
   - DOMAIN-SUFFIX,us-east-1.maas.aliyuncs.com
   - DOMAIN-SUFFIX,meta.ai

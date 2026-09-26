@@ -50,6 +50,7 @@ payload:
   - DOMAIN-SUFFIX,bigmodel.cn
   - DOMAIN-SUFFIX,kimi.com
   - DOMAIN-SUFFIX,moonshot.cn
+  - DOMAIN-SUFFIX,stepfun.com
   - DOMAIN-SUFFIX,qwen.ai
   - DOMAIN-SUFFIX,qianwenai.com
   - DOMAIN,dashscope.aliyuncs.com
