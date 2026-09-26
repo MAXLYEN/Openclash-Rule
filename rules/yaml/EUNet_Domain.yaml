@@ -207,4 +207,5 @@ payload:
   - DOMAIN-KEYWORD,jjdsn
   - DOMAIN-KEYWORD,bwb
   - DOMAIN-KEYWORD,wwmxd
+  - DOMAIN-SUFFIX,eu-central-1.maas.aliyuncs.com
   - DOMAIN-KEYWORD,nixiaohao

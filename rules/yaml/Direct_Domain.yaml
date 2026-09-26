@@ -45,6 +45,15 @@ payload:
   - DOMAIN-SUFFIX,baomitu.com
   - DOMAIN-SUFFIX,blackwell-synergy.com
   - DOMAIN-SUFFIX,bootcss.com
+  - DOMAIN-SUFFIX,deepseek.com
+  - DOMAIN-SUFFIX,deepseek.cn
+  - DOMAIN-SUFFIX,bigmodel.cn
+  - DOMAIN-SUFFIX,kimi.com
+  - DOMAIN-SUFFIX,moonshot.cn
+  - DOMAIN-SUFFIX,qwen.ai
+  - DOMAIN-SUFFIX,qianwenai.com
+  - DOMAIN,dashscope.aliyuncs.com
+  - DOMAIN-SUFFIX,cn-beijing.maas.aliyuncs.com
   - DOMAIN-SUFFIX,cabdirect.org
   - DOMAIN-SUFFIX,comicat.org
   - DOMAIN-SUFFIX,dizhensubao.getui.com
