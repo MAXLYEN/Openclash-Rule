@@ -1,4 +1,5 @@
 payload:
+  - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,co.uk
   - DOMAIN-SUFFIX,cex.io
   - DOMAIN-SUFFIX,revolut.com
