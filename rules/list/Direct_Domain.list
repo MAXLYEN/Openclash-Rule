@@ -85,6 +85,8 @@ DOMAIN-SUFFIX,deepseek.cn
 DOMAIN-SUFFIX,bigmodel.cn
 DOMAIN-SUFFIX,kimi.com
 DOMAIN-SUFFIX,moonshot.cn
+# 阶跃星辰中国站：官网、Step Code、Studio、开放平台和 api.stepfun.com
+DOMAIN-SUFFIX,stepfun.com
 DOMAIN-SUFFIX,qwen.ai
 DOMAIN-SUFFIX,qianwenai.com
 DOMAIN,dashscope.aliyuncs.com

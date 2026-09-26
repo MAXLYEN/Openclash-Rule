@@ -127,6 +127,8 @@ DOMAIN-SUFFIX,codeiumdata.com
 DOMAIN-SUFFIX,z.ai
 DOMAIN-SUFFIX,kimi.ai
 DOMAIN-SUFFIX,moonshot.ai
+# 阶跃星辰国际站：开放平台、Studio 和 api.stepfun.ai
+DOMAIN-SUFFIX,stepfun.ai
 # 百炼美国地域独立 API
 DOMAIN,dashscope-us.aliyuncs.com
 DOMAIN-SUFFIX,us-east-1.maas.aliyuncs.com

@@ -8,6 +8,7 @@
 
 ## 2026-09-26（AI 编程模型与 Meta 分流）
 
+- 补齐阶跃星辰 StepFun / Step Code：中国站 `stepfun.com`（含 API 和安装资源）直连，国际站 `stepfun.ai`（含 API）走 USNet；以官方中国站 / 国际站说明区分。
 - `US_Domain` 收录 Meta 官方社交、模型 API、开发者与 Oculus 一方域名，以及 Devin、Windsurf、Cursor、Z.ai 和 Kimi 国际平台的站点与 API；`Game_Domain` 停用先于 US 命中的 `fbsbx` 关键字。
 - 补充 OpenAI、Claude、GitHub Copilot 的独立服务域名；DeepSeek、BigModel、Kimi 国内站与 Qwen 国内入口放入早于通用 AI geosite 的直连规则。
 - 阿里云百炼按官方 API 接入地域分别进入北京直连、新加坡、美国、香港、东京、法兰克福对应策略组；完整主机名、地区依据与待配合的 Meta IP 分流见 [编程模型网站与 API 分流规格](docs/ai-coding-routing.md)。
