@@ -20,6 +20,7 @@ payload:
   - DOMAIN-SUFFIX,global66.com
   - DOMAIN-SUFFIX,toobit.com
   - DOMAIN-SUFFIX,bitso.com
+  - DOMAIN-SUFFIX,onchain.cc
   - DOMAIN-SUFFIX,upbit.com
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,google-analytics.com

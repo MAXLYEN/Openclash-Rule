@@ -3,7 +3,6 @@ payload:
   - DOMAIN-SUFFIX,contentstack.io
   - DOMAIN-SUFFIX,usercentrics.eu
   - DOMAIN-SUFFIX,smooch.io
-  - DOMAIN-SUFFIX,ledger.com
   - DOMAIN-KEYWORD,withcl
   - DOMAIN-SUFFIX,n26.com
   - DOMAIN-KEYWORD,number26
@@ -125,13 +124,11 @@ payload:
   - DOMAIN-KEYWORD,luck-in
   - DOMAIN-KEYWORD,bingx
   - DOMAIN-KEYWORD,we-api
-  - DOMAIN-KEYWORD,zendesk
   - DOMAIN-KEYWORD,coinex
   - DOMAIN-KEYWORD,viaconfig
   - DOMAIN-KEYWORD,fwimg
   - DOMAIN-KEYWORD,bb-os
   - DOMAIN-KEYWORD,great-api
-  - DOMAIN-KEYWORD,phantom
   - DOMAIN-SUFFIX,solflare.com
   - DOMAIN-SUFFIX,exp.host
   - DOMAIN-SUFFIX,wombat.systems
@@ -148,6 +145,9 @@ payload:
   - DOMAIN-SUFFIX,paysera.com
   - DOMAIN-SUFFIX,vivid.money
   - DOMAIN-SUFFIX,bitbox.swiss
+  - DOMAIN-SUFFIX,bitbox.shop
+  - DOMAIN-SUFFIX,shiftcrypto.ch
+  - DOMAIN-SUFFIX,shiftcrypto.shop
   - DOMAIN-SUFFIX,atomicwallet.io
   - DOMAIN-SUFFIX,traderepublic.com
   - DOMAIN-SUFFIX,degiro.com

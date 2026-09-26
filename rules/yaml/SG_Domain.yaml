@@ -48,6 +48,7 @@ payload:
   - DOMAIN-SUFFIX,tangem.com
   - DOMAIN-KEYWORD,tangem
   - DOMAIN-SUFFIX,safepal.com
+  - DOMAIN-SUFFIX,safepal.io
   - DOMAIN-SUFFIX,coolwallet.io
   - DOMAIN-SUFFIX,trustwallet.com
   - DOMAIN-SUFFIX,rabby.io
