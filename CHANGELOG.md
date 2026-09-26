@@ -8,7 +8,8 @@
 
 ## 2026-09-26（AI 编程模型与 Meta 分流）
 
-- `meta.ai` 及其子域从 USNet 改为 UKNet：用户在原美国出口看到地区不可用提示；英国已在 Meta 公布的支持地区中。Muse 等其他 Meta 域名仍维持 USNet。
+- `meta.com` 及其子域跟随 `meta.ai` 改走 UKNet，覆盖 Meta 英国官网与 `ai.meta.com`；Muse 继续保持 USNet。
+- `meta.ai` 及其子域从 USNet 改为 UKNet：用户在原美国出口看到地区不可用提示；英国已在 Meta 公布的支持地区中。Muse 保持 USNet。
 - 补齐 Meta Muse 的独立入口 `muse.ai`，连同 `auth.muse.ai` 等子域走 USNet；`meta.ai` 原已在 USNet 规则中。
 - 补齐阶跃星辰 StepFun / Step Code：中国站 `stepfun.com`（含 API 和安装资源）直连，国际站 `stepfun.ai`（含 API）走 USNet；以官方中国站 / 国际站说明区分。
 - `US_Domain` 收录 Meta 官方社交、模型 API、开发者与 Oculus 一方域名，以及 Devin、Windsurf、Cursor、Z.ai 和 Kimi 国际平台的站点与 API；`Game_Domain` 停用先于 US 命中的 `fbsbx` 关键字。
