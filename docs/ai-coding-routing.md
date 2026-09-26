@@ -24,4 +24,4 @@
 
 V2 配置先匹配 OpenAI、Claude、Gemini，随后匹配 GitHub、各地区规则，再匹配通用 AI/社交 geosite。`Game_Domain` 原有 `fbsbx` 关键字会先于 `US_Domain` 命中，现已停用，交由 Meta 的 `fbsbx.com` / `fbsbx.net` 后缀规则匹配。
 
-目前配置的 `GEOIP,facebook` 仍指向 `Social Media`，而 `US_IP` 尚未被 V2 引用。直接用 IP 连接、没有可用域名元数据的 Meta 流量依然走社交组；要实现 IP 侧的“Meta 全部 US”，需在 Openclash-Config 源配置中把该 GEOIP 规则改为 `USNet` 并重新生成 `dist`。
+直接用 IP 连接、没有可用域名元数据的 Meta 流量需要在 Openclash-Config 源配置中将 `GEOIP,facebook` 指向 `USNet`。配置源文件应独立提交，由云端构建并发布 `dist`；仅有本仓库的域名规则无法覆盖这种连接。

@@ -130,7 +130,7 @@ DOMAIN-SUFFIX,moonshot.ai
 # 百炼美国地域独立 API
 DOMAIN,dashscope-us.aliyuncs.com
 DOMAIN-SUFFIX,us-east-1.maas.aliyuncs.com
-# Meta 官方产品、开发者平台、模型 API 与一方资源；不用 meta/fb 关键字误伤 MetaMask 等
+# Meta 官方产品、开发者平台、模型 API 与一方资源；按一方域名匹配，避免 meta/fb 关键字误伤 MetaMask 等
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,atmeta.com
