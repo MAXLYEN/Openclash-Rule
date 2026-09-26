@@ -2,5 +2,6 @@
 # UPDATED: 2026-09-06
 # IP-CIDR: 1
 # TOTAL: 1
+# SGNet 历史 IP 段：旧来源未标明所属平台，不推断服务归属
 IP-CIDR,43.128.0.0/16,no-resolve
 #IP-CIDR,149.154.167.0/24,no-resolve

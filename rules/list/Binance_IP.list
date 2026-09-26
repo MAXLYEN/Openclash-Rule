@@ -2,6 +2,7 @@
 # UPDATED: 2026-09-05
 # IP-CIDR: 9
 # TOTAL: 9
+# Binance 历史目标网段；部分为共享云地址，不能据 IP 单独证明平台归属
 IP-CIDR,47.107.98.0/24,no-resolve
 IP-CIDR,47.107.127.0/24,no-resolve
 IP-CIDR,52.68.117.0/24,no-resolve

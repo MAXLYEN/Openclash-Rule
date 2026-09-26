@@ -2,7 +2,6 @@
 # UPDATED: 2026-09-12
 # IP-CIDR: 2
 # TOTAL: 2
-# 占位文件：本平台暂无 IP 规则，保留成对结构以便后续补充
-#mexc
+# MEXC：旧列表收录的目标 IP；云服务地址可能变动，按域名规则优先识别
 IP-CIDR,188.239.32.0/24,no-resolve
 IP-CIDR,54.250.131.0/24,no-resolve
