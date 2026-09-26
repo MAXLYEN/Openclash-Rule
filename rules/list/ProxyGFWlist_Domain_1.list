@@ -3,6 +3,7 @@
 # DOMAIN-SUFFIX: 2252
 # DOMAIN-KEYWORD: 20
 # TOTAL: 2272
+# 综合代理后备表第 1 段：跨表相同域名保留供独立引用，V2 中由前置专用服务表先命中
 # 代理列表
 # MyList && Other
 DOMAIN-SUFFIX,1password.com

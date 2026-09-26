@@ -4,6 +4,7 @@
 # DOMAIN-SUFFIX: 1241
 # DOMAIN-KEYWORD: 24
 # TOTAL: 1295
+# 综合媒体聚合表：与 YouTube / Disney / Netflix 等专用表的交集供本表单独引用；V2 按前置专用表首命中
 DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
 DOMAIN,api.okzy.tv
 DOMAIN,apm-misaka.biliapi.net

@@ -1,7 +1,7 @@
 # NAME: EUNet_Domain
 # UPDATED: 2026-09-26
-# DOMAIN-SUFFIX: 66
-# DOMAIN-KEYWORD: 143
+# DOMAIN-SUFFIX: 68
+# DOMAIN-KEYWORD: 141
 # TOTAL: 209
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
@@ -10,7 +10,7 @@ DOMAIN-KEYWORD,byffbb
 DOMAIN-SUFFIX,contentstack.io
 DOMAIN-SUFFIX,usercentrics.eu
 DOMAIN-SUFFIX,smooch.io
-DOMAIN-SUFFIX,ledger.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,ledger.com  ← 与 SG_Domain 的 ledger.app / ledger.fr 同属 Ledger，交由 SGNet 统一出口
 DOMAIN-KEYWORD,withcl
 #DOMAIN-KEYWORD,kraken
 # [已停用-范围过宽] DOMAIN-KEYWORD,n26  ← 会命中 cdn26、sn26 等编号式主机名，改为下一行的精确后缀
@@ -154,13 +154,13 @@ DOMAIN-KEYWORD,qq-os
 DOMAIN-KEYWORD,luck-in
 DOMAIN-KEYWORD,bingx
 DOMAIN-KEYWORD,we-api
-DOMAIN-KEYWORD,zendesk
+# [已停用-跨平台共享服务] DOMAIN-KEYWORD,zendesk  ← 会提前截获 Kraken、Coins.ph 等其他地区平台的支持站
 DOMAIN-KEYWORD,coinex
 DOMAIN-KEYWORD,viaconfig
 DOMAIN-KEYWORD,fwimg
 DOMAIN-KEYWORD,bb-os
 DOMAIN-KEYWORD,great-api
-DOMAIN-KEYWORD,phantom
+# [已停用-分组冲突] DOMAIN-KEYWORD,phantom  ← 提前截获 SG_Domain 中 Phantom 官方主域；由 SGNet 统一命中
 # Solflare 钱包及面向 EEA / UK 的 Card 官方主域
 DOMAIN-SUFFIX,solflare.com
 DOMAIN-SUFFIX,exp.host
@@ -180,8 +180,12 @@ DOMAIN-SUFFIX,alchemypay.org
 # 欧洲电子货币账户与数字银行
 DOMAIN-SUFFIX,paysera.com
 DOMAIN-SUFFIX,vivid.money
-# BitBox 瑞士硬件钱包及 Atomic 软件钱包官方主域
+# BitBox 瑞士硬件钱包：官网与商店分别使用主域；Shift Crypto 旧域仍跳转至新站
 DOMAIN-SUFFIX,bitbox.swiss
+DOMAIN-SUFFIX,bitbox.shop
+DOMAIN-SUFFIX,shiftcrypto.ch
+DOMAIN-SUFFIX,shiftcrypto.shop
+# Atomic 独立软件钱包
 DOMAIN-SUFFIX,atomicwallet.io
 # 欧洲证券 / 数字银行平台：Trade Republic 与 DEGIRO 官方主域
 DOMAIN-SUFFIX,traderepublic.com

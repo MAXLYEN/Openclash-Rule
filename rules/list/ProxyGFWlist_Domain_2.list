@@ -2,6 +2,7 @@
 # UPDATED: 2026-09-24
 # DOMAIN-SUFFIX: 2224
 # TOTAL: 2224
+# 综合代理后备表第 2 段：跨表相同域名保留供独立引用，V2 中由前置专用服务表先命中
 DOMAIN-SUFFIX,hkheadline.com
 DOMAIN-SUFFIX,hkhkhk.com
 # [已停用-冗余] DOMAIN-SUFFIX,hkhrc.org.hk  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中

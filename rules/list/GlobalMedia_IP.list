@@ -3,6 +3,7 @@
 # IP-CIDR: 889
 # IP-CIDR6: 6
 # TOTAL: 895
+# 综合媒体 IP 聚合表：与专用平台 IP 表的交集供本表单独引用；V2 按前置表首命中
 IP-CIDR,1.201.0.0/24,no-resolve
 IP-CIDR,1.37.35.6/32,no-resolve
 IP-CIDR,101.100.179.242/32,no-resolve

@@ -4,6 +4,7 @@
 # DOMAIN-SUFFIX: 1039
 # DOMAIN-KEYWORD: 5
 # TOTAL: 1051
+# 综合代理后备表第 3 段：跨表相同域名保留供独立引用，V2 中由前置专用服务表先命中
 DOMAIN-SUFFIX,tibetancommunityuk.net
 DOMAIN-SUFFIX,tibetanculture.org
 DOMAIN-SUFFIX,tibetanentrepreneurs.org

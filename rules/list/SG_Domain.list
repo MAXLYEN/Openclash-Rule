@@ -1,8 +1,8 @@
 # NAME: SG_Domain
 # UPDATED: 2026-09-26
-# DOMAIN-SUFFIX: 29
+# DOMAIN-SUFFIX: 30
 # DOMAIN-KEYWORD: 30
-# TOTAL: 59
+# TOTAL: 60
 #亚洲-新加坡分流
 #实体金融
 DOMAIN-KEYWORD,ocbc
@@ -66,8 +66,9 @@ DOMAIN-KEYWORD,ellipal
 # Tangem
 DOMAIN-SUFFIX,tangem.com
 DOMAIN-KEYWORD,tangem
-# SafePal 同时提供软硬件钱包；CoolWallet 硬件钱包
+# SafePal 软硬件钱包：旧 safepal.io 仍跳转至现用 .com；CoolWallet 为独立硬件钱包
 DOMAIN-SUFFIX,safepal.com
+DOMAIN-SUFFIX,safepal.io
 DOMAIN-SUFFIX,coolwallet.io
 ################ 热钱包 ################
 # Trust Wallet 官方主域

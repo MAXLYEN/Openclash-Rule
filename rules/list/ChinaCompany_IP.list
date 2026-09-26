@@ -1,7 +1,8 @@
 # NAME: ChinaCompany_IP
-# UPDATED: 2026-08-04
-# IP-CIDR: 221
-# TOTAL: 221
+# UPDATED: 2026-09-26
+# IP-CIDR: 220
+# TOTAL: 220
+# 与 China_IP 的同组重叠保留供本表单独引用；V2 中按前置列表首命中
 # 中国云服务商ip端
 # 阿里
 IP-CIDR,8.128.0.0/16,no-resolve
@@ -98,7 +99,7 @@ IP-CIDR,104.193.88.0/22,no-resolve
 IP-CIDR,106.12.0.0/15,no-resolve
 IP-CIDR,114.28.224.0/20,no-resolve
 IP-CIDR,119.63.192.0/21,no-resolve
-IP-CIDR,180.76.0.0/24,no-resolve
+# [已停用-文件内IP包含] IP-CIDR,180.76.0.0/24,no-resolve  ← 同文件 180.76.0.0/16 已完整覆盖
 IP-CIDR,180.76.0.0/16,no-resolve
 IP-CIDR,182.61.0.0/16,no-resolve
 IP-CIDR,185.10.104.0/22,no-resolve

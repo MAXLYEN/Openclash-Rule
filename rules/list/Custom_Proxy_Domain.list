@@ -1,7 +1,7 @@
 # NAME: Custom_Proxy_Domain
 # UPDATED: 2026-09-26
-# DOMAIN-SUFFIX: 30
-# TOTAL: 30
+# DOMAIN-SUFFIX: 31
+# TOTAL: 31
 # 强制代理列表，来自个人收集
 # PS5 STUN
 DOMAIN-SUFFIX,stun.playstation.net
@@ -36,7 +36,9 @@ DOMAIN-SUFFIX,dolarapp.com
 DOMAIN-SUFFIX,global66.com
 # 无专属地区策略组的头部交易所：仅收官方主域
 DOMAIN-SUFFIX,toobit.com
+# Bitso 主站与旗下 Onchain 交易终端分别使用独立主域
 DOMAIN-SUFFIX,bitso.com
+DOMAIN-SUFFIX,onchain.cc
 DOMAIN-SUFFIX,upbit.com
 # 统计 / 崩溃上报 / 归因 SDK：服务端按来源 IP 记录地区，直连会把国内 IP 报给 App 后台
 # （币安等交易所的风控会据此判定国内用户）。排在 GoogleCN_Domain / GEOSITE,google-cn / Direct_Domain 之前才能截住
