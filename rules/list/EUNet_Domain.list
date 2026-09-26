@@ -1,8 +1,8 @@
 # NAME: EUNet_Domain
 # UPDATED: 2026-09-26
-# DOMAIN-SUFFIX: 68
+# DOMAIN-SUFFIX: 69
 # DOMAIN-KEYWORD: 141
-# TOTAL: 209
+# TOTAL: 210
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
 DOMAIN-KEYWORD,byffbb
@@ -256,4 +256,6 @@ DOMAIN-KEYWORD,bitmex
 DOMAIN-KEYWORD,jjdsn
 DOMAIN-KEYWORD,bwb
 DOMAIN-KEYWORD,wwmxd
+# 百炼法兰克福地域业务空间 API
+DOMAIN-SUFFIX,eu-central-1.maas.aliyuncs.com
 DOMAIN-KEYWORD,nixiaohao

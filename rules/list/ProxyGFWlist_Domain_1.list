@@ -851,7 +851,7 @@ DOMAIN-SUFFIX,cdig.info
 DOMAIN-SUFFIX,cdjp.org
 DOMAIN-SUFFIX,cdn-telegram.org
 # [已停用-冗余] DOMAIN-SUFFIX,cdnews.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
-# [已停用-冗余] DOMAIN-SUFFIX,cdninstagram.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-分组冲突] DOMAIN-SUFFIX,cdninstagram.com  ← 更早的 US_Domain 接管 Meta 域名
 DOMAIN-SUFFIX,cdp1989.org
 DOMAIN-SUFFIX,cdp1998.org
 DOMAIN-SUFFIX,cdp2006.org
@@ -1584,16 +1584,16 @@ DOMAIN-SUFFIX,ezua.com
 DOMAIN-SUFFIX,f2pool.com
 DOMAIN-SUFFIX,f8.com
 # [已停用-冗余] DOMAIN-SUFFIX,fa.gov.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
-# [已停用-冗余] DOMAIN-SUFFIX,facebook.br  ← 文件内被 ProxyGFWlist_Domain_1 包含
-# [已停用-冗余] DOMAIN-SUFFIX,facebook.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-分组冲突] DOMAIN-SUFFIX,facebook.br  ← 更早的 US_Domain 接管 Meta 域名
+# [已停用-分组冲突] DOMAIN-SUFFIX,facebook.com  ← 更早的 US_Domain 接管 Meta 域名
 # [已停用-冗余] DOMAIN-SUFFIX,facebook.de  ← 文件内被 ProxyGFWlist_Domain_1 包含
-# [已停用-冗余] DOMAIN-SUFFIX,facebook.design  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-分组冲突] DOMAIN-SUFFIX,facebook.design  ← 更早的 US_Domain 接管 Meta 域名
 # [已停用-冗余] DOMAIN-SUFFIX,facebook.hu  ← 文件内被 ProxyGFWlist_Domain_1 包含
-# [已停用-冗余] DOMAIN-SUFFIX,facebook.in  ← 文件内被 ProxyGFWlist_Domain_1 包含
-# [已停用-冗余] DOMAIN-SUFFIX,facebook.net  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-分组冲突] DOMAIN-SUFFIX,facebook.in  ← 更早的 US_Domain 接管 Meta 域名
+# [已停用-分组冲突] DOMAIN-SUFFIX,facebook.net  ← 更早的 US_Domain 接管 Meta 域名
 # [已停用-冗余] DOMAIN-SUFFIX,facebook.nl  ← 文件内被 ProxyGFWlist_Domain_1 包含
 # [已停用-冗余] DOMAIN-SUFFIX,facebook.se  ← 文件内被 ProxyGFWlist_Domain_1 包含
-# [已停用-冗余] DOMAIN-SUFFIX,facebookmail.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-分组冲突] DOMAIN-SUFFIX,facebookmail.com  ← 更早的 US_Domain 接管 Meta 域名
 # [已停用-冗余] DOMAIN-SUFFIX,facebookquotes4u.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
 DOMAIN-SUFFIX,faceless.me
 DOMAIN-SUFFIX,facesofnyfw.com
@@ -1669,7 +1669,7 @@ DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fb.watch
 DOMAIN-SUFFIX,fbaddins.com
-# [已停用-冗余] DOMAIN-SUFFIX,fbcdn.net  ← 文件内被 ProxyGFWlist_Domain_1 包含
+# [已停用-分组冲突] DOMAIN-SUFFIX,fbcdn.net  ← 更早的 US_Domain 接管 Meta 域名
 DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-SUFFIX,fbworkmail.com
 DOMAIN-SUFFIX,fc2.com

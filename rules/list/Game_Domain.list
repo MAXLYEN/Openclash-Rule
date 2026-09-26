@@ -1,8 +1,8 @@
 # NAME: Game_Domain
-# UPDATED: 2026-09-24
+# UPDATED: 2026-09-26
 # DOMAIN-SUFFIX: 2
-# DOMAIN-KEYWORD: 22
-# TOTAL: 24
+# DOMAIN-KEYWORD: 21
+# TOTAL: 23
 #游戏
 DOMAIN-KEYWORD,unity3d
 DOMAIN-KEYWORD,supercell
@@ -33,4 +33,4 @@ DOMAIN-KEYWORD,vasdgame
 DOMAIN-SUFFIX,hkgcloudcs.com
 DOMAIN-SUFFIX,nagcloudcs.com
 DOMAIN-KEYWORD,telephony
-DOMAIN-KEYWORD,fbsbx
+# [已停用-分组冲突] DOMAIN-KEYWORD,fbsbx  ← Meta 文件/CDN 域名统一由 US_Domain 走 USNet

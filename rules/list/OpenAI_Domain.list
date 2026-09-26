@@ -1,9 +1,9 @@
 # NAME: OpenAI_Domain
-# UPDATED: 2026-09-24
-# DOMAIN: 5
-# DOMAIN-SUFFIX: 11
+# UPDATED: 2026-09-26
+# DOMAIN: 6
+# DOMAIN-SUFFIX: 14
 # DOMAIN-KEYWORD: 1
-# TOTAL: 17
+# TOTAL: 21
 # [已停用-串味] DOMAIN,browser-intake-datadoghq.com  ← Datadog RUM 埋点，全网通用，断开不影响 ChatGPT 功能
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 # [已停用-串味] DOMAIN,gemini.google.com  ← Gemini 属 Google，不属 OpenAI
@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,ai.com
 # [已停用-范围过宽] DOMAIN-SUFFIX,api.statsig.com  ← Statsig 为多应用共用服务
 #DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 # [已停用-范围过宽] DOMAIN-SUFFIX,events.statsigapi.net  ← Statsig 为多应用共用服务
@@ -30,6 +31,9 @@ DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 # [已停用-串味] DOMAIN-SUFFIX,observeit.net  ← ObserveIT 会话监控，全网通用，断开不影响功能
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN,openaiassets.blob.core.windows.net
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom.imgix.net
 #DOMAIN-SUFFIX,segment.io

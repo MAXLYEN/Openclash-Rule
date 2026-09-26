@@ -1,8 +1,9 @@
 # NAME: US_Domain
 # UPDATED: 2026-09-26
-# DOMAIN-SUFFIX: 44
+# DOMAIN: 3
+# DOMAIN-SUFFIX: 120
 # DOMAIN-KEYWORD: 25
-# TOTAL: 69
+# TOTAL: 148
 #美洲分流
 #娱乐生活
 # [已停用-范围过宽] DOMAIN-KEYWORD,tubi  ← 会命中 tubiaoxiu.com 等；改为上游 v2fly tubi 列表的域名
@@ -106,5 +107,90 @@ DOMAIN-SUFFIX,backpack.exchange
 # Cursor 为独立 AI 应用，沿用美国节点，不并入 ChatGPT 专属组
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
+# Artificial Analysis 编程智能体覆盖：厂商站点、控制台及独立 API 主域
+# xAI 的 api.x.ai、management-api.x.ai、us.api.x.ai 已由 x.ai 覆盖
+# 已由前面的 grok 关键字覆盖 grok.com / grokipedia.com
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursorvm.com
+# Cursor 官方公告：9 月 30 日启用的登录主机；x.ai / grok 已被现有规则覆盖
+DOMAIN,accounts.spacex.ai
+DOMAIN-SUFFIX,devin.ai
+DOMAIN-SUFFIX,cognition.ai
+DOMAIN-SUFFIX,cognition.com
+DOMAIN-SUFFIX,deepwiki.com
+DOMAIN-SUFFIX,deepwiki.org
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,windsurf.build
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,codeiumdata.com
+DOMAIN-SUFFIX,z.ai
+DOMAIN-SUFFIX,kimi.ai
+DOMAIN-SUFFIX,moonshot.ai
+# 百炼美国地域独立 API
+DOMAIN,dashscope-us.aliyuncs.com
+DOMAIN-SUFFIX,us-east-1.maas.aliyuncs.com
+# Meta 官方产品、开发者平台、模型 API 与一方资源；不用 meta/fb 关键字误伤 MetaMask 等
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,atmeta.com
+DOMAIN-SUFFIX,llama.com
+DOMAIN-SUFFIX,aboutfacebook.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,facebook.org
+DOMAIN-SUFFIX,facebook.design
+DOMAIN-SUFFIX,facebook.tv
+DOMAIN-SUFFIX,facebook.shop
+DOMAIN-SUFFIX,facebook.br
+DOMAIN-SUFFIX,facebook.ca
+DOMAIN-SUFFIX,facebook.in
+DOMAIN-SUFFIX,facebookmail.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fb.gg
+DOMAIN-SUFFIX,fb.watch
+DOMAIN-SUFFIX,fb.careers
+DOMAIN-SUFFIX,fbwat.ch
+DOMAIN-SUFFIX,fbidb.io
+DOMAIN-SUFFIX,f8.com
+DOMAIN-SUFFIX,fbcdn.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,tfbnw.net
+DOMAIN-SUFFIX,fbrpms.com
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,fbsbx.net
+DOMAIN,fbcdn-a.akamaihd.net
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,igcdn.com
+DOMAIN-SUFFIX,ig.me
+DOMAIN-SUFFIX,threads.com
+DOMAIN-SUFFIX,threads.net
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,fbmessenger.com
+DOMAIN-SUFFIX,messengerdevelopers.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsapp.org
+DOMAIN-SUFFIX,whatsapp.info
+DOMAIN-SUFFIX,whatsapp.cc
+DOMAIN-SUFFIX,whatsapp.tv
+DOMAIN-SUFFIX,whatsappbrand.com
+DOMAIN-SUFFIX,wa.me
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+DOMAIN-SUFFIX,ocul.us
+DOMAIN-SUFFIX,oculusvr.com
+DOMAIN-SUFFIX,oculusrift.com
+DOMAIN-SUFFIX,oculusconnect.com
+DOMAIN-SUFFIX,oculusforbusiness.com
+DOMAIN-SUFFIX,workplace.com
+DOMAIN-SUFFIX,facebookwork.com
+DOMAIN-SUFFIX,internet.org
+DOMAIN-SUFFIX,freebasics.com
+DOMAIN-SUFFIX,freebasics.net
+DOMAIN-SUFFIX,thefacebook.com
 # Chase 美国主站，从 UK_Domain 迁入
 DOMAIN-SUFFIX,chase.com

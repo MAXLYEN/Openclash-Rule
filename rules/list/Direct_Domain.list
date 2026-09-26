@@ -1,9 +1,9 @@
 # NAME: Direct_Domain
-# UPDATED: 2026-09-25
-# DOMAIN: 41
-# DOMAIN-SUFFIX: 74
+# UPDATED: 2026-09-26
+# DOMAIN: 42
+# DOMAIN-SUFFIX: 82
 # DOMAIN-KEYWORD: 12
-# TOTAL: 127
+# TOTAL: 136
 DOMAIN,ad.10010.com
 DOMAIN,ad.12306.cn
 DOMAIN,ain.bgm.tv
@@ -79,6 +79,16 @@ DOMAIN-SUFFIX,blackwell-synergy.com
 # [已停用-分组冲突] DOMAIN-SUFFIX,blog.google  ← 外部列表误收，交还 Google 分组
 # [已停用-分组冲突] DOMAIN-SUFFIX,blutopia.xyz  ← 与 PT_Domain 重复，由 PT 分组接管
 DOMAIN-SUFFIX,bootcss.com
+# 国内编程模型站点/API：在 category-ai-!cn 和 GFW 之前命中直连
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,deepseek.cn
+DOMAIN-SUFFIX,bigmodel.cn
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,moonshot.cn
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN-SUFFIX,qianwenai.com
+DOMAIN,dashscope.aliyuncs.com
+DOMAIN-SUFFIX,cn-beijing.maas.aliyuncs.com
 # [已停用-分组冲突] DOMAIN-SUFFIX,broadcasthe.net  ← 与 PT_Domain 重复，由 PT 分组接管
 # [已停用-分组冲突] DOMAIN-SUFFIX,bt.byr.cn  ← 与 PT_Domain 重复，由 PT 分组接管
 # [已停用-冗余] DOMAIN-SUFFIX,bt.neu6.edu.cn  ← 已被 PrivateTracker_Domain 以同一分组命中

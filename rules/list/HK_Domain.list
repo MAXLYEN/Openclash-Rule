@@ -56,6 +56,7 @@ DOMAIN-KEYWORD,bpinfra
 DOMAIN-KEYWORD,pokepay
 #其他
 DOMAIN-SUFFIX,clashpost.com
+# 百炼香港地域业务空间与 DashScope API 已由 hongkong 关键字覆盖
 DOMAIN-KEYWORD,stc-hk
 DOMAIN-KEYWORD,stcserver
 DOMAIN-KEYWORD,stc-server

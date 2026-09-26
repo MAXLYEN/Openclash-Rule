@@ -250,7 +250,7 @@ DOMAIN-SUFFIX,innermongolia.org
 DOMAIN-SUFFIX,insecam.org
 # [已停用-冗余] DOMAIN-SUFFIX,inside.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,insidevoa.com
-# [已停用-冗余] DOMAIN-SUFFIX,instagram.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
+# [已停用-分组冲突] DOMAIN-SUFFIX,instagram.com  ← 更早的 US_Domain 接管 Meta 域名
 DOMAIN-SUFFIX,instanthq.com
 DOMAIN-SUFFIX,institut-tibetain.org
 # [已停用-冗余] DOMAIN-SUFFIX,interactivebrokers.com  ← 已被 HK_Domain 以同一分组命中
@@ -2422,7 +2422,7 @@ DOMAIN-SUFFIX,thedalailamamovie.com
 DOMAIN-SUFFIX,thediplomat.com
 # [已停用-冗余] DOMAIN-SUFFIX,thedw.us  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,theepochtimes.com
-# [已停用-冗余] DOMAIN-SUFFIX,thefacebook.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
+# [已停用-分组冲突] DOMAIN-SUFFIX,thefacebook.com  ← 更早的 US_Domain 接管 Meta 域名
 # [已停用-冗余] DOMAIN-SUFFIX,thefrontier.hk  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,thegay.com
 DOMAIN-SUFFIX,thegioitinhoc.vn

@@ -650,8 +650,8 @@ DOMAIN-SUFFIX,wforum.com
 DOMAIN-SUFFIX,wha.la
 DOMAIN-SUFFIX,whatblocked.com
 DOMAIN-SUFFIX,whatbrowser.org
-# [已停用-冗余] DOMAIN-SUFFIX,whatsapp.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
-# [已停用-冗余] DOMAIN-SUFFIX,whatsapp.net  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
+# [已停用-分组冲突] DOMAIN-SUFFIX,whatsapp.com  ← 更早的 US_Domain 接管 Meta 域名
+# [已停用-分组冲突] DOMAIN-SUFFIX,whatsapp.net  ← 更早的 US_Domain 接管 Meta 域名
 DOMAIN-SUFFIX,whatsonweibo.com
 DOMAIN-SUFFIX,wheatseeds.org
 DOMAIN-SUFFIX,wheelockslatin.com
@@ -1065,7 +1065,7 @@ DOMAIN-SUFFIX,spring.net
 DOMAIN-SUFFIX,discord.co
 DOMAIN-SUFFIX,discord.media
 # Facebook
-# [已停用-冗余] DOMAIN-SUFFIX,fbcdn.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
+# [已停用-分组冲突] DOMAIN-SUFFIX,fbcdn.com  ← 更早的 US_Domain 接管 Meta 域名
 # Github
 DOMAIN-SUFFIX,githubapp.com
 # Google

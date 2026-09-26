@@ -6,6 +6,15 @@
 
 ---
 
+## 2026-09-26（AI 编程模型与 Meta 分流）
+
+- `US_Domain` 收录 Meta 官方社交、模型 API、开发者与 Oculus 一方域名，以及 Devin、Windsurf、Cursor、Z.ai 和 Kimi 国际平台的站点与 API；`Game_Domain` 停用先于 US 命中的 `fbsbx` 关键字。
+- 补充 OpenAI、Claude、GitHub Copilot 的独立服务域名；DeepSeek、BigModel、Kimi 国内站与 Qwen 国内入口放入早于通用 AI geosite 的直连规则。
+- 阿里云百炼按官方 API 接入地域分别进入北京直连、新加坡、美国、香港、东京、法兰克福对应策略组；完整主机名、地区依据与待配合的 Meta IP 分流见 [编程模型网站与 API 分流规格](docs/ai-coding-routing.md)。
+- 本次规则产物只交付 `list` 源文件；YAML 仅供本地生成校验，不包含在本次改动中。现有 V2 配置仍引用远端 YAML，若将来发布这些源文件，仓库自动化的 YAML 发布行为需另行处理。
+
+---
+
 ## 2026-09-25（十二）
 
 币安 App 被识别为国内 IP：日志里的连接全部走代理，排查出 App 内嵌 SDK 的上报端点被规则直连——服务端按来源 IP 记录地区。

@@ -1,9 +1,9 @@
 # NAME: JP_Domain
-# UPDATED: 2026-09-25
+# UPDATED: 2026-09-26
 # DOMAIN: 1
-# DOMAIN-SUFFIX: 156
+# DOMAIN-SUFFIX: 157
 # DOMAIN-KEYWORD: 16
-# TOTAL: 173
+# TOTAL: 174
 #亚洲-日本分流
 DOMAIN-SUFFIX,co.jp
 DOMAIN-SUFFIX,com.jp
@@ -257,3 +257,5 @@ DOMAIN-SUFFIX,l-tike.com
 # ===== Radiko =====
 DOMAIN-SUFFIX,treasuredata.com
 DOMAIN-SUFFIX,karte.io
+# 百炼东京地域业务空间 API
+DOMAIN-SUFFIX,ap-northeast-1.maas.aliyuncs.com
