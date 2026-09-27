@@ -1,0 +1,12 @@
+# NAME: AI_Coding_US_Domain
+# UPDATED: 2026-09-26
+# DOMAIN: 4
+# DOMAIN-SUFFIX: 1
+# TOTAL: 5
+# GitHub Copilot 专用域名需在 GitHub_Domain / GEOSITE,github 前匹配至 USNet。
+# github.com 登录页和 api.github.com 为共享主机，不能按 URL 路径精确分流。
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,origin-tracker.githubusercontent.com
+DOMAIN,copilot-telemetry.githubusercontent.com
+DOMAIN,copilot-reports.github.com

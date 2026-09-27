@@ -1,8 +1,8 @@
 # NAME: Gemini_Domain
 # UPDATED: 2026-09-25
-# DOMAIN: 11
+# DOMAIN: 12
 # DOMAIN-SUFFIX: 34
-# TOTAL: 45
+# TOTAL: 46
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,ai.google.dev
@@ -52,3 +52,5 @@ DOMAIN-SUFFIX,notebook.google.com
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,labs.google.com
 DOMAIN-SUFFIX,stitch.withgoogle.com
+# Firebase Studio / Project IDX 的独立 AI 编程入口，在 Google_Domain 前匹配
+DOMAIN,studio.firebase.google.com

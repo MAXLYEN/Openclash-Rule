@@ -1,9 +1,9 @@
 # NAME: SG_Domain
 # UPDATED: 2026-09-26
 # DOMAIN: 1
-# DOMAIN-SUFFIX: 31
+# DOMAIN-SUFFIX: 30
 # DOMAIN-KEYWORD: 30
-# TOTAL: 62
+# TOTAL: 61
 #亚洲-新加坡分流
 #实体金融
 DOMAIN-KEYWORD,ocbc
@@ -11,8 +11,7 @@ DOMAIN-KEYWORD,cobo
 DOMAIN-KEYWORD,dcscc
 DOMAIN-KEYWORD,jumio
 DOMAIN-KEYWORD,straitsx
-#Trae（字节 AI IDE）国际站；trae.com.cn 是国内站，故意不收
-DOMAIN-SUFFIX,trae.ai
+# Trae 国际版已转入 US_Domain；中国站 trae.com.cn 仍不在此收录
 # 百炼 Qwen 新加坡地域专属 API；不扩大到整站 aliyuncs.com
 DOMAIN,dashscope-intl.aliyuncs.com
 DOMAIN-SUFFIX,ap-southeast-1.maas.aliyuncs.com

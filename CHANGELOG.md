@@ -8,6 +8,9 @@
 
 ## 2026-09-26（AI 编程模型与 Meta 分流）
 
+- `US_Domain` 补充 OpenCode Zen（含免费模型接口 `opencode.ai`）、模型目录 `models.dev`、OpenRouter，以及 Replit、Lovable、Bolt、v0、Factory、Amp、Sourcegraph、Cline、Kilo、Continue、Junie、Tabnine、Kiro、Qoder 等编程平台的一方域名；Trae 国际站从 SGNet 调整至 USNet。
+- 补充 Amazon Q Developer 官方专用接口与代码扫描/转换存储桶，并在 `Gemini_Domain` 中单独收录 Firebase Studio，避开对共用 AWS / Google 域名的扩大分流。
+- 新增 `AI_Coding_US_Domain`，供 Config 在 GitHub 规则之前匹配 Copilot 专用域名；GitHub 共用的登录页与 API 仍按 GitHub 策略处理，避免扩大普通 GitHub 流量的影响范围。
 - 按最终路由要求，撤销 `meta.ai` / `meta.com` 的 UKNet 例外，将两者及其子域改回 USNet；Meta 一方域名在本规则库目标策略组统一为 USNet。实际出口仍需核对路由器上 USNet 当前所选节点。
 - `meta.com` 及其子域跟随 `meta.ai` 改走 UKNet，覆盖 Meta 英国官网与 `ai.meta.com`；Muse 继续保持 USNet。
 - `meta.ai` 及其子域从 USNet 改为 UKNet：用户在原美国出口看到地区不可用提示；英国已在 Meta 公布的支持地区中。Muse 保持 USNet。
