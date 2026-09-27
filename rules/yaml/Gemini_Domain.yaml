@@ -44,3 +44,4 @@ payload:
   - DOMAIN-SUFFIX,notebooklm.google.com
   - DOMAIN-SUFFIX,labs.google.com
   - DOMAIN-SUFFIX,stitch.withgoogle.com
+  - DOMAIN,studio.firebase.google.com

@@ -4,7 +4,6 @@ payload:
   - DOMAIN-KEYWORD,dcscc
   - DOMAIN-KEYWORD,jumio
   - DOMAIN-KEYWORD,straitsx
-  - DOMAIN-SUFFIX,trae.ai
   - DOMAIN,dashscope-intl.aliyuncs.com
   - DOMAIN-SUFFIX,ap-southeast-1.maas.aliyuncs.com
   - DOMAIN-KEYWORD,cloudauth-device

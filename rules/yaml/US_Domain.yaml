@@ -84,6 +84,57 @@ payload:
   - DOMAIN-SUFFIX,kimi.ai
   - DOMAIN-SUFFIX,moonshot.ai
   - DOMAIN-SUFFIX,stepfun.ai
+  - DOMAIN-SUFFIX,opencode.ai
+  - DOMAIN-SUFFIX,models.dev
+  - DOMAIN-SUFFIX,openrouter.ai
+  - DOMAIN-SUFFIX,factory.ai
+  - DOMAIN-SUFFIX,replit.com
+  - DOMAIN-SUFFIX,replit.dev
+  - DOMAIN-SUFFIX,lovable.dev
+  - DOMAIN-SUFFIX,bolt.new
+  - DOMAIN-SUFFIX,stackblitz.com
+  - DOMAIN-SUFFIX,stackblitz.io
+  - DOMAIN-SUFFIX,webcontainer.io
+  - DOMAIN-SUFFIX,webcontainers.io
+  - DOMAIN-SUFFIX,webcontainer-api.io
+  - DOMAIN-SUFFIX,v0.app
+  - DOMAIN-SUFFIX,v0.dev
+  - DOMAIN-SUFFIX,ampcode.com
+  - DOMAIN-SUFFIX,sourcegraph.com
+  - DOMAIN-SUFFIX,augmentcode.com
+  - DOMAIN-SUFFIX,cline.bot
+  - DOMAIN-SUFFIX,kilo.ai
+  - DOMAIN-SUFFIX,continue.dev
+  - DOMAIN-SUFFIX,junie.jetbrains.com
+  - DOMAIN-SUFFIX,jetbrains.ai
+  - DOMAIN,api.jetbrains.cloud
+  - DOMAIN,api.app.prod.grazie.aws.intellij.net
+  - DOMAIN-SUFFIX,tabnine.com
+  - DOMAIN-SUFFIX,coderabbit.ai
+  - DOMAIN-SUFFIX,openhands.dev
+  - DOMAIN-SUFFIX,all-hands.dev
+  - DOMAIN-SUFFIX,aider.chat
+  - DOMAIN-SUFFIX,qodo.ai
+  - DOMAIN-SUFFIX,kiro.dev
+  - DOMAIN-SUFFIX,qoder.com
+  - DOMAIN-SUFFIX,zed.dev
+  - DOMAIN-SUFFIX,warp.dev
+  - DOMAIN-SUFFIX,codegpt.co
+  - DOMAIN-SUFFIX,blackbox.ai
+  - DOMAIN-SUFFIX,pieces.app
+  - DOMAIN-SUFFIX,trae.ai
+  - DOMAIN,codewhisperer.us-east-1.amazonaws.com
+  - DOMAIN,q.us-east-1.amazonaws.com
+  - DOMAIN,q.eu-central-1.amazonaws.com
+  - DOMAIN,idetoolkits-hostedfiles.amazonaws.com
+  - DOMAIN,idetoolkits.amazonwebservices.com
+  - DOMAIN,q-developer-integration.us-east-1.api.aws
+  - DOMAIN,aws-toolkit-language-servers.amazonaws.com
+  - DOMAIN,aws-language-servers.us-east-1.amazonaws.com
+  - DOMAIN,amazonq-code-scan-us-east-1-29121b44f7b.s3.amazonaws.com
+  - DOMAIN,amazonq-code-scan-eu-central-1-9374e402cc5.s3.amazonaws.com
+  - DOMAIN,amazonq-code-transformation-us-east-1-c6160f047e0.s3.amazonaws.com
+  - DOMAIN,amazonq-code-transformation-eu-central-1-a0a89cc2b94.s3.amazonaws.com
   - DOMAIN,dashscope-us.aliyuncs.com
   - DOMAIN-SUFFIX,us-east-1.maas.aliyuncs.com
   - DOMAIN-SUFFIX,meta.ai
