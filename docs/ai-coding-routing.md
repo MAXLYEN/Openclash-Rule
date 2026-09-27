@@ -23,7 +23,7 @@
 | Junie / JetBrains AI、Kiro、Qoder、Zed、Warp、Tabnine、CodeGPT、Blackbox、Pieces、Trae 国际版 | `junie.jetbrains.com`、`jetbrains.ai`、`api.jetbrains.cloud`、`api.app.prod.grazie.aws.intellij.net`、`kiro.dev`、`qoder.com`、`zed.dev`、`warp.dev`、`tabnine.com`、`codegpt.co`、`blackbox.ai`、`pieces.app`、`trae.ai` | USNet | [JetBrains 官方防火墙域名](https://youtrack.jetbrains.com/articles/SUPPORT-A-297/How-to-allow-access-to-JetBrains-AI-Assistant-Junie-in-the-company-network-firewall-proxy)、[Kiro](https://kiro.dev/docs/ide/)、[Qoder](https://qoder.com/)、[Zed Agent](https://zed.dev/docs/ai/quick-start)、[Tabnine Agent](https://docs.tabnine.com/main/getting-started/tabnine-agent)；JetBrains 共用账户域名维持原分流，Trae 中国站不变 |
 | Amazon Q Developer | `codewhisperer.us-east-1.amazonaws.com`、`q.us-east-1.amazonaws.com`、`q.eu-central-1.amazonaws.com`、`idetoolkits-hostedfiles.amazonaws.com`、`idetoolkits.amazonwebservices.com`、`q-developer-integration.us-east-1.api.aws`、语言服务器及代码扫描/转换存储桶 | USNet | [AWS 官方防火墙域名](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/firewall.html)、[Q Developer 支持地域](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/q-admin-setup-subscribe-regions.html)；这里设置的是出口地区，不改变 AWS 端点本身的地域；共享 AWS 登录及遥测主机不改 |
 | Firebase Studio / Project IDX | `studio.firebase.google.com` | USNet（`Gemini_Domain` 在 `Google_Domain` 前匹配） | [Firebase 官方说明](https://firebase.google.com/docs/studio/idx-is-firebase-studio)；其余 Firebase 共用服务按现有 Google / Firebase 分流 |
-| GitHub Copilot | `githubcopilot.com`、`copilot-proxy.githubusercontent.com`、`origin-tracker.githubusercontent.com`、`copilot-telemetry.githubusercontent.com`、`copilot-reports.github.com` | USNet（需 Config 将 `AI_Coding_US_Domain` 放在 GitHub 规则前） | [GitHub 官方网络域名清单](https://docs.github.com/en/copilot/reference/copilot-allowlist-reference)；`github.com` 登录页、`api.github.com` 与 GitHub 共用，域名规则不能按 URL 路径只切 Copilot，仍由 GitHub 策略处理 |
+| GitHub Copilot | `githubcopilot.com`、`copilot-proxy.githubusercontent.com`、`origin-tracker.githubusercontent.com`、`copilot-telemetry.githubusercontent.com`、`copilot-reports.github.com` | USNet（Config 已将 `AI_Coding_US_Domain` 放在 GitHub 规则前） | [GitHub 官方网络域名清单](https://docs.github.com/en/copilot/reference/copilot-allowlist-reference)；`github.com` 登录页、`api.github.com` 与 GitHub 共用，域名规则不能按 URL 路径只切 Copilot，仍由 GitHub 策略处理 |
 
 地区出口仅影响请求来源 IP，不保证账号、付款方式、功能或模型在该地区开放。Meta 官方公告称 Muse 首先在美国推出；OpenCode 的 Muse Spark 免费模型通过 `opencode.ai` Zen API 调用，因此 `muse.ai` 与 `opencode.ai` 均需使用美国出口，仍可能受账号或服务侧地区判断影响。厂商的支持地区可能变化，新增独立域名需依据官方文档或连接日志再收录。共享登录、遥测、云存储和 CDN 主域不按单个 AI 厂商一概改路由，避免影响其他应用。
 
@@ -31,6 +31,6 @@
 
 V2 配置先匹配 OpenAI、Claude、Gemini，随后匹配 GitHub、各地区规则，再匹配通用 AI/社交 geosite。`Game_Domain` 原有 `fbsbx` 关键字会先于 `US_Domain` 命中，现已停用，交由 Meta 的 `fbsbx.com` / `fbsbx.net` 后缀规则匹配。
 
-Copilot 专用域名另置于 `AI_Coding_US_Domain`。Config 必须在 `GitHub_Domain` 及 `GEOSITE,github` 前引用该 provider，否则它仍会先命中 GitHub 策略组。Trae 国际站从 `SG_Domain` 迁入 `US_Domain`；中国站保持现有规则。
+Copilot 专用域名另置于 `AI_Coding_US_Domain`。Config 已在 `GitHub_Domain` 及 `GEOSITE,github` 前引用该 provider，使这些域名先命中 USNet。Trae 国际站从 `SG_Domain` 迁入 `US_Domain`；中国站保持现有规则。
 
 直接用 IP 连接、没有可用域名元数据的 Meta 流量由 Openclash-Config 源配置中的 `GEOIP,facebook` 指向 `USNet`。Config 源文件独立提交，由云端构建并发布 `dist`；本仓库的域名规则不能单独覆盖这种连接。
