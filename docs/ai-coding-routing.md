@@ -33,4 +33,4 @@ V2 配置先匹配 OpenAI、Claude、Gemini，随后匹配 GitHub、各地区规
 
 Copilot 专用域名另置于 `AI_Coding_US_Domain`。Config 必须在 `GitHub_Domain` 及 `GEOSITE,github` 前引用该 provider，否则它仍会先命中 GitHub 策略组。Trae 国际站从 `SG_Domain` 迁入 `US_Domain`；中国站保持现有规则。
 
-直接用 IP 连接、没有可用域名元数据的 Meta 流量需要在 Openclash-Config 源配置中将 `GEOIP,facebook` 指向 `USNet`。配置源文件应独立提交，由云端构建并发布 `dist`；仅有本仓库的域名规则无法覆盖这种连接。
+直接用 IP 连接、没有可用域名元数据的 Meta 流量由 Openclash-Config 源配置中的 `GEOIP,facebook` 指向 `USNet`。Config 源文件独立提交，由云端构建并发布 `dist`；本仓库的域名规则不能单独覆盖这种连接。
