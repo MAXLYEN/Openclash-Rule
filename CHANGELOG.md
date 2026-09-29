@@ -14,7 +14,6 @@ IP 检测站点只保留 PConline 直连（用户指定），其余一律走代�
 - `IPCheck_Domain` 新增 IP 质量 / 泄漏检测（`ping0.cc`、`ipcheck.ing`、`ip.skk.moe`、`ippure.com`、`browserleaks.com`、`ipleak.net`、`whoer.net`、`ipqualityscore.com` 等）和境外定位接口（`ipgeolocation.io`、`ipwho.is`、`ipregistry.co`、`maxmind.com` 等）。`browserleaks.com` 原先被 `GEOSITE,cn` 直连
 - 保持直连：PConline（`whois.pconline.com.cn`）；功能性直连 `ipinfo.io`（小雅）与路由器 DDNS 取公网 IP 的地址不在此列
 - `ip-api.com` 仍由更早的 `GEOSITE,talkatone` 命中进 Talkatone 组，同样走代理
-- `Custom_Proxy_IP` 新增 `108.160.133.88/32`（用户指定走代理）
 
 ## 2026-09-26（AI 编程模型与 Meta 分流）
 
