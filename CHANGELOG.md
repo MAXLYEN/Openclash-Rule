@@ -6,6 +6,15 @@
 
 ---
 
+## 2026-09-29
+
+IP 检测站点只保留 PConline 直连（用户指定），其余一律走代理：
+
+- `IPCheck_Domain` 新增国内 IP 检测（`ipip.net`、`cip.cc`、`ip.cn`、`ipw.cn`、`ip138.com`、`ip.3322.net`、`myip.la` 等）；本规则集排在 `China_Domain` / `GEOSITE,cn` 之前，原先这些站点直连。`China_Domain` 的 `ipip.net`、`chaipip.com` 以 `[已停用-分组冲突]` 注明
+- `IPCheck_Domain` 新增 IP 质量 / 泄漏检测（`ping0.cc`、`ipcheck.ing`、`ip.skk.moe`、`ippure.com`、`browserleaks.com`、`ipleak.net`、`whoer.net`、`ipqualityscore.com` 等）和境外定位接口（`ipgeolocation.io`、`ipwho.is`、`ipregistry.co`、`maxmind.com` 等）。`browserleaks.com` 原先被 `GEOSITE,cn` 直连
+- 保持直连：PConline（`whois.pconline.com.cn`）；功能性直连 `ipinfo.io`（小雅）与路由器 DDNS 取公网 IP 的地址不在此列
+- `ip-api.com` 仍由更早的 `GEOSITE,talkatone` 命中进 Talkatone 组，同样走代理
+
 ## 2026-09-26（AI 编程模型与 Meta 分流）
 
 - `US_Domain` 补充 OpenCode Zen（含免费模型接口 `opencode.ai`）、模型目录 `models.dev`、OpenRouter，以及 Replit、Lovable、Bolt、v0、Factory、Amp、Sourcegraph、Cline、Kilo、Continue、Junie、Tabnine、Kiro、Qoder 等编程平台的一方域名；Trae 国际站从 SGNet 调整至 USNet。

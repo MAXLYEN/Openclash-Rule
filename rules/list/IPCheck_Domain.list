@@ -1,8 +1,8 @@
 # NAME: IPCheck_Domain
-# UPDATED: 2026-09-25
+# UPDATED: 2026-09-29
 # DOMAIN: 1
-# DOMAIN-SUFFIX: 18
-# TOTAL: 19
+# DOMAIN-SUFFIX: 61
+# TOTAL: 62
 # IP 查询与风险检测服务，保留 Others 策略组
 # 收窄旧 Others_Domain 的模糊关键字，避免误命中无关域名
 # ipinfo.io 当前由更靠前的 Custom_Direct_Domain 直连；此处保留为后备
@@ -15,7 +15,8 @@ DOMAIN-SUFFIX,scamalytics.com
 DOMAIN-SUFFIX,ip8.com
 DOMAIN,api.ipify.org
 # 境外 IP 查询服务明确走代理：App / SDK 查自己的 IP 时拿到代理出口（原先大多落到 FINAL，结果相同，写明以免被别的规则截走）
-# 保持直连的：Custom_Direct_Domain 的 ipinfo.io 与路由器 DDNS 用的查询地址；国内查询（IPIP.NET、PConline 等）由 China_Domain / GEOSITE,cn 直连
+# IP 检测站点只保留 PConline（whois.pconline.com.cn，由 China_Domain 直连）显示国内出口，其余一律走代理（用户指定）。
+# 另有两类功能性直连不在此列：Custom_Direct_Domain 的 ipinfo.io（小雅）与路由器 DDNS 取公网 IP 用的地址
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,ifconfig.me
 DOMAIN-SUFFIX,icanhazip.com
@@ -27,3 +28,49 @@ DOMAIN-SUFFIX,checkip.amazonaws.com
 DOMAIN-SUFFIX,whatismyipaddress.com
 DOMAIN-SUFFIX,db-ip.com
 DOMAIN-SUFFIX,iplocation.net
+# 国内 IP 检测：本规则集排在 China_Domain / GEOSITE,cn 之前，截得住
+DOMAIN-SUFFIX,ipip.net
+DOMAIN-SUFFIX,cip.cc
+DOMAIN-SUFFIX,ip.cn
+DOMAIN-SUFFIX,ipw.cn
+DOMAIN-SUFFIX,ip138.com
+DOMAIN-SUFFIX,ip.3322.net
+DOMAIN-SUFFIX,myip.la
+DOMAIN-SUFFIX,ip.im
+DOMAIN-SUFFIX,ipshudi.com
+DOMAIN-SUFFIX,ipchaxun.com
+DOMAIN-SUFFIX,ip.useragentinfo.com
+DOMAIN-SUFFIX,ip.tool.chinaz.com
+DOMAIN-SUFFIX,chaipip.com
+# IP 质量 / 风险检测
+DOMAIN-SUFFIX,ping0.cc
+DOMAIN-SUFFIX,ipcheck.ing
+DOMAIN-SUFFIX,ip.skk.moe
+DOMAIN-SUFFIX,ippure.com
+DOMAIN-SUFFIX,iplark.com
+DOMAIN-SUFFIX,ipqualityscore.com
+DOMAIN-SUFFIX,ip-score.com
+DOMAIN-SUFFIX,ipapi.is
+DOMAIN-SUFFIX,iphey.com
+DOMAIN-SUFFIX,pixelscan.net
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,dnsleaktest.com
+# 境外 IP 查询 / 地理定位接口
+DOMAIN-SUFFIX,ipgeolocation.io
+DOMAIN-SUFFIX,ipregistry.co
+DOMAIN-SUFFIX,ipwho.is
+DOMAIN-SUFFIX,ipwhois.app
+DOMAIN-SUFFIX,ipwhois.io
+DOMAIN-SUFFIX,iplocate.io
+DOMAIN-SUFFIX,ip.guide
+DOMAIN-SUFFIX,ipinfo.info
+DOMAIN-SUFFIX,ipaddress.com
+DOMAIN-SUFFIX,myipaddress.com
+DOMAIN-SUFFIX,whatismyip.net
+DOMAIN-SUFFIX,wtfismyip.com
+DOMAIN-SUFFIX,ip.me
+DOMAIN-SUFFIX,ip.fm
+DOMAIN-SUFFIX,myip.com
+DOMAIN-SUFFIX,maxmind.com

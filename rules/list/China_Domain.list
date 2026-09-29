@@ -1,15 +1,15 @@
 # NAME: China_Domain
-# UPDATED: 2026-09-25
-# DOMAIN-SUFFIX: 538
+# UPDATED: 2026-09-29
+# DOMAIN-SUFFIX: 536
 # DOMAIN-KEYWORD: 15
-# TOTAL: 553
+# TOTAL: 551
 # === 以下合并自 ChinaDomain.list ===
 # 直连列表
 # MyList
 DOMAIN-SUFFIX,13th.tech
 DOMAIN-SUFFIX,423down.com
 DOMAIN-SUFFIX,bokecc.com
-DOMAIN-SUFFIX,chaipip.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,chaipip.com  ← IP 检测站点，改由 IPCheck_Domain 走代理（只保留 PConline 直连）
 DOMAIN-SUFFIX,chinaplay.store
 DOMAIN-SUFFIX,hrtsea.com
 DOMAIN-SUFFIX,kaikeba.com
@@ -501,7 +501,7 @@ DOMAIN-SUFFIX,ifeng.com
 DOMAIN-SUFFIX,ifengimg.com
 DOMAIN-SUFFIX,images-amazon.com
 DOMAIN-SUFFIX,infzm.com
-DOMAIN-SUFFIX,ipip.net
+# [已停用-分组冲突] DOMAIN-SUFFIX,ipip.net  ← IP 检测站点，改由 IPCheck_Domain 走代理（只保留 PConline 直连）
 DOMAIN-SUFFIX,it168.com
 DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,ixdzs.com
