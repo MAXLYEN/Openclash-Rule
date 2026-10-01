@@ -26,6 +26,8 @@ Thumbs.db
 # 私人配置与笔记（只留本地，不上传）
 CLAUDE.md
 CLAUDE.local.md
+AGENTS.md
+AGENTS.override.md
 .env
 .env.*
 *.private.*
