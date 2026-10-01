@@ -6,6 +6,11 @@
 
 ---
 
+## 2026-09-30
+
+- `Custom-Made_Domain` 新增 `DOMAIN,origin-a.akamaihd.net`（EA app 下载 CDN）。原先命中 ⑤ 区 `GEOSITE,category-game-platforms-download` 直连，实测只有 22～72 kB/s；Custom-Made 位于 ③ 区、默认 Global Direct，平时照旧直连，下载慢时在面板切到 Proxy。只收这个主机名，不用 `akamaihd.net` 后缀（通用 CDN）。`EA_Domain` 里的同名条目本来就被上述 GEOSITE 截走，现由 Custom-Made 先命中
+- `Custom-Made_Domain` 不再是空规则集；Openclash-Config `validate_ini.py` 的 `INTENTIONALLY_EMPTY` 需相应撤掉（由 Config 会话处理）
+
 ## 2026-09-29
 
 IP 检测站点只保留 PConline 直连（用户指定），其余一律走代理：
