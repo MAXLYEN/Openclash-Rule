@@ -6,6 +6,13 @@
 
 ---
 
+## 2026-10-06
+
+- 新增 `USAlt_Domain` / `USAlt_IP`：「美国备用出口」名单，供 Openclash-Config 的锚点组 USAlt（RackNerd 优先，挂了退回常用美国节点）引用，排在 ③ 区末尾、早于所有平台规则和 `US_Domain`。按出口要求而非平台命名，以后其他平台遇到同样问题也加到这里
+- 第一批收录 Meta AI：`DOMAIN-SUFFIX,meta.ai`、`DOMAIN,auth.meta.com`、`DOMAIN,accountscenter.meta.com`。依据：常用美国节点（AS2914 NTT America）被 Meta 降级，`api.meta.ai/v1/models` 只返回 1 个模型、`dev.meta.ai` 跳 `/unavailable?reason=geo`；RackNerd（AS36352）返回全部 8 个模型、浏览器可正常使用。两者在 ipinfo 上都是 US / Los Angeles，问题在 IP 类型或信誉
+- `meta.com`、`facebook.com` 整个后缀不收，Quest、商店、Facebook 继续走 USNet；`US_Domain` 里的 `meta.ai` 保留，Config 引用后它被 USAlt_Domain 先命中，冗余分析会归为 C 类异组冲突，不自动停用
+- `USAlt_IP` 为空占位（暂无可单独归属的 IP 段）
+
 ## 2026-09-30
 
 - `Custom-Made_Domain` 新增 `DOMAIN,origin-a.akamaihd.net`（EA app 下载 CDN）。原先命中 ⑤ 区 `GEOSITE,category-game-platforms-download` 直连，实测只有 22～72 kB/s；Custom-Made 位于 ③ 区、默认 Global Direct，平时照旧直连，下载慢时在面板切到 Proxy。只收这个主机名，不用 `akamaihd.net` 后缀（通用 CDN）。`EA_Domain` 里的同名条目本来就被上述 GEOSITE 截走，现由 Custom-Made 先命中

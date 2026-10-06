@@ -1,0 +1,18 @@
+# NAME: USAlt_Domain
+# UPDATED: 2026-10-06
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 1
+# TOTAL: 3
+# 美国备用出口名单：常用美国节点用不了的平台改走锚点组 USAlt（RackNerd 优先，挂了退回常用美国节点）。
+# 按「出口要求」命名而非按平台：以后别的平台遇到同样问题也往这里加。Config 把本规则集排在 ③ 区末尾，早于所有平台规则和 US_Domain。
+# 依据（2026-10）：常用节点 216.167.87.31 属 AS2914（NTT America），Meta 对其降级——同一 Key 调 api.meta.ai/v1/models
+# 只返回 muse-image-1.0，dev.meta.ai 登录后跳 /unavailable?reason=geo；RackNerd 23.254.172.50（AS36352 HostPapa）返回全部
+# 8 个模型，浏览器也能正常使用 dev.meta.ai。两个 IP 在 ipinfo 上都是 US / Los Angeles，问题在 IP 类型或信誉而非地理位置。
+# Meta AI：dev.meta.ai、billing.dev.meta.ai、api.meta.ai、graph.meta.ai 及 Meta AI 聊天
+DOMAIN-SUFFIX,meta.ai
+# Meta 登录（OAuth、设备授权）
+DOMAIN,auth.meta.com
+# 账号中心，含 muse_code 授权页
+DOMAIN,accountscenter.meta.com
+# 不收 meta.com / facebook.com 整个后缀：Quest、商店、Facebook 继续走 USNet。
+# 登录会跳到 www.facebook.com，若上线后登录出现跳转循环，再由用户决定是否补 DOMAIN,www.facebook.com
