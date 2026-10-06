@@ -12,6 +12,7 @@
 - 第一批收录 Meta AI：`DOMAIN-SUFFIX,meta.ai`、`DOMAIN,auth.meta.com`、`DOMAIN,accountscenter.meta.com`。依据：常用美国节点（AS2914 NTT America）被 Meta 降级，`api.meta.ai/v1/models` 只返回 1 个模型、`dev.meta.ai` 跳 `/unavailable?reason=geo`；RackNerd（AS36352）返回全部 8 个模型、浏览器可正常使用。两者在 ipinfo 上都是 US / Los Angeles，问题在 IP 类型或信誉
 - `meta.com`、`facebook.com` 整个后缀不收，Quest、商店、Facebook 继续走 USNet；`US_Domain` 里的 `meta.ai` 保留，Config 引用后它被 USAlt_Domain 先命中，冗余分析会归为 C 类异组冲突，不自动停用
 - `USAlt_IP` 为空占位（暂无可单独归属的 IP 段）
+- 结论：`www.facebook.com` 不加入 `USAlt_Domain`。用户实测 USNet 用常用美国节点、只有 Meta AI 走 RackNerd 时，`dev.meta.ai` 可正常登录（Openclash-Config `docs/architecture.md` 第六节同步记录）
 
 ## 2026-09-30
 

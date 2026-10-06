@@ -15,4 +15,4 @@ DOMAIN,auth.meta.com
 # 账号中心，含 muse_code 授权页
 DOMAIN,accountscenter.meta.com
 # 不收 meta.com / facebook.com 整个后缀：Quest、商店、Facebook 继续走 USNet。
-# 登录会跳到 www.facebook.com，若上线后登录出现跳转循环，再由用户决定是否补 DOMAIN,www.facebook.com
+# 登录会跳到 www.facebook.com，但不需要收录：用户 2026-10-06 实测，USNet 用常用美国节点（NTT）、只有 Meta AI 走 RackNerd 时，dev.meta.ai 可正常登录
