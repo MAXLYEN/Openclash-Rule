@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,pexx.com
 # 澳洲支付与入金平台：只收各自官方主域
 DOMAIN-SUFFIX,airwallex.com
 DOMAIN-SUFFIX,banxa.com
+# 特殊视频平台
 DOMAIN-SUFFIX,uhdnow.com
 DOMAIN-SUFFIX,jable.tv
 DOMAIN-SUFFIX,mushroomtrack.com
