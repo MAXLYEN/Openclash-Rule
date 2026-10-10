@@ -1,9 +1,8 @@
 # NAME: Custom_Direct_Domain
-# UPDATED: 2026-09-25
-# DOMAIN: 4
+# UPDATED: 2026-10-10
 # DOMAIN-SUFFIX: 56
 # DOMAIN-KEYWORD: 5
-# TOTAL: 65
+# TOTAL: 61
 # 强制直连域名列表，来自个人收集
 # 部分域名可能和中国大陆域名列表存在重叠
 # 规则内容较少，不会影响性能，请放心使用
@@ -46,12 +45,12 @@ DOMAIN-SUFFIX,powershellgallery.com
 DOMAIN-SUFFIX,pool.ntp.org
 # Dell
 DOMAIN-SUFFIX,dell.com
-# Cloudflare 官网、控制台与 API 直连，避免抢先命中 Apple Relay 等其他服务
+# Cloudflare 官网、控制台与 API 原为直连；2026-10-10 起改由 Custom_Proxy_Domain 走代理，下列各行仅作记录
 # [已停用-范围过宽] DOMAIN-SUFFIX,cloudflare.com  ← 整个后缀覆盖其他平台使用的 Cloudflare 端点
-DOMAIN,cloudflare.com
-DOMAIN,www.cloudflare.com
-DOMAIN,dash.cloudflare.com
-DOMAIN,api.cloudflare.com
+# [已停用-分组冲突] DOMAIN,cloudflare.com  ← Cloudflare 官网 / 控制台登录改走代理（用户 2026-10-10 指定），由 Custom_Proxy_Domain 接管
+# [已停用-分组冲突] DOMAIN,www.cloudflare.com  ← Cloudflare 官网 / 控制台登录改走代理（用户 2026-10-10 指定），由 Custom_Proxy_Domain 接管
+# [已停用-分组冲突] DOMAIN,dash.cloudflare.com  ← Cloudflare 官网 / 控制台登录改走代理（用户 2026-10-10 指定），由 Custom_Proxy_Domain 接管
+# [已停用-分组冲突] DOMAIN,api.cloudflare.com  ← Cloudflare 官网 / 控制台登录改走代理（用户 2026-10-10 指定），由 Custom_Proxy_Domain 接管
 # [已停用-范围过宽] DOMAIN-SUFFIX,cloudflarestorage.com  ← R2 承载第三方内容，不能全部强制直连
 # FLiNG Trainer
 DOMAIN-SUFFIX,flingtrainer.com

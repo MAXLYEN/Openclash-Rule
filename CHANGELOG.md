@@ -6,6 +6,12 @@
 
 ---
 
+## 2026-10-10
+
+- Cloudflare 官网与控制台登录改走代理（用户指定）：`Custom_Proxy_Domain` 新增 `cloudflare.com`、`www.cloudflare.com`（含 `cf-assets` 静态资源）、`dash.cloudflare.com`（含 Zero Trust 的 `one.dash`）、`api.cloudflare.com`、`challenges.cloudflare.com`（登录页 Turnstile 人机验证）、`cloudflareaccess.com`（Zero Trust Access 登录）。`Custom_Direct_Domain` 原有的四条直连以 `[已停用-分组冲突]` 注明
+- 仍不用 `cloudflare.com` 整个后缀：`apple-relay` / `cp4`（Apple 专用代理）继续走 USNet，`speed.cloudflare.com` 走 Speedtest，`cdnjs.cloudflare.com` 等其余主机按原有规则
+- 副作用：其他网站嵌入的 Turnstile 验证也随 `challenges.cloudflare.com` 走代理；Cloudflare DDNS 通过 `api.cloudflare.com` 更新时请求体里带着 IP，走代理不影响结果
+
 ## 2026-10-06
 
 - 新增 `USAlt_Domain` / `USAlt_IP`：「美国备用出口」名单，供 Openclash-Config 的锚点组 USAlt（RackNerd 优先，挂了退回常用美国节点）引用，排在 ③ 区末尾、早于所有平台规则和 `US_Domain`。按出口要求而非平台命名，以后其他平台遇到同样问题也加到这里

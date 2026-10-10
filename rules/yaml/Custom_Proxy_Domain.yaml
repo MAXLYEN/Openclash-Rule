@@ -30,3 +30,9 @@ payload:
   - DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
   - DOMAIN-SUFFIX,appsflyer.com
   - DOMAIN-SUFFIX,adjust.com
+  - DOMAIN,cloudflare.com
+  - DOMAIN-SUFFIX,www.cloudflare.com
+  - DOMAIN-SUFFIX,dash.cloudflare.com
+  - DOMAIN,api.cloudflare.com
+  - DOMAIN,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,cloudflareaccess.com

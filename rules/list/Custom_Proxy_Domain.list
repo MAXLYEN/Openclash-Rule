@@ -1,7 +1,8 @@
 # NAME: Custom_Proxy_Domain
-# UPDATED: 2026-09-26
-# DOMAIN-SUFFIX: 31
-# TOTAL: 31
+# UPDATED: 2026-10-10
+# DOMAIN: 3
+# DOMAIN-SUFFIX: 34
+# TOTAL: 37
 # 强制代理列表，来自个人收集
 # PS5 STUN
 DOMAIN-SUFFIX,stun.playstation.net
@@ -50,3 +51,16 @@ DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,adjust.com
+# Cloudflare 官网与控制台登录（用户 2026-10-10 指定走代理）。只收官网、控制台、API、登录验证相关主机，
+# 不用 cloudflare.com 整个后缀：Apple Relay、cdnjs、speed.cloudflare.com 等其他服务另有归属
+DOMAIN,cloudflare.com
+# 官网，含 cf-assets.www.cloudflare.com 静态资源
+DOMAIN-SUFFIX,www.cloudflare.com
+# 控制台，含 Zero Trust 的 one.dash.cloudflare.com
+DOMAIN-SUFFIX,dash.cloudflare.com
+# 控制台调用的 API（DDNS 更新也用它，但更新时请求体里带着 IP，走代理不影响结果）
+DOMAIN,api.cloudflare.com
+# 登录页的 Turnstile 人机验证，与控制台同出口；其他网站的 Turnstile 验证也会随之走代理
+DOMAIN,challenges.cloudflare.com
+# Zero Trust Access 登录页（<团队名>.cloudflareaccess.com）
+DOMAIN-SUFFIX,cloudflareaccess.com
