@@ -85,7 +85,6 @@ payload:
   - DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
   - DOMAIN-SUFFIX,babble.com
   - DOMAIN-SUFFIX,babyzone.com
-  - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,bam.nr-data.net
   - DOMAIN-SUFFIX,bam.nr-date.net
   - DOMAIN-SUFFIX,bamgrid.com
@@ -527,7 +526,6 @@ payload:
   - DOMAIN-SUFFIX,fxn.ws
   - DOMAIN-SUFFIX,fxnetwork.com
   - DOMAIN-SUFFIX,fxnetworks.com
-  - DOMAIN-SUFFIX,gamer.com.tw
   - DOMAIN-SUFFIX,geraldoatlarge.com
   - DOMAIN-SUFFIX,getblueshift.com
   - DOMAIN-SUFFIX,glasamerike.net
@@ -565,7 +563,6 @@ payload:
   - DOMAIN-SUFFIX,hbounify-prod.evergent.com
   - DOMAIN-SUFFIX,hentaiverse.org
   - DOMAIN-SUFFIX,himalaya.com
-  - DOMAIN-SUFFIX,hinet.net
   - DOMAIN-SUFFIX,hjholdings.jp
   - DOMAIN-SUFFIX,hooloo.tv
   - DOMAIN-SUFFIX,hoolu.com
@@ -977,7 +974,6 @@ payload:
   - DOMAIN-SUFFIX,timestalks.com
   - DOMAIN-SUFFIX,tospotify.com
   - DOMAIN-SUFFIX,ttvnw.net
-  - DOMAIN-SUFFIX,tv.apple.com
   - DOMAIN-SUFFIX,tvb.com
   - DOMAIN-SUFFIX,tvb.com.au
   - DOMAIN-SUFFIX,tvbanywhere.com
@@ -1008,7 +1004,6 @@ payload:
   - DOMAIN-SUFFIX,viacom.com
   - DOMAIN-SUFFIX,viacomcbs.com
   - DOMAIN-SUFFIX,viacomcbspressexpress.com
-  - DOMAIN-SUFFIX,viblast.com
   - DOMAIN-SUFFIX,video.a2z.com
   - DOMAIN-SUFFIX,videos-f.jwpsrv.com
   - DOMAIN-SUFFIX,vidol.tv

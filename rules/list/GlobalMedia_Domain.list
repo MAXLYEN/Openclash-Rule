@@ -1,9 +1,9 @@
 # NAME: GlobalMedia_Domain
-# UPDATED: 2026-09-25
+# UPDATED: 2026-10-11
 # DOMAIN: 30
-# DOMAIN-SUFFIX: 1241
+# DOMAIN-SUFFIX: 1236
 # DOMAIN-KEYWORD: 24
-# TOTAL: 1295
+# TOTAL: 1290
 # 综合媒体聚合表：与 YouTube / Disney / Netflix 等专用表的交集供本表单独引用；V2 按前置专用表首命中
 DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
 DOMAIN,api.okzy.tv
@@ -94,7 +94,7 @@ DOMAIN-SUFFIX,atv-ps.amazon.com
 DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
 DOMAIN-SUFFIX,babble.com
 DOMAIN-SUFFIX,babyzone.com
-DOMAIN-SUFFIX,bahamut.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,bahamut.com.tw  ← 已被 Bahamut_Domain 以同一分组命中
 DOMAIN-SUFFIX,bam.nr-data.net
 DOMAIN-SUFFIX,bam.nr-date.net
 DOMAIN-SUFFIX,bamgrid.com
@@ -539,7 +539,7 @@ DOMAIN-SUFFIX,fwmrm.net
 DOMAIN-SUFFIX,fxn.ws
 DOMAIN-SUFFIX,fxnetwork.com
 DOMAIN-SUFFIX,fxnetworks.com
-DOMAIN-SUFFIX,gamer.com.tw
+# [已停用-冗余] DOMAIN-SUFFIX,gamer.com.tw  ← 已被 Bahamut_Domain 以同一分组命中
 DOMAIN-SUFFIX,geraldoatlarge.com
 DOMAIN-SUFFIX,getblueshift.com
 DOMAIN-SUFFIX,glasamerike.net
@@ -577,7 +577,7 @@ DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,hbounify-prod.evergent.com
 DOMAIN-SUFFIX,hentaiverse.org
 DOMAIN-SUFFIX,himalaya.com
-DOMAIN-SUFFIX,hinet.net
+# [已停用-冗余] DOMAIN-SUFFIX,hinet.net  ← 已被 Bahamut_Domain 以同一分组命中
 DOMAIN-SUFFIX,hjholdings.jp
 DOMAIN-SUFFIX,hooloo.tv
 DOMAIN-SUFFIX,hoolu.com
@@ -995,7 +995,7 @@ DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,timestalks.com
 DOMAIN-SUFFIX,tospotify.com
 DOMAIN-SUFFIX,ttvnw.net
-DOMAIN-SUFFIX,tv.apple.com
+# [已停用-冗余] DOMAIN-SUFFIX,tv.apple.com  ← 已被 AppleTV_Domain 以同一分组命中
 DOMAIN-SUFFIX,tvb.com
 DOMAIN-SUFFIX,tvb.com.au
 DOMAIN-SUFFIX,tvbanywhere.com
@@ -1028,7 +1028,7 @@ DOMAIN-SUFFIX,viacbs.com
 DOMAIN-SUFFIX,viacom.com
 DOMAIN-SUFFIX,viacomcbs.com
 DOMAIN-SUFFIX,viacomcbspressexpress.com
-DOMAIN-SUFFIX,viblast.com
+# [已停用-冗余] DOMAIN-SUFFIX,viblast.com  ← 已被 Bahamut_Domain 以同一分组命中
 DOMAIN-SUFFIX,video.a2z.com
 DOMAIN-SUFFIX,videos-f.jwpsrv.com
 DOMAIN-SUFFIX,vidol.tv

@@ -8,6 +8,13 @@
 
 ## 2026-10-11
 
+- 路由器 OpenClash 覆写规则的通用条目迁入规则库（用户决定：通用条目进规则库，冲突时以覆写为准；私有域名、IP 段、优先级覆盖类条目仍留在覆写）。覆写排在所有订阅规则之前，迁入后走向不变，Config 会话按 V2 顺序模拟过 107 个域名
+  - `Custom_Direct_Domain` 新增：`apdcdn.com`、`ovscdns.com`、`nn.com`、`windows.com`、`xboxlive.cn`（不加会被更早的 `Microsoft_Domain` 截走）、`download.nvidia.com`、`iosapps.itunes.apple.com`、`crashlytics.com`、`inmobi.com`、`inner-active.mobi`、`mobilefuse.com`、`ip-api.com`，关键字 `oray`、`leigod`、`bemyeyes`、`yoomoney`、`yandex`、`2gis`、`mirconnect`
+  - `Custom-Made_Domain` 新增 `uhdnow.com`、`jable.tv`、`mushroomtrack.com`、`hanime1.me`，`AU_Domain` 的同名条目停用（覆写一直送 Custom-Made；09-25 定的 mushroomtrack 走 AU 从未生效）
+  - `UK-wifi-call_Domain` 新增 `gsp-ssl.ls.apple.com`（与 `gspe1-ssl` 同类）
+  - 停用：`Custom_Proxy_Domain` 的 `crashlytics.com`、`US_Domain` 的 `inmobi.com` / `inner-active.mobi` / `mobilefuse.com`、`US-wifi-call_IP` 的 6 个留在覆写里直连的 IP 段
+  - 与此前规则库方向相反、按覆写为准的三项：`crashlytics.com` 直连（09-25 为币安改走代理，被覆写压住未生效）、`ip-api.com` 直连（IP 查询服务中的例外）、Talkatone 广告 SDK 整域直连（`TalkatoneAds_Domain` 的 `ads.inmobi.com` 等不再拦截，有意行为）
+  - 同时按 Config v2.16 / v2.17 的组合并跑 `dedupe.py --apply`：`GlobalMedia_Domain` 5 条与 `Bahamut_Domain` / `AppleTV_Domain` 同组冗余，已停用，出口不变
 - 从 `US_Domain` 拆出 `Meta_Domain` / `Meta_IP`（59 条 Meta 一方域名：Facebook、Instagram、Threads、Messenger、WhatsApp、Quest / Oculus、Workplace、fbcdn 等），供 Openclash-Config v2.17 新增的 Meta 组（默认 USNet）引用，排在 `GEOSITE,meta` 之前。原先这些域名大多先被前移的 `GEOSITE,meta` 截走，留在 `US_Domain` 里基本是死规则。`meta.ai`、`muse.ai`、`llama.com`（Meta AI 类，需美国出口）留在 `US_Domain`；`auth.meta.com`、`accountscenter.meta.com` 仍在 `USAlt_Domain`。`Meta_IP` 为空占位，Meta 的 IP 由 Config 的 `GEOIP,facebook` 覆盖
 - 按 Config v2.16 的组名调整跑 `dedupe.py --apply`，不改变实际出口：`HK_Domain` 改归 HKNet 后，原先与它同组冗余的 33 条 GFW 列表条目恢复（仍被更早的 `HK_Domain` 截走）；Netease / Xiaomi / Domestic TV 合并为 Domestic 后，`ChinaMedia_Domain` 里 6 条网易云音乐 / 小米条目与 `NetEaseMusic_Domain` / `XiaoMi_Domain` 同组冗余，已停用
 - `Game_Domain` 的 `DOMAIN-KEYWORD,telephony` 保持不变：用户 2026-09-24 已确认在用、列为有意保留（Config 会话已撤回停用请求）

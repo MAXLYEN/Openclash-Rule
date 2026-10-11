@@ -1,8 +1,8 @@
 # NAME: Custom_Direct_Domain
-# UPDATED: 2026-10-10
-# DOMAIN-SUFFIX: 56
-# DOMAIN-KEYWORD: 5
-# TOTAL: 61
+# UPDATED: 2026-10-11
+# DOMAIN-SUFFIX: 68
+# DOMAIN-KEYWORD: 12
+# TOTAL: 80
 # 强制直连域名列表，来自个人收集
 # 部分域名可能和中国大陆域名列表存在重叠
 # 规则内容较少，不会影响性能，请放心使用
@@ -113,3 +113,27 @@ DOMAIN-KEYWORD,wegame
 # Epic Game
 # [已停用-范围过宽] DOMAIN-SUFFIX,fastly-edge.com  ← 整个 Fastly 边缘域名不应作为 Epic 专属直连
 DOMAIN-KEYWORD,egdownload
+# 以下迁自路由器 OpenClash 覆写规则（2026-10-11，用户决定通用条目进规则库、冲突时以覆写为准），走向与覆写一致
+# xboxlive.cn 必须留在这里：Microsoft_Domain（⑧）排在 China_Domain（⑫）之前，不加会改走 Microsoft 组
+DOMAIN-SUFFIX,apdcdn.com
+DOMAIN-SUFFIX,ovscdns.com
+DOMAIN-SUFFIX,nn.com
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,xboxlive.cn
+DOMAIN-SUFFIX,download.nvidia.com
+DOMAIN-SUFFIX,iosapps.itunes.apple.com
+# 崩溃上报直连：覆写一直如此；代价是 App 的 Crashlytics 上报带国内 IP（2026-09-25 曾为币安改走代理，被覆写压住未生效）
+DOMAIN-SUFFIX,crashlytics.com
+# Talkatone 广告 SDK 整域直连（有意行为）：会让 TalkatoneAds_Domain 的 ads.inmobi.com 等子域不再被拦截，不要为恢复拦截而改
+DOMAIN-SUFFIX,inmobi.com
+DOMAIN-SUFFIX,inner-active.mobi
+DOMAIN-SUFFIX,mobilefuse.com
+# IP 查询例外：ip-api.com 按覆写直连（其余 IP 查询服务见 IPCheck_Domain）
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-KEYWORD,oray
+DOMAIN-KEYWORD,leigod
+DOMAIN-KEYWORD,bemyeyes
+DOMAIN-KEYWORD,yoomoney
+DOMAIN-KEYWORD,yandex
+DOMAIN-KEYWORD,2gis
+DOMAIN-KEYWORD,mirconnect

@@ -276,7 +276,7 @@ DOMAIN-KEYWORD,westlawchina
 # 分析/崩溃报告/部分非核心 → DIRECT（不走代理，减少延迟）
 DOMAIN-SUFFIX,agkn.com
 DOMAIN-SUFFIX,cohere.com
-# [已停用-分组冲突] DOMAIN-SUFFIX,crashlytics.com  ← 统计 / 归因 SDK 直连会暴露国内 IP，改由 Custom_Proxy_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,crashlytics.com  ← 由更早的 Custom_Direct_Domain 承载（以路由器覆写为准，直连）
 DOMAIN-SUFFIX,kochava.com
 # 国内站点的港美域名：China_Domain 里也有，但排在 ProxyGFWlist 的 .hk / .us 顶级域后缀之后，永远命中不到
 DOMAIN-SUFFIX,tmall.hk

@@ -1,2 +1,6 @@
 payload:
   - DOMAIN,origin-a.akamaihd.net
+  - DOMAIN-SUFFIX,uhdnow.com
+  - DOMAIN-SUFFIX,jable.tv
+  - DOMAIN-SUFFIX,mushroomtrack.com
+  - DOMAIN-SUFFIX,hanime1.me

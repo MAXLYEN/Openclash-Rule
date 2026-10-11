@@ -60,3 +60,22 @@ payload:
   - DOMAIN-SUFFIX,115vod.com
   - DOMAIN-KEYWORD,wegame
   - DOMAIN-KEYWORD,egdownload
+  - DOMAIN-SUFFIX,apdcdn.com
+  - DOMAIN-SUFFIX,ovscdns.com
+  - DOMAIN-SUFFIX,nn.com
+  - DOMAIN-SUFFIX,windows.com
+  - DOMAIN-SUFFIX,xboxlive.cn
+  - DOMAIN-SUFFIX,download.nvidia.com
+  - DOMAIN-SUFFIX,iosapps.itunes.apple.com
+  - DOMAIN-SUFFIX,crashlytics.com
+  - DOMAIN-SUFFIX,inmobi.com
+  - DOMAIN-SUFFIX,inner-active.mobi
+  - DOMAIN-SUFFIX,mobilefuse.com
+  - DOMAIN-SUFFIX,ip-api.com
+  - DOMAIN-KEYWORD,oray
+  - DOMAIN-KEYWORD,leigod
+  - DOMAIN-KEYWORD,bemyeyes
+  - DOMAIN-KEYWORD,yoomoney
+  - DOMAIN-KEYWORD,yandex
+  - DOMAIN-KEYWORD,2gis
+  - DOMAIN-KEYWORD,mirconnect

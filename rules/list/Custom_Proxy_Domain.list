@@ -1,8 +1,8 @@
 # NAME: Custom_Proxy_Domain
-# UPDATED: 2026-10-10
+# UPDATED: 2026-10-11
 # DOMAIN: 3
-# DOMAIN-SUFFIX: 34
-# TOTAL: 37
+# DOMAIN-SUFFIX: 33
+# TOTAL: 36
 # 强制代理列表，来自个人收集
 # PS5 STUN
 DOMAIN-SUFFIX,stun.playstation.net
@@ -47,7 +47,7 @@ DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,googleanalytics.com
 DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
-DOMAIN-SUFFIX,crashlytics.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,crashlytics.com  ← 以路由器覆写规则为准（用户 2026-10-11 决定），直连，改由 Custom_Direct_Domain 承载
 DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,adjust.com

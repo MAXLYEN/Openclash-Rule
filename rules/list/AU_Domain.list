@@ -1,7 +1,7 @@
 # NAME: AU_Domain
-# UPDATED: 2026-10-06
-# DOMAIN-SUFFIX: 16
-# TOTAL: 16
+# UPDATED: 2026-10-11
+# DOMAIN-SUFFIX: 12
+# TOTAL: 12
 DOMAIN-SUFFIX,com.au
 DOMAIN-SUFFIX,gov.au
 DOMAIN-SUFFIX,org.au
@@ -11,10 +11,10 @@ DOMAIN-SUFFIX,pexx.com
 DOMAIN-SUFFIX,airwallex.com
 DOMAIN-SUFFIX,banxa.com
 # 特殊视频平台
-DOMAIN-SUFFIX,uhdnow.com
-DOMAIN-SUFFIX,jable.tv
-DOMAIN-SUFFIX,mushroomtrack.com
-DOMAIN-SUFFIX,hanime1.me
+# [已停用-分组冲突] DOMAIN-SUFFIX,uhdnow.com  ← 以路由器覆写规则为准（用户 2026-10-11 决定），走 Custom-Made，改由 Custom-Made_Domain 承载
+# [已停用-分组冲突] DOMAIN-SUFFIX,jable.tv  ← 以路由器覆写规则为准（用户 2026-10-11 决定），走 Custom-Made，改由 Custom-Made_Domain 承载
+# [已停用-分组冲突] DOMAIN-SUFFIX,mushroomtrack.com  ← 以路由器覆写规则为准（用户 2026-10-11 决定），走 Custom-Made，改由 Custom-Made_Domain 承载
+# [已停用-分组冲突] DOMAIN-SUFFIX,hanime1.me  ← 以路由器覆写规则为准（用户 2026-10-11 决定），走 Custom-Made，改由 Custom-Made_Domain 承载
 DOMAIN-SUFFIX,hjw01.com
 DOMAIN-SUFFIX,heiliao.com
 DOMAIN-SUFFIX,t66y.com

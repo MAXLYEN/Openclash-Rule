@@ -26,7 +26,7 @@ DOMAIN-SUFFIX,gtm.oasisfeng.com
 DOMAIN-SUFFIX,ocsp.pki.goog
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,safebrowsing-cache.google.com
-# [已停用-分组冲突] DOMAIN-SUFFIX,settings.crashlytics.com  ← 统计 / 归因 SDK 直连会暴露国内 IP，改由 Custom_Proxy_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,settings.crashlytics.com  ← 由更早的 Custom_Direct_Domain 的 crashlytics.com 承载（以路由器覆写为准，直连）
 # [已停用-分组冲突] DOMAIN-SUFFIX,ssl-google-analytics.l.google.com  ← 统计 / 归因 SDK 直连会暴露国内 IP，改由 Custom_Proxy_Domain 走代理
 DOMAIN-SUFFIX,toolbarqueries.google.com
 DOMAIN-SUFFIX,tools.google.com

@@ -1,8 +1,14 @@
 # NAME: Custom-Made_Domain
-# UPDATED: 2026-09-30
+# UPDATED: 2026-10-11
 # DOMAIN: 1
-# TOTAL: 1
+# DOMAIN-SUFFIX: 4
+# TOTAL: 5
 # EA app 下载 CDN（2026-09-30 实测）：原先命中 GEOSITE,category-game-platforms-download 直连，速度只有 22～72 kB/s。
 # 放在 Custom-Made（默认 Global Direct）里，平时照旧直连；下载慢时在面板把 Custom-Made 切到 Proxy。
 # 只收这个主机名，不用 akamaihd.net 后缀——Akamai 是通用 CDN
 DOMAIN,origin-a.akamaihd.net
+# 以下迁自路由器 OpenClash 覆写规则（2026-10-11），走向与覆写一致（原在 AU_Domain，被覆写压住）
+DOMAIN-SUFFIX,uhdnow.com
+DOMAIN-SUFFIX,jable.tv
+DOMAIN-SUFFIX,mushroomtrack.com
+DOMAIN-SUFFIX,hanime1.me

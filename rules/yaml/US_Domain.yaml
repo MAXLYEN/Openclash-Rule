@@ -55,9 +55,6 @@ payload:
   - DOMAIN-KEYWORD,tktn
   - DOMAIN-SUFFIX,talkatone.com
   - DOMAIN-SUFFIX,talkamobile.com
-  - DOMAIN-SUFFIX,inmobi.com
-  - DOMAIN-SUFFIX,inner-active.mobi
-  - DOMAIN-SUFFIX,mobilefuse.com
   - DOMAIN-SUFFIX,spadsync.com
   - DOMAIN-SUFFIX,media.tenor.com
   - DOMAIN-KEYWORD,peacocktv
