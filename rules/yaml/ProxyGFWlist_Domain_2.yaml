@@ -27,6 +27,7 @@ payload:
   - DOMAIN-SUFFIX,homeperversion.com
   - DOMAIN-SUFFIX,homeservershow.com
   - DOMAIN-SUFFIX,honeynet.org
+  - DOMAIN-SUFFIX,hongkongfp.com
   - DOMAIN-SUFFIX,hongmeimei.com
   - DOMAIN-SUFFIX,hongzhi.li
   - DOMAIN-SUFFIX,honven.xyz
@@ -215,6 +216,7 @@ payload:
   - DOMAIN-SUFFIX,insidevoa.com
   - DOMAIN-SUFFIX,instanthq.com
   - DOMAIN-SUFFIX,institut-tibetain.org
+  - DOMAIN-SUFFIX,interactivebrokers.com
   - DOMAIN-SUFFIX,internet.org
   - DOMAIN-SUFFIX,internetdefenseleague.org
   - DOMAIN-SUFFIX,internetfreedom.org
@@ -226,6 +228,7 @@ payload:
   - DOMAIN-SUFFIX,ipalter.com
   - DOMAIN-SUFFIX,ipfire.org
   - DOMAIN-SUFFIX,ipfs.io
+  - DOMAIN-SUFFIX,iphone4hongkong.com
   - DOMAIN-SUFFIX,iphonehacks.com
   - DOMAIN-SUFFIX,iphonetaiwan.org
   - DOMAIN-SUFFIX,iphonix.fr
@@ -404,6 +407,7 @@ payload:
   - DOMAIN-SUFFIX,kagyu.org
   - DOMAIN-SUFFIX,kagyu.org.za
   - DOMAIN-SUFFIX,kagyumonlam.org
+  - DOMAIN-SUFFIX,kagyunews.com.hk
   - DOMAIN-SUFFIX,kagyuoffice.org
   - DOMAIN-SUFFIX,kaiyuan.de
   - DOMAIN-SUFFIX,kakao.com
@@ -597,6 +601,7 @@ payload:
   - DOMAIN-SUFFIX,logbot.net
   - DOMAIN-SUFFIX,logiqx.com
   - DOMAIN-SUFFIX,logmein.com
+  - DOMAIN-SUFFIX,logos.com.hk
   - DOMAIN-SUFFIX,longmusic.com
   - DOMAIN-SUFFIX,longtermly.net
   - DOMAIN-SUFFIX,longtoes.com
@@ -735,6 +740,8 @@ payload:
   - DOMAIN-SUFFIX,metarthunter.com
   - DOMAIN-SUFFIX,meteorshowersonline.com
   - DOMAIN-SUFFIX,metro.taipei
+  - DOMAIN-SUFFIX,metrohk.com.hk
+  - DOMAIN-SUFFIX,metroradio.com.hk
   - DOMAIN-SUFFIX,mewe.com
   - DOMAIN-SUFFIX,meyul.com
   - DOMAIN-SUFFIX,mfxmedia.com
@@ -891,6 +898,7 @@ payload:
   - DOMAIN-SUFFIX,myddns.com
   - DOMAIN-SUFFIX,myeasytv.com
   - DOMAIN-SUFFIX,myeclipseide.com
+  - DOMAIN-SUFFIX,myforum.com.hk
   - DOMAIN-SUFFIX,myfreecams.com
   - DOMAIN-SUFFIX,myfreepaysite.com
   - DOMAIN-SUFFIX,myfreshnet.com
@@ -1006,6 +1014,7 @@ payload:
   - DOMAIN-SUFFIX,newyorktimes.com
   - DOMAIN-SUFFIX,nexon.com
   - DOMAIN-SUFFIX,next11.co.jp
+  - DOMAIN-SUFFIX,nextdigital.com.hk
   - DOMAIN-SUFFIX,nextmedia.com
   - DOMAIN-SUFFIX,nf.id.au
   - DOMAIN-SUFFIX,nfjtyd.com
@@ -1174,6 +1183,7 @@ payload:
   - DOMAIN-SUFFIX,onthehunt.com
   - DOMAIN-SUFFIX,ontrac.com
   - DOMAIN-SUFFIX,oopsforum.com
+  - DOMAIN-SUFFIX,open.com.hk
   - DOMAIN-SUFFIX,openallweb.com
   - DOMAIN-SUFFIX,opendemocracy.net
   - DOMAIN-SUFFIX,opendn.xyz
@@ -1736,6 +1746,7 @@ payload:
   - DOMAIN-SUFFIX,shadowsocks.asia
   - DOMAIN-SUFFIX,shadowsocks.be
   - DOMAIN-SUFFIX,shadowsocks.com
+  - DOMAIN-SUFFIX,shadowsocks.com.hk
   - DOMAIN-SUFFIX,shadowsocks.org
   - DOMAIN-SUFFIX,shadowsocks9.com
   - DOMAIN-SUFFIX,shafaqna.com
@@ -1746,6 +1757,7 @@ payload:
   - DOMAIN-SUFFIX,shapeservices.com
   - DOMAIN-SUFFIX,sharebee.com
   - DOMAIN-SUFFIX,sharecool.org
+  - DOMAIN-SUFFIX,sharpdaily.com.hk
   - DOMAIN-SUFFIX,shat-tibet.com
   - DOMAIN-SUFFIX,shattered.io
   - DOMAIN-SUFFIX,sheikyermami.com
@@ -1788,9 +1800,11 @@ payload:
   - DOMAIN-SUFFIX,simbolostwitter.com
   - DOMAIN-SUFFIX,simplecd.org
   - DOMAIN-SUFFIX,simpleproductivityblog.com
+  - DOMAIN-SUFFIX,sina.com.hk
   - DOMAIN-SUFFIX,sinchew.com.my
   - DOMAIN-SUFFIX,singaporepools.com.sg
   - DOMAIN-SUFFIX,singfortibet.com
+  - DOMAIN-SUFFIX,singpao.com.hk
   - DOMAIN-SUFFIX,singtao.com
   - DOMAIN-SUFFIX,singtaousa.com
   - DOMAIN-SUFFIX,sino-monthly.com

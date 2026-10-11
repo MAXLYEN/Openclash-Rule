@@ -1,8 +1,8 @@
 # NAME: ProxyGFWlist_Domain_1
-# UPDATED: 2026-09-25
-# DOMAIN-SUFFIX: 2252
+# UPDATED: 2026-10-11
+# DOMAIN-SUFFIX: 2264
 # DOMAIN-KEYWORD: 20
-# TOTAL: 2272
+# TOTAL: 2284
 # 综合代理后备表第 1 段：跨表相同域名保留供独立引用，V2 中由前置专用服务表先命中
 # 代理列表
 # MyList && Other
@@ -79,7 +79,7 @@ DOMAIN-SUFFIX,12vpn.com
 DOMAIN-SUFFIX,12vpn.net
 DOMAIN-SUFFIX,1337x.to
 DOMAIN-SUFFIX,138.com
-# [已停用-冗余] DOMAIN-SUFFIX,141hongkong.com  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,141hongkong.com
 DOMAIN-SUFFIX,141jj.com
 DOMAIN-SUFFIX,141tube.com
 DOMAIN-SUFFIX,1688.com.au
@@ -308,7 +308,7 @@ DOMAIN-SUFFIX,alvinalexander.com
 DOMAIN-SUFFIX,alwaysdata.com
 DOMAIN-SUFFIX,alwaysdata.net
 DOMAIN-SUFFIX,alwaysvpn.com
-# [已停用-冗余] DOMAIN-SUFFIX,am730.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,am730.com.hk
 DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,ameblo.jp
@@ -392,7 +392,7 @@ DOMAIN-SUFFIX,aplusvpn.com
 DOMAIN-SUFFIX,appbrain.com
 DOMAIN-SUFFIX,appdownloader.net
 # [已停用-冗余] DOMAIN-SUFFIX,appledaily.com  ← 文件内被 ProxyGFWlist_Domain_1 包含
-# [已停用-冗余] DOMAIN-SUFFIX,appledaily.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,appledaily.com.hk
 # [已停用-冗余] DOMAIN-SUFFIX,appledaily.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
 DOMAIN-SUFFIX,appshopper.com
 DOMAIN-SUFFIX,appsocks.net
@@ -485,7 +485,7 @@ DOMAIN-SUFFIX,b-ok.cc
 DOMAIN-SUFFIX,b0ne.com
 DOMAIN-SUFFIX,baby-kingdom.com
 DOMAIN-SUFFIX,babylonbee.com
-# [已停用-冗余] DOMAIN-SUFFIX,babynet.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,babynet.com.hk
 DOMAIN-SUFFIX,backchina.com
 # [已停用-冗余] DOMAIN-SUFFIX,backpackers.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
 DOMAIN-SUFFIX,backtotiananmen.com
@@ -986,7 +986,7 @@ DOMAIN-SUFFIX,chromium.org
 DOMAIN-SUFFIX,chuang-yen.org
 DOMAIN-SUFFIX,chubold.com
 DOMAIN-SUFFIX,chubun.com
-# [已停用-冗余] DOMAIN-SUFFIX,churchinhongkong.org  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,churchinhongkong.org
 DOMAIN-SUFFIX,chushigangdrug.ch
 DOMAIN-SUFFIX,ciciai.com
 DOMAIN-SUFFIX,cienen.com
@@ -1286,7 +1286,7 @@ DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
-# [已停用-冗余] DOMAIN-SUFFIX,discuss.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,discuss.com.hk
 DOMAIN-SUFFIX,discuss4u.com
 DOMAIN-SUFFIX,dish.com
 DOMAIN-SUFFIX,disp.cc
@@ -1423,7 +1423,7 @@ DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,e-hentaidb.com
 # [已停用-冗余] DOMAIN-SUFFIX,e-info.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
 DOMAIN-SUFFIX,e-traderland.net
-# [已停用-冗余] DOMAIN-SUFFIX,e-zone.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,e-zone.com.hk
 # [已停用-冗余] DOMAIN-SUFFIX,e123.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
 DOMAIN-SUFFIX,earlytibet.com
 DOMAIN-SUFFIX,earthcam.com
@@ -1802,7 +1802,7 @@ DOMAIN-SUFFIX,freeforums.org
 DOMAIN-SUFFIX,freefq.com
 DOMAIN-SUFFIX,freefuckvids.com
 DOMAIN-SUFFIX,freegao.com
-# [已停用-冗余] DOMAIN-SUFFIX,freehongkong.org  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,freehongkong.org
 DOMAIN-SUFFIX,freeilhamtohti.org
 DOMAIN-SUFFIX,freekazakhs.org
 DOMAIN-SUFFIX,freekwonpyong.org
@@ -1829,7 +1829,7 @@ DOMAIN-SUFFIX,freevpn.me
 DOMAIN-SUFFIX,freevpn.nl
 DOMAIN-SUFFIX,freewallpaper4.me
 DOMAIN-SUFFIX,freewebs.com
-# [已停用-冗余] DOMAIN-SUFFIX,freewechat.com  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,freewechat.com
 DOMAIN-SUFFIX,freeweibo.com
 DOMAIN-SUFFIX,freewww.biz
 DOMAIN-SUFFIX,freewww.info
@@ -1973,7 +1973,7 @@ DOMAIN-SUFFIX,gettrials.com
 DOMAIN-SUFFIX,gettyimages.com
 DOMAIN-SUFFIX,getuploader.com
 DOMAIN-SUFFIX,gfbv.de
-# [已停用-冗余] DOMAIN-SUFFIX,gfgold.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,gfgold.com.hk
 DOMAIN-SUFFIX,gfsale.com
 DOMAIN-SUFFIX,gfw.org.ua
 DOMAIN-SUFFIX,gfw.press
@@ -2330,7 +2330,7 @@ DOMAIN-SUFFIX,greatfirewallofchina.org
 DOMAIN-SUFFIX,greatroc.org
 # [已停用-冗余] DOMAIN-SUFFIX,greatroc.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
 DOMAIN-SUFFIX,greatzhonghua.org
-# [已停用-冗余] DOMAIN-SUFFIX,greenfieldbookstore.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,greenfieldbookstore.com.hk
 # [已停用-冗余] DOMAIN-SUFFIX,greenparty.org.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
 # [已停用-冗余] DOMAIN-SUFFIX,greenpeace.com.tw  ← 文件内被 ProxyGFWlist_Domain_1 包含
 DOMAIN-SUFFIX,greenpeace.org
@@ -2495,7 +2495,7 @@ DOMAIN-SUFFIX,hkcmi.edu
 DOMAIN-SUFFIX,hkcnews.com
 DOMAIN-SUFFIX,hkcoc.com
 # [已停用-冗余] DOMAIN-SUFFIX,hkctu.org.hk  ← 文件内被 ProxyGFWlist_Domain_1 包含
-# [已停用-冗余] DOMAIN-SUFFIX,hkdailynews.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,hkdailynews.com.hk
 DOMAIN-SUFFIX,hkday.net
 # [已停用-冗余] DOMAIN-SUFFIX,hkdc.us  ← 文件内被 ProxyGFWlist_Domain_1 包含
 DOMAIN-SUFFIX,hkdf.org

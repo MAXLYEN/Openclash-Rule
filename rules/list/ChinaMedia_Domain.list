@@ -1,9 +1,9 @@
 # NAME: ChinaMedia_Domain
-# UPDATED: 2026-09-24
-# DOMAIN: 67
-# DOMAIN-SUFFIX: 233
+# UPDATED: 2026-10-11
+# DOMAIN: 65
+# DOMAIN-SUFFIX: 229
 # DOMAIN-KEYWORD: 2
-# TOTAL: 302
+# TOTAL: 296
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com
@@ -60,13 +60,13 @@ DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com
 DOMAIN,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net
 DOMAIN,17caa75e77d31e1f5a7841e0b3374569.dlied1.cdntips.net
 DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net
-DOMAIN,api.iplay.163.com
+# [已停用-冗余] DOMAIN,api.iplay.163.com  ← 已被 NetEaseMusic_Domain 以同一分组命中
 DOMAIN,aqqmusic.tc.qq.com
 DOMAIN,dldir1.qq.com
 DOMAIN,iacc.qq.com
 DOMAIN,ins-eeww7kom.ias.tencent-cloud.net
 DOMAIN,ios.video.mpush.qq.com
-DOMAIN,mam.netease.com
+# [已停用-冗余] DOMAIN,mam.netease.com  ← 已被 NetEaseMusic_Domain 以同一分组命中
 DOMAIN,moo.qq.com
 DOMAIN,rdelivery.qq.com
 DOMAIN,ts.qq.com
@@ -191,7 +191,7 @@ DOMAIN-SUFFIX,acfun.com
 DOMAIN-SUFFIX,acfun.tv
 DOMAIN-SUFFIX,ads1.lfengmobile.com
 DOMAIN-SUFFIX,afp.pplive.com
-DOMAIN-SUFFIX,ai.xiaomi.com
+# [已停用-冗余] DOMAIN-SUFFIX,ai.xiaomi.com  ← 已被 XiaoMi_Domain 以同一分组命中
 DOMAIN-SUFFIX,aianno.cn
 DOMAIN-SUFFIX,aianno.com
 DOMAIN-SUFFIX,aiqiyicloud-mgmt.com
@@ -243,11 +243,11 @@ DOMAIN-SUFFIX,mgtv.com
 DOMAIN-SUFFIX,migu.cn
 DOMAIN-SUFFIX,miguvideo.com
 DOMAIN-SUFFIX,mmstat.com
-DOMAIN-SUFFIX,music.126.net
-DOMAIN-SUFFIX,music.163.com
+# [已停用-冗余] DOMAIN-SUFFIX,music.126.net  ← 已被 NetEaseMusic_Domain 以同一分组命中
+# [已停用-冗余] DOMAIN-SUFFIX,music.163.com  ← 已被 NetEaseMusic_Domain 以同一分组命中
 DOMAIN-SUFFIX,music.qq.com
 DOMAIN-SUFFIX,music.tc.qq.com
-DOMAIN-SUFFIX,music.xiaomi.com
+# [已停用-冗余] DOMAIN-SUFFIX,music.xiaomi.com  ← 已被 XiaoMi_Domain 以同一分组命中
 DOMAIN-SUFFIX,noxagile.duapp.com
 DOMAIN-SUFFIX,ns6mitkxo.cn
 DOMAIN-SUFFIX,pgdt.gtimg.cn

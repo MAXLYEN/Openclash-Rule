@@ -1,9 +1,9 @@
 # NAME: ProxyGFWlist_Domain_3
-# UPDATED: 2026-09-25
+# UPDATED: 2026-10-11
 # DOMAIN: 7
-# DOMAIN-SUFFIX: 1039
+# DOMAIN-SUFFIX: 1046
 # DOMAIN-KEYWORD: 5
-# TOTAL: 1051
+# TOTAL: 1058
 # 综合代理后备表第 3 段：跨表相同域名保留供独立引用，V2 中由前置专用服务表先命中
 DOMAIN-SUFFIX,tibetancommunityuk.net
 DOMAIN-SUFFIX,tibetanculture.org
@@ -204,7 +204,7 @@ DOMAIN-SUFFIX,tvb.com
 DOMAIN-SUFFIX,tvboxnow.com
 # [已停用-冗余] DOMAIN-SUFFIX,tvbs.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,tvider.com
-# [已停用-冗余] DOMAIN-SUFFIX,tvmost.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,tvmost.com.hk
 DOMAIN-SUFFIX,tvplayvideos.com
 DOMAIN-SUFFIX,tvunetworks.com
 DOMAIN-SUFFIX,tw-blog.com
@@ -480,7 +480,7 @@ DOMAIN-SUFFIX,vivatube.com
 DOMAIN-SUFFIX,vivthomas.com
 DOMAIN-SUFFIX,vizvaz.com
 DOMAIN-SUFFIX,vjav.com
-# [已停用-冗余] DOMAIN-SUFFIX,vjmedia.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,vjmedia.com.hk
 DOMAIN-SUFFIX,vllcs.org
 DOMAIN-SUFFIX,vmixcore.com
 DOMAIN-SUFFIX,vmpsoft.com
@@ -598,7 +598,7 @@ DOMAIN-SUFFIX,wdf5.com
 # [已停用-冗余] DOMAIN-SUFFIX,wealth.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,wearehairy.com
 DOMAIN-SUFFIX,wearn.com
-# [已停用-冗余] DOMAIN-SUFFIX,weather.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,weather.com.hk
 DOMAIN-SUFFIX,web.dev
 DOMAIN-SUFFIX,web2project.net
 DOMAIN-SUFFIX,webbang.net
@@ -616,7 +616,7 @@ DOMAIN-SUFFIX,websitepulse.com
 DOMAIN-SUFFIX,websnapr.com
 DOMAIN-SUFFIX,webwarper.net
 DOMAIN-SUFFIX,webworkerdaily.com
-# [已停用-冗余] DOMAIN-SUFFIX,wechatlawsuit.com  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,wechatlawsuit.com
 DOMAIN-SUFFIX,weekmag.info
 DOMAIN-SUFFIX,wefightcensorship.org
 DOMAIN-SUFFIX,wefong.com
@@ -805,7 +805,7 @@ DOMAIN-SUFFIX,xinbao.de
 DOMAIN-SUFFIX,xing.com
 DOMAIN-SUFFIX,xinhuanet.org
 DOMAIN-SUFFIX,xinjiangpolicefiles.org
-# [已停用-冗余] DOMAIN-SUFFIX,xinmiao.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,xinmiao.com.hk
 DOMAIN-SUFFIX,xinsheng.net
 DOMAIN-SUFFIX,xinshijue.com
 DOMAIN-SUFFIX,xinyubbs.net
@@ -864,7 +864,7 @@ DOMAIN-SUFFIX,y2mate.com
 DOMAIN-SUFFIX,yadi.sk
 DOMAIN-SUFFIX,yahoo.co.jp
 DOMAIN-SUFFIX,yahoo.com
-# [已停用-冗余] DOMAIN-SUFFIX,yahoo.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,yahoo.com.hk
 # [已停用-冗余] DOMAIN-SUFFIX,yahoo.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,yahoo.net
 DOMAIN-SUFFIX,yakbutterblues.com
@@ -888,7 +888,7 @@ DOMAIN-SUFFIX,yes-news.com
 DOMAIN-SUFFIX,yes.xxx
 # [已停用-冗余] DOMAIN-SUFFIX,yes123.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,yesasia.com
-# [已停用-冗余] DOMAIN-SUFFIX,yesasia.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,yesasia.com.hk
 # [已停用-冗余] DOMAIN-SUFFIX,yespornplease.com  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,yeyeclub.com
 DOMAIN-SUFFIX,ygto.com

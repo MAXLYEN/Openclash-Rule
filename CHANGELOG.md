@@ -6,6 +6,12 @@
 
 ---
 
+## 2026-10-11
+
+- 从 `US_Domain` 拆出 `Meta_Domain` / `Meta_IP`（59 条 Meta 一方域名：Facebook、Instagram、Threads、Messenger、WhatsApp、Quest / Oculus、Workplace、fbcdn 等），供 Openclash-Config v2.17 新增的 Meta 组（默认 USNet）引用，排在 `GEOSITE,meta` 之前。原先这些域名大多先被前移的 `GEOSITE,meta` 截走，留在 `US_Domain` 里基本是死规则。`meta.ai`、`muse.ai`、`llama.com`（Meta AI 类，需美国出口）留在 `US_Domain`；`auth.meta.com`、`accountscenter.meta.com` 仍在 `USAlt_Domain`。`Meta_IP` 为空占位，Meta 的 IP 由 Config 的 `GEOIP,facebook` 覆盖
+- 按 Config v2.16 的组名调整跑 `dedupe.py --apply`，不改变实际出口：`HK_Domain` 改归 HKNet 后，原先与它同组冗余的 33 条 GFW 列表条目恢复（仍被更早的 `HK_Domain` 截走）；Netease / Xiaomi / Domestic TV 合并为 Domestic 后，`ChinaMedia_Domain` 里 6 条网易云音乐 / 小米条目与 `NetEaseMusic_Domain` / `XiaoMi_Domain` 同组冗余，已停用
+- `Game_Domain` 的 `DOMAIN-KEYWORD,telephony` 暂不处理：用户 2026-09-24 已确认在用、列为有意保留，是否停用待用户重新决定
+
 ## 2026-10-10
 
 - Bybit Global 与 Bybit EU 分开分流（用户指定：Global 不能走欧洲出口，EU 必须走欧洲）：新增 `BybitEU_Domain` / `BybitEU_IP`，收录 EU 专用的 `bybit.eu`、EU App 的 AppsFlyer 编号 `iyzy2h`、只在 EU 日志出现的 `t1.bycsi.com`；Config 需排在 `Bybit_Domain` 之前、指向 EUNet。`Bybit_Domain` 改作 Global 专用，由 Config 改指向新建的 Bybit Global 组（只含不在 Bybit 受限名单上的 AU / BR，默认 AU；新加坡、香港、美国、日本均受限）

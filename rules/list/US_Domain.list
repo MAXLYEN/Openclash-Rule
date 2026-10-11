@@ -1,9 +1,9 @@
 # NAME: US_Domain
-# UPDATED: 2026-09-27
-# DOMAIN: 17
-# DOMAIN-SUFFIX: 159
+# UPDATED: 2026-10-11
+# DOMAIN: 16
+# DOMAIN-SUFFIX: 101
 # DOMAIN-KEYWORD: 25
-# TOTAL: 201
+# TOTAL: 142
 #美洲分流
 #娱乐生活
 # [已停用-范围过宽] DOMAIN-KEYWORD,tubi  ← 会命中 tubiaoxiu.com 等；改为上游 v2fly tubi 列表的域名
@@ -188,69 +188,10 @@ DOMAIN,amazonq-code-transformation-eu-central-1-a0a89cc2b94.s3.amazonaws.com
 # 百炼美国地域独立 API
 DOMAIN,dashscope-us.aliyuncs.com
 DOMAIN-SUFFIX,us-east-1.maas.aliyuncs.com
-# Meta 官方产品、开发者平台与一方资源；一方主域统一由 US_Domain 接管
+# Meta AI 类产品，需美国出口，留在 US_Domain（meta.ai 另由更早的 USAlt_Domain 送往美国备用出口）；Meta 社交、即时通信、Quest 等一方域名已拆到 Meta_Domain（Config 的 Meta 组）
 DOMAIN-SUFFIX,meta.ai
 # Muse 官方入口及 auth.muse.ai、security.muse.ai 等子域；Meta 公告称先在美国推出
 DOMAIN-SUFFIX,muse.ai
-DOMAIN-SUFFIX,meta.com
-DOMAIN-SUFFIX,atmeta.com
 DOMAIN-SUFFIX,llama.com
-DOMAIN-SUFFIX,aboutfacebook.com
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,facebook.net
-DOMAIN-SUFFIX,facebook.org
-DOMAIN-SUFFIX,facebook.design
-DOMAIN-SUFFIX,facebook.tv
-DOMAIN-SUFFIX,facebook.shop
-DOMAIN-SUFFIX,facebook.br
-DOMAIN-SUFFIX,facebook.ca
-DOMAIN-SUFFIX,facebook.in
-DOMAIN-SUFFIX,facebookmail.com
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,fb.me
-DOMAIN-SUFFIX,fb.gg
-DOMAIN-SUFFIX,fb.watch
-DOMAIN-SUFFIX,fb.careers
-DOMAIN-SUFFIX,fbwat.ch
-DOMAIN-SUFFIX,fbidb.io
-DOMAIN-SUFFIX,f8.com
-DOMAIN-SUFFIX,fbcdn.com
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,tfbnw.net
-DOMAIN-SUFFIX,fbrpms.com
-DOMAIN-SUFFIX,fbsbx.com
-DOMAIN-SUFFIX,fbsbx.net
-DOMAIN,fbcdn-a.akamaihd.net
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,igcdn.com
-DOMAIN-SUFFIX,ig.me
-DOMAIN-SUFFIX,threads.com
-DOMAIN-SUFFIX,threads.net
-DOMAIN-SUFFIX,messenger.com
-DOMAIN-SUFFIX,fbmessenger.com
-DOMAIN-SUFFIX,messengerdevelopers.com
-DOMAIN-SUFFIX,m.me
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
-DOMAIN-SUFFIX,whatsapp.org
-DOMAIN-SUFFIX,whatsapp.info
-DOMAIN-SUFFIX,whatsapp.cc
-DOMAIN-SUFFIX,whatsapp.tv
-DOMAIN-SUFFIX,whatsappbrand.com
-DOMAIN-SUFFIX,wa.me
-DOMAIN-SUFFIX,oculus.com
-DOMAIN-SUFFIX,oculuscdn.com
-DOMAIN-SUFFIX,ocul.us
-DOMAIN-SUFFIX,oculusvr.com
-DOMAIN-SUFFIX,oculusrift.com
-DOMAIN-SUFFIX,oculusconnect.com
-DOMAIN-SUFFIX,oculusforbusiness.com
-DOMAIN-SUFFIX,workplace.com
-DOMAIN-SUFFIX,facebookwork.com
-DOMAIN-SUFFIX,internet.org
-DOMAIN-SUFFIX,freebasics.com
-DOMAIN-SUFFIX,freebasics.net
-DOMAIN-SUFFIX,thefacebook.com
 # Chase 美国主站，从 UK_Domain 迁入
 DOMAIN-SUFFIX,chase.com

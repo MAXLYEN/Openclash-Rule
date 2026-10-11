@@ -1,7 +1,7 @@
 # NAME: ProxyGFWlist_Domain_2
-# UPDATED: 2026-09-24
-# DOMAIN-SUFFIX: 2224
-# TOTAL: 2224
+# UPDATED: 2026-10-11
+# DOMAIN-SUFFIX: 2238
+# TOTAL: 2238
 # 综合代理后备表第 2 段：跨表相同域名保留供独立引用，V2 中由前置专用服务表先命中
 DOMAIN-SUFFIX,hkheadline.com
 DOMAIN-SUFFIX,hkhkhk.com
@@ -39,7 +39,7 @@ DOMAIN-SUFFIX,homedepot.com
 DOMAIN-SUFFIX,homeperversion.com
 DOMAIN-SUFFIX,homeservershow.com
 DOMAIN-SUFFIX,honeynet.org
-# [已停用-冗余] DOMAIN-SUFFIX,hongkongfp.com  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,hongkongfp.com
 DOMAIN-SUFFIX,hongmeimei.com
 DOMAIN-SUFFIX,hongzhi.li
 DOMAIN-SUFFIX,honven.xyz
@@ -253,7 +253,7 @@ DOMAIN-SUFFIX,insidevoa.com
 # [已停用-分组冲突] DOMAIN-SUFFIX,instagram.com  ← 更早的 US_Domain 接管 Meta 域名
 DOMAIN-SUFFIX,instanthq.com
 DOMAIN-SUFFIX,institut-tibetain.org
-# [已停用-冗余] DOMAIN-SUFFIX,interactivebrokers.com  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,interactivebrokers.com
 DOMAIN-SUFFIX,internet.org
 DOMAIN-SUFFIX,internetdefenseleague.org
 DOMAIN-SUFFIX,internetfreedom.org
@@ -265,7 +265,7 @@ DOMAIN-SUFFIX,iownyour.org
 DOMAIN-SUFFIX,ipalter.com
 DOMAIN-SUFFIX,ipfire.org
 DOMAIN-SUFFIX,ipfs.io
-# [已停用-冗余] DOMAIN-SUFFIX,iphone4hongkong.com  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,iphone4hongkong.com
 DOMAIN-SUFFIX,iphonehacks.com
 DOMAIN-SUFFIX,iphonetaiwan.org
 DOMAIN-SUFFIX,iphonix.fr
@@ -450,7 +450,7 @@ DOMAIN-SUFFIX,kadokawa.co.jp
 DOMAIN-SUFFIX,kagyu.org
 DOMAIN-SUFFIX,kagyu.org.za
 DOMAIN-SUFFIX,kagyumonlam.org
-# [已停用-冗余] DOMAIN-SUFFIX,kagyunews.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,kagyunews.com.hk
 DOMAIN-SUFFIX,kagyuoffice.org
 # [已停用-冗余] DOMAIN-SUFFIX,kagyuoffice.org.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,kaiyuan.de
@@ -669,7 +669,7 @@ DOMAIN-SUFFIX,lockestek.com
 DOMAIN-SUFFIX,logbot.net
 DOMAIN-SUFFIX,logiqx.com
 DOMAIN-SUFFIX,logmein.com
-# [已停用-冗余] DOMAIN-SUFFIX,logos.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,logos.com.hk
 # [已停用-冗余] DOMAIN-SUFFIX,londonchinese.ca  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 # [已停用-冗余] DOMAIN-SUFFIX,longhair.hk  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,longmusic.com
@@ -819,9 +819,9 @@ DOMAIN-SUFFIX,metart.com
 DOMAIN-SUFFIX,metarthunter.com
 DOMAIN-SUFFIX,meteorshowersonline.com
 DOMAIN-SUFFIX,metro.taipei
-# [已停用-冗余] DOMAIN-SUFFIX,metrohk.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,metrohk.com.hk
 # [已停用-冗余] DOMAIN-SUFFIX,metrolife.ca  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
-# [已停用-冗余] DOMAIN-SUFFIX,metroradio.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,metroradio.com.hk
 DOMAIN-SUFFIX,mewe.com
 # [已停用-冗余] DOMAIN-SUFFIX,meyou.jp  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,meyul.com
@@ -995,7 +995,7 @@ DOMAIN-SUFFIX,mydad.info
 DOMAIN-SUFFIX,myddns.com
 DOMAIN-SUFFIX,myeasytv.com
 DOMAIN-SUFFIX,myeclipseide.com
-# [已停用-冗余] DOMAIN-SUFFIX,myforum.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,myforum.com.hk
 DOMAIN-SUFFIX,myfreecams.com
 DOMAIN-SUFFIX,myfreepaysite.com
 DOMAIN-SUFFIX,myfreshnet.com
@@ -1124,7 +1124,7 @@ DOMAIN-SUFFIX,newyorker.com
 DOMAIN-SUFFIX,newyorktimes.com
 DOMAIN-SUFFIX,nexon.com
 DOMAIN-SUFFIX,next11.co.jp
-# [已停用-冗余] DOMAIN-SUFFIX,nextdigital.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,nextdigital.com.hk
 # [已停用-冗余] DOMAIN-SUFFIX,nextmag.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,nextmedia.com
 # [已停用-冗余] DOMAIN-SUFFIX,nexton-net.jp  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
@@ -1322,7 +1322,7 @@ DOMAIN-SUFFIX,onmypc.org
 DOMAIN-SUFFIX,onthehunt.com
 DOMAIN-SUFFIX,ontrac.com
 DOMAIN-SUFFIX,oopsforum.com
-# [已停用-冗余] DOMAIN-SUFFIX,open.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,open.com.hk
 DOMAIN-SUFFIX,openallweb.com
 DOMAIN-SUFFIX,opendemocracy.net
 DOMAIN-SUFFIX,opendn.xyz
@@ -1960,7 +1960,7 @@ DOMAIN-SUFFIX,shadowsocks-r.com
 DOMAIN-SUFFIX,shadowsocks.asia
 DOMAIN-SUFFIX,shadowsocks.be
 DOMAIN-SUFFIX,shadowsocks.com
-# [已停用-冗余] DOMAIN-SUFFIX,shadowsocks.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,shadowsocks.com.hk
 DOMAIN-SUFFIX,shadowsocks.org
 DOMAIN-SUFFIX,shadowsocks9.com
 DOMAIN-SUFFIX,shafaqna.com
@@ -1971,7 +1971,7 @@ DOMAIN-SUFFIX,shangfang.org
 DOMAIN-SUFFIX,shapeservices.com
 DOMAIN-SUFFIX,sharebee.com
 DOMAIN-SUFFIX,sharecool.org
-# [已停用-冗余] DOMAIN-SUFFIX,sharpdaily.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,sharpdaily.com.hk
 # [已停用-冗余] DOMAIN-SUFFIX,sharpdaily.hk  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 # [已停用-冗余] DOMAIN-SUFFIX,sharpdaily.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,shat-tibet.com
@@ -2019,12 +2019,12 @@ DOMAIN-SUFFIX,silkbook.com
 DOMAIN-SUFFIX,simbolostwitter.com
 DOMAIN-SUFFIX,simplecd.org
 DOMAIN-SUFFIX,simpleproductivityblog.com
-# [已停用-冗余] DOMAIN-SUFFIX,sina.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,sina.com.hk
 # [已停用-冗余] DOMAIN-SUFFIX,sina.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,sinchew.com.my
 DOMAIN-SUFFIX,singaporepools.com.sg
 DOMAIN-SUFFIX,singfortibet.com
-# [已停用-冗余] DOMAIN-SUFFIX,singpao.com.hk  ← 已被 HK_Domain 以同一分组命中
+DOMAIN-SUFFIX,singpao.com.hk
 # [已停用-冗余] DOMAIN-SUFFIX,singtao.ca  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 DOMAIN-SUFFIX,singtao.com
 DOMAIN-SUFFIX,singtaousa.com
