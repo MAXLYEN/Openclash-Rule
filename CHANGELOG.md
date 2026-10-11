@@ -10,7 +10,8 @@
 
 - 从 `US_Domain` 拆出 `Meta_Domain` / `Meta_IP`（59 条 Meta 一方域名：Facebook、Instagram、Threads、Messenger、WhatsApp、Quest / Oculus、Workplace、fbcdn 等），供 Openclash-Config v2.17 新增的 Meta 组（默认 USNet）引用，排在 `GEOSITE,meta` 之前。原先这些域名大多先被前移的 `GEOSITE,meta` 截走，留在 `US_Domain` 里基本是死规则。`meta.ai`、`muse.ai`、`llama.com`（Meta AI 类，需美国出口）留在 `US_Domain`；`auth.meta.com`、`accountscenter.meta.com` 仍在 `USAlt_Domain`。`Meta_IP` 为空占位，Meta 的 IP 由 Config 的 `GEOIP,facebook` 覆盖
 - 按 Config v2.16 的组名调整跑 `dedupe.py --apply`，不改变实际出口：`HK_Domain` 改归 HKNet 后，原先与它同组冗余的 33 条 GFW 列表条目恢复（仍被更早的 `HK_Domain` 截走）；Netease / Xiaomi / Domestic TV 合并为 Domestic 后，`ChinaMedia_Domain` 里 6 条网易云音乐 / 小米条目与 `NetEaseMusic_Domain` / `XiaoMi_Domain` 同组冗余，已停用
-- `Game_Domain` 的 `DOMAIN-KEYWORD,telephony` 暂不处理：用户 2026-09-24 已确认在用、列为有意保留，是否停用待用户重新决定
+- `Game_Domain` 的 `DOMAIN-KEYWORD,telephony` 保持不变：用户 2026-09-24 已确认在用、列为有意保留（Config 会话已撤回停用请求）
+- `EUNet_Domain` 补 `DOMAIN,shortsgp.im.qcloud.com`（腾讯云 IM 国际版新加坡接入点）：Bybit EU 的连接日志里它落到 `China_Domain` 直连、暴露国内 IP，同一 IM 的 `*.my-imcloud.com` 走德国。原因是 09-24 停用了 `im.qcloud.com` 整域（国内 App 共用）；只收这一个国际版主机，国内 App 走国内接入点不受影响。直接连 IP 的那路（`43.158.111.212:9950`）落在为海外腾讯游戏保留的 `Game_IP` 大段里，IP 会轮换，不单独处理
 
 ## 2026-10-10
 

@@ -137,6 +137,7 @@ payload:
   - DOMAIN-KEYWORD,onesignal
   - DOMAIN-KEYWORD,eascdn
   - DOMAIN-KEYWORD,my-imcloud
+  - DOMAIN,shortsgp.im.qcloud.com
   - DOMAIN-KEYWORD,pinoe
   - DOMAIN-KEYWORD,baanxapi
   - DOMAIN-KEYWORD,exodus

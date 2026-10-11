@@ -1,8 +1,9 @@
 # NAME: EUNet_Domain
-# UPDATED: 2026-10-10
+# UPDATED: 2026-10-11
+# DOMAIN: 1
 # DOMAIN-SUFFIX: 69
 # DOMAIN-KEYWORD: 142
-# TOTAL: 211
+# TOTAL: 212
 # === 以下合并自 EUNet.list ===
 # 欧洲分流
 DOMAIN-KEYWORD,byffbb
@@ -169,6 +170,9 @@ DOMAIN-KEYWORD,moonpay
 DOMAIN-KEYWORD,onesignal
 DOMAIN-KEYWORD,eascdn
 DOMAIN-KEYWORD,my-imcloud
+# 腾讯云 IM 国际版的新加坡接入点，与上面的 my-imcloud 同属国际版（Bybit EU 连接日志 2026-10-10）。
+# im.qcloud.com 整域因国内 App 共用已停用，这个主机原先落到 China_Domain 直连、暴露国内 IP；国内 App 走国内机房接入点，不受影响
+DOMAIN,shortsgp.im.qcloud.com
 DOMAIN-KEYWORD,pinoe
 DOMAIN-KEYWORD,baanxapi
 DOMAIN-KEYWORD,exodus
