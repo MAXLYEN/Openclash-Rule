@@ -1,5 +1,6 @@
 payload:
   - DOMAIN-KEYWORD,byffbb
+  - DOMAIN-KEYWORD,bybit
   - DOMAIN-SUFFIX,contentstack.io
   - DOMAIN-SUFFIX,usercentrics.eu
   - DOMAIN-SUFFIX,smooch.io
