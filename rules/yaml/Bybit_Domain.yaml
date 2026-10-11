@@ -17,3 +17,7 @@ payload:
   - DOMAIN,content.byabcd.com
   - DOMAIN-KEYWORD,bycsi
   - DOMAIN-KEYWORD,bybit
+  - DOMAIN-KEYWORD,m3ond3
+  - DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
+  - DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
+  - DOMAIN-SUFFIX,turingfraud.net

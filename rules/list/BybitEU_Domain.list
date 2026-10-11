@@ -1,0 +1,14 @@
+# NAME: BybitEU_Domain
+# UPDATED: 2026-10-10
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 1
+# DOMAIN-KEYWORD: 1
+# TOTAL: 3
+# Bybit EU（MiCA 持牌的欧洲站）专用域名，必须走 EUNet。Config 需把本规则集排在 Bybit_Domain 之前：
+# Bybit_Domain 的 bybit 关键字也能命中 bybit.eu。依据：用户 2026-10-10 的 Bybit EU 连接日志
+# 网站、API、行情推送（www / api3 / ws2.bybit.eu）
+DOMAIN-SUFFIX,bybit.eu
+# EU App 在 AppsFlyer 的编号（iyzy2h-inapps / iyzy2h-launches.appsflyersdk.com）
+DOMAIN-KEYWORD,iyzy2h
+# 只在 EU 日志里出现的 bycsi.com 主机；bycsi.com 其余子域两个 App 共用，按用户决定跟 Global 走
+DOMAIN,t1.bycsi.com

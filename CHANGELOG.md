@@ -8,6 +8,10 @@
 
 ## 2026-10-10
 
+- Bybit Global 与 Bybit EU 分开分流（用户指定：Global 不能走欧洲出口，EU 必须走欧洲）：新增 `BybitEU_Domain` / `BybitEU_IP`，收录 EU 专用的 `bybit.eu`、EU App 的 AppsFlyer 编号 `iyzy2h`、只在 EU 日志出现的 `t1.bycsi.com`；Config 需排在 `Bybit_Domain` 之前、指向 EUNet。`Bybit_Domain` 改作 Global 专用，由 Config 改指向新建的 Bybit Global 组（只含不在 Bybit 受限名单上的 AU / BR，默认 AU；新加坡、香港、美国、日本均受限）
+- `Bybit_Domain` 补 Global App 的 AppsFlyer 编号 `m3ond3`、两个 App 共用的统计 / A/B 测试主机（`ffe390….de`、`ffbbbdc6….com`，按用户决定跟 Global 走），以及腾讯图灵盾反欺诈 `turingfraud.net`（原先被 `GEOSITE,cn` 直连，把国内 IP 报给 Bybit 风控）。依据为用户 10-10 的两份连接日志
+- 网关模式区分不了流量来自哪个 App：两个 App 共用的域名只能选一个出口，`bycsi.com` 除 `t1` 外的子域都跟 Global
+
 - Cloudflare 官网与控制台登录改走代理（用户指定）：`Custom_Proxy_Domain` 新增 `cloudflare.com`、`www.cloudflare.com`（含 `cf-assets` 静态资源）、`dash.cloudflare.com`（含 Zero Trust 的 `one.dash`）、`api.cloudflare.com`、`challenges.cloudflare.com`（登录页 Turnstile 人机验证）、`cloudflareaccess.com`（Zero Trust Access 登录）。`Custom_Direct_Domain` 原有的四条直连以 `[已停用-分组冲突]` 注明
 - 仍不用 `cloudflare.com` 整个后缀：`apple-relay` / `cp4`（Apple 专用代理）继续走 USNet，`speed.cloudflare.com` 走 Speedtest，`cdnjs.cloudflare.com` 等其余主机按原有规则
 - 副作用：其他网站嵌入的 Turnstile 验证也随 `challenges.cloudflare.com` 走代理；Cloudflare DDNS 通过 `api.cloudflare.com` 更新时请求体里带着 IP，走代理不影响结果

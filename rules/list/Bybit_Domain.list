@@ -1,9 +1,10 @@
 # NAME: Bybit_Domain
-# UPDATED: 2026-09-05
+# UPDATED: 2026-10-10
 # DOMAIN: 3
-# DOMAIN-SUFFIX: 13
-# DOMAIN-KEYWORD: 2
-# TOTAL: 18
+# DOMAIN-SUFFIX: 16
+# DOMAIN-KEYWORD: 3
+# TOTAL: 22
+# Bybit Global。Bybit EU 专用域名在 BybitEU_Domain（Config 排在本规则集之前）；两个 App 共用、分不开的域名按用户决定跟 Global 走
 DOMAIN,bybit.ada.support
 DOMAIN,bybit-exchange.github.io
 DOMAIN-SUFFIX,bybit.com
@@ -28,3 +29,12 @@ DOMAIN,content.byabcd.com
 # [已停用-冗余] DOMAIN,api3.byd3c3.com  ← 文件内被 Bybit_Domain 包含
 DOMAIN-KEYWORD,bycsi
 DOMAIN-KEYWORD,bybit
+# 以下来自用户 2026-10-10 的 Bybit Global 连接日志
+# Global App 在 AppsFlyer 的编号（m3ond3-inapps / launches / cdn-settings.appsflyersdk.com），原先落到 Amazon_IP / FINAL
+DOMAIN-KEYWORD,m3ond3
+# 两个 App 共用的统计与 A/B 测试主机（sc-abtest.*.de、sc-datasink.*.com），跟 Global 走
+DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
+# 腾讯图灵盾反欺诈（www.turingfraud.net），原先被 GEOSITE,cn 直连、把国内 IP 报给 Bybit 风控；
+# 其他用图灵盾的国内 App 也会随之走这个出口（用户 2026-10-10 确认接受）
+DOMAIN-SUFFIX,turingfraud.net
