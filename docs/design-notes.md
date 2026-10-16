@@ -189,16 +189,31 @@ V2 不再引用，只因冻结的 v1 配置仍在引用而保留，**不要删�
 
 复查时会反复出现、但已确认保留的项，不必再报：
 
-- `Custom_Direct_Domain` 的 `ipinfo.io` 直连——需要真实出口，截走 `IPCheck_Domain` 的同名规则属预期
-- `EUNet_Domain` 中交易所 App 抓包得到的推送 / 统计 SDK keyword（`pushsdk`、`mixpanel`、`onesignal` 等）与 `EUNet_IP` 的大段——交易所流量出口保持一致，不按「跨平台共享服务」拆出
+- IP 检测站点（OpenClash IP 面板里的 IPIP.NET、IP.SB、IPIFY，以及 `ip.cn`、`ping0.cc`、`browserleaks.com` 等）一律经 `IPCheck_Domain`（Others 组）走代理，**只保留 PConline**（`whois.pconline.com.cn`，由 `China_Domain` 直连）显示国内出口（用户 2026-09-29 指定）。App / SDK 查自己的 IP 时不能拿到国内出口，币安曾因此判定为国内用户。新发现的 IP 检测站点加到 `IPCheck_Domain`
+- `Custom_Direct_Domain` 里三类功能性直连，不算「IP 检测站点」：`ipinfo.io`（「Emby 小雅」分节，小雅需要真实出口；截走 `IPCheck_Domain` 的同名规则属预期）；路由器 DDNS 取公网 IP 的 `checkip.dyndns.org`、`checkipv6.dyndns.org`、`ifconfig.co`、`api.myip.com`、`ipapi.co`、`ip6.seeip.org` 与 DDNS 更新接口 `members.3322.org`（不能改走代理，否则 DDNS 会登记代理 IP）；`ip-api.com`（迁自路由器覆写，见下文）
+- `EUNet_Domain` 中交易所 App 抓包得到的推送 / 统计 SDK keyword（`pushsdk`、`pushcloud`、`qq-os`、`we-api`、`mixpanel`、`amplitude`、`onesignal`、`zendesk`、`usertrust` 等）与 `EUNet_IP` 的大段——交易所风控看出口一致性，SDK 流量换出口可能引发异常，不按「跨平台共享服务」拆出（用户 2026-09-24 要求把停用的 `pushsdk` 等改回）。只停用明确的国内基础设施（`volces`、`tobsnssdk`、`log.aliyuncs.com`、`im.qcloud.com`）和纯常见词误伤（`ether`、`engage` 等）
+- MEXC 例外：用户要求 MEXC 全部连接走亚洲出口（2026-09-25），`mexc` / `greentreeone` / `mocortexh` 关键字在 `JP_Domain`（与 `mocortech.com`、`payapptoday.com`、`gotoda.co` 同段）。新发现的 MEXC 域名归 `JP_Domain`，不要放回 EUNet
 - `Game_Domain` 的 `anticheatexpert` 与 `Game_IP` 的云厂商 /16——海外腾讯游戏需要；代价是国服游戏的反作弊流量也进 Game Platform
 - `HK_Domain` 的 `mixpanel` / `singular` / `braze`：与 EUNet 同类的 App SDK，走通用的 Proxy 组，影响有限
 - `EUNet_Domain` 的交易所名关键字（`htx`、`bwb`、`bingx`、`blockchain`）与 `OKX_Domain` 的 `okx`：会误伤少量冷门国内站点，但交易所常换镜像域名，收窄有断连风险
 - `HK_Domain` 的 `biya`（BiyaPay）：没有 App 实际域名依据，保留关键字；误伤的 `biyao.com` 在 `Direct_Domain` 里单独直连
 - `SG_IP` 唯一的 `43.128.0.0/16` 被 `Game_IP` 的腾讯云段覆盖——保留 `Game_IP` 大段的代价
-- 仍在使用的服务 keyword：`JP_Domain` 的 `maya` / `globe` / `split`，`HK_Domain` 的 `chie` / `wechat`，`Game_Domain` 的 `telephony` / `fbsbx`
+- 仍在使用的服务 keyword：`JP_Domain` 的 `maya` / `globe` / `split`，`HK_Domain` 的 `chie` / `wechat`，`Game_Domain` 的 `telephony`（`fbsbx` 已于 2026-09-26 停用，交由 Meta 一方域名规则）
 
-收窄某平台规则前，需要有实际域名依据（抓包或连接日志），不要凭推测改端点。
+收窄某平台规则前，需要有实际域名依据（抓包或连接日志），不要凭推测改端点；没有依据时先问用户。
+
+### 路由器覆写规则优先
+
+用户路由器 OpenClash 的覆写（自定义）规则插在所有订阅规则最前面，命中优先。连接日志里命中显示为 `DomainSuffix` / `IPCIDR` 等而不是 `RuleSet` 的，就是覆写在起作用，规则库里的同名条目被压住、不会生效。2026-10-11 用户决定：通用条目迁入规则库（提交 `efc381f`），**覆写与规则库冲突时以覆写为准**；私有域名、IP 段、优先级覆盖类条目继续留在覆写。要改这类条目的走向需同步改覆写，先问用户。
+
+迁入后由覆写决定、与此前规则库方向相反的几项，不要「修回去」：
+
+- `crashlytics.com` 直连（`Custom_Direct_Domain`）；代价是 App 的崩溃上报带国内 IP
+- `ip-api.com` 直连
+- Talkatone 广告 SDK `inmobi.com` / `inner-active.mobi` / `mobilefuse.com` 整域直连，`TalkatoneAds_Domain` 的 `ads.inmobi.com` 等子域因此不再拦截
+- `uhdnow.com`、`jable.tv`、`mushroomtrack.com`、`hanime1.me` 走 Custom-Made
+
+覆写删掉对应条目后规则库是唯一来源，下列条目不要被冗余分析或复查停用：`Direct_Domain` 的 `agkn.com` / `cohere.com` / `kochava.com`、`SteamCN_Domain` 的 `steamcontent.com`、`EA_Domain` 的 `fifastreet.com` / `fifastreet3.com`。
 
 ---
 

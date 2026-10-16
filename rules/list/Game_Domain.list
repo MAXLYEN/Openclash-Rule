@@ -33,4 +33,4 @@ DOMAIN-KEYWORD,vasdgame
 DOMAIN-SUFFIX,hkgcloudcs.com
 DOMAIN-SUFFIX,nagcloudcs.com
 DOMAIN-KEYWORD,telephony
-# [已停用-分组冲突] DOMAIN-KEYWORD,fbsbx  ← Meta 文件/CDN 域名统一由 US_Domain 走 USNet
+# [已停用-分组冲突] DOMAIN-KEYWORD,fbsbx  ← Meta 文件/CDN 域名统一由 Meta_Domain（fbsbx.com / fbsbx.net）接管
