@@ -158,10 +158,10 @@ payload:
 
 多数是踩过坑总结的，构建脚本能自动修前四条，但从源头避免更好：
 
-**换行符用 LF。** 建议在仓库根目录放置 `.gitattributes`：
+**换行符用 LF。** 仓库根目录的 `.gitattributes` 已统一为 LF：
 
 ```
-*.list text eol=lf
+* text=auto eol=lf
 ```
 
 **逗号后不加空格。** `DOMAIN-SUFFIX, example.com` 中的空格会进入匹配串。
@@ -186,11 +186,11 @@ payload:
 | 金融支付 | PayPal 及各地区支付、KYC 相关域名 |
 | AI 平台 | OpenAI、Claude、Gemini、Copilot、Nvidia |
 | 流媒体 | Netflix、Disney+、HBO、Prime Video、Hulu、Apple TV+、Emby、Spotify、Bahamut |
-| 社交通讯 | Telegram、Twitter(X)、Snapchat、Talkatone |
+| 社交通讯 | Telegram、Twitter(X)、Meta（Facebook、Instagram、WhatsApp）、Snapchat、Talkatone |
 | 游戏平台 | Steam、Epic、EA、暴雪、育碧、索尼、任天堂、Supercell |
 | 电商 | Amazon、Shopee、Shopify、Ozon |
 | 科技服务 | Google、Apple、Microsoft、GitHub、YouTube、TikTok |
-| 地区分流 | 香港、日本、美国、英国、欧洲、土耳其 |
+| 地区分流 | 香港、日本、新加坡、美国、英国、欧洲、土耳其、澳大利亚、巴西 |
 | 国内直连 | 中国大陆域名与 IP、国内媒体、小米、网易云音乐 |
 | PT / BT | 私有 tracker 站点 |
 | 广告拦截 | 通用广告、Talkatone 广告、HDO Box 广告 |
