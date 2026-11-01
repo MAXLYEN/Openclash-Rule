@@ -6,6 +6,12 @@
 
 ---
 
+## 2026-11-01
+
+- 按用户指定补充 Claude 规则：
+  - `Claude_Domain` 新增核心、CDN / 静态资源、认证 / 内容、监控遥测与客服 widget 规则：`DOMAIN-SUFFIX`（`anthropic.com`、`sentry.io`、`statsigapi.net`、`intercom.io`、`intercomcdn.com`）、`DOMAIN`（`servd-anthropic-website.b-cdn.net`、`anthropic.com.cdn.cloudflare.net`、`anthropic.auth0.com`、`anthropic-com.ghost.io`、`browser-intake-us5-datadoghq.com`、`cdn.usefathom.com`）与 `DOMAIN-KEYWORD`（`datadog`、`sift`）；原有的 `DOMAIN-KEYWORD,anthropic` 注释停用（改由上述精确域名与后缀覆盖，避免在文件内把 `anthropic.com`、`servd-anthropic-website.b-cdn.net`、`anthropic.com.cdn.cloudflare.net`、`anthropic.auth0.com`、`anthropic-com.ghost.io` 5 条判为冗余停用）
+  - `Claude_IP` 由空占位转为正式规则集，新增 Anthropic 官方 IP 段与自治系统号：`IP-CIDR,160.79.104.0/21,no-resolve`、`IP-CIDR6,2607:6bc0::/32,no-resolve`、`IP-ASN,399358,no-resolve`
+
 ## 2026-10-11
 
 - 路由器 OpenClash 覆写规则的通用条目迁入规则库（用户决定：通用条目进规则库，冲突时以覆写为准；私有域名、IP 段、优先级覆盖类条目仍留在覆写）。覆写排在所有订阅规则之前，迁入后走向不变，Config 会话按 V2 顺序模拟过 107 个域名

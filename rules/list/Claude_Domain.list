@@ -1,17 +1,33 @@
 # NAME: Claude_Domain
-# UPDATED: 2026-09-26
-# DOMAIN-SUFFIX: 6
-# DOMAIN-KEYWORD: 1
-# TOTAL: 7
-# [已停用] DOMAIN,cdn.usefathom.com  ← Fathom Analytics 是通用统计服务，非 Claude 专有
+# UPDATED: 2026-11-01
+# DOMAIN: 6
+# DOMAIN-SUFFIX: 11
+# DOMAIN-KEYWORD: 2
+# TOTAL: 19
 # [已停用] DOMAIN-KEYWORD,claude  ← claude 是常见法语人名，会误匹配大量无关域名；已由下方 SUFFIX 精确覆盖
-DOMAIN-KEYWORD,anthropic
-# [已停用-冗余] DOMAIN-SUFFIX,anthropic.com  ← 文件内被 Claude_Domain 包含
+# [已停用-范围过宽] DOMAIN-KEYWORD,anthropic  ← 已改用下方精确 SUFFIX / DOMAIN
+# [已停用] DOMAIN-SUFFIX,anthropic.tools  ← 未在当前规则清单中启用
+# 核心域名
+DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudemcpcontent.com
-# servd-anthropic-website.b-cdn.net 已由 anthropic 关键字覆盖
-# [已停用-冗余] DOMAIN-SUFFIX,anthropic.tools  ← 文件内被 Claude_Domain 包含
+DOMAIN-SUFFIX,claudeusercontent.com
+# CDN 和静态资源
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,anthropic.com.cdn.cloudflare.net
+# 认证 / 内容
+DOMAIN,anthropic.auth0.com
+DOMAIN,anthropic-com.ghost.io
+# 监控和遥测
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN-KEYWORD,datadog
+DOMAIN-KEYWORD,sift
+# 客服 / 第三方 widget
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN,cdn.usefathom.com
