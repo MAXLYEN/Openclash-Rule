@@ -1,7 +1,7 @@
 # NAME: ProxyGFWlist_Domain_2
-# UPDATED: 2026-10-11
-# DOMAIN-SUFFIX: 2238
-# TOTAL: 2238
+# UPDATED: 2026-11-02
+# DOMAIN-SUFFIX: 2239
+# TOTAL: 2239
 # 综合代理后备表第 2 段：跨表相同域名保留供独立引用，V2 中由前置专用服务表先命中
 DOMAIN-SUFFIX,hkheadline.com
 DOMAIN-SUFFIX,hkhkhk.com
@@ -1747,7 +1747,7 @@ DOMAIN-SUFFIX,realraptalk.com
 DOMAIN-SUFFIX,realsexpass.com
 DOMAIN-SUFFIX,reason.com
 DOMAIN-SUFFIX,rebatesrule.net
-# [已停用-冗余] DOMAIN-SUFFIX,recaptcha.net  ← 已被 Custom_Proxy_Domain 以同一分组命中
+DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,recordhistory.org
 # [已停用-冗余] DOMAIN-SUFFIX,recovery.org.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中
 # [已停用-冗余] DOMAIN-SUFFIX,recoveryversion.com.tw  ← 已被 ProxyGFWlist_Domain_1 以同一分组命中

@@ -1,8 +1,8 @@
 # NAME: Custom_Proxy_Domain
-# UPDATED: 2026-10-11
+# UPDATED: 2026-11-02
 # DOMAIN: 3
-# DOMAIN-SUFFIX: 33
-# TOTAL: 36
+# DOMAIN-SUFFIX: 27
+# TOTAL: 30
 # 强制代理列表，来自个人收集
 # PS5 STUN
 DOMAIN-SUFFIX,stun.playstation.net
@@ -18,7 +18,7 @@ DOMAIN-SUFFIX,nosla.cloud
 # 苹果通知
 DOMAIN-SUFFIX,push.apple.com
 # 验证器
-DOMAIN-SUFFIX,recaptcha.net
+# [已停用-分组冲突] DOMAIN-SUFFIX,recaptcha.net  ← Google 人机验证域名，停用后交由 ⑧ 区 Google_Domain（默认 USNet，不含香港）走美区出口，避免 Google 账号暴露香港 IP
 DOMAIN-SUFFIX,jishubai.com
 # Pyypl（阿联酋预付虚拟卡）：目前没有中东专属策略组，使用通用代理
 DOMAIN-SUFFIX,pyypl.com
@@ -42,13 +42,14 @@ DOMAIN-SUFFIX,bitso.com
 DOMAIN-SUFFIX,onchain.cc
 DOMAIN-SUFFIX,upbit.com
 # 统计 / 崩溃上报 / 归因 SDK：服务端按来源 IP 记录地区，直连会把国内 IP 报给 App 后台
-# （币安等交易所的风控会据此判定国内用户）。排在 GoogleCN_Domain / GEOSITE,google-cn / Direct_Domain 之前才能截住
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,googleanalytics.com
-DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
+# （币安等交易所的风控会据此判定国内用户）。Google 系遥测/统计域名已由 ⑧ 区 Google_Domain（默认 USNet，不含香港）接管，
+# 在此停用避免被 Custom_Proxy_Domain（Proxy 默认香港）提前截走而向 Google 暴露香港 IP
+# [已停用-分组冲突] DOMAIN-SUFFIX,app-measurement.com  ← 交由 ⑧ 区 Google_Domain（默认 USNet）走美区代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,google-analytics.com  ← 交由 ⑧ 区 Google_Domain（默认 USNet）走美区代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,googleanalytics.com  ← 交由 ⑧ 区 Google_Domain（默认 USNet）走美区代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,ssl-google-analytics.l.google.com  ← 交由 ⑧ 区 Google_Domain（默认 USNet）走美区代理
 # [已停用-分组冲突] DOMAIN-SUFFIX,crashlytics.com  ← 以路由器覆写规则为准（用户 2026-10-11 决定），直连，改由 Custom_Direct_Domain 承载
-DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com  ← 交由 ⑧ 区 Google_Domain（默认 USNet）走美区代理
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,adjust.com
 # Cloudflare 官网与控制台登录（用户 2026-10-10 指定走代理）。只收官网、控制台、API、登录验证相关主机，

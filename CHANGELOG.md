@@ -6,6 +6,12 @@
 
 ---
 
+## 2026-11-02（二）
+
+- 封堵 `www.google-analytics.com` 等 Google 统计 / 遥测 / 验证域名走香港出口（用户指定）：
+  - `Custom_Proxy_Domain`（③ 区强制代理，归 `Proxy` 组，默认香港池）中的 `DOMAIN-SUFFIX,google-analytics.com`、`DOMAIN-SUFFIX,googleanalytics.com`、`DOMAIN-SUFFIX,ssl-google-analytics.l.google.com`、`DOMAIN-SUFFIX,app-measurement.com`、`DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com`、`DOMAIN-SUFFIX,recaptcha.net` 共 6 条以 `[已停用-分组冲突]` 注释停用，全部交由 ⑧ 区 `Google_Domain`（默认 `USNet`，不含香港与直连）走美区出口，彻底阻断向 Google 暴露香港 IP
+  - 配合 Openclash-Config v2.26 将 `Bahamut_Domain` / `GEOSITE,bahamut` 改挂 `HKNet`（香港本地出口），运行 `dedupe.py --apply` 自动恢复 `GlobalMedia_Domain` 中 4 条巴哈姆特条目与 `ProxyGFWlist_Domain_2` 的 `recaptcha.net`（均仍被前置专用规则集提前命中，实际出口不变）
+
 ## 2026-11-02
 
 - 封堵 Google 系域名直连暴露中国大陆 IP（用户指定：解决 Google 账号关联地区被判为 China）：

@@ -6,7 +6,6 @@ payload:
   - DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,nosla.cloud
   - DOMAIN-SUFFIX,push.apple.com
-  - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,jishubai.com
   - DOMAIN-SUFFIX,pyypl.com
   - DOMAIN-SUFFIX,volet.com
@@ -22,11 +21,6 @@ payload:
   - DOMAIN-SUFFIX,bitso.com
   - DOMAIN-SUFFIX,onchain.cc
   - DOMAIN-SUFFIX,upbit.com
-  - DOMAIN-SUFFIX,app-measurement.com
-  - DOMAIN-SUFFIX,google-analytics.com
-  - DOMAIN-SUFFIX,googleanalytics.com
-  - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
-  - DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
   - DOMAIN-SUFFIX,appsflyer.com
   - DOMAIN-SUFFIX,adjust.com
   - DOMAIN,cloudflare.com
