@@ -6,6 +6,12 @@
 
 ---
 
+## 2026-11-02
+
+- 封堵 Google 系域名直连暴露中国大陆 IP（用户指定：解决 Google 账号关联地区被判为 China）：
+  - `Direct_Domain` 停用 `DOMAIN,clientservices.googleapis.com` 与 `DOMAIN,update.googleapis.com`（原 `[已停用-冗余] DOMAIN,dl.google.com` / `dl.l.google.com` 改标 `[已停用-分组冲突]` 防止自动恢复），全部交还 `Google_Domain` 走代理
+  - `GoogleCN_Domain` 剩余 16 条规则全部以 `[已停用-分组冲突]` 注释停用（`265.com`、`2mdn.net`、`cache.pack.google.com`、`clickserve.dartsearch.net`、`crl.pki.goog`、`dl.google.com`、`dl.l.google.com`、`googletagmanager.com`、`googletagservices.com`、`gtm.oasisfeng.com`、`ocsp.pki.goog`、`recaptcha.net`、`safebrowsing-cache.google.com`、`toolbarqueries.google.com`、`tools.google.com`、`tools.l.google.com`、`www-googletagmanager.l.google.com`），不再向 Google 发出任何携带国内直连 IP 的请求
+
 ## 2026-11-01
 
 - 按用户指定补充 Claude 规则：

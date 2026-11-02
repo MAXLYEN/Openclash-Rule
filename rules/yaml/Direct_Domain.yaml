@@ -5,7 +5,6 @@ payload:
   - DOMAIN,analytics.95516.com
   - DOMAIN,analytics.strava.com
   - DOMAIN,bdtj.tagtic.cn
-  - DOMAIN,clientservices.googleapis.com
   - DOMAIN,deo.shopeemobile.com
   - DOMAIN,eco-push-api-client.meiqia.com
   - DOMAIN,errlog.umeng.com
@@ -35,7 +34,6 @@ payload:
   - DOMAIN,time.apple.com
   - DOMAIN,tracking.miui.com
   - DOMAIN,ts.thefilehosting.com
-  - DOMAIN,update.googleapis.com
   - DOMAIN,vd.l.qq.com
   - DOMAIN,vi.l.qq.com
   - DOMAIN,vip.ffzyread.com

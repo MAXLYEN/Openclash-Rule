@@ -1,9 +1,9 @@
 # NAME: Direct_Domain
-# UPDATED: 2026-09-26
-# DOMAIN: 42
+# UPDATED: 2026-11-02
+# DOMAIN: 40
 # DOMAIN-SUFFIX: 83
 # DOMAIN-KEYWORD: 12
-# TOTAL: 137
+# TOTAL: 135
 DOMAIN,ad.10010.com
 DOMAIN,ad.12306.cn
 DOMAIN,ain.bgm.tv
@@ -21,10 +21,10 @@ DOMAIN,analytics.strava.com
 # [已停用-分组冲突] DOMAIN,app.appsflyer.com  ← 统计 / 归因 SDK 直连会暴露国内 IP，改由 Custom_Proxy_Domain 走代理
 DOMAIN,bdtj.tagtic.cn
 # [已停用-冗余] DOMAIN,cdn.jsdelivr.net  ← 已被 Custom_Direct_Domain 以同一分组命中
-DOMAIN,clientservices.googleapis.com
+# [已停用-分组冲突] DOMAIN,clientservices.googleapis.com  ← Google 客户端状态同步直连会暴露国内 IP，交由 Google_Domain 走代理
 DOMAIN,deo.shopeemobile.com
-# [已停用-冗余] DOMAIN,dl.google.com  ← 已被 GoogleCN_Domain 以同一分组命中
-# [已停用-冗余] DOMAIN,dl.l.google.com  ← 已被 GoogleCN_Domain 以同一分组命中
+# [已停用-分组冲突] DOMAIN,dl.google.com  ← Google 域名直连会暴露国内 IP，交由 Google_Domain 走代理
+# [已停用-分组冲突] DOMAIN,dl.l.google.com  ← Google 域名直连会暴露国内 IP，交由 Google_Domain 走代理
 DOMAIN,eco-push-api-client.meiqia.com
 DOMAIN,errlog.umeng.com
 DOMAIN,fairplay.l.qq.com
@@ -55,7 +55,7 @@ DOMAIN,tiao.cjkypo.com
 DOMAIN,time.apple.com
 DOMAIN,tracking.miui.com
 DOMAIN,ts.thefilehosting.com
-DOMAIN,update.googleapis.com
+# [已停用-分组冲突] DOMAIN,update.googleapis.com  ← Google 组件更新直连会暴露国内 IP，交由 Google_Domain 走代理
 DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
 DOMAIN,vip.ffzyread.com

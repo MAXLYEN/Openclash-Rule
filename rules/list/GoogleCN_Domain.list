@@ -1,10 +1,9 @@
 # NAME: GoogleCN_Domain
-# UPDATED: 2026-09-25
-# DOMAIN-SUFFIX: 17
-# TOTAL: 17
+# UPDATED: 2026-11-02
+# TOTAL: 0
 # Google China
-DOMAIN-SUFFIX,265.com
-DOMAIN-SUFFIX,2mdn.net
+# [已停用-分组冲突] DOMAIN-SUFFIX,265.com  ← Google 系域名直连会暴露国内 IP，交由 Google_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,2mdn.net  ← Google 广告/媒体域名直连会暴露国内 IP，交由 Google_Domain 走代理
 # [已停用-分组冲突] DOMAIN-SUFFIX,alt1-mtalk.google.com  ← 交由 GoogleFCM_Domain 匹配
 # [已停用-分组冲突] DOMAIN-SUFFIX,alt2-mtalk.google.com  ← 交由 GoogleFCM_Domain 匹配
 # [已停用-分组冲突] DOMAIN-SUFFIX,alt3-mtalk.google.com  ← 交由 GoogleFCM_Domain 匹配
@@ -14,21 +13,21 @@ DOMAIN-SUFFIX,2mdn.net
 # [已停用-分组冲突] DOMAIN-SUFFIX,alt7-mtalk.google.com  ← 交由 GoogleFCM_Domain 匹配
 # [已停用-分组冲突] DOMAIN-SUFFIX,alt8-mtalk.google.com  ← 交由 GoogleFCM_Domain 匹配
 # [已停用-分组冲突] DOMAIN-SUFFIX,app-measurement.com  ← 统计 / 归因 SDK 直连会暴露国内 IP，改由 Custom_Proxy_Domain 走代理
-DOMAIN-SUFFIX,cache.pack.google.com
-DOMAIN-SUFFIX,clickserve.dartsearch.net
-DOMAIN-SUFFIX,crl.pki.goog
-DOMAIN-SUFFIX,dl.google.com
-DOMAIN-SUFFIX,dl.l.google.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
-DOMAIN-SUFFIX,gtm.oasisfeng.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,cache.pack.google.com  ← Google 域名直连会暴露国内 IP，交由 Google_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,clickserve.dartsearch.net  ← Google 广告域名直连会暴露国内 IP，交由 Google_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,crl.pki.goog  ← Google PKI 域名直连会暴露国内 IP，交由 Google_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,dl.google.com  ← Google 域名直连会暴露国内 IP，交由 Google_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,dl.l.google.com  ← Google 域名直连会暴露国内 IP，交由 Google_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,googletagmanager.com  ← Google 统计标签直连会暴露国内 IP，交由 Google_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,googletagservices.com  ← Google 统计标签直连会暴露国内 IP，交由 Google_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,gtm.oasisfeng.com  ← Google Tag Manager 镜像直连会暴露国内 IP，交由 Google_Domain 走代理
 # [已停用-分组冲突] DOMAIN-SUFFIX,mtalk.google.com  ← 交由 GoogleFCM_Domain 匹配
-DOMAIN-SUFFIX,ocsp.pki.goog
-DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,safebrowsing-cache.google.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,ocsp.pki.goog  ← Google PKI 域名直连会暴露国内 IP，交由 Google_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,recaptcha.net  ← 已被 Custom_Proxy_Domain 接管走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,safebrowsing-cache.google.com  ← Google 域名直连会暴露国内 IP，交由 Google_Domain 走代理
 # [已停用-分组冲突] DOMAIN-SUFFIX,settings.crashlytics.com  ← 由更早的 Custom_Direct_Domain 的 crashlytics.com 承载（以路由器覆写为准，直连）
 # [已停用-分组冲突] DOMAIN-SUFFIX,ssl-google-analytics.l.google.com  ← 统计 / 归因 SDK 直连会暴露国内 IP，改由 Custom_Proxy_Domain 走代理
-DOMAIN-SUFFIX,toolbarqueries.google.com
-DOMAIN-SUFFIX,tools.google.com
-DOMAIN-SUFFIX,tools.l.google.com
-DOMAIN-SUFFIX,www-googletagmanager.l.google.com
+# [已停用-分组冲突] DOMAIN-SUFFIX,toolbarqueries.google.com  ← Google 域名直连会暴露国内 IP，交由 Google_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,tools.google.com  ← Google 域名直连会暴露国内 IP，交由 Google_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,tools.l.google.com  ← Google 域名直连会暴露国内 IP，交由 Google_Domain 走代理
+# [已停用-分组冲突] DOMAIN-SUFFIX,www-googletagmanager.l.google.com  ← Google 域名直连会暴露国内 IP，交由 Google_Domain 走代理
