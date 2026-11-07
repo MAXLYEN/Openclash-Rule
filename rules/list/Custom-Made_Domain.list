@@ -9,6 +9,7 @@
 DOMAIN,origin-a.akamaihd.net
 # 以下迁自路由器 OpenClash 覆写规则（2026-10-11），走向与覆写一致（原在 AU_Domain，被覆写压住）
 DOMAIN-SUFFIX,uhdnow.com
+DOMAIN-SUFFIX,uhdgo.com
 DOMAIN-SUFFIX,jable.tv
 DOMAIN-SUFFIX,mushroomtrack.com
 DOMAIN-SUFFIX,hanime1.me
