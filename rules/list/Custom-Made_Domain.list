@@ -1,9 +1,8 @@
 # NAME: Custom-Made_Domain
-# UPDATED: 2026-11-14
-# DOMAIN: 1
-# DOMAIN-SUFFIX: 5
-# DOMAIN-KEYWORD: 1
-# TOTAL: 7
+# UPDATED: 2026-11-13
+# DOMAIN: 11
+# DOMAIN-SUFFIX: 26
+# TOTAL: 37
 # EA app 下载 CDN（2026-09-30 实测）：原先命中 GEOSITE,category-game-platforms-download 直连，速度只有 22～72 kB/s。
 # 放在 Custom-Made（默认 Global Direct）里，平时照旧直连；下载慢时在面板把 Custom-Made 切到 Proxy。
 # 只收这个主机名，不用 akamaihd.net 后缀——Akamai 是通用 CDN
@@ -14,4 +13,52 @@ DOMAIN-SUFFIX,uhdgo.com
 DOMAIN-SUFFIX,jable.tv
 DOMAIN-SUFFIX,mushroomtrack.com
 DOMAIN-SUFFIX,hanime1.me
-DOMAIN-KEYWORD,115
+# 115 网盘：官网、登录、分享、客户端及文件下载（down.115.com、cdnfhnfile.115.com）
+# 域名依据：https://github.com/v2fly/domain-list-community/blob/master/data/115
+# [已停用-范围过宽] DOMAIN-KEYWORD,115  ← 数字片段会命中无关域名，改用已知服务域名
+DOMAIN-SUFFIX,115.com
+DOMAIN-SUFFIX,115cdn.com
+DOMAIN-SUFFIX,115cdn.net
+DOMAIN-SUFFIX,115cloud.cn
+DOMAIN-SUFFIX,115cloud.com
+DOMAIN-SUFFIX,115cloud.net
+DOMAIN-SUFFIX,115img.com
+DOMAIN-SUFFIX,115vod.com
+DOMAIN-SUFFIX,116cd.cn
+DOMAIN-SUFFIX,116cd.com
+DOMAIN-SUFFIX,116cd.net
+DOMAIN-SUFFIX,anxia.com
+DOMAIN-SUFFIX,sq.cc
+# 115 的阿里云 OSS 专用下载主机（分别为客户端和网盘文件）
+DOMAIN,down115com.oss-enet.aliyuncs.com
+DOMAIN,fhnfile.oss-enet.aliyuncs.com
+# 比特彗星：官网、安装包及客户端服务
+DOMAIN-SUFFIX,bitcomet.com
+# 比特精灵：历史官网与安装包、更新域名
+# https://web.archive.org/web/20090228045516/http://www.167bt.com/intl/
+# [已停用] DOMAIN-SUFFIX,167bt.com  ← 历史官网现为域名出售页
+# [已停用] DOMAIN-SUFFIX,lanspirit.net  ← 历史安装包站点不可用，旧更新主机已无解析
+# µTorrent：官网、安装包、更新及 BitTorrent DHT 引导
+DOMAIN-SUFFIX,utorrent.com
+DOMAIN,router.bittorrent.com
+# qBittorrent：官网、项目专用发布入口和默认 DHT 引导
+DOMAIN-SUFFIX,qbittorrent.org
+DOMAIN,qbittorrent.sourceforge.net
+DOMAIN,dht.libtorrent.org
+DOMAIN,dht.transmissionbt.com
+DOMAIN,router.bt.ouinet.work
+# 迅雷极速版：迅雷官网、账户、安装包及三代下载调度
+DOMAIN-SUFFIX,xunlei.com
+DOMAIN-SUFFIX,sandai.net
+# 闪电下载（闪电侠）：历史官网及其 app、apk 子域，目前未解析到可用服务
+# https://web.archive.org/web/20220525030126/http://flashdown365.com/
+DOMAIN-SUFFIX,flashdown365.com
+# [已停用] DOMAIN,bbs.xiaokanba.com  ← 原下载页不可用，现首页为其他服务
+# eMule：官网、社区版发行入口及 SourceForge 项目专用入口
+DOMAIN-SUFFIX,emule-project.net
+DOMAIN-SUFFIX,emule-project.com
+DOMAIN,emule.sourceforge.net
+# aria2：官网与旧版发布入口
+DOMAIN,aria2.github.io
+DOMAIN,aria2.sourceforge.net
+# GitHub Releases 和 SourceForge 的共享下载主机继续由原有规则分流

@@ -376,7 +376,7 @@ DOMAIN-SUFFIX,kankan.com
 DOMAIN-SUFFIX,p2cdn.com
 DOMAIN-SUFFIX,sandai.net
 # [已停用-冗余] DOMAIN-SUFFIX,thundercdn.com  ← 已被 Download_Domain 以同一分组命中
-# [已停用-冗余] DOMAIN-SUFFIX,xunlei.com  ← 已被 Direct_Domain 以同一分组命中
+# [已停用-分组冲突] DOMAIN-SUFFIX,xunlei.com  ← 由 Custom-Made_Domain 提前接管，Direct_Domain 保留直连规则
 # YYeTs 人人影视
 DOMAIN-SUFFIX,got001.com
 DOMAIN-SUFFIX,p4pfile.com

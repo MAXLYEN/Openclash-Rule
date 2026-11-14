@@ -5,4 +5,34 @@ payload:
   - DOMAIN-SUFFIX,jable.tv
   - DOMAIN-SUFFIX,mushroomtrack.com
   - DOMAIN-SUFFIX,hanime1.me
-  - DOMAIN-KEYWORD,115
+  - DOMAIN-SUFFIX,115.com
+  - DOMAIN-SUFFIX,115cdn.com
+  - DOMAIN-SUFFIX,115cdn.net
+  - DOMAIN-SUFFIX,115cloud.cn
+  - DOMAIN-SUFFIX,115cloud.com
+  - DOMAIN-SUFFIX,115cloud.net
+  - DOMAIN-SUFFIX,115img.com
+  - DOMAIN-SUFFIX,115vod.com
+  - DOMAIN-SUFFIX,116cd.cn
+  - DOMAIN-SUFFIX,116cd.com
+  - DOMAIN-SUFFIX,116cd.net
+  - DOMAIN-SUFFIX,anxia.com
+  - DOMAIN-SUFFIX,sq.cc
+  - DOMAIN,down115com.oss-enet.aliyuncs.com
+  - DOMAIN,fhnfile.oss-enet.aliyuncs.com
+  - DOMAIN-SUFFIX,bitcomet.com
+  - DOMAIN-SUFFIX,utorrent.com
+  - DOMAIN,router.bittorrent.com
+  - DOMAIN-SUFFIX,qbittorrent.org
+  - DOMAIN,qbittorrent.sourceforge.net
+  - DOMAIN,dht.libtorrent.org
+  - DOMAIN,dht.transmissionbt.com
+  - DOMAIN,router.bt.ouinet.work
+  - DOMAIN-SUFFIX,xunlei.com
+  - DOMAIN-SUFFIX,sandai.net
+  - DOMAIN-SUFFIX,flashdown365.com
+  - DOMAIN-SUFFIX,emule-project.net
+  - DOMAIN-SUFFIX,emule-project.com
+  - DOMAIN,emule.sourceforge.net
+  - DOMAIN,aria2.github.io
+  - DOMAIN,aria2.sourceforge.net

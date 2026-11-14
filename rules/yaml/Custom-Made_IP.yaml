@@ -1,1 +1,15 @@
-payload: []
+payload:
+  - IP-CIDR,47.113.24.196/32,no-resolve
+  - IP-CIDR,120.77.238.103/32,no-resolve
+  - IP-CIDR,82.221.103.245/32,no-resolve
+  - IP-CIDR,82.221.103.246/32,no-resolve
+  - IP-CIDR,101.132.110.239/32,no-resolve
+  - IP-CIDR,185.157.221.247/32,no-resolve
+  - IP-CIDR6,2a02:752:0:18::128/128,no-resolve
+  - IP-CIDR,87.98.162.88/32,no-resolve
+  - IP-CIDR,212.129.33.59/32,no-resolve
+  - IP-CIDR6,2001:41d0:203:4cca:5::/128,no-resolve
+  - IP-CIDR,103.75.116.208/32,no-resolve
+  - IP-CIDR,147.78.3.239/32,no-resolve
+  - IP-CIDR,168.222.245.126/32,no-resolve
+  - IP-CIDR,185.126.239.132/32,no-resolve
