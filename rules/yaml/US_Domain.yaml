@@ -38,11 +38,77 @@ payload:
   - DOMAIN-KEYWORD,firstrade
   - DOMAIN-KEYWORD,zellepay
   - DOMAIN-KEYWORD,cashapp
+  - DOMAIN-SUFFIX,cash.app
   - DOMAIN-SUFFIX,chime.com
   - DOMAIN-SUFFIX,chimebank.com
   - DOMAIN-KEYWORD,kalshi
   - DOMAIN-KEYWORD,bitpay
   - DOMAIN-KEYWORD,westernunion
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,stripe.network
+  - DOMAIN-SUFFIX,stripecdn.com
+  - DOMAIN-SUFFIX,link.com
+  - DOMAIN-SUFFIX,link.co
+  - DOMAIN-SUFFIX,squareup.com
+  - DOMAIN-SUFFIX,square.site
+  - DOMAIN-SUFFIX,paddle.com
+  - DOMAIN-SUFFIX,lemonsqueezy.com
+  - DOMAIN-SUFFIX,fastspring.com
+  - DOMAIN-SUFFIX,onfastspring.com
+  - DOMAIN-SUFFIX,gumroad.com
+  - DOMAIN-SUFFIX,authorize.net
+  - DOMAIN-SUFFIX,adyen.com
+  - DOMAIN-SUFFIX,chargebee.com
+  - DOMAIN-SUFFIX,recurly.com
+  - DOMAIN-SUFFIX,bluesnap.com
+  - DOMAIN-SUFFIX,2checkout.com
+  - DOMAIN-SUFFIX,affirm.com
+  - DOMAIN-SUFFIX,remitly.com
+  - DOMAIN-SUFFIX,moneygram.com
+  - DOMAIN-SUFFIX,deel.com
+  - DOMAIN-SUFFIX,tipalti.com
+  - DOMAIN-SUFFIX,bill.com
+  - DOMAIN-SUFFIX,plaid.com
+  - DOMAIN-SUFFIX,finicity.com
+  - DOMAIN-SUFFIX,mx.com
+  - DOMAIN-SUFFIX,yodlee.com
+  - DOMAIN-SUFFIX,dwolla.com
+  - DOMAIN-SUFFIX,privacy.com
+  - DOMAIN-SUFFIX,lithic.com
+  - DOMAIN-SUFFIX,marqeta.com
+  - DOMAIN-SUFFIX,americanexpress.com
+  - DOMAIN-SUFFIX,aexp-static.com
+  - DOMAIN-SUFFIX,citi.com
+  - DOMAIN-SUFFIX,jpmorgan.com
+  - DOMAIN-SUFFIX,jpmorganchase.com
+  - DOMAIN-SUFFIX,usbank.com
+  - DOMAIN-SUFFIX,pnc.com
+  - DOMAIN-SUFFIX,discover.com
+  - DOMAIN-SUFFIX,discovercard.com
+  - DOMAIN-SUFFIX,ally.com
+  - DOMAIN-SUFFIX,marcus.com
+  - DOMAIN-SUFFIX,goldmansachs.com
+  - DOMAIN-SUFFIX,morganstanley.com
+  - DOMAIN-SUFFIX,tdbank.com
+  - DOMAIN-SUFFIX,truist.com
+  - DOMAIN-SUFFIX,biltrewards.com
+  - DOMAIN-SUFFIX,synchrony.com
+  - DOMAIN-SUFFIX,mysynchrony.com
+  - DOMAIN-SUFFIX,usaa.com
+  - DOMAIN-SUFFIX,navyfederal.org
+  - DOMAIN-SUFFIX,fidelity.com
+  - DOMAIN-SUFFIX,vanguard.com
+  - DOMAIN-SUFFIX,etrade.com
+  - DOMAIN-SUFFIX,betterment.com
+  - DOMAIN-SUFFIX,tastytrade.com
+  - DOMAIN-SUFFIX,tradestation.com
+  - DOMAIN-SUFFIX,m1.com
+  - DOMAIN-SUFFIX,acorns.com
+  - DOMAIN-SUFFIX,empower.com
+  - DOMAIN-SUFFIX,circle.com
+  - DOMAIN-SUFFIX,paxos.com
+  - DOMAIN-SUFFIX,bitgo.com
+  - DOMAIN-SUFFIX,bridge.xyz
   - DOMAIN-SUFFIX,ultramobile.com
   - DOMAIN-SUFFIX,realphonevalidation.com
   - DOMAIN-KEYWORD,flexiroam

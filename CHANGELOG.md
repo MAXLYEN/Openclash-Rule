@@ -6,6 +6,14 @@
 
 ---
 
+## 2026-11-19
+
+- 扩充 `US_Domain` 的支付中转、金融基础设施及美国主流金融机构规则（均走 `USNet`）：
+  - **支付中转 / 网关 / 一键支付 / 收单**：新增 Stripe & Link by Stripe（`stripe.com`、`stripe.network`、`stripecdn.com`、`link.com`、`link.co`；`stripe.uk` 保留在 `UK_Domain`）、Square（`squareup.com`、`square.site`）、Paddle（`paddle.com`）、Lemon Squeezy（`lemonsqueezy.com`）、FastSpring（`fastspring.com`、`onfastspring.com`）、Gumroad（`gumroad.com`）、Authorize.Net（`authorize.net`）、Adyen（`adyen.com`）、Chargebee（`chargebee.com`）、Recurly（`recurly.com`）、BlueSnap（`bluesnap.com`）、2Checkout（`2checkout.com`），并补齐 Cash App 官方主域 `cash.app`
+  - **BNPL / 跨境汇款 / 薪酬打款与银行连接基础设施**：新增 Affirm（`affirm.com`）、Remitly（`remitly.com`）、MoneyGram（`moneygram.com`）、Deel（`deel.com`）、Tipalti（`tipalti.com`）、Bill（`bill.com`），以及 Plaid（`plaid.com`）、Finicity（`finicity.com`）、MX（`mx.com`）、Yodlee（`yodlee.com`）、Dwolla（`dwolla.com`）、Privacy（`privacy.com`）、Lithic（`lithic.com`）、Marqeta（`marqeta.com`）
+  - **美国主流银行与信用卡**：新增 Amex（`americanexpress.com`、`aexp-static.com`）、Citi（`citi.com`）、J.P. Morgan（`jpmorgan.com`、`jpmorganchase.com`）、U.S. Bank（`usbank.com`）、PNC（`pnc.com`）、Discover（`discover.com`、`discovercard.com`）、Ally（`ally.com`）、Goldman Sachs / Marcus（`marcus.com`、`goldmansachs.com`）、Morgan Stanley（`morganstanley.com`）、TD Bank（`tdbank.com`）、Truist（`truist.com`）、Bilt（`biltrewards.com`）、Synchrony（`synchrony.com`、`mysynchrony.com`）、USAA（`usaa.com`）、Navy Federal（`navyfederal.org`）
+  - **美国主流券商 / 投资 / 合规稳定币与托管**：新增 Fidelity（`fidelity.com`）、Vanguard（`vanguard.com`）、E\*TRADE（`etrade.com`）、Betterment（`betterment.com`）、Tastytrade（`tastytrade.com`）、TradeStation（`tradestation.com`）、M1（`m1.com`）、Acorns（`acorns.com`）、Empower（`empower.com`）、Circle（`circle.com`）、Paxos（`paxos.com`）、BitGo（`bitgo.com`）、Bridge（`bridge.xyz`）
+
 ## 2026-11-13
 
 - 为 Custom-Made 补充 115 网盘和下载客户端规则。将 `DOMAIN-KEYWORD,115` 改为有来源的域名后缀，覆盖官网、分享、文件与安装包下载，并加入 115 专用的 OSS 下载主机。

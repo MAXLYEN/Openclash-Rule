@@ -1,9 +1,9 @@
 # NAME: US_Domain
-# UPDATED: 2026-10-11
+# UPDATED: 2026-11-19
 # DOMAIN: 16
-# DOMAIN-SUFFIX: 98
+# DOMAIN-SUFFIX: 164
 # DOMAIN-KEYWORD: 25
-# TOTAL: 139
+# TOTAL: 205
 #美洲分流
 #娱乐生活
 # [已停用-范围过宽] DOMAIN-KEYWORD,tubi  ← 会命中 tubiaoxiu.com 等；改为上游 v2fly tubi 列表的域名
@@ -60,12 +60,86 @@ DOMAIN-KEYWORD,wealthfront
 DOMAIN-KEYWORD,firstrade
 DOMAIN-KEYWORD,zellepay
 DOMAIN-KEYWORD,cashapp
+DOMAIN-SUFFIX,cash.app
 # [已停用-范围过宽] DOMAIN-KEYWORD,chime  ← 会命中长隆 chimelong.com 等国内站点；改为 Chime 的官方域名
 DOMAIN-SUFFIX,chime.com
 DOMAIN-SUFFIX,chimebank.com
 DOMAIN-KEYWORD,kalshi
 DOMAIN-KEYWORD,bitpay
 DOMAIN-KEYWORD,westernunion
+# 支付中转 / 支付网关 / 一键支付 / 收单平台
+# Stripe 与 Link by Stripe（stripe.uk 保留在 UK_Domain）
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,link.com
+DOMAIN-SUFFIX,link.co
+# Square / Block 商户结账与支付
+DOMAIN-SUFFIX,squareup.com
+DOMAIN-SUFFIX,square.site
+# SaaS / 数字产品支付中转（MoR / 订阅计费 / 收单网关）
+DOMAIN-SUFFIX,paddle.com
+DOMAIN-SUFFIX,lemonsqueezy.com
+DOMAIN-SUFFIX,fastspring.com
+DOMAIN-SUFFIX,onfastspring.com
+DOMAIN-SUFFIX,gumroad.com
+DOMAIN-SUFFIX,authorize.net
+DOMAIN-SUFFIX,adyen.com
+DOMAIN-SUFFIX,chargebee.com
+DOMAIN-SUFFIX,recurly.com
+DOMAIN-SUFFIX,bluesnap.com
+DOMAIN-SUFFIX,2checkout.com
+# 美国 BNPL / 跨境汇款 / 薪酬打款中转
+DOMAIN-SUFFIX,affirm.com
+DOMAIN-SUFFIX,remitly.com
+DOMAIN-SUFFIX,moneygram.com
+DOMAIN-SUFFIX,deel.com
+DOMAIN-SUFFIX,tipalti.com
+DOMAIN-SUFFIX,bill.com
+# 美国银行账户连接 / ACH 验卡 / 虚拟卡发行基础设施
+DOMAIN-SUFFIX,plaid.com
+DOMAIN-SUFFIX,finicity.com
+DOMAIN-SUFFIX,mx.com
+DOMAIN-SUFFIX,yodlee.com
+DOMAIN-SUFFIX,dwolla.com
+DOMAIN-SUFFIX,privacy.com
+DOMAIN-SUFFIX,lithic.com
+DOMAIN-SUFFIX,marqeta.com
+# 美国主流银行与信用卡（chase.com 已在文末收录；citibank 保留在 HK_Domain）
+DOMAIN-SUFFIX,americanexpress.com
+DOMAIN-SUFFIX,aexp-static.com
+DOMAIN-SUFFIX,citi.com
+DOMAIN-SUFFIX,jpmorgan.com
+DOMAIN-SUFFIX,jpmorganchase.com
+DOMAIN-SUFFIX,usbank.com
+DOMAIN-SUFFIX,pnc.com
+DOMAIN-SUFFIX,discover.com
+DOMAIN-SUFFIX,discovercard.com
+DOMAIN-SUFFIX,ally.com
+DOMAIN-SUFFIX,marcus.com
+DOMAIN-SUFFIX,goldmansachs.com
+DOMAIN-SUFFIX,morganstanley.com
+DOMAIN-SUFFIX,tdbank.com
+DOMAIN-SUFFIX,truist.com
+DOMAIN-SUFFIX,biltrewards.com
+DOMAIN-SUFFIX,synchrony.com
+DOMAIN-SUFFIX,mysynchrony.com
+DOMAIN-SUFFIX,usaa.com
+DOMAIN-SUFFIX,navyfederal.org
+# 美国主流券商 / 投资 / 合规稳定币与托管机构
+DOMAIN-SUFFIX,fidelity.com
+DOMAIN-SUFFIX,vanguard.com
+DOMAIN-SUFFIX,etrade.com
+DOMAIN-SUFFIX,betterment.com
+DOMAIN-SUFFIX,tastytrade.com
+DOMAIN-SUFFIX,tradestation.com
+DOMAIN-SUFFIX,m1.com
+DOMAIN-SUFFIX,acorns.com
+DOMAIN-SUFFIX,empower.com
+DOMAIN-SUFFIX,circle.com
+DOMAIN-SUFFIX,paxos.com
+DOMAIN-SUFFIX,bitgo.com
+DOMAIN-SUFFIX,bridge.xyz
 #游戏
 #运营商
 DOMAIN-SUFFIX,ultramobile.com
